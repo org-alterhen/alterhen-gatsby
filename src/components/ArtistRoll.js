@@ -26,8 +26,8 @@ class ArtistRoll extends React.Component {
                 ) : null}
                 <header>
                   <p className="post-meta">
-                    {post.frontmatter.artist}
-                    <span className="subtitle is-size-5 is-block">
+                    <span className="has-text-weight-bold">{post.frontmatter.artist}</span>
+                    <span className="subtitle is-size-5 is-block has-text-weight-semibold">
                       {post.frontmatter.title}
                     </span>
                   </p>
