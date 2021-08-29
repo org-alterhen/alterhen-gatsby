@@ -19,15 +19,16 @@ export default class ArtistIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
+            className="is-size-1"
             style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
               backgroundColor: '#000',
               color: 'white',
               padding: '1rem',
+              fontWeight: '400',
+              letterSpacing: '0.4rem'
             }}
           >
-            alterHEN Artists
+            artists
           </h1>
         </div>
         <section className="section">
