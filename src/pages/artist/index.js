@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby' 
 
 import Layout from '../../components/Layout'
+import Logo from '../../components/Logo'
 import ArtistRoll from '../../components/ArtistRoll'
 
 export default class ArtistIndexPage extends React.Component {
@@ -9,7 +10,7 @@ export default class ArtistIndexPage extends React.Component {
     return (
       <Layout>
         <div className="hero-artist">
-          <Link to="/"><span className="logo-text">alterHEN</span></Link>
+          <Link to="/"><Logo/></Link>
         </div>
         <div
           className="full-width-image-container margin-top-0"

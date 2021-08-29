@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import Content from '../components/Content'
+import Logo from '../components/Logo'
 
 import Layout from '../components/Layout'
 import ArtistRoll from '../components/ArtistRoll'
@@ -10,7 +12,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div style={{ background: 'black', height: '100vh' }} className="hero">
-      <span className="logo-text logo-text-white">alterHEN</span>
+      <Logo className="logo-text-white"/>
     </div>
     <section className="section section--gradient">
       <div className="container">
