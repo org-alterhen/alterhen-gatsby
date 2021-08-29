@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'alterHEN',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Developing new NFT art market ecosystems for artists, cultural institutions, and all art appreciators.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
