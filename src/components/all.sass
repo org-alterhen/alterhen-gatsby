@@ -121,6 +121,10 @@ $menu-label-color: $primary
 
 @import "~bulma"
 
+a
+  color: black;
+  &:visited
+    color: initial
 
 // responsiveness
 +tablet-only
@@ -154,10 +158,25 @@ $menu-label-color: $primary
     line-height: 33px;
     letter-spacing: -0.015em;
     text-align: left;
-
-
-a .logo-text
-  color: black;
   
 .logo-text-white 
   color: white
+
+.side-title 
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.025em;
+  text-align: left;
+  transform: rotate(-90deg);
+  display: inline-block;
+  width: 200px
+  height: 0;
+  position: relative;
+  left: -170px;
+  margin: 0;
+
+.basic-header
+  padding: 2vw 4vw 6vw

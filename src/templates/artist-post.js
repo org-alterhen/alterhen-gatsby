@@ -51,6 +51,9 @@ const ArtistPost = ({ data }) => {
 
   return (
     <Layout>
+      <div className="basic-header">
+        <Link to="/"><Logo/></Link>
+      </div>
       <ArtistPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

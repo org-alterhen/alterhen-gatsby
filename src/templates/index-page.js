@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Content from '../components/Content'
 import Logo from '../components/Logo'
 
@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
                 </div>
 
                 <div className="column is-12">
-                  <h3 className="side-title has-text-weight-semibold is-size-2">
+                  <h3 className="side-title">
                     ARTISTS
                   </h3>
                   <ArtistRoll />
