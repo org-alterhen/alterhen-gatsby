@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Logo from '../components/Logo'
+import Exhibition from '../components/Exhibition'
 import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
@@ -12,7 +13,8 @@ export const ArtistPostTemplate = ({
   description,
   title,
   helmet,
-  artist
+  artist,
+  blurb
 }) => {
   const PostContent = contentComponent || Content
 
@@ -28,8 +30,14 @@ export const ArtistPostTemplate = ({
             <h3 className="title is-size-1 has-text-weight-bold">
               {title}
             </h3>
-            <p>{description}</p>
+            <p style={{whiteSpace: 'pre-wrap'}}>{blurb}</p>
+            <img src="/img/mid-banner.png" className="mid-banner"></img>
             <PostContent content={content} />
+            <Exhibition 
+              artist={artist}
+              title={title}
+              description={description}
+            />
           </div>
         </div>
       </div>
@@ -43,11 +51,12 @@ ArtistPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  artist: PropTypes.string
+  artist: PropTypes.string,
+  blurb: PropTypes.string
 }
 
 const ArtistPost = ({ data }) => {
-  const { markdownRemark: post, html } = data
+  const { markdownRemark: post } = data
 
   return (
     <Layout>
@@ -58,6 +67,7 @@ const ArtistPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        blurb={post.frontmatter.blurb}
         artist={post.frontmatter.artist}
         helmet={
           <Helmet titleTemplate="%s | Artist">
@@ -91,6 +101,7 @@ export const pageQuery = graphql`
         title
         artist
         description
+        blurb
       }
     }
   }
