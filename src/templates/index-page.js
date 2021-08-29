@@ -23,26 +23,18 @@ export const IndexPageTemplate = ({
 
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title"><span className="logo-text">alterHEN</span></h1>
+                    <h1 className="title"><Logo/></h1>
                   </div>
                   <div className="tile">
-                    <div
-                      className="artist-post-content"
-                      dangerouslySetInnerHTML={{ __html: content }}
-                    />
+                    <Content content={content} className="artist-post-content"/>
                   </div>
                 </div>
 
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Artists
+                  <h3 className="side-title has-text-weight-semibold is-size-2">
+                    ARTISTS
                   </h3>
                   <ArtistRoll />
-                  {/* <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Explore
-                    </Link>
-                  </div> */}
                 </div>
               </div>
             </div>

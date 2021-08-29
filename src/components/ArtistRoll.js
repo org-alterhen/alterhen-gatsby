@@ -13,13 +13,13 @@ class ArtistRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <Link to={post.fields.slug} className="is-parent column is-3" key={post.id}>
-              <article className={`artist-list-item tile is-child box notification`}>
+              <article className={`artist-list-item tile is-child`}>
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        alt: `featured artwork for ${post.frontmatter.artist} - ${post.frontmatter.title}`,
                       }}
                     />
                   </div>
