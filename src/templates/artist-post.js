@@ -12,6 +12,7 @@ export const ArtistPostTemplate = ({
   description,
   title,
   helmet,
+  artist
 }) => {
   const PostContent = contentComponent || Content
 
@@ -42,6 +43,7 @@ ArtistPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  artist: PropTypes.string
 }
 
 const ArtistPost = ({ data }) => {
@@ -83,6 +85,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        artist
         description
       }
     }
