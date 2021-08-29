@@ -21,9 +21,12 @@ export const ArtistPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
+            <h1 className="title is-size-2 has-text-weight-bold">
+              {artist}
             </h1>
+            <h3 className="title is-size-1 has-text-weight-bold">
+              {title}
+            </h3>
             <p>{description}</p>
             <PostContent content={content} />
           </div>
@@ -52,7 +55,7 @@ const ArtistPost = ({ data }) => {
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Artist">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${post.frontmatter.artist}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
