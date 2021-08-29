@@ -47,7 +47,7 @@ ArtistPostTemplate.propTypes = {
 }
 
 const ArtistPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post, html } = data
 
   return (
     <Layout>
@@ -55,6 +55,7 @@ const ArtistPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        artist={post.frontmatter.artist}
         helmet={
           <Helmet titleTemplate="%s | Artist">
             <title>{`${post.frontmatter.artist}`}</title>
