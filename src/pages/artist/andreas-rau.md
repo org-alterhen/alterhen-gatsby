@@ -5,7 +5,7 @@ title: Exhibition Title
 socials:
   instagram: https://instagram.com
   facebook: https://facebook.com
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/artist-thumbs/andreas-rau.png
 blurb: >-
 
 ---
