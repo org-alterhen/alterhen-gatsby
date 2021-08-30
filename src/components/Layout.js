@@ -16,30 +16,16 @@ const TemplateWrapper = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
 
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
-          sizes="16x16"
-        />
 
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
+        <link rel="apple-touch-icon" sizes="180x180" href={`${withPrefix('/')}favicon/apple-touch-icon.png`}/>
+        <link rel="icon" type="image/png" sizes="32x32" href={`${withPrefix('/')}favicon/favicon-32x32.png`}/>
+        <link rel="icon" type="image/png" sizes="16x16" href={`${withPrefix('/')}favicon/favicon-16x16.png`}/>
+        <link rel="manifest" href={`${withPrefix('/')}favicon/site.webmanifest`}/>
+        <link rel="mask-icon" href={`${withPrefix('/')}favicon/safari-pinned-tab.svg`} color="#000000"/>
+        <meta name="apple-mobile-web-app-title" content="alterHEN"/>
+        <meta name="application-name" content="alterHEN"/>
+        <meta name="msapplication-TileColor" content="#000000"/>
+        <meta name="theme-color" content="#ffffff"/>
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
