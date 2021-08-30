@@ -4,13 +4,11 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Logo from '../components/Logo'
-import Exhibition from '../components/Exhibition'
 import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
   content,
   contentComponent,
-  description,
   title,
   helmet,
   artist,
@@ -34,7 +32,7 @@ export const ArtistPostTemplate = ({
           </div>
         </div>
       </div>
-      <img src="/img/mid-banner.png" className="mid-banner breakout-width"></img>
+      <img src="/img/mid-banner.png" alt="page break banner" className="mid-banner breakout-width"></img>
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -50,7 +48,6 @@ export const ArtistPostTemplate = ({
 ArtistPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   artist: PropTypes.string,
@@ -68,7 +65,6 @@ const ArtistPost = ({ data }) => {
       <ArtistPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         blurb={post.frontmatter.blurb}
         artist={post.frontmatter.artist}
         helmet={
