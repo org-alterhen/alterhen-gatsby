@@ -41,11 +41,7 @@ export const ArtistPostTemplate = ({
             <PostContent content={content} />
           </div>
         </div>
-        <Exhibition 
-          artist={artist}
-          title={title}
-          description={description}
-        />
+        <Link to={`/exhibition/${artist}`} className="block-btn">Enter Exhibition</Link>
       </div>
     </section>
   )
