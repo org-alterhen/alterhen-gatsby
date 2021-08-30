@@ -1,0 +1,15 @@
+.exhibition__content .awssld {
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 32px;
+    --organic-arrow-color: #000000;
+    --control-button-width: 5%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #bbb;
+    --control-bullet-active-color: #ddd;
+    --loader-bar-color: #8f8f8f;
+    --loader-bar-height: 6px;
+    --content-background-color: transparent;
+}

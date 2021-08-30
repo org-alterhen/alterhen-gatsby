@@ -31,15 +31,21 @@ export const ArtistPostTemplate = ({
               {title}
             </h3>
             <p style={{whiteSpace: 'pre-wrap'}}>{blurb}</p>
-            <img src="/img/mid-banner.png" className="mid-banner"></img>
-            <PostContent content={content} />
-            <Exhibition 
-              artist={artist}
-              title={title}
-              description={description}
-            />
           </div>
         </div>
+      </div>
+      <img src="/img/mid-banner.png" className="mid-banner breakout-width"></img>
+      <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <PostContent content={content} />
+          </div>
+        </div>
+        <Exhibition 
+          artist={artist}
+          title={title}
+          description={description}
+        />
       </div>
     </section>
   )
