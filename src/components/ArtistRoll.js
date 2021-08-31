@@ -69,8 +69,8 @@ export default () => (
                 templateKey
                 featuredimage {
                   childImageSharp {
-                    fixed(width: 300, height: 500, quality: 100) {
-                      ...GatsbyImageSharpFixed
+                    fluid(maxWidth: 300, maxHeight: 400, quality: 100) {
+                      ...GatsbyImageSharpFluid
                     }
                   }
                 }

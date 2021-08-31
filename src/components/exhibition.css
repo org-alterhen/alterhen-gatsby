@@ -1,4 +1,5 @@
 .exhibition__content .awssld {
+    --slider-height-percentage: 50%;
     --slider-transition-duration: 700ms;
     --organic-arrow-thickness: 4px;
     --organic-arrow-border-radius: 0px;
