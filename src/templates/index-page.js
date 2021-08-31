@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Content from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import { LogoText, LogoIcon } from '../components/Logo'
 
 import Layout from '../components/Layout'
@@ -26,8 +26,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title"><LogoIcon/></h1>
                   </div>
                   <div className="tile">
-                    {content}
-                    <Content content={content} className="artist-post-content"/>
+                    <HTMLContent content={content} className="artist-post-content"/>
                   </div>
                 </div>
 
@@ -49,7 +48,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  content: PropTypes.string
+  content: PropTypes.node
 }
 
 const IndexPage = ({ data }) => {
@@ -72,7 +71,7 @@ IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
-      html: PropTypes.string
+      html: PropTypes.node
     }),
   }),
 }
