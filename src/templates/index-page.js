@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content from '../components/Content'
-import Logo from '../components/Logo'
+import { LogoText, LogoIcon } from '../components/Logo'
 
 import Layout from '../components/Layout'
 import ArtistRoll from '../components/ArtistRoll'
@@ -12,7 +12,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div style={{ background: 'black', height: '100vh' }} className="hero">
-      <div style={{padding: "2vw 4vw"}}><Logo className="logo-text-white"/></div>
+      <div style={{padding: "2vw 4vw"}}><LogoText className="logo-text-white"/></div>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -23,9 +23,10 @@ export const IndexPageTemplate = ({
 
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title"><Logo/></h1>
+                    <h1 className="title"><LogoIcon/></h1>
                   </div>
                   <div className="tile">
+                    {content}
                     <Content content={content} className="artist-post-content"/>
                   </div>
                 </div>
@@ -81,6 +82,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
         title
         image {

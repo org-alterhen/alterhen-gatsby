@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Logo from '../components/Logo'
+import { LogoText } from '../components/Logo'
 import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
@@ -25,9 +25,9 @@ export const ArtistPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold">
               {artist}
             </h1>
-            <h3 className="title is-size-1 has-text-weight-bold">
+            {/* <h3 className="title is-size-1 has-text-weight-bold">
               {title}
-            </h3>
+            </h3> */}
             <p style={{whiteSpace: 'pre-wrap'}}>{blurb}</p>
           </div>
         </div>
@@ -60,7 +60,7 @@ const ArtistPost = ({ data }) => {
   return (
     <Layout>
       <div className="basic-header">
-        <Link to="/"><Logo/></Link>
+        <Link to="/"><LogoText/></Link>
       </div>
       <ArtistPostTemplate
         content={post.html}
