@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
               <div className="content">
 
                 <div className="content columns">
-                  <div className="tile column is-5">
+                  <div className="tile column is-5 home-logo-wrap">
                     <h1 className="title"><LogoIcon/></h1>
                   </div>
                   <div className="tile column is-7">
