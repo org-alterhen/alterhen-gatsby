@@ -43,7 +43,7 @@ export const ArtistPostTemplate = ({
       </div>
       <br/>
       <div className="has-text-centered	">
-        <Link to={`/exhibition/${ String(artist).toLowerCase().replaceAll(' ','-') }`} className="block-btn">Enter Exhibition</Link>
+        <Link to={`/exhibition/${ artist.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link>
       </div>
       <br/><br/><br/>
     </section>
