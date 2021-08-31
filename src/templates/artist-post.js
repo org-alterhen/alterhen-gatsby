@@ -33,14 +33,19 @@ export const ArtistPostTemplate = ({
         </div>
       </div>
       <img src="/img/mid-banner.png" alt="page break banner" className="mid-banner breakout-width"></img>
+      <br/>
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <PostContent content={content} />
           </div>
         </div>
-        <Link to={`/exhibition/${artist}`} className="block-btn">Enter Exhibition</Link>
       </div>
+      <br/>
+      <div className="has-text-centered	">
+        <Link to={`/exhibition/${ (artist).toLowerCase().replaceAll(' ','-') }`} className="block-btn">Enter Exhibition</Link>
+      </div>
+      <br/><br/><br/>
     </section>
   )
 }

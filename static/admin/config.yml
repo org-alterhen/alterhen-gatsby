@@ -26,9 +26,9 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "exhibitions"
+  - name: "exhibition"
     label: "Exhibitions"
-    folder: "src/pages/exhibitions"
+    folder: "src/pages/exhibition"
     create: true
     slug: "{{slug}}"
     fields:
@@ -63,9 +63,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/exhibitions/index.md"
+      - file: "src/pages/exhibition/index.md"
         label: "Exhibitions Page"
-        name: "exhibitions"
+        name: "exhibition"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "exhibition-page"}
           - {label: Title, name: title, widget: string}

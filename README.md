@@ -76,7 +76,7 @@ import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('exhibitions', ExhibitionPagePreview)
+CMS.registerPreviewTemplate('exhibition', ExhibitionPagePreview)
 CMS.registerPreviewTemplate('blog', ArtistPostPreview)
 ```
 

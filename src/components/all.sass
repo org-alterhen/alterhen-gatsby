@@ -1,5 +1,8 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+body 
+  font-family: Open Sans
+
 // Config vars
 $primary: #000000
 $primary-invert: #ffffff
@@ -116,7 +119,11 @@ $menu-label-color: $primary
   margin-bottom: 1em;
 .artist-list-item .featured-thumbnail
   flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  margin: 0 0 0.5em 0;
+.artist-roll-name
+  font-size: 18px
+.artist-roll-title
+  font-size: 16px
 
 
 @import "~bulma"
@@ -177,6 +184,7 @@ a
   position: relative;
   left: -170px;
   margin: 0;
+  top: 60px
 
 .basic-header
   padding: 2vw 4vw 6vw
@@ -189,21 +197,19 @@ a
     min-width: calc(100% + 6rem)
 
 .breakout-width.mid-banner
-  margin-top: 2rem
-  margin-bottom: 2rem
+  margin-top: 3rem
+  margin-bottom: 3rem
+  height: 50vh
+  object-fit: cover
 
 .block-btn
-  position: absolute;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 75.68%;
   padding: 9px 18px;
-  /* or 14px */
 
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.025em;

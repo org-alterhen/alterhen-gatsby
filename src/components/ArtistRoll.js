@@ -26,8 +26,8 @@ class ArtistRoll extends React.Component {
                 ) : null}
                 <header>
                   <p className="post-meta">
-                    <span className="has-text-weight-bold">{post.frontmatter.artist}</span>
-                    <span className="subtitle is-size-5 is-block has-text-weight-semibold">
+                    <span className="has-text-weight-bold artist-roll-name">{post.frontmatter.artist}</span>
+                    <span className="subtitle is-block has-text-weight-semibold artist-roll-title">
                       {post.frontmatter.title}
                     </span>
                   </p>
@@ -69,8 +69,8 @@ export default () => (
                 templateKey
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 300, quality: 100) {
-                      ...GatsbyImageSharpFluid
+                    fixed(width: 300, height: 500, quality: 100) {
+                      ...GatsbyImageSharpFixed
                     }
                   }
                 }

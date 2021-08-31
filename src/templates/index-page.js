@@ -21,11 +21,11 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
 
-                <div className="content">
-                  <div className="tile">
+                <div className="content columns">
+                  <div className="tile column is-5">
                     <h1 className="title"><LogoIcon/></h1>
                   </div>
-                  <div className="tile">
+                  <div className="tile column is-7">
                     <HTMLContent content={content} className="artist-post-content"/>
                   </div>
                 </div>
