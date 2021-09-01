@@ -4,18 +4,17 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import { LogoText } from '../components/Logo'
-import Content, { HTMLContent } from '../components/Content'
+// import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
-  content,
-  contentComponent,
-  title,
   helmet,
   artist,
-  blurb
+  statement,
+  country,
+  website,
+  links,
+  bio
 }) => {
-  const PostContent = contentComponent || Content
-
   return (
     <section className="section">
       {helmet || ''}
@@ -28,7 +27,7 @@ export const ArtistPostTemplate = ({
             {/* <h3 className="title is-size-1 has-text-weight-bold">
               {title}
             </h3> */}
-            <p style={{whiteSpace: 'pre-wrap'}}>{blurb}</p>
+            <p style={{whiteSpace: 'pre-wrap'}}>{bio}</p>
           </div>
         </div>
       </div>
@@ -37,7 +36,7 @@ export const ArtistPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <PostContent content={content} />
+            <p style={{whiteSpace: 'pre-wrap'}}>{statement}</p>
           </div>
         </div>
       </div>
@@ -56,7 +55,11 @@ ArtistPostTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   artist: PropTypes.string,
-  blurb: PropTypes.string
+  bio: PropTypes.string,
+  statement: PropTypes.string,
+  country: PropTypes.string,
+  website: PropTypes.string,
+  links: PropTypes.object
 }
 
 const ArtistPost = ({ data }) => {
@@ -68,9 +71,11 @@ const ArtistPost = ({ data }) => {
         <Link to="/"><LogoText/></Link>
       </div>
       <ArtistPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        blurb={post.frontmatter.blurb}
+        bio={post.frontmatter.bio}
+        statement={post.frontmatter.statement}
+        country={post.frontmatter.country}
+        website={post.frontmatter.website}
+        links={post.frontmatter.links}
         artist={post.frontmatter.artist}
         helmet={
           <Helmet titleTemplate="%s | Artist">
@@ -104,7 +109,18 @@ export const pageQuery = graphql`
         title
         artist
         description
-        blurb
+        bio
+        country
+        website
+        links {
+          instagram
+          twitter
+          tumblr
+          facebook
+          henlink
+          linktree
+        }
+        statement
       }
     }
   }

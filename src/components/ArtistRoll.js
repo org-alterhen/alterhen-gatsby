@@ -19,14 +19,14 @@ class ArtistRoll extends React.Component {
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
-                        alt: `featured artwork for ${post.frontmatter.artist} - ${post.frontmatter.title}`,
+                        alt: `featured artwork for ${post.frontmatter.name} - ${post.frontmatter.title}`,
                       }}
                     />
                   </div>
                 ) : null}
                 <header>
                   <p className="post-meta">
-                    <span className="has-text-weight-bold artist-roll-name">{post.frontmatter.artist}</span>
+                    <span className="has-text-weight-bold artist-roll-name">{post.frontmatter.name}</span>
                     <span className="subtitle is-block has-text-weight-semibold artist-roll-title">
                       {post.frontmatter.title}
                     </span>
@@ -53,7 +53,7 @@ export default () => (
     query={graphql`
       query ArtistRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___artist] }
+          sort: { order: DESC, fields: [frontmatter___name] }
           filter: { frontmatter: { templateKey: { eq: "artist-post" } } }
         ) {
           edges {
@@ -64,7 +64,7 @@ export default () => (
                 slug
               }
               frontmatter {
-                artist
+                name
                 title
                 templateKey
                 featuredimage {
