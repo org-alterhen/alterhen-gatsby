@@ -29,13 +29,13 @@ const Exhibition = ({ className, objkts }) => (
                     <img src={objkt.image} alt={objkt.title}/>
                   </div>
                   <div style={{borderTop: '3px solid black'}}>
-                    <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                    <div style={{display: 'flex', justifyContent: 'space-between', marginRight: '1rem'}}>
                       <div>
-                        <h1 style={{margin: '1rem'}} className="exhibition__title is-size-3 has-text-weight-semibold">{objkt.title}</h1>
-                        <div className="exhibition__description" style={{whiteSpace: 'pre-wrap', textAlign: 'left'}}>{objkt.description}</div>
+                        <h1 style={{margin: '1rem', textAlign: 'left'}} className="exhibition__title is-size-3 has-text-weight-semibold">{objkt.title}</h1>
+                        <div className="exhibition__description" style={{margin: '1rem', whiteSpace: 'pre-wrap', textAlign: 'left'}}>{objkt.description}</div>
                       </div>
                       <div>
-                        <h3 style={{margin: '1rem', textAlign: 'left'}} className="exhibition__price is-size-3 has-text-weight-bold">{objkt.price}<span className="has-text-weight-semibold">ꜩ</span></h3>
+                        <h3 style={{margin: '1rem'}} className="exhibition__price is-size-3 has-text-weight-bold">{objkt.price}<span className="has-text-weight-semibold">ꜩ</span></h3>
                         <button className="exhibition__collect block-btn">Collect</button>
                       </div>
                     </div>
