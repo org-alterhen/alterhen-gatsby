@@ -35,6 +35,13 @@ body.exhibition .exhibition__container {
 .exhibition__content .awssld__container {
     height: 100vh;
 }
+.exhibition__content .awssld__content {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.exhibition__content .awssld__content img {
+    height: 100vh;
+}
 
 .exhibition__content a {
     position: absolute;
