@@ -53,7 +53,7 @@ export default () => (
     query={graphql`
       query ArtistRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___name] }
+          sort: { order: ASC, fields: [frontmatter___name] }
           filter: { frontmatter: { templateKey: { eq: "artist-post" } } }
         ) {
           edges {
