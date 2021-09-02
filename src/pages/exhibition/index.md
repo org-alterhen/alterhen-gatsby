@@ -1,8 +1,8 @@
 ---
 templateKey: 'exhibition-page'
 path: /exhibition
-title: alterHEN Artist Exhibitions
+title: a\terHEN Artist Exhibitions
 image: /img/mid-banner.png
-heading: Explore alterHEN Exhibitions
+heading: Explore a\terHEN Exhibitions
 description: 
 ---

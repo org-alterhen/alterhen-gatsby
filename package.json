@@ -1,6 +1,6 @@
 {
   "name": "alterhen-gatsby",
-  "description": "An info and gallery website for alterHEN, built with Gatsby, Netlify & NetlifyCMS",
+  "description": "An info and gallery website for a\\terHEN, built with Gatsby, Netlify & NetlifyCMS",
   "version": "1.1.3",
   "author": "Austin Green",
   "dependencies": {

@@ -1,6 +1,6 @@
-# alterHEN
+# a\terHEN
 
-### A Gatsby powered informational website and exhibition platform for alterHEN
+### A Gatsby powered informational website and exhibition platform for a\terHEN
 
 ## To Do:
 

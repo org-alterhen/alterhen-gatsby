@@ -18,7 +18,7 @@ export const LogoIcon = ({ className }) => (
     <path d="M164.19 0V28.1992L0 28.1992L1.19209e-06 0H164.19Z" fill="black"/>
     <path d="M164.19 64.4554V92.6546L0 92.6546L1.19209e-06 64.4554L164.19 64.4554Z" fill="black"/>
     <path d="M164.19 136.162V164.361H1.19209e-06V136.162L164.19 136.162Z" fill="black"/>
-    <path d="M136.02 0H164.19V164.361H136.02V0Z" fill="black"/>
+    <path d="M136.02 0H164.19V164.361H136.02V0Z" fill="black" style="transform:translate(0.5%,0)"/>
     </svg>
   </span>
 )

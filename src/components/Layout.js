@@ -22,8 +22,8 @@ const TemplateWrapper = ({ children }) => {
         <link rel="icon" type="image/png" sizes="16x16" href={`${withPrefix('/')}favicon/favicon-16x16.png`}/>
         <link rel="manifest" href={`${withPrefix('/')}favicon/site.webmanifest`}/>
         <link rel="mask-icon" href={`${withPrefix('/')}favicon/safari-pinned-tab.svg`} color="#000000"/>
-        <meta name="apple-mobile-web-app-title" content="alterHEN"/>
-        <meta name="application-name" content="alterHEN"/>
+        <meta name="apple-mobile-web-app-title" content="a\terHEN"/>
+        <meta name="application-name" content="a\terHEN"/>
         <meta name="msapplication-TileColor" content="#000000"/>
         <meta name="theme-color" content="#ffffff"/>
 
@@ -37,7 +37,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       {/* <Navbar /> */}
       {/* <div className="simpleHeader">
-        <span className="logo-text">alterHEN</span>
+        <span className="logo-text">a\terHEN</span>
       </div> */}
       <div>{children}</div>
       <Footer />

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'alterHEN',
+    title: 'a\\terHEN',
     description:
       'Developing new NFT art market ecosystems for artists, cultural institutions, and all art appreciators.',
   },
