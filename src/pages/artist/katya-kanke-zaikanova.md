@@ -53,7 +53,6 @@ statement: >-
 
     A work of art as a desire to manifest, capture the movement of the wind, reveal it to the eye and make it invisible again.
 website: Katyakanke.com
-links: 
-- instagram: katyakanke
-- twitter: katyakanke
+instagram: katyakanke
+twitter: katyakanke
 ---

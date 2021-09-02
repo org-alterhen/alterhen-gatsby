@@ -11,7 +11,6 @@ bio: >-
 statement: >-
     I will add a curatorial statement as I don't have the artworks ready yet
 website: www.somaticbits.com
-links: 
-- twitter: somaticbits
-- instagram: somaticbits
+twitter: somaticbits
+instagram: somaticbits
 ---

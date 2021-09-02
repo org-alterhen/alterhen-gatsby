@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Link } from 'gatsby'
+import { LogoText } from '../components/Logo'
+
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import '../components/exhibition.css'
@@ -19,6 +22,14 @@ const Exhibition = ({ className, title, description }) => (
         </div>
       </div>
       <div className="exhibition__content">
+        <Link to="/" onClick={() => {
+          document.getElementsByTagName('html')[0].style.overflow = "initial"; 
+          document.body.classList.remove("exhibition")
+        }}><LogoText/></Link>
+        <button className="exhibition__closebtn" onClick={() => {
+            document.getElementsByTagName('html')[0].style.overflow = "initial"; 
+            document.body.classList.remove("exhibition")
+          }}><span>✖</span></button>
         <AwesomeSlider>
           <div className="columns container">
             <div className="column is-10 is-offset-1">

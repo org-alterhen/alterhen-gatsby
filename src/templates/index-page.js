@@ -12,7 +12,10 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div style={{ background: 'black', height: '100vh' }} className="hero">
-      <div style={{padding: "2vw 4vw"}}><LogoText className="logo-text-white"/></div>
+      <div style={{padding: "2vw 4vw"}}>
+        <LogoText className="logo-white"/>
+        <div className="basic-header__icon"><LogoIcon className="logo-white"/></div>
+      </div>
     </div>
     <section className="section section--gradient">
       <div className="container">

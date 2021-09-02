@@ -14,7 +14,6 @@ bio: >-
     His current research takes inspiration from local history and culture. He deep-dives into online archives to collect records and images and uses them to allow history to cross formats through modern technology and his work. He becomes archivist and curator, exploring identity while investigating traditional missteps, their effects on contemporary referential semantics, and documenting them on the blockchain. 
 statement: 
 website: patrickjamora.com
-links: 
-- instagram: padraick 
-- twitter: daydreampipelne
+instagram: padraick 
+twitter: daydreampipelne
 ---

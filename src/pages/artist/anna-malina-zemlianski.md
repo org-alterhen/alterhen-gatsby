@@ -9,9 +9,8 @@ country: Germany
 bio: Artist working with photography and found footage in the fields of collage & experimental animation, making short films & music videos.
 statement: No big exhibitions yet; Shorts & music videos have been shown at some small film festivals.
 website: https://www.annamalina.com
-links: 
-- instagram: annaxmalina
-- twitter: annaxmalina
-- tumblr: annaxmalina
-- facebook: annaxmalina
+instagram: annaxmalina
+twitter: annaxmalina
+tumblr: annaxmalina
+facebook: annaxmalina
 ---

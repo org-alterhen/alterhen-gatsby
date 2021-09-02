@@ -18,8 +18,7 @@ statement: >-
     identity is the essence of my work now.
 
 website: https://www.luluixixix.com/
-links: 
-- linktree: luluxXX  
-- twitter: luluixixix 
-- instagram: luluixix/
+linktree: luluxXX  
+twitter: luluixixix 
+instagram: luluixix/
 ---

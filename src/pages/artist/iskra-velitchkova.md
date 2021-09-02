@@ -17,7 +17,6 @@ bio: >-
     Her work is based on mixed techniques: she explores new media combining digital formats and physical nature. She uses generative technology, artificial neural networks, plastic arts, she plots on canvas and plays with clay."
 statement: 
 website: http://iskraovelitchkova.com/
-links: 
-- twitter: pointline_
-- instagram: ognyveli
+twitter: pointline_
+instagram: ognyveli
 ---

@@ -15,7 +15,6 @@ bio: >-
 statement: >-
     will provide later, with the NFTs
 website: https://dianedrubay.com/art
-links: 
-- twitter: DianeDrubay
-- instagram: dianedrubay
+twitter: DianeDrubay
+instagram: dianedrubay
 ---

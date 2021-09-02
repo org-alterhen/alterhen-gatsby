@@ -12,7 +12,6 @@ bio: >-
     His work has been exhibited in solo and group shows, including in association with major museums such as; The Pompidou Center (Paris), Prada Foundation (Milan), Tate Modern (London), V&A, MMCA (Seoul), The Grand Palais (Paris), BOZAR (Brussels), TAM (Beijing), Mcam (Shanghai), Mori Museum (Tokyo). His installations have been awarded prizes and distinctions (Lumens, Ars Electronica, NTAA, Japan Media festival) . His works have featured in numerous media, including;  Art press, Art review,  Beaux art, Frieze, Arte, Form,  Wired, Vice, BBC, DeWelle, Le monde, New York Times.
 statement: 
 website: www.patricktresset.com
-links: 
-- instagram: patricktresset
-- twitter: patricktresset
+instagram: patricktresset
+twitter: patricktresset
 ---

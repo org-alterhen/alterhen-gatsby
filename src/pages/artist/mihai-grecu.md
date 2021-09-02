@@ -11,7 +11,6 @@ bio: >-
 statement: >-
     MEP Virtuelle, Maison Européenne de la Photographie, Paris, France; Tribeca International Film Festival; « Dans la nuit, des images » Grand Palais, Paris, France ;“Mayfair Art Weekend Showreel”, London; I SEE YOU - Kunsthalle Detroit, Detroit, MI Digital Life, USA; Rotterdam Film Festival; Clermont Ferrand International Film Festival award; etc
 website: https://mihaigrecu.net/
-links: 
-- twitter: the_grecu
-- instagram: thegrecu
+twitter: the_grecu
+instagram: thegrecu
 ---

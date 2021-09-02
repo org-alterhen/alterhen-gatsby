@@ -1,17 +1,14 @@
 import React from 'react'
-import { Link } from 'gatsby' 
 
 import Layout from '../../components/Layout'
-import { LogoText } from '../../components/Logo'
 import ArtistRoll from '../../components/ArtistRoll'
+import BasicHeader from '../../components/BasicHeader'
 
 export default class ArtistIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="hero-artist">
-          <Link to="/"><LogoText/></Link>
-        </div>
+        <BasicHeader/>      
         <div
           className="full-width-image-container margin-top-0"
           style={{

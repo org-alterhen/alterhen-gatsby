@@ -1,5 +1,23 @@
+.exhibition__container {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+body.exhibition .exhibition__container {
+    opacity: 1;
+    pointer-events: initial;
+}
+.exhibition__content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 1;
+} 
 .exhibition__content .awssld {
-    --slider-height-percentage: 50%;
+    --slider-height-percentage: 0%;
     --slider-transition-duration: 700ms;
     --organic-arrow-thickness: 4px;
     --organic-arrow-border-radius: 0px;
@@ -13,4 +31,29 @@
     --loader-bar-color: #8f8f8f;
     --loader-bar-height: 6px;
     --content-background-color: transparent;
+}
+.exhibition__content .awssld__container {
+    height: 100vh;
+}
+
+.exhibition__closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1.2;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    z-index: 999;
+    cursor: pointer;
+    border: none;
+}
+.exhibition__closebtn span {
+    height: 1.25em;
 }

@@ -1,18 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import { LogoText } from '../components/Logo'
+import Exhibition from '../components/Exhibition'
+import BasicHeader from '../components/BasicHeader'
+import {SocialMediaIconsReact} from 'social-media-icons-react';
 // import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
   helmet,
-  artist,
+  name,
   statement,
   country,
   website,
-  links,
+  instagram,
+  twitter,
+  facebook,
+  henlink,
+  linktree,
+  tumblr,
   bio
 }) => {
   return (
@@ -22,8 +29,80 @@ export const ArtistPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold">
-              {artist}
+              {name}
             </h1>
+            <div className="artist-socials">
+              { website && <SocialMediaIconsReact 
+                icon="web"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={website}
+                size="30"
+              />}
+              { twitter && <SocialMediaIconsReact 
+                icon="twitter"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={twitter}
+                size="30"
+              />}
+              { instagram && <SocialMediaIconsReact 
+                icon="instagram"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={instagram}
+                size="30"
+              />}
+              { facebook && <SocialMediaIconsReact 
+                icon="facebook"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={facebook}
+                size="30"
+              />}
+              { tumblr && <SocialMediaIconsReact 
+                icon="tumblr"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={tumblr}
+                size="30"
+              />}
+              { linktree && <SocialMediaIconsReact 
+                icon="linktree"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={linktree}
+                size="30"
+              />}
+              { henlink && <SocialMediaIconsReact 
+                icon="web"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="rgba(40,40,40,1)"
+                iconSize="5"
+                borderWidth="0"
+                roundness="50%"
+                url={henlink}
+                size="30"
+              />}
+            </div>
             {/* <h3 className="title is-size-1 has-text-weight-bold">
               {title}
             </h3> */}
@@ -42,7 +121,14 @@ export const ArtistPostTemplate = ({
       </div>
       <br/>
       <div className="has-text-centered	">
-        <Link to={`/exhibition/${ artist.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link>
+        {/* <Link to={`/exhibition/${ name.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link> */}
+        <button onClick={() => {
+          document.getElementsByTagName('html')[0].style.overflow = "hidden"; 
+          document.body.classList.add("exhibition")
+        }} className="block-btn">Enter Exhibition</button>
+        <Exhibition
+          objkts={[12345,23456,34567]}
+        />
       </div>
       <br/><br/><br/>
     </section>
@@ -50,16 +136,14 @@ export const ArtistPostTemplate = ({
 }
 
 ArtistPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  artist: PropTypes.string,
+  name: PropTypes.string,
   bio: PropTypes.string,
   statement: PropTypes.string,
   country: PropTypes.string,
   website: PropTypes.string,
-  links: PropTypes.object
+  links: PropTypes.array
 }
 
 const ArtistPost = ({ data }) => {
@@ -67,19 +151,23 @@ const ArtistPost = ({ data }) => {
 
   return (
     <Layout>
-      <div className="basic-header">
-        <Link to="/"><LogoText/></Link>
-      </div>
+      <BasicHeader/>
       <ArtistPostTemplate
         bio={post.frontmatter.bio}
         statement={post.frontmatter.statement}
         country={post.frontmatter.country}
         website={post.frontmatter.website}
         links={post.frontmatter.links}
-        artist={post.frontmatter.artist}
+        name={post.frontmatter.name}
+        instagram={post.frontmatter.instagram}
+        twitter={post.frontmatter.twitter}
+        facebook={post.frontmatter.facebook}
+        linktree={post.frontmatter.linktree}
+        henlink={post.frontmatter.henlink}
+        tumblr={post.frontmatter.tumblr}
         helmet={
           <Helmet titleTemplate="%s | Artist">
-            <title>{`${post.frontmatter.artist}`}</title>
+            <title>{`${post.frontmatter.name}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
@@ -107,19 +195,17 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        artist
+        name
         description
         bio
         country
         website
-        links {
-          instagram
-          twitter
-          tumblr
-          facebook
-          henlink
-          linktree
-        }
+        instagram
+        twitter
+        tumblr
+        facebook
+        henlink
+        linktree
         statement
       }
     }
