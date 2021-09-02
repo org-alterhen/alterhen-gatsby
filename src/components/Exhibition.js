@@ -25,16 +25,17 @@ const Exhibition = ({ className, objkts }) => (
             {objkts.map((objkt, i) => (
               <div className="columns container">
                 <div className="column is-10 is-offset-1">
-                  <div>{JSON.stringify(objkt)}</div>
+                  <div>
+                    <img src={objkt.image} alt={objkt.title}/>
+                  </div>
                   <div style={{borderTop: '3px solid black'}}>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                       <div>
-                        <h1 className="exhibition__title">{objkt.title}</h1>
-                        <h2 className="exhibition__subtitle">{objkt.subtitle}</h2>
-                        <div className="exhibition__description">{objkt.description}</div>
+                        <h1 style={{margin: '1rem'}} className="exhibition__title is-size-3 has-text-weight-semibold">{objkt.title}</h1>
+                        <div className="exhibition__description" style={{whiteSpace: 'pre-wrap', textAlign: 'left'}}>{objkt.description}</div>
                       </div>
                       <div>
-                        <h3 className="exhibition__price">{objkt.price}</h3>
+                        <h3 style={{margin: '1rem', textAlign: 'left'}} className="exhibition__price is-size-3 has-text-weight-bold">{objkt.price}<span className="has-text-weight-semibold">ꜩ</span></h3>
                         <button className="exhibition__collect block-btn">Collect</button>
                       </div>
                     </div>

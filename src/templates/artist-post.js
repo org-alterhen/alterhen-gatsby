@@ -139,7 +139,22 @@ export const ArtistPostTemplate = ({
           document.body.classList.add("exhibition")
         }} className="block-btn">Enter Exhibition</button>
         <Exhibition
-          objkts={[12345,23456,34567]}
+          objkts={[{
+            title: 'Demo 1',
+            description: 'Filler Image\n\nDemo 1 is a demo artwork to test the exhibitions\n\nIt will be replaced with the artists works',
+            price: 10,
+            image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+          },{
+            title: 'Demo 2',
+            description: 'Filler Image\n\nDemo 2 is another demo artwork to test the exhibitions\n\nIt will be replaced with the artists works',
+            price: 30,
+            image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+          },{
+            title: 'Demo 3',
+            description: 'Filler Image\n\nDemo 3 is yet another demo artwork to test the exhibitions\n\nIt will also be replaced with the artists works',
+            price: 50,
+            image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+          }]}
         />
       </div>
       <br/><br/><br/>
