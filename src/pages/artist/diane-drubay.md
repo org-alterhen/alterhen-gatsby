@@ -2,6 +2,7 @@
 templateKey: artist-post
 title: Exhibition Title
 featuredimage: /img/artist-thumbs/diane-drubay.png
+midbanner: /img/mid-banner.png
 updated: 28/08/2021 23:31:03
 email: diane.drubay@gmail.com
 name: Diane Drubay

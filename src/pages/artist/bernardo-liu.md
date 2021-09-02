@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/bernardo-liu.png
+featuredimage: /img/artist-thumbs/bernardo-liu.jpg
+midbanner: /img/mid-banner.png
 updated: 27/08/2021 21:07:23
 email: bernardosandt@gmail.com
 name: Bernardo Liu

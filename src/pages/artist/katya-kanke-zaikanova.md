@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/katya-kanke-zaikanova.png
+featuredimage: /img/artist-thumbs/katya-kanke-zaikanova.jpg
+midbanner: /img/mid-banner.png
 updated: 27/08/2021 21:50:07
 email: katyakanke@gmail.com
 name: Katya Kanke-Zaikanova

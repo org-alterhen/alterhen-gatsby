@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Exhibition from '../components/Exhibition'
 import BasicHeader from '../components/BasicHeader'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
+import Img from "gatsby-image"
 // import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
@@ -22,7 +23,8 @@ export const ArtistPostTemplate = ({
   henlink,
   linktree,
   tumblr,
-  bio
+  bio,
+  midbanner
 }) => {
   return (
     <section className="section">
@@ -37,72 +39,72 @@ export const ArtistPostTemplate = ({
               { website && <SocialMediaIconsReact 
                 icon="web"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={website}
-                size="30"
+                size="26"
               />}
               { twitter && <SocialMediaIconsReact 
                 icon="twitter"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={`https://twitter.com/${twitter}`}
-                size="30"
+                size="26"
               />}
               { instagram && <SocialMediaIconsReact 
                 icon="instagram"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={`https://instagram.com/${instagram}`}
-                size="30"
+                size="26"
               />}
               { facebook && <SocialMediaIconsReact 
                 icon="facebook"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={`https://facebook.com/${facebook}`}
-                size="30"
+                size="26"
               />}
               { tumblr && <SocialMediaIconsReact 
                 icon="tumblr"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={`https://tumblr.com/${tumblr}`}
-                size="30"
+                size="26"
               />}
               { linktree && <SocialMediaIconsReact 
                 icon="web"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={`https://linktr.ee/${linktree}`}
-                size="30"
+                size="26"
               />}
               { henlink && <SocialMediaIconsReact 
                 icon="web"
                 iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(40,40,40,1)"
-                iconSize="5"
+                backgroundColor="rgba(60,60,60,1)"
+                iconSize="3"
                 borderWidth="0"
                 roundness="50%"
                 url={`https://henlink.com/${henlink}`}
-                size="30"
+                size="26"
               />}
             </div>
             {/* <h3 className="title is-size-1 has-text-weight-bold">
@@ -112,7 +114,7 @@ export const ArtistPostTemplate = ({
           </div>
         </div>
       </div>
-      <img src="/img/mid-banner.png" alt="page break banner" className="mid-banner breakout-width"></img>
+      <Img fluid={midbanner.childImageSharp.fluid} alt={`page break banner by ${name}`} className="mid-banner breakout-width"/>
       <br/>
       <div className="container content">
         <div className="columns">
@@ -171,7 +173,8 @@ ArtistPostTemplate.propTypes = {
   statement: PropTypes.string,
   country: PropTypes.string,
   website: PropTypes.string,
-  links: PropTypes.array
+  links: PropTypes.array,
+  midbanner: PropTypes.string
 }
 
 const ArtistPost = ({ data }) => {
@@ -195,6 +198,7 @@ const ArtistPost = ({ data }) => {
         tumblr={post.frontmatter.tumblr}
         title={post.frontmatter.title}
         description={post.frontmatter.description}
+        midbanner={post.frontmatter.midbanner}
         helmet={
           <Helmet titleTemplate="%s | Artist">
             <title>{`${post.frontmatter.name}`}</title>
@@ -236,6 +240,13 @@ export const pageQuery = graphql`
         henlink
         linktree
         statement
+        midbanner {
+          childImageSharp {
+            fluid(maxWidth: 2560, maxHeight: 1000, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

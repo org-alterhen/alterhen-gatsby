@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/patrick-tresset.png
+featuredimage: /img/artist-thumbs/patrick-tresset.jpg
+midbanner: /img/mid-banner.png
 updated: 27/08/2021 07:44:46
 email: tresset@patricktresset.com
 name: Patrick Tresset

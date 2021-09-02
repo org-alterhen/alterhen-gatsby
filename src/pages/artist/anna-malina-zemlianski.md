@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/anna-malina-zemlianski.png
+featuredimage: /img/artist-thumbs/anna-malina-zemlianski.jpg
+midbanner: /img/mid-banner.png
 updated: 06/08/2021 15:55:43
 email: annaxmalina@gmail.com
 name: Anna Malina Zemlianski

@@ -2,6 +2,7 @@
 templateKey: artist-post
 title: Exhibition Title
 featuredimage: /img/artist-thumbs/patrick-jamora.png
+midbanner: /img/mid-banner.png
 updated: 26/08/2021 16:39:12
 email: jamora.patrick@gmail.com
 name: Patrick Jamora

@@ -35,7 +35,7 @@ const Exhibition = ({ className, objkts }) => (
                         <div className="exhibition__description" style={{margin: '1rem', whiteSpace: 'pre-wrap', textAlign: 'left'}}>{objkt.description}</div>
                       </div>
                       <div>
-                        <h3 style={{margin: '1rem'}} className="exhibition__price is-size-3 has-text-weight-bold">{objkt.price}<span className="has-text-weight-semibold">ꜩ</span></h3>
+                        <h3 style={{margin: '1rem', opacity: '0'}} className="exhibition__price is-size-3 has-text-weight-bold">{objkt.price}<span className="has-text-weight-semibold">ꜩ</span></h3>
                         <button className="exhibition__collect block-btn">Collect</button>
                       </div>
                     </div>

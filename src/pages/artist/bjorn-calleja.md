@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/bjorn-calleja.png
+featuredimage: /img/artist-thumbs/bjorn-calleja.jpg
+midbanner: /img/mid-banner.png
 updated: 27/08/2021 13:33:40
 email: Callejabjorn@gmail.com
 name: Bjorn Calleja

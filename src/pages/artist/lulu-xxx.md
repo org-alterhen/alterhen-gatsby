@@ -2,6 +2,7 @@
 templateKey: artist-post
 title: Exhibition Title
 featuredimage: /img/artist-thumbs/lulu-xxx.png
+midbanner: /img/mid-banner.png
 updated: 28/08/2021 12:42:42
 email: luluixixix@gmail.com
 name: lulu xxx

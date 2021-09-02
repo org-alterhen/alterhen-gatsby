@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/david-pettersson.png
+featuredimage: /img/artist-thumbs/david-pettersson.jpg
+midbanner: /img/mid-banner.png
 updated: 28/08/2021 12:51:05
 email: david@somaticbits.com
 name: David Pettersson

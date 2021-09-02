@@ -1,7 +1,8 @@
 ---
 templateKey: artist-post
 title: Exhibition Title
-featuredimage: /img/artist-thumbs/auni-seiva.png
+featuredimage: /img/artist-thumbs/auni-seiva.jpg
+midbanner: /img/mid-banner.png
 updated: 26/08/2021 14:29:53
 email: deborauniseiva@gmail.com
 name: Auni Seiva

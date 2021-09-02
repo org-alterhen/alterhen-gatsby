@@ -2,6 +2,7 @@
 templateKey: artist-post
 title: Exhibition Title
 featuredimage: /img/artist-thumbs/iskra-velitchkova.png
+midbanner: /img/mid-banner.png
 updated: 27/08/2021 11:03:13
 email: ognyveli@gmail.com
 name: Iskra Velitchkova

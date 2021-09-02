@@ -2,6 +2,7 @@
 templateKey: artist-post
 title: Exhibition Title
 featuredimage: /img/artist-thumbs/mihai-grecu.png
+midbanner: /img/mid-banner.png
 updated: 29/07/2021 18:41:02
 email: thegrecu@gmail.com
 name: Mihai Grecu
