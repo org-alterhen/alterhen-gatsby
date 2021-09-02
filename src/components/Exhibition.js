@@ -20,15 +20,17 @@ const Exhibition = ({ className, objkts }) => (
             document.getElementsByTagName('html')[0].style.overflow = ""; 
             document.body.classList.remove("exhibition")
           }}><span>✖</span></button>
-        <AwesomeSlider>
-          {objkts.map((objkt, i) => (
-            <div className="columns container">
-              <div className="column is-10 is-offset-1">
-                <div>{JSON.stringify(objkt)}</div>
+        {objkts &&
+          <AwesomeSlider>
+            {objkts.map((objkt, i) => (
+              <div className="columns container">
+                <div className="column is-10 is-offset-1">
+                  <div>{JSON.stringify(objkt)}</div>
+                </div>
               </div>
-            </div>
-          ))}
-        </AwesomeSlider>
+            ))}
+          </AwesomeSlider>
+        }
       </div>
     </div>
   </div>
