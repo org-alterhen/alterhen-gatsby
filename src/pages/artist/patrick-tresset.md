@@ -11,7 +11,7 @@ bio: >-
     He holds a master’s degree and then an MPhil in arts and computational technologies from Goldsmiths College London. Aside from his artistic practice, in 2013, he was a senior visiting research fellow at Konstanz University and is currently an adjunct assistant professor at the University of Canberra in the robotics department. 
     His work has been exhibited in solo and group shows, including in association with major museums such as; The Pompidou Center (Paris), Prada Foundation (Milan), Tate Modern (London), V&A, MMCA (Seoul), The Grand Palais (Paris), BOZAR (Brussels), TAM (Beijing), Mcam (Shanghai), Mori Museum (Tokyo). His installations have been awarded prizes and distinctions (Lumens, Ars Electronica, NTAA, Japan Media festival) . His works have featured in numerous media, including;  Art press, Art review,  Beaux art, Frieze, Arte, Form,  Wired, Vice, BBC, DeWelle, Le monde, New York Times.
 statement: 
-website: www.patricktresset.com
+website: https://www.patricktresset.com
 instagram: patricktresset
 twitter: patricktresset
 ---

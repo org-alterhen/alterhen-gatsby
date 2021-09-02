@@ -11,6 +11,8 @@ import {SocialMediaIconsReact} from 'social-media-icons-react';
 export const ArtistPostTemplate = ({
   helmet,
   name,
+  title,
+  description,
   statement,
   country,
   website,
@@ -49,7 +51,7 @@ export const ArtistPostTemplate = ({
                 iconSize="5"
                 borderWidth="0"
                 roundness="50%"
-                url={twitter}
+                url={`https://twitter.com/${twitter}`}
                 size="30"
               />}
               { instagram && <SocialMediaIconsReact 
@@ -59,7 +61,7 @@ export const ArtistPostTemplate = ({
                 iconSize="5"
                 borderWidth="0"
                 roundness="50%"
-                url={instagram}
+                url={`https://instagram.com/${instagram}`}
                 size="30"
               />}
               { facebook && <SocialMediaIconsReact 
@@ -69,7 +71,7 @@ export const ArtistPostTemplate = ({
                 iconSize="5"
                 borderWidth="0"
                 roundness="50%"
-                url={facebook}
+                url={`https://facebook.com/${facebook}`}
                 size="30"
               />}
               { tumblr && <SocialMediaIconsReact 
@@ -79,17 +81,17 @@ export const ArtistPostTemplate = ({
                 iconSize="5"
                 borderWidth="0"
                 roundness="50%"
-                url={tumblr}
+                url={`https://tumblr.com/${tumblr}`}
                 size="30"
               />}
               { linktree && <SocialMediaIconsReact 
-                icon="linktree"
+                icon="web"
                 iconColor="rgba(255,255,255,1)"
                 backgroundColor="rgba(40,40,40,1)"
                 iconSize="5"
                 borderWidth="0"
                 roundness="50%"
-                url={linktree}
+                url={`https://linktr.ee/${linktree}`}
                 size="30"
               />}
               { henlink && <SocialMediaIconsReact 
@@ -99,7 +101,7 @@ export const ArtistPostTemplate = ({
                 iconSize="5"
                 borderWidth="0"
                 roundness="50%"
-                url={henlink}
+                url={`https://henlink.com/${henlink}`}
                 size="30"
               />}
             </div>
@@ -113,6 +115,16 @@ export const ArtistPostTemplate = ({
       <img src="/img/mid-banner.png" alt="page break banner" className="mid-banner breakout-width"></img>
       <br/>
       <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="exhibition__title">
+              {/* <h1>{title}</h1> */}
+            </div>
+            <div className="exhibition__description">
+              {/* <p>{description}</p> */}
+            </div>
+          </div>
+        </div>
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <p style={{whiteSpace: 'pre-wrap'}}>{statement}</p>
@@ -137,6 +149,7 @@ export const ArtistPostTemplate = ({
 
 ArtistPostTemplate.propTypes = {
   title: PropTypes.string,
+  description: PropTypes.string,
   helmet: PropTypes.object,
   name: PropTypes.string,
   bio: PropTypes.string,
@@ -165,6 +178,8 @@ const ArtistPost = ({ data }) => {
         linktree={post.frontmatter.linktree}
         henlink={post.frontmatter.henlink}
         tumblr={post.frontmatter.tumblr}
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Artist">
             <title>{`${post.frontmatter.name}`}</title>
@@ -174,7 +189,6 @@ const ArtistPost = ({ data }) => {
             />
           </Helmet>
         }
-        title={post.frontmatter.title}
       />
     </Layout>
   )

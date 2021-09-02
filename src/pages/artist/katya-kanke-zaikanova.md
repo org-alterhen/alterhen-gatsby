@@ -52,7 +52,7 @@ statement: >-
     A work of art as cognition.
 
     A work of art as a desire to manifest, capture the movement of the wind, reveal it to the eye and make it invisible again.
-website: Katyakanke.com
+website: https://Katyakanke.com
 instagram: katyakanke
 twitter: katyakanke
 ---

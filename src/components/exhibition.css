@@ -36,19 +36,26 @@ body.exhibition .exhibition__container {
     height: 100vh;
 }
 
+.exhibition__content a {
+    position: absolute;
+    top: 1.5vw;
+    left: 1.5vw;
+    z-index: 999;
+}
+
 .exhibition__closebtn {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    height: 1.2em;
-    width: 1.2em;
+    top: 1.5vw;
+    right: 1.5vw;
+    height: 1.25em;
+    width: 1.25em;
     line-height: 1.2;
     background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     z-index: 999;
     cursor: pointer;
