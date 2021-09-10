@@ -24,7 +24,7 @@ export const ArtistPostTemplate = ({
   linktree,
   tumblr,
   bio,
-  midbanner
+  midbanner = null,
 }) => {
   return (
     <section className="section">
@@ -114,7 +114,7 @@ export const ArtistPostTemplate = ({
           </div>
         </div>
       </div>
-      <Img fluid={midbanner.childImageSharp.fluid} alt={`page break banner by ${name}`} className="mid-banner breakout-width"/>
+      { midbanner && <Img fluid={midbanner.childImageSharp.fluid} alt={`page break banner by ${name}`} className="mid-banner breakout-width"/> }
       <br/>
       <div className="container content">
         <div className="columns">

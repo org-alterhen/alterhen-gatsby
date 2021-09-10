@@ -17,7 +17,6 @@ const ArtistPostPreview = ({ entry, widgetFor }) => {
       henlink={entry.getIn(['data', 'henlink'])}
       tumblr={entry.getIn(['data', 'tumblr'])}
       title={entry.getIn(['data', 'title'])}
-      midbanner={entry.getIn(['data', 'midbanner'])}
     />
   )
 }

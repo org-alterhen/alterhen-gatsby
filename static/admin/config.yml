@@ -28,8 +28,12 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Banner", name: "midbanner", widget: image}
       - {label: "Website", name: "website", widget: "string"}
-      - {label: "Instagram", name: "instagram", widget: "string"}
+      - {label: "Hicetnunc", name: "hicetnunc", widget: "string"}
       - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "Instagram", name: "instagram", widget: "string"}
+      - {label: "Tumblr", name: "tumblr", widget: "string"}
+      - {label: "Linktree", name: "linktree", widget: "string"}
+      - {label: "Facebook", name: "facebook", widget: "string"}
       # - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "exhibition"
