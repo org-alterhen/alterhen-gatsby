@@ -13,14 +13,14 @@ public_folder: /img
 
 collections:
   - name: "artist"
-    identifier_field: artist
+    identifier_field: name
     label: "Artist"
     folder: "src/pages/artist"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "artist-post"}
-      - {label: "Artist", name: "artist", widget: "string"}
+      - {label: "Artist", name: "name", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
