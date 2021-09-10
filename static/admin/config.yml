@@ -22,18 +22,18 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "artist-post"}
       - {label: "Artist Name", name: "name", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
-      - {label: "Country", name: "country", widget: "string"}
+      - {label: "Country", name: "country", widget: "string", required: false}
       - {label: "Exhibition Title", name: "title", widget: "string"}
-      - {label: "Statement", name: "statement", widget: "text"}
+      - {label: "Statement", name: "statement", widget: "text", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Banner", name: "midbanner", widget: image}
-      - {label: "Website", name: "website", widget: "string"}
-      - {label: "Hicetnunc", name: "hicetnunc", widget: "string"}
-      - {label: "Twitter", name: "twitter", widget: "string"}
-      - {label: "Instagram", name: "instagram", widget: "string"}
-      - {label: "Tumblr", name: "tumblr", widget: "string"}
-      - {label: "Linktree", name: "linktree", widget: "string"}
-      - {label: "Facebook", name: "facebook", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Hicetnunc", name: "hicetnunc", widget: "string", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
+      - {label: "Instagram", name: "instagram", widget: "string", required: false}
+      - {label: "Tumblr", name: "tumblr", widget: "string", required: false}
+      - {label: "Linktree", name: "linktree", widget: "string", required: false}
+      - {label: "Facebook", name: "facebook", widget: "string", required: false}
       # - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "exhibition"
