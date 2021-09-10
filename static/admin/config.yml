@@ -30,7 +30,7 @@ collections:
       - {label: "Website", name: "website", widget: "string"}
       - {label: "Instagram", name: "instagram", widget: "string"}
       - {label: "Twitter", name: "twitter", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "exhibition"
     label: "Exhibitions"
