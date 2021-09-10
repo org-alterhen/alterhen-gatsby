@@ -20,12 +20,16 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "artist-post"}
-      - {label: "Artist", name: "name", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Artist Name", name: "name", widget: "string"}
+      - {label: "Bio", name: "bio", widget: "text"}
+      - {label: "Country", name: "country", widget: "string"}
+      - {label: "Exhibition Title", name: "title", widget: "string"}
+      - {label: "Statement", name: "statement", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Banner", name: "midbanner", widget: image}
+      - {label: "Website", name: "website", widget: "string"}
+      - {label: "Instagram", name: "instagram", widget: "string"}
+      - {label: "Twitter", name: "twitter", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "exhibition"
