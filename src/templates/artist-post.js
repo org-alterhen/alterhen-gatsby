@@ -158,7 +158,6 @@ export const ArtistPostTemplate = ({
 
           </div>
         </div>
-        <br/>
       </section>
     </>
   )
