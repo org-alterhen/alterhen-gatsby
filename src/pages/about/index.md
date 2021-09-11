@@ -1,7 +1,7 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: About alterHEN
 ---
 <span class="logo-text" style="font-size: 1.2rem; font-weight: bold; display: inline-block">a\ter<span>HEN</span></span> aims to encourage engagement with NFT’s among artists, organisations and art lovers and to imagine new models for the cultural economy as a result. The first experiment of this initiative is to provide a space to focus on the art itself, while also providing a gateway to the blockchain, to purchase works by a diverse group of artists in an eco-friendly way.
 
