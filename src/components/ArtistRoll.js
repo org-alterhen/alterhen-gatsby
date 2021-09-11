@@ -12,7 +12,7 @@ class ArtistRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <Link to={post.fields.slug} className="is-parent column is-3" key={post.id}>
+            <Link to={post.fields.slug} className="is-parent column is-6" key={post.id}>
               <article className={`artist-list-item tile is-child`}>
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
@@ -26,10 +26,10 @@ class ArtistRoll extends React.Component {
                 ) : null}
                 <header>
                   <p className="post-meta">
-                    <span className="has-text-weight-bold artist-roll-name">{post.frontmatter.name}</span>
-                    <span className="subtitle is-block has-text-weight-semibold artist-roll-title">
+                    <span className="is-block has-text-weight-bold artist-roll-title">
                       {post.frontmatter.title}
                     </span>
+                    <span className="has-text-weight-semibold artist-roll-name">{post.frontmatter.name}</span>
                   </p>
                 </header>
               </article>
@@ -69,7 +69,7 @@ export default () => (
                 templateKey
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 300, maxHeight: 400, quality: 100) {
+                    fluid(maxWidth: 1000, maxHeight: 800, quality: 95) {
                       ...GatsbyImageSharpFluid
                     }
                   }

@@ -120,10 +120,9 @@ $menu-label-color: $primary
 .artist-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 0 0.5em 0;
-.artist-roll-name
-  font-size: 18px
-.artist-roll-title
-  font-size: 16px
+.artist-roll-name, .artist-roll-title
+  font-size: 1.333em;
+  letter-spacing: 0.025em
 
 
 @import "~bulma"
@@ -236,10 +235,55 @@ a
     top: 60px
 
 .home-logo-wrap
-  justify-content: center
-  align-items: center
+  justify-content: center;
+  align-items: center;
 
 .artist-socials
   margin-bottom: 0.75em;
   a 
     margin-right: 0.5em;
+
+.hero
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  border-bottom: 2px solid black;
+
+.hero-body
+  margin-top: 10vh;
+  font-size: 18px;
+  letter-spacing: 0.025em;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  margin-bottom: 10vh;
+  justify-content: space-evenly;
+  flex: 300px 1 1
+
+.hero-image
+  bottom: 2px;
+  position: relative;
+  flex: 2 2 300px;
+  background-size: cover;
+  height: 100vh;
+  bottom: 2px;
+  position: relative;
+
+
+.read-more
+  letter-spacing: 0.025em;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+
+.homepage h2
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  margin-bottom: 2em;
+
+.post-meta
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;

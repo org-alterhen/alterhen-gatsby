@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import { HTMLContent } from '../components/Content'
 import { LogoText, LogoIcon } from '../components/Logo'
 
@@ -10,11 +10,19 @@ import ArtistRoll from '../components/ArtistRoll'
 export const IndexPageTemplate = ({
   content
 }) => (
-  <div>
-    <div style={{ background: 'black', height: '100vh' }} className="hero">
-      <div style={{padding: "2vw 4vw"}}>
-        <LogoText className="logo-white"/>
-        <div className="basic-header__icon"><LogoIcon className="logo-white"/></div>
+  <div className="homepage">
+    <div style={{padding: "2vw 4vw", position: 'absolute', top: '0', left: '0', right: '0', zIndex: '1'}}>
+      <LogoText/>
+      <div className="basic-header__icon"><LogoIcon/></div>
+    </div>
+    <div className="hero">
+      <div className="hero-body">
+        <LogoIcon/>
+        <HTMLContent content={content} className="artist-post-content"/>
+        <Link to="/about" className="read-more">Read More ⯈</Link>
+      </div>
+      <div className="hero-image" style={{ backgroundImage: 'url(../img/home-hero.png)' }}>
+
       </div>
     </div>
     <section className="section section--gradient">
@@ -23,20 +31,11 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-12">
               <div className="content">
-
-                <div className="content columns">
-                  <div className="tile column is-5 home-logo-wrap">
-                    <h1 className="title"><LogoIcon/></h1>
-                  </div>
-                  <div className="tile column is-7">
-                    <HTMLContent content={content} className="artist-post-content"/>
-                  </div>
-                </div>
-
                 <div className="column is-12">
-                  <h3 className="side-title">
+                  {/* <h3 className="side-title">
                     ARTISTS
-                  </h3>
+                  </h3> */}
+                  <h2>EXHIBITIONS</h2>
                   <ArtistRoll />
                 </div>
               </div>
@@ -89,7 +88,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 1080, quality: 95) {
               ...GatsbyImageSharpFluid
             }
           }
