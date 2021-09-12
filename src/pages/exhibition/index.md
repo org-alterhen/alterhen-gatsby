@@ -1,5 +1,5 @@
 ---
-templateKey: 'exhibition-page'
+templateKey: 'about-page'
 path: /exhibition
 title: a\terHEN Artist Exhibitions
 image: /img/mid-banner.png
