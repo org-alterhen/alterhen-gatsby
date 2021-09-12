@@ -16,7 +16,7 @@ export const ExhibitionPageTemplate = ({
   <div className="content">
     <section className="exhibition-page">
       <h1 className="has-text-centered">{title}</h1>
-      { objkts.map((objkt, index) => (
+      { objkts && objkts.map((objkt, index) => (
         <div className="exhibition-page-objkt" key={index}>
           <div className="exhibition-page-objkt-left">
             <button className="exhibition-page-button" onClick={() => {
@@ -31,12 +31,9 @@ export const ExhibitionPageTemplate = ({
           </div>
         </div>
       ))}
-      <Exhibition
+      { objkts && <Exhibition
         objkts={objkts}
-      />
-      {/* <Exhibition
-        objkts={objkts}
-      /> */}
+      /> }
     </section>
   </div>
 )
