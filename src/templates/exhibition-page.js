@@ -27,7 +27,7 @@ export const ExhibitionPageTemplate = ({
           <div className="exhibition-page-objkt-right">
             <h2>{objkt.title}</h2>
             <p>{objkt.desc}</p>
-            <a target="_blank" rel="noreferrer" href={objkt.url} className="button is-primary">VIEW / COLLECT</a>
+            <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="button is-primary">VIEW / COLLECT</a>
           </div>
         </div>
       ))}
