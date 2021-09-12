@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Exhibition from '../components/Exhibition'
+// import Exhibition from '../components/Exhibition'
 import BasicHeader from '../components/BasicHeader'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import Img from "gatsby-image"
@@ -129,29 +129,7 @@ export const ArtistPostTemplate = ({
               </div>
               <br/><br/>
               <div>
-                {/* <Link to={`/exhibition/${ name.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link> */}
-                <button onClick={() => {
-                  document.getElementsByTagName('html')[0].style.overflow = "hidden"; 
-                  document.body.classList.add("exhibition")
-                }} className="block-btn">Enter Exhibition</button>
-                <Exhibition
-                  objkts={[{
-                    title: 'Demo 1',
-                    description: 'Filler Image\n\nDemo 1 is a demo artwork to test the exhibitions\n\nIt will be replaced with the artists works',
-                    price: 10,
-                    image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
-                  },{
-                    title: 'Demo 2',
-                    description: 'Filler Image\n\nDemo 2 is another demo artwork to test the exhibitions\n\nIt will be replaced with the artists works',
-                    price: 30,
-                    image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
-                  },{
-                    title: 'Demo 3',
-                    description: 'Filler Image\n\nDemo 3 is yet another demo artwork to test the exhibitions\n\nIt will also be replaced with the artists works',
-                    price: 50,
-                    image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
-                  }]}
-                />
+                <Link to={`/exhibition/${ name.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link>
               </div>
               <br/><br/><br/>
             </div>

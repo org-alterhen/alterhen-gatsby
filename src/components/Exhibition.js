@@ -28,7 +28,7 @@ const Exhibition = ({ className, objkts }) => (
                   <div>
                     <img src={objkt.image} alt={objkt.title}/>
                   </div>
-                  <div style={{borderTop: '3px solid black'}}>
+                  {/* <div style={{borderTop: '3px solid black'}}>
                     <div style={{display: 'flex', justifyContent: 'space-between', marginRight: '1rem'}}>
                       <div>
                         <h1 style={{margin: '1rem', textAlign: 'left'}} className="exhibition__title is-size-3 has-text-weight-semibold">{objkt.title}</h1>
@@ -39,7 +39,7 @@ const Exhibition = ({ className, objkts }) => (
                         <button className="exhibition__collect block-btn">Collect</button>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
