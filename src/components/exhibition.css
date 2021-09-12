@@ -42,6 +42,9 @@ body.exhibition .exhibition__container {
     height: 100vh;
     /* overflow-y: scroll; */
 }
+.exhibition__content .awssld__content {
+    text-align: center;
+}
 .exhibition__content .awssld__content img {
     height: 100vh;
     object-fit: contain;
