@@ -319,8 +319,14 @@ a
     .exhibition-page-objkt-right      
       flex: 1 0 300px;
       padding: 3rem;
-
-
+      a.button
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.025em;
+        padding: 12px 24px;
+        line-height: 1.5;
+        border-radius: 0;
+        border: 1px solid black
   .exhibition-page-button
     background: none;
     padding: none;
@@ -328,3 +334,12 @@ a
     cursor: pointer
     img 
       max-height: 70vh
+
+      
+@media screen and ( max-width: 767px )
+  .exhibition-page .exhibition-page-objkt
+    display: block;
+    text-align: center;
+    .exhibition-page-objkt-left
+      border-right: none;
+
