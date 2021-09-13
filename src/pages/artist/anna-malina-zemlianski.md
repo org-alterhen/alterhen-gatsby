@@ -13,7 +13,7 @@ statement: Drawing up shapes, lines & details of a material, a memory, in the
   time, space & material into moments, trapping them into the relentless
   repetition of a gif.
 featuredimage: /img/artist-thumbs/anna-malina-zemlianski.jpg
-midbanner: https://www.hicetnunc.xyz/objkt/296657
+midbanner: https://ipfs.io/ipfs/bafybeicfzbsgbh7esv3pex72cwm3iu6nd2d3rpzrpfocuohodswfpz6tnu
 website: https://www.annamalina.com
 hicetnunc: https://www.hicetnunc.xyz/annaXmalina/creations
 twitter: annaxmalina
