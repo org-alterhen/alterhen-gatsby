@@ -1,17 +1,21 @@
 ---
 templateKey: artist-post
-title: Exhibition Title
-featuredimage: /img/artist-thumbs/mihai-grecu.png
-midbanner: /img/mid-banner.png
-updated: 29/07/2021 18:41:02
-email: thegrecu@gmail.com
 name: Mihai Grecu
+bio: Mihai Grecu is a multimedia artist from Romania investigating environmental
+  and technological themes to articulate a complex and mysterious universe of
+  moving images and glimpses of an alternate present.
 country: Romania
-bio: >-
-    Mihai Grecu is a multimedia artist from Romania. Recurring topics such as environment, new technologies and dystopia articulate a complex and mysterious universe of moving images and glimpses of an alternate present. They are dreamlike visions of elements from a parallel reality taking over the landscape, but they are also symbols of a mysterious environmental crisis.
-statement: >-
-    MEP Virtuelle, Maison Européenne de la Photographie, Paris, France; Tribeca International Film Festival; « Dans la nuit, des images » Grand Palais, Paris, France ;“Mayfair Art Weekend Showreel”, London; I SEE YOU - Kunsthalle Detroit, Detroit, MI Digital Life, USA; Rotterdam Film Festival; Clermont Ferrand International Film Festival award; etc
+title: NeoPyongyang
+statement: NeoPyongyang is a series of dystopian landscapes inspired by the
+  capital city of North Korea, one the most secretive places in the world. On
+  the brink between documentary and science fiction, these videos are like
+  glimpses of an alternative present time.
+featuredimage: /img/main_page_mihai.gif
+midbanner: /img/banner_mihai.jpg
 website: https://mihaigrecu.net/
+hicetnunc: https://www.hicetnunc.xyz/mihaigrecu/creations
 twitter: the_grecu
 instagram: thegrecu
+updated: 29/07/2021 18:41:02
+email: thegrecu@gmail.com
 ---
