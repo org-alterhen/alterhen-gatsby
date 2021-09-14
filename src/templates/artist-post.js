@@ -5,9 +5,9 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 // import Exhibition from '../components/Exhibition'
 import BasicHeader from '../components/BasicHeader'
-import {SocialMediaIconsReact} from 'social-media-icons-react';
 // import Img from "gatsby-image"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import SocialLinks from '../components/SocialLinks'
 // import ExhibitionLinks from '../components/ExhibitionLinks'
 // import Content, { HTMLContent } from '../components/Content'
 
@@ -26,6 +26,7 @@ export const ArtistPostTemplate = ({
   linktree,
   tumblr,
   bio,
+  profpic,
   midbanner = null
 }) => {
   return (
@@ -59,80 +60,38 @@ export const ArtistPostTemplate = ({
               marginBottom: '-3rem',
               padding: '2rem'
             }}>
-              <h2 className="is-size-5 has-text-weight-bold">
+              { profpic && (
+                profpic.childImageSharp ? (
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: profpic,
+                      alt: name,
+                    }}
+                    className="artist-profpic"
+                  />
+                ) : (
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: profpic.publicURL,
+                      alt: name,
+                    }}
+                    className="artist-profpic"
+                  />
+                )
+              ) }
+              <h2 style={{marginTop: 0}} className="is-size-5 has-text-weight-bold">
                 {name}
               </h2>
               <div className="artist-socials">
-                { website && <SocialMediaIconsReact 
-                  icon="web"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={website}
-                  size="26"
-                />}
-                { twitter && <SocialMediaIconsReact 
-                  icon="twitter"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={`https://twitter.com/${twitter}`}
-                  size="26"
-                />}
-                { instagram && <SocialMediaIconsReact 
-                  icon="instagram"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={`https://instagram.com/${instagram}`}
-                  size="26"
-                />}
-                { facebook && <SocialMediaIconsReact 
-                  icon="facebook"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={`https://facebook.com/${facebook}`}
-                  size="26"
-                />}
-                { tumblr && <SocialMediaIconsReact 
-                  icon="tumblr"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={`https://tumblr.com/${tumblr}`}
-                  size="26"
-                />}
-                { linktree && <SocialMediaIconsReact 
-                  icon="web"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={`https://linktr.ee/${linktree}`}
-                  size="26"
-                />}
-                { henlink && <SocialMediaIconsReact 
-                  icon="web"
-                  iconColor="rgba(255,255,255,1)"
-                  backgroundColor="rgba(60,60,60,1)"
-                  iconSize="3"
-                  borderWidth="0"
-                  roundness="50%"
-                  url={`https://henlink.com/${henlink}`}
-                  size="26"
-                />}
+                {/* <SocialLinks links={{
+                  website: website,
+                  instagram: instagram,
+                  twitter: twitter,
+                  facebook: facebook,
+                  linktree: linktree,
+                  henlink: henlink,
+                  tumblr: tumblr                  
+                }} /> */}
               </div>
               {/* <h3 className="title is-size-1 has-text-weight-bold">
                 {title}
@@ -173,6 +132,7 @@ ArtistPostTemplate.propTypes = {
   website: PropTypes.string,
   links: PropTypes.array,
   midbanner: PropTypes.string,
+  profpic: PropTypes.string,
 }
 
 const ArtistPost = ({ data }) => {
@@ -197,6 +157,7 @@ const ArtistPost = ({ data }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         midbanner={post.frontmatter.midbanner}
+        profpic={post.frontmatter.profpic}
         helmet={
           <Helmet titleTemplate="%s | Artist">
             <title>{`${post.frontmatter.name}`}</title>
@@ -238,6 +199,14 @@ export const pageQuery = graphql`
         henlink
         linktree
         statement
+        profpic {
+          childImageSharp {
+            fluid(maxWidth: 600, maxHeight: 1000, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+          publicURL
+        }
         midbanner {
           childImageSharp {
             fluid(maxWidth: 2560, maxHeight: 1000, quality: 100) {
