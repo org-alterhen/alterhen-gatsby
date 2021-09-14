@@ -11,8 +11,8 @@ statement: "In this exhibition, Tresset, following his series of Human Study #2
   the traditional Flemish manner, the atmosphere is stark rather than
   opulent.  Using GIFs as time-based media, these works are experiments in
   minimalist storytelling. "
-featuredimage: /img/artist-thumbs/patrick-tresset.jpg
-midbanner: /img/banner_patrick-tresset.gif
+featuredimage: /img/main_page_patrickt.gif
+midbanner: /img/banner_tresset.gif
 website: https://www.patricktresset.com
 hicetnunc: https://www.hicetnunc.xyz/tresset_experimental/creations
 twitter: patricktresset
