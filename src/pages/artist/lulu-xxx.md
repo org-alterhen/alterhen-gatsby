@@ -5,7 +5,7 @@ bio: Luluxxx is a photographer, 3D artist and developer based in Paris, working
   to create transformative, generative representations on the theme of identity,
   using neural networks and her own, self-built tools.
 country: France
-title: Menilmontant
+title: Ménilmontant
 statement: An ongoing experimentation with footage from Dmitri Kirsanoff's
   Ménilmontant (1926) starring his wife Nadia Sibirskaïa. I'm using 'artificial
   intelligence technology to transform early cinema footage. Motion and shapes
