@@ -12,8 +12,8 @@ statement: Drawing up shapes, lines & details of a material, a memory, in the
   self-portraiture (the dissection of a person) – I try to sculpt layers of
   time, space & material into moments, trapping them into the relentless
   repetition of a gif.
-featuredimage: /img/artist-thumbs/anna-malina-zemlianski.jpg
-midbanner: https://ipfs.io/ipfs/bafybeicfzbsgbh7esv3pex72cwm3iu6nd2d3rpzrpfocuohodswfpz6tnu
+featuredimage: /img/main_page_anna.gif
+midbanner: /img/banner_anna.gif
 website: https://www.annamalina.com
 hicetnunc: https://www.hicetnunc.xyz/annaXmalina/creations
 twitter: annaxmalina
