@@ -6,8 +6,9 @@ import Layout from '../components/Layout'
 // import Exhibition from '../components/Exhibition'
 import BasicHeader from '../components/BasicHeader'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import ExhibitionLinks from '../components/ExhibitionLinks'
 // import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
@@ -148,7 +149,8 @@ export const ArtistPostTemplate = ({
               </div>
               <br/><br/>
               <div>
-                <Link to={`/exhibition/${ name.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link>
+                <Link to={`/exhibition/${ title.toLowerCase().replace(/ /g,'-') }`} className="block-btn">Enter Exhibition</Link>
+                {/* <ExhibitionLinks posts={[title]}></ExhibitionLinks> */}
               </div>
               <br/><br/><br/>
             </div>
@@ -170,7 +172,7 @@ ArtistPostTemplate.propTypes = {
   country: PropTypes.string,
   website: PropTypes.string,
   links: PropTypes.array,
-  midbanner: PropTypes.string
+  midbanner: PropTypes.string,
 }
 
 const ArtistPost = ({ data }) => {
@@ -211,7 +213,7 @@ const ArtistPost = ({ data }) => {
 
 ArtistPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
+    markdownRemark: PropTypes.object
   }),
 }
 

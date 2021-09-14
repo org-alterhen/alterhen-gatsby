@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-page
-artist: Andres Rau
+artist: Andreas Rau
 title: Y
 date: 2021-09-14T13:08:04.516Z
 description: >-
