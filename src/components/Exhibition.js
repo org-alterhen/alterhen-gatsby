@@ -23,7 +23,7 @@ const Exhibition = ({ className, objkts }) => (
         {objkts &&
           <AwesomeSlider>
             {objkts.map((objkt, i) => (
-              <div className="columns container">
+              <div className="columns container" key={i}>
                 <div className="column is-10 is-offset-1">
                   <div>
                     <img src={objkt.image} alt={objkt.title}/>
