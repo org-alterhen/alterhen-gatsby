@@ -1,18 +1,8 @@
 ---
 templateKey: artist-post
-bio: >-
-  Born in 1992, Bernardo holds a degree in Graphic Design from PUC-Rio, an urban
-  artist and tattoo artist. He began his research in plastic arts in 2018. A
-  descendant of Orientals and a resident of Rio de Janeiro, his job consists of
-  searching intersections between these worlds. Intersections that time is
-  subtle, time is explicit. There are few moments when we perceive them as
-  coexisting in the same space and time. Possible places of collision, whether
-  symbols, feelings, or habits - what is established and what is to come. The
-  result is works that start from these perceptions of ancestry that blend with
-  layers of realities that cross the artist.
-
-
-  "Differences become affective aesthetic bodies (work), as possible ways of distributing love and understanding." - Edmilson Nunes*
+bio: Bernardo Liu is a Brazilian urban artist and tattoo artist, working on
+  themes of the perception of time and cross-cultural ancestral memory. He
+  produces paintings, sculptures and papercut work.
 henlink: bernardoliu
 name: Bernardo Liu
 country: Brazil
