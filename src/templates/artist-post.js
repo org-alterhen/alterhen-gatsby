@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import Img from "gatsby-image"
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 // import Content, { HTMLContent } from '../components/Content'
 
 export const ArtistPostTemplate = ({
@@ -24,11 +25,29 @@ export const ArtistPostTemplate = ({
   linktree,
   tumblr,
   bio,
-  midbanner = null,
+  midbanner = null
 }) => {
   return (
     <>
-      { midbanner && <Img fluid={midbanner.childImageSharp.fluid} alt={`page break banner by ${name}`} className="top-banner breakout-width"/> }
+      { midbanner && (
+        midbanner.childImageSharp ? (
+          <PreviewCompatibleImage
+            imageInfo={{
+              image: midbanner,
+              alt: `page break banner by ${name}`,
+            }}
+            className="top-banner breakout-width"
+          />
+        ) : (
+          <PreviewCompatibleImage
+            imageInfo={{
+              image: midbanner.publicURL,
+              alt: `page break banner by ${name}`,
+            }}
+            className="top-banner breakout-width"
+          />
+        )
+      ) }
       <section className="section">
         {helmet || ''}
         <div className="container content">
@@ -223,6 +242,7 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+          publicURL
         }
       }
     }

@@ -16,12 +16,23 @@ class ArtistRoll extends React.Component {
               <article className={`artist-list-item tile is-child`}>
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured artwork for ${post.frontmatter.name} - ${post.frontmatter.title}`,
-                      }}
-                    />
+                    {
+                      post.frontmatter.featuredimage.childImageSharp ? (
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured artwork for ${post.frontmatter.name} - ${post.frontmatter.title}`,
+                          }}
+                        />
+                      ) : (
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage.publicURL,
+                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          }}
+                        />
+                      )
+                    }
                   </div>
                 ) : null}
                 <header>
@@ -73,6 +84,7 @@ export default () => (
                       ...GatsbyImageSharpFluid
                     }
                   }
+                  publicURL
                 }
               }
             }
