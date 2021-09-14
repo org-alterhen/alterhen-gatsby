@@ -13,6 +13,6 @@ The <span class="logo-text" style="font-size: 1.2rem; font-weight: bold; display
 
 We also act as a conduit for accessing the works directly on the blockchain, along with some helpful advice on how to take part for those with no prior knowledge of the process.
 
-## The name alterHEN is inspired by “altermodern”
+### The name alterHEN is inspired by “altermodern”
 
 Altermodern, a portmanteau word defined by Nicolas Bourriaud, is an attempt at contextualizing art made in today's global context as a reaction against standardisation and commercialism.
