@@ -5,18 +5,14 @@ bio: Luluxxx is a photographer, 3D artist and developer based in Paris, working
   to create transformative, generative representations on the theme of identity,
   using neural networks and her own, self-built tools.
 country: France
-title: Exhibition Title
-statement: >-
-  I started using Neural Network based Artificial Intelligence technology around
-  2015.
-
-  I enjoy using optical flow analysis tools to capture motion from moving footage.
-
-  I enjoy manipulating still digital images and motion sequences in a transformative/generative way.
-
-  I’m building and using my own tools using open-sourced and custom code.
-
-  identity is the essence of my work now.
+title: Ménilmontant
+statement: An ongoing experimentation with footage from Dmitri Kirsanoff's
+  Ménilmontant (1926) starring his wife Nadia Sibirskaïa. I'm using 'artificial
+  intelligence technology to transform early cinema footage. Motion and shapes
+  are extracted from the original pictures and feed different 'neural networks
+  to generate abstract visualizations. I like to imagine this new vision embeds
+  imperfections and nostalgia while bringing a different emotional state to the
+  viewer.
 featuredimage: /img/main_page_lulu.jpg
 midbanner: /img/mid-banner.png
 website: https://www.luluixixix.com/

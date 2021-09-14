@@ -4,6 +4,7 @@ name: Anna Malina Zemlianski
 bio: Artist working with photography and found footage in the fields of collage
   & experimental animation, making short films & music videos.
 country: Germany
+profpic: /img/600_compressed.gif
 title: Circling Fragmentations
 statement: Drawing up shapes, lines & details of a material, a memory, in the
   darkroom of inner vision. Trying to hold together the fragments of a being, of

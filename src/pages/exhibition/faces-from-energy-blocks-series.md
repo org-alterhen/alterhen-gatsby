@@ -13,4 +13,32 @@ description: >-
   Walter Tada Nomura (mostly known as ""Tinho"") IG @tinho23sp
 
   Artist/Curator"
+objkts:
+  - objkt: 213802
+    title: Face 55*** - ENERGY BLOCKS
+    desc: >-
+      2021
+
+      GIF Performance
+
+      Photo collages with physical sculpture (cement and objects found in the streets) 
+    image: https://ipfs.io/ipfs/Qmd545hazS7Cvv4suGkaEKQqbRzwDgpyLSx7XT9TSsN3aP
+  - objkt: 219334
+    title: Face 56 - E N E R G Y_B L O C K S
+    image: https://ipfs.io/ipfs/QmUgUrmLiSSGc9dA2V3NALGgkRw2mqWCB2JBGRaoEoBcsK
+    desc: >-
+      2021
+
+      GIF Performance
+
+      Photo collages with physical sculpture (cement and objects found in the streets) 
+  - objkt: 223062
+    image: https://ipfs.io/ipfs/QmXSbYudX7DvUELFhyrFEHeGBkEEYLX4VCjAVCoSGSCdAk
+    title: Face 57 - ENERGY_BLOCKS
+    desc: >-
+      2021
+
+      GIF Performance
+
+      Photo collages with physical sculpture (cement and objects found in the streets)
 ---
