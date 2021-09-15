@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 
 import Exhibition from '../components/Exhibition'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 // import SocialLinks from '../components/SocialLinks'
 
 export const ExhibitionPageTemplate = ({
@@ -22,7 +23,27 @@ export const ExhibitionPageTemplate = ({
             <button className="exhibition-page-button" onClick={() => {
               document.getElementsByTagName('html')[0].style.overflow = "hidden"; 
               document.body.classList.add("exhibition")
-            }}><img src={objkt.image} alt={objkt.title} /></button>
+            }}>
+            { objkt.image && (
+              objkt.image.childImageSharp ? (
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: objkt.image,
+                    alt: `${objkt.title} by ${artist}`,
+                  }}
+                  className=""
+                />
+              ) : (
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: objkt.image.publicURL,
+                    alt: `${objkt.title} by ${artist}`,
+                  }}
+                  className=""
+                />
+              )
+            ) }
+            </button>
           </div>
           <div className="exhibition-page-objkt-right">
             <h2>{objkt.title}</h2>
@@ -83,7 +104,6 @@ const ExhibitionPage = ({ data }) => {
     </Layout>
   )
 }
-
 ExhibitionPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
@@ -103,7 +123,14 @@ export const exhibitionPageQuery = graphql`
         objkts {
           title
           desc
-          image
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1080, maxHeight: 1080, quality: 95) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
           objkt
         }
         artist
