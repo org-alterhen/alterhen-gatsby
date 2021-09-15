@@ -5,10 +5,10 @@ import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 
 import Exhibition from '../components/Exhibition'
+// import SocialLinks from '../components/SocialLinks'
 
 export const ExhibitionPageTemplate = ({
   title,
-  image,
   artist,
   description,
   objkts
@@ -34,12 +34,33 @@ export const ExhibitionPageTemplate = ({
       { objkts && <Exhibition
         objkts={objkts}
       /> }
+      <div className="exhibition-page-bio">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-one-third">
+              <h2>{artist}</h2>
+              {/* <h4>{country}</h4>
+              <SocialLinks links={{
+                website: website,
+                instagram: instagram,
+                twitter: twitter,
+                facebook: facebook,
+                linktree: linktree,
+                henlink: henlink,
+                tumblr: tumblr                  
+              }} /> */}
+            </div>
+            <div className="column is-two-thirds">
+              <p style={{whiteSpace: 'pre-wrap'}}>{description}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 )
 
 ExhibitionPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   description: PropTypes.string,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -54,7 +75,6 @@ const ExhibitionPage = ({ data }) => {
     <Layout>
       <BasicHeader/>
       <ExhibitionPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
         description={frontmatter.description}
         artist={frontmatter.artist}
@@ -87,13 +107,6 @@ export const exhibitionPageQuery = graphql`
           objkt
         }
         artist
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }
