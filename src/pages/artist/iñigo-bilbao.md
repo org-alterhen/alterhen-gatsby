@@ -5,6 +5,7 @@ bio: Iñigo Bilbao is a Spanish digital artist, focusing on the interactions
   between physical and digital environments. He has worked with 3D printers, 3D
   scanners and photogrammetry in work exhibited internationally.
 country: Spain
+profpic: /img/inigo_500c.gif
 title: X-ray
 statement: >-
   Raw X-ray images lose their original function to be showed as artistic pieces.
