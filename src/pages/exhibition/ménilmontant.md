@@ -12,7 +12,7 @@ description: An ongoing experimentation with footage from Dmitri Kirsanoff's
   the viewer.
 objkts:
   - objkt: 297952
-    image: /img/alterhen.0011.png
+    image: /img/alterhen_0011.png
     title: "Menilmontant #7"
     desc: |-
       2015-2021
@@ -20,7 +20,7 @@ objkts:
       PNG 1920 x 2742
       ed. 1
   - objkt: 297937
-    image: /img/alterhen.0003.png
+    image: /img/alterhen_0001.png
     title: "Menilmontant #6"
     desc: |-
       2015-2021
@@ -34,9 +34,9 @@ objkts:
       Style transfer - layered style warping. open-source + custom code
       PNG 1920 x 2742
       ed. 100
-    image: /img/alterhen.0009.png
+    image: /img/alterhen_0009.png
   - objkt: 297441
-    image: /img/alterhen.0006.png
+    image: /img/alterhen_0006.png
     title: "Menilmontant #1"
     desc: |-
       2015-2021
@@ -45,7 +45,7 @@ objkts:
       ed. 10
   - objkt: 297797
     title: "Menilmontant #3"
-    image: /img/alterhen.0008.png
+    image: /img/alterhen_0008.png
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
