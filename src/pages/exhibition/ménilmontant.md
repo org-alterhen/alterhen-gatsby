@@ -12,43 +12,43 @@ description: An ongoing experimentation with footage from Dmitri Kirsanoff's
   the viewer.
 objkts:
   - objkt: 297952
-    image: https://ipfs.io/ipfs/bafybeihvy4xz7bcq3uzadj7utbou56hjbkpknv24znbczpgdr5bjuwgq34
+    image: /img/alterhen.0011.png
     title: "Menilmontant #7"
     desc: |-
       2015-2021
-      Style transfer - layered style warping. open source + custom code
-      PNG 1920x2742
+      Style transfer - layered style warping. open-source + custom code
+      PNG 1920 x 2742
       ed. 1
   - objkt: 297937
-    image: https://ipfs.io/ipfs/bafybeic7yfnfwevgbvbar4kivyaxh2gleo7ul5nyy7wjpuubilg7bky4lq
+    image: /img/alterhen.0003.png
     title: "Menilmontant #6"
     desc: |-
       2015-2021
-      Style transfer - layered style warping. open source + custom code
-      PNG 1920x2742
+      Style transfer - layered style warping. open-source + custom code
+      PNG 1920 x 2742
       ed. 1
   - objkt: 297826
     title: "Menilmontant #4"
     desc: |-
       2015-2021
-      Style transfer - layered style warping. open source + custom code
-      PNG 1920x2742
+      Style transfer - layered style warping. open-source + custom code
+      PNG 1920 x 2742
       ed. 100
-    image: https://ipfs.io/ipfs/bafybeib4osiavttgfzsfkv7m4hqjqyq6xjxhi5psfcknha3j4ohkggsa5a
+    image: /img/alterhen.0009.png
   - objkt: 297441
-    image: https://ipfs.io/ipfs/bafybeidowdq4femqeldu4j4yhpq7m64iix5s4zuj4f2bdnx7spqucfyyeq
+    image: /img/alterhen.0006.png
     title: "Menilmontant #1"
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
-      PNG 1920x2742
+      PNG 1920 x 2742
       ed. 10
   - objkt: 297797
     title: "Menilmontant #3"
-    image: https://ipfs.io/ipfs/bafybeifc3uqqlcclmqlwt6bswbcu7dljnulwuqbc4bzmxeyhamtw4mkhva
+    image: /img/alterhen.0008.png
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
-      PNG 1920x2742
+      PNG 1920 x 2742
       ed. 10
 ---
