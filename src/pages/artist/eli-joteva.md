@@ -5,6 +5,7 @@ bio: "Eli Joteva is a Bulgarian intermedia artist and researcher based in LA.
   Her practice is influenced by quantum mechanics, neurophysics and machine
   vision and aims to shed light on the invisible forces that influence us.  "
 country: Bulgaria
+profpic: /img/joteva_500c.gif
 title: IntraBeing
 statement: What lies within the bounds being? IntraBeing envisions enigmatic
   spaces beyond the capacities of medical imaging tools. The project employs
