@@ -16,7 +16,7 @@ objkts:
     title: "Menilmontant #7"
     desc: |-
       2015-2021
-      Style transfer - layered style warping. open-source + custom code
+      Style transfer - layered style warping. open-source  + custom code
       PNG 1920 x 2742
       ed. 1
   - objkt: 297937
