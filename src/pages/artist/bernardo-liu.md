@@ -6,6 +6,7 @@ bio: Bernardo Liu is a Brazilian urban artist and tattoo artist, working on
 henlink: bernardoliu
 name: Bernardo Liu
 country: Brazil
+profpic: /img/bernardo_500c.gif
 title: Feito com amor
 statement: >-
   The theme appropriates the speech in the form of hot dishes, and the hardened
