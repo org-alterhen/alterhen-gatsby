@@ -36,9 +36,10 @@ objkts:
     image: /img/wilyguys_alterhen_milk-as-balm.jpg
   - objkt: 301138
     desc: >-
-      Created to mark the protests emerging from the attempted crackdown on
-      rights and freedoms in Hong Kong by the Communist Party of China and to
-      protest against the violent response to them. 
+      They want our silence....
+
+
+      Created to mark the protests emerging from the attempted crackdown on rights and freedoms in Hong Kong by the Communist Party of China and to protest against the violent response to them. 
 
       The work is also a response to any similar protest situations worldwide and an attempt to highlight the profound importance of civil unrest. 
 
