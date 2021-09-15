@@ -17,4 +17,26 @@ description: What lies within the bounds being? IntraBeing envisions enigmatic
   evade precise measurement. These components are key elements in the artwork
   that exhibits an oscillating inner landscape of hydrogen atoms, the nerves
   they flow along and the magnetic potentials generated between them.
+objkts:
+  - objkt: 0
+    title: "Intrabeing: Magnetic Heart "
+    desc: |-
+      2021
+      JPG 1080 x 1920
+      ed.
+    image: /img/magheart2k.jpg
+  - objkt: 0
+    title: "Intrabeing: Magnetic Feet"
+    desc: |-
+      2021
+      JPG 1080 x 1920
+      ed.
+    image: /img/magfeet-2k.jpg
+  - objkt: 0
+    title: "Intrabeing: Magnetic Vag & Ovaries"
+    desc: |-
+      2021
+      JPG 1080 x 1920
+      ed.
+    image: /img/magvag2k.jpg
 ---
