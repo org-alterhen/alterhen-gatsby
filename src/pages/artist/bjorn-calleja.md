@@ -5,6 +5,7 @@ bio: Bjorn Calleja is a Filipino painter and interdisciplinary artist, whose
   works play with the idea of the micro and macro-cosms of humans within and
   against their environments, in an ecological, social, and internal sense.
 country: Philippines
+profpic: /img/bjorn_500c.gif
 title: Two Second Meditations
 statement: By observing a play on scale, my work encourages looking, and then
   looking slowly and deeply, allowing enough breathing space for meaning to
