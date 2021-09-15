@@ -33,7 +33,7 @@ objkts:
       ed. 21
 
 
-    image: https://ipfs.io/ipfs/bafybeigpgyucdqwhmwwsoiexoswx3awsihiv2bmpwrz4ckel777nxvqlzi
+    image: /img/wilyguys_alterhen_milk-as-balm.jpg
   - objkt: 301138
     desc: >-
       Created to mark the protests emerging from the attempted crackdown on
@@ -56,7 +56,7 @@ objkts:
 
       ed. 20
     title: Cloaked
-    image: https://ipfs.io/ipfs/bafybeibuo4kdfl6pyha7rlfik6pmdvsidpwjnsaxaogobbsw52fuvba5ea
+    image: /img/wilyguys_alterhen_cloaked.jpg
   - objkt: 301245
     title: 2 Guns vs the Bear
     desc: >
@@ -78,5 +78,5 @@ objkts:
       JPG 16000 x 11200 
 
       ed. 20
-    image: https://ipfs.io/ipfs/bafybeihh3kiwnk2o3xraxntfti6l62az5xu66bsvu2vuaq7p7jux2a7jea
+    image: /img/wilyguys_alterhen_2-guns-vs-the-bear.jpg
 ---
