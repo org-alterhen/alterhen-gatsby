@@ -15,7 +15,7 @@ statement: >-
 
   This work was developed during the Formation and Deformation Course, at EAV-Parque Lage. Where we worked during the school term, above questions about transport, food and their crossings.
 featuredimage: /img/artist-thumbs/bernardo-liu.jpg
-midbanner: /img/mid-banner.png
+midbanner: /img/banner_bernardoliu.jpg
 website: https://bernardoliu.com
 hicetnunc: https://www.hicetnunc.xyz/tz/tz1LqHK1VkBNVRHh1UJa2PoBSPMdqrCU63AZ
 twitter: BernardoLiu
