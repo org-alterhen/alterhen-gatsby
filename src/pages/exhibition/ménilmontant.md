@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 artist: Luluxxx
-title: Menilmontant
+title: Ménilmontant
 date: 2021-09-14T13:31:59.129Z
 description: An ongoing experimentation with footage from Dmitri Kirsanoff's
   Ménilmontant (1926) starring his wife Nadia Sibirskaïa. I'm using 'artificial
