@@ -16,3 +16,27 @@ We also act as a conduit for accessing the works directly on the blockchain, alo
 ### The name alterHEN is inspired by “altermodern”
 
 Altermodern, a portmanteau word defined by Nicolas Bourriaud, is an attempt at contextualizing art made in today's global context as a reaction against standardisation and commercialism.
+
+### Who are the artists?
+
+We are an informal group of international artists brought together by the art platform Hic et Nunc, hailing from Brazil, Philippines, Norway, Romania, France, Russia, Belgium, Germany and the UK. Our multidisciplinary approaches are wide-ranging, from abstract to figurative, from digital to analog, from sculpting to coding, encompassing the whole spectrum of contemporary art practices. 
+
+Thematically we explore diverse social, cultural and political topics with a truly international perspective. 
+We also have a shared experience of exhibiting, selling and collecting NFTs on Hic et Nunc. 
+
+Together we believe that art should, first and foremost, be exhibited and experienced as art in bespoke, contemplative spaces aside from the marketplace, before being collected.
+
+### What is hicetnunc? 
+
+The art platform Hic et nunc takes its name from the Latin phrase meaning “here and now”, and is often abbreviated to ‘HEN’ or ‘H=N’. Created by Rafael Lima, a former social scientist from Brazil, as a “social laboratory” in March 2021, the platform exists as an eco-friendly, artist-friendly alternative to the vastly more expensive and environmentally damaging NFT platforms.
+
+Since launch, HEN has seen an unprecedented growth curve, with more than 300,000 NFT’s listed and more than 10,000 active daily users.
+
+HEN has differentiated itself as a space for art without gatekeepers and welcoming to anyone with the desire to turn their digital artworks into NFT’s in an eco-friendly and affordable way.
+
+This affordability is crucial and profound - the cost of listing an artwork is virtually non-existent. The net result is a huge influx of artists who would ordinarily be limited by the prohibitive cost of creating and selling an NFT on other platforms (this can regularly run into the hundreds of dollars). It has also created a culture of low cost editions being made available to collect for the equivalent of a few dollars only. The effects of such a frictionless and low-cost system are manifold, including:
+
+- access to a large number of international artists, forming a diverse and borderless, multicultural artistic community with a plurality of voice
+- the ability for community events to appear and gain traction with ease, such as OBJKT4OBJKT (free artwork exchanges), charity drives such as Hiceturco (for Turkish wildfire assistance) or local community spotlights such as ‘Greek et Nunc’ or ‘HENBR’ (for the Brazilian community)
+- the ability for artists to collect fellow artists (often for the first time) enabling a mutually supportive, circular economy
+- a rich, artistically experimental environment
