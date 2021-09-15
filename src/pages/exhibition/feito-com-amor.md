@@ -10,4 +10,5 @@ description: >-
   phrase “Made with Love”.
 
   This work was developed during the Formation and Deformation Course, at EAV-Parque Lage. Where we worked during the school term, above questions about transport, food and their crossings."
+objkts: []
 ---
