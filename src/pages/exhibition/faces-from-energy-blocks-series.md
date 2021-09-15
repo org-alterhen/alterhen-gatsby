@@ -22,6 +22,8 @@ objkts:
       GIF Performance
 
       Photo collages with physical sculpture (cement and objects found in the streets) 
+
+      ed. 1
     image: /img/face__55.gif
   - objkt: 219334
     title: Face 56 - E N E R G Y_B L O C K S
@@ -32,6 +34,8 @@ objkts:
       GIF Performance
 
       Photo collages with physical sculpture (cement and objects found in the streets) 
+
+      ed. 11
   - objkt: 223062
     image: /img/face_57.gif
     title: Face 57 - ENERGY_BLOCKS
@@ -41,4 +45,6 @@ objkts:
       GIF Performance
 
       Photo collages with physical sculpture (cement and objects found in the streets)
+
+      ed. 5
 ---
