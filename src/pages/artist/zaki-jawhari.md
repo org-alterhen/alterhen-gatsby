@@ -5,6 +5,7 @@ bio: URBANDRONE is a project of the Greek architect Jawhari Zaki. Since 2007, he
   has explored the complexity of a world in continual movement and
   transformation, deciphering it through art both dark and full of surprises.
 country: France
+profpic: /img/zaki_500c.gif
 title: _Architecture in Motion_
 statement: >-
   Architecture in Motion is a series of experiments around the notion of hybrid
