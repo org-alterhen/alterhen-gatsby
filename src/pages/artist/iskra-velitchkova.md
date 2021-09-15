@@ -5,6 +5,7 @@ bio: Iskra Velitchkova is a Bulgarian multidisciplinary artist exploring the
   interactions between humans and machines in a context of historical and
   autobiographical contemplation.
 country: Bulgaria
+profpic: /img/iskra_500c.gif
 title: Znäk
 statement: Life is not just about digital. I don’t think we should make
   techonology more human, I believe that we have to push technology forward to
