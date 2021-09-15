@@ -2,17 +2,21 @@
 templateKey: artist-post
 name: Andreas Rau
 bio: Andreas Rau is a generative artist and interaction designer exploring the
-  interplay between humans and their digital environments. His work includes
+  interplay between humans and their digital and physical environments in
   kinetic sculptures, plotter drawings, and generative visuals.
-title: Y
+country: Norway
+title: City Scapes
 statement: >-
-  The Y-block was a modernist building by Erling Viksjø, part of the government
-  quarter in Oslo. Although only lightly damaged during the terror attack in
-  2011, the building was recently demolished, despite a heated public
-  controversy.
+  The city, to me, is more than mere physical space. It is, in many ways, an
+  ever-changing system that, just as a generative algorithm, takes on countless
+  different shapes while remaining the same at its core.
 
 
-  I have unfortunately never had the chance to visit the inside of this magnificent synthesis of art and architecture. Thus, I can only imagine—and in my longing create my own interpretations: Inspired by its aesthetics, informed by Viksjø’s philosophy, immortalised on the blockchain.
-featuredimage: /img/home-hero.png
-midbanner: /img/mid-banner.png
+  City Scapes is a series that, through a generative algorithm, explores human perception in the context of the cities we live in. The series is the result of ongoing experimentation inspired by abstract expressionism and the textures of a tapestry.
+featuredimage: /img/_front-page-andreas-rau.png
+midbanner: /img/_banner-andreas-rau.png
+website: https://andreasrau.eu
+hicetnunc: https://www.hicetnunc.xyz/andreasrau/creations
+twitter: https://twitter.com/andreasrau_eu
+instagram: https://www.instagram.com/andreasrau.eu/
 ---
