@@ -108,7 +108,7 @@ export const ArtistPostTemplate = ({
               </div>
               <br/><br/>
               <div>
-                <Link to={`/exhibition/${ title.toLowerCase().replace(/[ |,]/g,'-').replace(/["|']/g,'') }`} className="block-btn">Enter Exhibition</Link>
+                <Link to={`/exhibition/${ title.toLowerCase().replace(/[ ]/g,'-').replace(/["|'|,|_]/g,'') }`} className="block-btn">Enter Exhibition</Link>
                 {/* <ExhibitionLinks posts={[title]}></ExhibitionLinks> */}
               </div>
               <br/><br/><br/>
