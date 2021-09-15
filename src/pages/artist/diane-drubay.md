@@ -5,6 +5,7 @@ bio: Diane Drubay is a visual artist working with photography and digital media
   to create visions of alternative realities. She nudges for more Nature
   awareness and positive change for better futures.
 country: France
+profpic: /img/diane_500c.gif
 title: Nuclei
 statement: >-
   In her most recent body of work, Diane Drubay imagines secluded landscapes in
