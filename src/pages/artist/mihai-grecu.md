@@ -5,6 +5,7 @@ bio: Mihai Grecu is a multimedia artist from Romania investigating environmental
   and technological themes to articulate a complex and mysterious universe of
   moving images and glimpses of an alternate present.
 country: Romania
+profpic: /img/mihai_500c.gif
 title: NeoPyongyang
 statement: NeoPyongyang is a series of dystopian landscapes inspired by the
   capital city of North Korea, one the most secretive places in the world. On
