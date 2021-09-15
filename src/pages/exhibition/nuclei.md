@@ -14,4 +14,45 @@ description: >-
   Deprived of people and calling for the contemplation of a vast and empty landscape, the immersion in this universe is both fascinating and shattering.
 
   Drawn by the aesthetics of social science fiction literature and current scientific discoveries, the speculative visions depicted by Diane Drubay advocate for optimistic images of the future interpreting shocking stories of possible futures."
+objkts:
+  - objkt: 271237
+    title: Nuclei 4
+    desc: >+
+      In a near future, artificial planets will populate our sky to capture the
+      solar energy that we no longer see.
+
+
+      2021
+
+      PNG 2400 x 2400
+
+      ed. 20
+
+    image: /img/drubay_nuclei-4_2021.png
+  - objkt: 260804
+    title: Nuclei 3
+    desc: >-
+      In a near future, artificial planets will populate our sky to capture the
+      solar energy that we no longer see.
+
+
+      2021
+
+      PNG 2400 x 2400 
+
+      ed. 20
+    image: /img/diane-drubay_sq_temp.png
+  - objkt: 275331
+    title: Nuclei 5
+    desc: >-
+      In a near future, artificial planets will populate our sky to capture the
+      solar energy that we no longer see.
+
+
+      2021
+
+      PNG 2400 x 2400 
+
+      ed. 20
+    image: /img/drubay_nuclei-5_2021.png
 ---
