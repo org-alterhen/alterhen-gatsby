@@ -25,23 +25,13 @@ export const ExhibitionPageTemplate = ({
               document.body.classList.add("exhibition")
             }}>
             { objkt.image && (
-              objkt.image.childImageSharp ? (
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: objkt.image,
-                    alt: `${objkt.title} by ${artist}`,
-                  }}
-                  className=""
-                />
-              ) : (
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: objkt.image.publicURL,
-                    alt: `${objkt.title} by ${artist}`,
-                  }}
-                  className=""
-                />
-              )
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: objkt.image.replace('/static/','/'),
+                  alt: `${objkt.title} by ${artist}`,
+                }}
+                className=""
+              />
             ) }
             </button>
           </div>
@@ -86,7 +76,7 @@ ExhibitionPageTemplate.propTypes = {
   description: PropTypes.string,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   artist: PropTypes.string,
-  objkts: PropTypes.object,
+  objkts: PropTypes.array,
 }
 
 const ExhibitionPage = ({ data }) => {
@@ -123,14 +113,7 @@ export const exhibitionPageQuery = graphql`
         objkts {
           title
           desc
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1080, maxHeight: 1080, quality: 95) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
+          image
           objkt
         }
         artist
