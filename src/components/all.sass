@@ -9,6 +9,10 @@ $primary-invert: #ffffff
 $body-color: #000000
 $black: #000000
 
+$border-color: #E5DDDD
+
+$border-1: 1px solid $border-color
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -256,7 +260,7 @@ a
   flex-direction: row;
   height: 100vh;
   flex-wrap: wrap;
-  border-bottom: 2px solid black;
+  border-bottom: $border-1;
 
 .hero-body
   margin-top: 10vh;
@@ -310,14 +314,14 @@ a
 
 .exhibition-page
   .exhibition-page-objkt
-    border-top: 2px solid black
+    border-top: $border-1
     display: flex;
     flex-wrap: wrap;
     min-height: 90vh;
     .exhibition-page-objkt-left
       flex: 3 0 400px;
       padding: 3rem;
-      border-right: 2px solid black;
+      border-right: $border-1;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -349,7 +353,7 @@ a
       border-right: none;
 
 .exhibition-page-bio
-  border-top: 2px solid black;
+  border-top: $border-1;
   padding: 0
   .columns
     margin: 0
@@ -358,3 +362,4 @@ a
 
 .featured-thumbnail img
   display: block
+
