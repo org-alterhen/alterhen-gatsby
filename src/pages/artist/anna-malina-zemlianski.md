@@ -14,7 +14,7 @@ statement: Drawing up shapes, lines & details of a material, a memory, in the
   time, space & material into moments, trapping them into the relentless
   repetition of a gif.
 featuredimage: /img/main_page_anna.gif
-midbanner: /img/banner_anna.gif
+midbanner: /img/banner_anna_optimized.gif
 website: https://www.annamalina.com
 hicetnunc: https://www.hicetnunc.xyz/annaXmalina/creations
 twitter: annaxmalina

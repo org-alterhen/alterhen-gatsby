@@ -11,7 +11,7 @@ statement: NeoPyongyang is a series of dystopian landscapes inspired by the
   capital city of North Korea, one the most secretive places in the world. On
   the brink between documentary and science fiction, these videos are like
   glimpses of an alternative present time.
-featuredimage: /img/main_page_mihai.gif
+featuredimage: /img/main_page_mihai_optimized.gif
 midbanner: /img/banner_mihai.jpg
 website: https://mihaigrecu.net/
 hicetnunc: https://www.hicetnunc.xyz/mihaigrecu/creations
