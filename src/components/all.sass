@@ -84,7 +84,7 @@ $border-1: 1px solid $border-color
 footer.footer
   padding: 0.75rem 3rem
   background-color: transparent
-  border-top: 3px solid black;
+  border-top: $border-1;
   text-align: right;
 
 //Menu overrides
@@ -300,6 +300,8 @@ a
   justify-content: space-between;
   width: 100%;
   margin-top: 1em;
+  .artist-roll-title
+    margin-right: 1rem;
 
 .logo-full
   .logo-icon
@@ -366,3 +368,8 @@ a
 .featured-thumbnail img
   display: block
 
+.artist-post-sidebar
+  border-right: $border-1
+  margin-top: -3rem
+  margin-bottom: -3rem
+  padding: 2rem

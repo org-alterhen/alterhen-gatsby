@@ -54,12 +54,7 @@ export const ArtistPostTemplate = ({
         {helmet || ''}
         <div className="container content">
           <div className="columns" style={{margin: '0'}}>
-            <div className="column is-one-third" style={{
-              borderRight: '2px solid black',
-              marginTop: '-3rem',
-              marginBottom: '-3rem',
-              padding: '2rem'
-            }}>
+            <div className="column is-one-third artist-post-sidebar">
               { profpic && (
                 profpic.childImageSharp ? (
                   <PreviewCompatibleImage
