@@ -9,30 +9,30 @@ description: In search of a void between the hustle and bustle. I’m searching
 objkts:
   - objkt: 291299
     title: Catherine
-    image: https://ipfs.io/ipfs/bafybeifzfmgvyeynrtyhqgcxopj35m4swkj2ajciajnovov3t523v6vv4m
+    image: /img/catherine.jpeg
     desc: |-
       2021
-      JPG 1500x1529
+      JPG 1500 x 1529
       ed, 22
   - objkt: 295284
     title: Stare
     desc: |-
       2021
-      JPG 1250x1524
+      JPG 1250 x 1524
       ed. 20
-    image: https://ipfs.io/ipfs/bafybeih4pmzujurs6lgg67iigi5zdcojraopnqllwkgdl6ipur7k6l5bdq
+    image: /img/stare.jpeg
   - objkt: 295319
     title: Empty Gaze
     desc: |-
       2021
-      JPG 4861x4841
+      JPG 4861 x 4841
       ed. 22
-    image: https://ipfs.io/ipfs/bafybeicok6tsv4jxsc77li243nbyg4bpy5ufof3i7qof3kw3gutvnxqysu
+    image: /img/emptygaze.jpeg
   - objkt: 295338
     title: Rolling
     desc: |-
       2021
-      JPG 1500x1500
+      JPG 1500 x 1500
       ed. 20
-    image: https://ipfs.io/ipfs/bafybeib267rukpme45ijrkl2dujmtamtw3fktnvopqqa2c56ulkf5kn3bq
+    image: /img/rolling.jpeg
 ---
