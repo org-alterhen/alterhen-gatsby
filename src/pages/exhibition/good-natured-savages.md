@@ -12,7 +12,7 @@ description: "In Good-Natured Savages, Patrick re-documents records from the
   \"Every day in the week is receiving day with these good-natured savages.\""
 objkts:
   - objkt: 300070
-    image: https://ipfs.io/ipfs/bafybeicewfiedwmbuvihggk3y3ypov47x66xquq4pu5relyrxauvc44uga
+    image: /img/patrick-jamora-image-4.gif
     title: Good-Natured Savages
     desc: >-
       "Every day in the week is receiving day with these good-natured savages."
@@ -29,11 +29,11 @@ objkts:
 
       2021
 
-      GIF 1920 x 1000 
+      GIF, 168 frames, 1920 x 1000 
 
       ed. 12
   - objkt: 299531
-    image: https://ipfs.io/ipfs/bafybeia57yjte75qezoug26juarzmzrtvybj42m2m7xhanjs44eyta3r74
+    image: /img/patrick-jamora-image-1compressed.gif
     title: On Life
     desc: >-
       "Every day in the week is receiving day with these good-natured savages." 
@@ -46,7 +46,7 @@ objkts:
 
       2021
 
-      GIF
+      GIF, 140 frames, 353 x 500
 
       ed. 10
   - objkt: 296503
@@ -62,12 +62,12 @@ objkts:
 
       2021
 
-      GIF
+      GIF, 83 frames, 1414 x 2000
 
       ed. 20
-    image: https://ipfs.io/ipfs/bafybeidmd3bstu54dz3jtmnjbttycxshgyz2n3rxdwdyeu34zalitzu54y
+    image: /img/patrick-jamora-image-3.gif
   - objkt: 296474
-    image: https://ipfs.io/ipfs/bafybeiekv5do5tqx5hjz7hgj5egcpvi45kn6x7c5uydov2ggqvpe42w2bu
+    image: /img/patrick-jamora-image-2compressed.gif
     title: On Photography
     desc: >-
       "Every day in the week is receiving day with these good-natured savages." 
@@ -79,7 +79,7 @@ objkts:
 
       2021
 
-      GIF
+      GIF, 31 frames, 707 x 1000
 
       ed. 20
 ---
