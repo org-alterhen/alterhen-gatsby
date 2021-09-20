@@ -13,8 +13,8 @@ statement: >-
 
 
   City Scapes is a series that, through a generative algorithm, explores human perception in the context of the cities we live in. The series is the result of ongoing experimentation inspired by abstract expressionism and the textures of a tapestry.
-featuredimage: /img/_front-page-andreas-rau.png
-midbanner: /img/_banner-andreas-rau.png
+featuredimage: https://ucarecdn.com/748d514b-2c35-4872-8653-e15b34a53b1a/
+midbanner: https://ucarecdn.com/9b45eb06-eb69-41f5-8941-36c1d6d36510/
 website: https://andreasrau.eu
 hicetnunc: https://www.hicetnunc.xyz/andreasrau/creations
 twitter: https://twitter.com/andreasrau_eu
