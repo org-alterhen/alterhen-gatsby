@@ -113,7 +113,6 @@ export const exhibitionPageQuery = graphql`
         objkts {
           title
           desc
-          image
           objkt
         }
         artist
