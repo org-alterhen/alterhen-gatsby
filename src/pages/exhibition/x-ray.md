@@ -11,23 +11,26 @@ description: >-
   The first selection from among more than 7000 vet X-ray images assigned to the artist.
 objkts:
   - objkt: 300031
-    image: https://ipfs.io/ipfs/bafybeiaxbf34k7kztfnnet4nkmglskzq3dsmpzxarzkvo7vzyy4ap4nnp4
+    image: /img/x-ray_01.jpg
     title: X-ray 01
     desc: |
       2021
-      JPG 2002x2406 
+      JPG 2002 x 2406 
+      ed. 50
   - objkt: 300018
-    image: https://ipfs.io/ipfs/bafybeifdir6a4pkxmzom7ohfxb3hwhzqvr7gzdpsqrqmvfj6k4gscki6sq
+    image: /img/x-ray_02.jpg
     title: X-ray 02
     desc: |-
-      2021.
-      JPG 2298x2904
+      2021
+      JPG 2298 x 2904
+      ed. 50
   - objkt: 299989
-    image: https://ipfs.io/ipfs/bafybeieadusaepguzmctllp7lqrd7rtwmmrhdxm7u3dxw4g7hi52j7jn6a
+    image: /img/x-ray_03.jpg
     title: X-ray 03
     desc: |
       2021
-      JPG 2337x2960
+      JPG 2337 x 2960
+      ed. 50
   - objkt: 299979
     title: X-ray 04
     desc: |-
