@@ -12,15 +12,17 @@ description: Drawing up shapes, lines & details of a material, a memory, in the
   repetition of a gif.
 objkts:
   - objkt: 299384
-    image: https://ipfs.io/ipfs/bafybeicfzbsgbh7esv3pex72cwm3iu6nd2d3rpzrpfocuohodswfpz6tnu
+    image: /img/299384_c.gif
     title: Approximation and Palpitation
-    desc: |
-      through a vague shape, with a somnambulant sigh 
+    desc: |+
+      Through a vague shape, with a somnambulant sigh 
       2021
       Paper collage, GIMP selection tool 
-      gif
+      GIF, 24 frames, 919 x 662
+      ed. 21
+
   - objkt: 299332
-    image: https://ipfs.io/ipfs/bafybeie53w4wmqes3njfkheu4kv7me2klshkjed7tckhrtadbnqpqcrp4i
+    image: /img/299332_c.gif
     title: Silent Running
     desc: >-
       With soundless footsteps & inaudible breathing, she's evading the grasping
@@ -29,25 +31,35 @@ objkts:
       2021
 
       Found footage, Paper collage animation
+
+      GIF, 82 frames, 621 x 493
+
+      ed. 21
   - objkt: 297312
     title: Stielauge
-    desc: |
+    desc: |-
       Longing telescope eyes conjuring landscapes through their touching gaze.
       2018
-      found footage, pencil on laser prints, digital collage 
-    image: https://ipfs.io/ipfs/bafybeibedsba4eajrqsgsibatal55mht3mzotjpcdgf3y2oux47alwtdwm
+      Found footage, pencil on laser prints, digital collage 
+      GIF, 78 frames, 923 x 692
+      ed. 21
+    image: /img/297312_c.gif
   - objkt: 296725
     title: It Smells Like Rain
     desc: |-
       06 Memories Of Dying
       2021
-      found footage, acrylic on laser prints, GIMP, paper collage animation
-    image: https://ipfs.io/ipfs/bafybeiblyp35hcx5d37k2ecv5l2lwhuhrcwit62axgjkdfzbou3baop77m
+      Found footage, acrylic on laser prints, GIMP, paper collage animation
+      GIF. 14 frames, 1200 x 874
+      ed. 21
+    image: /img/296725_c.gif
   - objkt: 296657
-    image: https://ipfs.io/ipfs/bafybeiednbn3feujjuwrra74sf4sb6lrwpauq5autv74kueay3o2zedq5m
+    image: /img/296657_856_848_9f.gif
     title: Lingering Gaze
     desc: |
       Hovering above eluding shards
       2011, 2015, 2021
-      laser print, scanner, GIMP selection tool
+      Laser print, scanner, GIMP selection tool
+      GIF, 8 frames, 856 x 848
+      ed. 21
 ---
