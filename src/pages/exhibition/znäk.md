@@ -10,26 +10,30 @@ description: Life is not just about digital. I don’t think we should make
 objkts:
   - objkt: 282460
     title: Znäk i
-    desc: |-
+    desc: |
       2021
-      PNG 5000x5000
-    image: https://ipfs.io/ipfs/bafybeigrazpci64n2jkffajadixs4kwahwsxdxtthuanddcycadgli3dby
+      PNG 5000 x 5000
+      ed. 20
+    image: /img/znak-i.jpg
   - objkt: 282474
     title: Znäk ii
     desc: |-
       2021
-      PNG 5000x5000
-    image: https://ipfs.io/ipfs/bafybeibqmv7mppeap6fcwtcjhmw4mhouiyinwadh4y3rx77bzh4klcbmee
+      PNG 5000 x 5000
+      ed. 20
+    image: /img/znak-ii.jpg
   - objkt: 282493
     title: Znäk iii
     desc: |-
       2021
-      PNG 5000x5000 
-    image: https://ipfs.io/ipfs/bafybeidzrtdvhzepj3kglhbydioilaukjmd7zexo5hiyf6taywpzacvine
+      PNG 5000 x 5000 
+      ed. 20
+    image: /img/znak-iii.jpg
   - objkt: 282505
     title: Znäk iv
     desc: |-
       2021
-      PNG 5000x5000
-    image: https://ipfs.io/ipfs/bafybeiaohkpufqd7ggu6isrswvv53gr53mxs3p4rpwncaloz3fei3o4bpm
+      PNG 5000 x 5000
+      ed. 20
+    image: /img/znak-iv.jpg
 ---
