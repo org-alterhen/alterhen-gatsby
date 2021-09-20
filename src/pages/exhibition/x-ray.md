@@ -35,12 +35,14 @@ objkts:
     title: X-ray 04
     desc: |-
       2021
-      JPG 1576x1976
-    image: https://ipfs.io/ipfs/bafybeibndwqq6frn5xzdi224bkrg6vmx7qki4eszvzpjik6lw2qtr4vnii
+      JPG 1576 x 1976
+      ed. 50
+    image: /img/x-ray_04.jpg
   - objkt: 299965
     title: X-ray 05
     desc: |-
       2021
-      JPG 3520x4280
-    image: https://ipfs.io/ipfs/bafybeicouwtlndwkr2vokp25le6knd6b476cjxngucsjavngzawrzrqzgy
+      JPG 3520 x 4280
+      ed. 50
+    image: /img/x-ray_05.jpg
 ---
