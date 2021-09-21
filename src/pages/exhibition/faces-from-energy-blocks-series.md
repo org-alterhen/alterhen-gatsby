@@ -24,10 +24,10 @@ objkts:
       Photo collages with physical sculpture (cement and objects found in the streets) 
 
       ed. 1
-    image: /img/face__55.gif
+    image: https://ucarecdn.com/be737934-2e31-4114-8c6b-e32e9da1fd94/
   - objkt: 219334
     title: Face 56 - E N E R G Y_B L O C K S
-    image: /img/face56.gif
+    image: https://ucarecdn.com/63d92494-a7c2-4fc0-983b-0d37f19487ae/
     desc: >-
       2021
 
@@ -37,7 +37,7 @@ objkts:
 
       ed. 11
   - objkt: 223062
-    image: /img/face_57.gif
+    image: https://ucarecdn.com/f6b0ac1c-725b-4843-8100-c2612a021920/
     title: Face 57 - ENERGY_BLOCKS
     desc: >-
       2021
