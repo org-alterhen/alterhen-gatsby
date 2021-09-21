@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 artist: Andreas Rau
-title: Y
+title: City Scapes
 date: 2021-09-14T13:08:04.516Z
 description: >-
   The Y-block was a modernist building by Erling Viksjø, part of the government
