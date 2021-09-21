@@ -11,21 +11,21 @@ description: >-
   The first selection from among more than 7000 vet X-ray images assigned to the artist.
 objkts:
   - objkt: 300031
-    image: /img/x-ray_01.jpg
+    image: https://ucarecdn.com/7b3a6a38-621b-4ccf-b7e6-b00011f8def0/
     title: X-ray 01
     desc: |
       2021
       JPG 2002 x 2406 
       ed. 50
   - objkt: 300018
-    image: /img/x-ray_02.jpg
+    image: https://ucarecdn.com/5708ce13-d8eb-41e6-85c8-838bb656bd6c/
     title: X-ray 02
     desc: |-
       2021
       JPG 2298 x 2904
       ed. 50
   - objkt: 299989
-    image: /img/x-ray_03.jpg
+    image: https://ucarecdn.com/ec6ff667-c790-491b-b02a-fa9a07819bc2/
     title: X-ray 03
     desc: |
       2021
@@ -37,12 +37,12 @@ objkts:
       2021
       JPG 1576 x 1976
       ed. 50
-    image: /img/x-ray_04.jpg
+    image: https://ucarecdn.com/38734f61-8867-4a59-8ee1-460a943a04eb/
   - objkt: 299965
     title: X-ray 05
     desc: |-
       2021
       JPG 3520 x 4280
       ed. 50
-    image: /img/x-ray_05.jpg
+    image: https://ucarecdn.com/611459fc-9b24-4a78-9801-2206d77cc448/
 ---
