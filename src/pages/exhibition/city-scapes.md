@@ -18,9 +18,9 @@ objkts:
       2020
       PNG · 11220 x 11220
       ed. 20
-    image: /img/1-citycapes390.jpg
+    image: https://ucarecdn.com/7ac16fbe-0ddb-4f06-9adf-27c54f791e90/
   - objkt: 306869
-    image: /img/2-cityscapes217.jpg
+    image: https://ucarecdn.com/55319160-e848-436e-8f2a-316ecec39945/
     title: "City Scapes #217"
     desc: |-
       2020
@@ -32,19 +32,19 @@ objkts:
       2020
       PNG · 11220 x 11220
       ed. 20
-    image: /img/3-cityscapes284.jpg
+    image: https://ucarecdn.com/da522ce4-7cc2-4436-b4f7-a02485d8c6c9/
   - title: "City Scapes #402"
     objkt: 306807
     desc: |-
       2020
       PNG · 11220 x 11220
       ed. 20
-    image: /img/4cityscapes402.jpg
+    image: https://ucarecdn.com/caa310c5-6a59-4e96-befd-923850ea53c2/
   - objkt: 306781
     title: "City Scapes #726"
     desc: |-
       2020
       PNG · 11220 x 11220
       ed. 20
-    image: /img/5cityscapes726.jpg
+    image: https://ucarecdn.com/bfaa58ee-1d03-4b3e-a1f9-25d6952b48b4/
 ---
