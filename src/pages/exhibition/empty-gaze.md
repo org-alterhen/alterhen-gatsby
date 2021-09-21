@@ -9,7 +9,7 @@ description: In search of a void between the hustle and bustle. I’m searching
 objkts:
   - objkt: 291299
     title: Catherine
-    image: /img/catherine.jpeg
+    image: https://ucarecdn.com/28450fcd-48f2-459f-ac40-b11ac7be426c/
     desc: |-
       2021
       JPG 1500 x 1529
@@ -20,19 +20,19 @@ objkts:
       2021
       JPG 1250 x 1524
       ed. 20
-    image: /img/stare.jpeg
+    image: https://ucarecdn.com/779e0fab-c2a6-44c6-bd05-7869a3a4383b/
   - objkt: 295319
     title: Empty Gaze
     desc: |-
       2021
       JPG 4861 x 4841
       ed. 22
-    image: /img/emptygaze.jpeg
+    image: https://ucarecdn.com/7251b38d-9c6f-416e-a854-fca9deadf96e/
   - objkt: 295338
     title: Rolling
     desc: |-
       2021
       JPG 1500 x 1500
       ed. 20
-    image: /img/rolling.jpeg
+    image: https://ucarecdn.com/5386cc41-fbc1-4056-9e00-e88a26443a07/
 ---
