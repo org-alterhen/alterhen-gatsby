@@ -32,23 +32,13 @@ export const ArtistPostTemplate = ({
   return (
     <>
       { midbanner && (
-        midbanner.childImageSharp ? (
-          <PreviewCompatibleImage
-            imageInfo={{
-              image: midbanner,
-              alt: `page break banner by ${name}`,
-            }}
-            className="top-banner breakout-width"
-          />
-        ) : (
-          <PreviewCompatibleImage
-            imageInfo={{
-              image: midbanner.publicURL,
-              alt: `page break banner by ${name}`,
-            }}
-            className="top-banner breakout-width"
-          />
-        )
+        <PreviewCompatibleImage
+          imageInfo={{
+            image: midbanner,
+            alt: `page break banner by ${name}`,
+          }}
+          className="top-banner breakout-width"
+        />
       ) }
       <section className="section">
         {helmet || ''}
@@ -56,23 +46,13 @@ export const ArtistPostTemplate = ({
           <div className="columns" style={{margin: '0'}}>
             <div className="column is-one-third artist-post-sidebar">
               { profpic && (
-                profpic.childImageSharp ? (
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: profpic,
-                      alt: name,
-                    }}
-                    className="artist-profpic"
-                  />
-                ) : (
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: profpic.publicURL,
-                      alt: name,
-                    }}
-                    className="artist-profpic"
-                  />
-                )
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: profpic,
+                    alt: name,
+                  }}
+                  className="artist-profpic"
+                />
               ) }
               <h2 style={{marginTop: 0}} className="is-size-5 has-text-weight-bold">
                 {name}
@@ -194,22 +174,8 @@ export const pageQuery = graphql`
         henlink
         linktree
         statement
-        profpic {
-          childImageSharp {
-            fluid(maxWidth: 600, maxHeight: 1000, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-          publicURL
-        }
-        midbanner {
-          childImageSharp {
-            fluid(maxWidth: 2560, maxHeight: 1000, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-          publicURL
-        }
+        profpic
+        midbanner
       }
     }
   }

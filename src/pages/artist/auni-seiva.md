@@ -16,10 +16,10 @@ statement: >-
   Walter Tada Nomura (mostly known as "Tinho") IG @tinho23sp
 
   Artist/Curator
-featuredimage: /img/main_page_auni.gif
+featuredimage: https://ucarecdn.com/01cfb3fa-9215-4c9a-9c70-b66be7a0aa93/main_page_auni.gif
 hicetnunc: https://www.hicetnunc.xyz/auniseiva/creations
-profpic: /img/500c.gif
-midbanner: /img/banner_auni.png
+profpic: https://ucarecdn.com/4e57f3b2-8f86-4473-a973-a3e6aaca0476/500c.gif
+midbanner: https://ucarecdn.com/a9c5a4b1-24a4-4724-8969-16a3193e0d40/banner_auni.png
 website: https://auniseiva.wordpress.com
 twitter: auniseiva
 instagram: auniseiva

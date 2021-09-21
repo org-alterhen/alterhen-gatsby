@@ -5,7 +5,7 @@ bio: Bjorn Calleja is a Filipino painter and interdisciplinary artist, whose
   works play with the idea of the micro and macro-cosms of humans within and
   against their environments, in an ecological, social, and internal sense.
 country: Philippines
-profpic: /img/bjorn_500c.gif
+profpic: https://ucarecdn.com/ebc60391-d922-43a5-9893-a6da837f570c/bjorn_500c.gif
 title: Two Second Meditations
 statement: By observing a play on scale, my work encourages looking, and then
   looking slowly and deeply, allowing enough breathing space for meaning to
@@ -23,8 +23,8 @@ statement: By observing a play on scale, my work encourages looking, and then
   the cultural landscape. My work is my reﬂection and response to the world, it
   examines how we humans, through all our advancements and destructions caused,
   are responsible in shaping the bigger image which is this plane we inhabit.
-featuredimage: /img/main_page_bjorn.jpg
-midbanner: /img/banner_bjorn1.jpg
+featuredimage: https://ucarecdn.com/b89187bf-f921-436c-9a46-554435170457/main_page_bjorn.jpg
+midbanner: https://ucarecdn.com/d8eab3a4-c4c4-44df-b83e-c69d205e18a1/banner_bjorn1.jpg
 website: https://www.bjorncalleja.weebly.com
 hicetnunc: https://www.hicetnunc.xyz/bjorncalleja/creations
 twitter: bjorncalleja

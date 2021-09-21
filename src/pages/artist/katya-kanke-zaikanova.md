@@ -9,8 +9,8 @@ title: Empty Gaze
 statement: In search of a void between the hustle and bustle. I’m searching for
   islands of clear moments, staring nowhere. I find myself just being here again
   through the void.
-featuredimage: /img/main_page_katya.jpg
-midbanner: /img/banner_katya.jpg
+featuredimage: https://ucarecdn.com/6b44ea98-2c49-4bf3-a2a3-fec43d728684/main_page_katya.jpg
+midbanner: https://ucarecdn.com/7b1e9cb5-cec7-4268-ad0e-3edc2a15cc2b/banner_katya.jpg
 website: https://Katyakanke.com
 hicetnunc: https://www.hicetnunc.xyz/katyakanke/creations
 twitter: katyakanke

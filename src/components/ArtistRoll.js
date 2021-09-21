@@ -78,14 +78,7 @@ export default () => (
                 name
                 title
                 templateKey
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 599, maxHeight: 475, quality: 95) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                  publicURL
-                }
+                featuredimage
               }
             }
           }
