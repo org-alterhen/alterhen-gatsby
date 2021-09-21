@@ -22,7 +22,7 @@ objkts:
       ed. 21
 
   - objkt: 299332
-    image: /img/299332_c.gif
+    image: https://ucarecdn.com/b756afc4-ad0b-4846-8ff9-6c20ba074a61/
     title: Silent Running
     desc: >-
       With soundless footsteps & inaudible breathing, she's evading the grasping
