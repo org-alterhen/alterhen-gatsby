@@ -33,7 +33,7 @@ objkts:
       ed. 21
 
 
-    image: /img/wilyguys_alterhen_milk-as-balm.jpg
+    image: https://ucarecdn.com/19755b45-55bf-4b39-9a69-b1d6d5820f28/
   - objkt: 301138
     desc: >-
       They want our silence....
@@ -57,7 +57,7 @@ objkts:
 
       ed. 20
     title: Cloaked
-    image: /img/wilyguys_alterhen_cloaked.jpg
+    image: https://ucarecdn.com/9b6b707a-1444-46fe-9570-0ed6e8e0ad74/
   - objkt: 301245
     title: 2 Guns vs the Bear
     desc: >
@@ -79,5 +79,5 @@ objkts:
       JPG 16000 x 11200 
 
       ed. 20
-    image: /img/wilyguys_alterhen_2-guns-vs-the-bear.jpg
+    image: https://ucarecdn.com/6899099e-59f3-45cb-b38e-52b0f8d64dbf/
 ---
