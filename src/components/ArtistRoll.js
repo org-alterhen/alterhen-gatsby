@@ -8,6 +8,15 @@ class ArtistRoll extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+    const transformImg = (img) => {
+      if (img.includes('.gif')) return img
+      return (
+        img.substr(0,58) + '-/scale_crop/599x475' + img.substr(57,999)
+      )
+    }
+
+
+
     return (
       <div className="columns is-multiline">
         {posts &&
@@ -17,21 +26,12 @@ class ArtistRoll extends React.Component {
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
                     {
-                      post.frontmatter.featuredimage.childImageSharp ? (
-                        <PreviewCompatibleImage
-                          imageInfo={{
-                            image: post.frontmatter.featuredimage,
-                            alt: `featured artwork for ${post.frontmatter.name} - ${post.frontmatter.title}`,
-                          }}
-                        />
-                      ) : (
-                        <PreviewCompatibleImage
-                          imageInfo={{
-                            image: post.frontmatter.featuredimage.publicURL,
-                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                          }}
-                        />
-                      )
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: transformImg(post.frontmatter.featuredimage),
+                          alt: `featured artwork for ${post.frontmatter.name} - ${post.frontmatter.title}`,
+                        }}
+                      />
                     }
                   </div>
                 ) : null}
