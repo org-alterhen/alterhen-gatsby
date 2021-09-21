@@ -8,6 +8,14 @@ import Exhibition from '../components/Exhibition'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 // import SocialLinks from '../components/SocialLinks'
 
+
+const transformImg = (img) => {
+  if (img.includes('.gif')) return img
+  return (
+    img.substr(0,58) + '-/preview/1920x1080' + img.substr(57,999)
+  )
+}
+
 export const ExhibitionPageTemplate = ({
   title,
   artist,
@@ -27,7 +35,7 @@ export const ExhibitionPageTemplate = ({
             { objkt.image && (
               <PreviewCompatibleImage
                 imageInfo={{
-                  image: objkt.image.replace('/static/','/'),
+                  image: transformImg(objkt.image),
                   alt: `${objkt.title} by ${artist}`,
                 }}
                 className=""
@@ -113,6 +121,7 @@ export const exhibitionPageQuery = graphql`
         objkts {
           title
           desc
+          image
           objkt
         }
         artist
