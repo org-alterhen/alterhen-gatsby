@@ -28,7 +28,7 @@ objkts:
 
       ed. 20
 
-    image: /img/drubay_nuclei-4_2021.png
+    image: https://ucarecdn.com/7b601e1c-6526-43d9-bdb4-8d3fe29db679/
   - objkt: 260804
     title: Nuclei 3
     desc: >-
@@ -41,7 +41,7 @@ objkts:
       PNG 2400 x 2400 
 
       ed. 20
-    image: /img/diane-drubay_sq_temp.png
+    image: https://ucarecdn.com/9525de78-32b4-46b3-8c6b-eb6d424e9088/
   - objkt: 275331
     title: Nuclei 5
     desc: >-
@@ -54,5 +54,5 @@ objkts:
       PNG 2400 x 2400 
 
       ed. 20
-    image: /img/drubay_nuclei-5_2021.png
+    image: https://ucarecdn.com/27bf2f70-2d52-4198-9757-490d7c07aa1f/
 ---
