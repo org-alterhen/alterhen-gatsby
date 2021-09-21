@@ -10,6 +10,7 @@ class ArtistRoll extends React.Component {
 
     const transformImg = (img) => {
       if (img.includes('.gif')) return img
+      if (!img.includes('ucarecdn')) return img
       return (
         img.substr(0,58) + '-/scale_crop/599x475' + img.substr(57,999)
       )
