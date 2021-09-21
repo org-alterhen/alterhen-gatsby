@@ -24,19 +24,19 @@ objkts:
       2021
       JPG 1080 x 1920
       ed.
-    image: /img/magheart2k.jpg
+    image: https://ucarecdn.com/b4af129a-80a7-456d-bc05-23345b2c633d/
   - objkt: 0
     title: "Intrabeing: Magnetic Feet"
     desc: |-
       2021
       JPG 1080 x 1920
       ed.
-    image: /img/magfeet-2k.jpg
+    image: https://ucarecdn.com/63be6229-ea35-475c-9195-1901eecf2950/
   - objkt: 0
     title: "Intrabeing: Magnetic Vag & Ovaries"
     desc: |-
       2021
       JPG 1080 x 1920
       ed.
-    image: /img/magvag2k.jpg
+    image: https://ucarecdn.com/8b5cad8e-aca4-4c12-a36e-e47ed1ccb996/
 ---

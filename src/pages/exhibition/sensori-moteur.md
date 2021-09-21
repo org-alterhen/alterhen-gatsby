@@ -10,7 +10,7 @@ description: With sensori-moteur Laurent La Torpille continues his exploration
   tools which have continued to evolve.
 objkts:
   - objkt: 330106
-    image: /img/n_rayssculpt_alterhen_-1.jpg
+    image: https://ucarecdn.com/4ed6a36f-e69d-4516-a5ec-c7b9aaa6ba91/
     title: N_RAYSSCULPT_alterHEN_#1
     desc: |-
       Inspired by sculpture and painting. I knead the pixels. 
@@ -26,9 +26,9 @@ objkts:
       2021
       PNG 2000 x 2000
       ed. 8
-    image: /img/n_rayssculpt_alterhen_-2.jpg
+    image: https://ucarecdn.com/00f87285-e053-4923-8f0e-648aa876822c/
   - objkt: 330135
-    image: /img/n_rayssculpt_alterhen_-3.jpg
+    image: https://ucarecdn.com/46ca489b-0441-49e1-a845-4fc568ad56d4/
     title: N_RAYSSCULPT_alterHEN_#3
     desc: |-
       Inspired by sculpture and painting. I knead the pixels.
@@ -37,7 +37,7 @@ objkts:
       PNG 2000 x 2000
       ed. 10
   - objkt: 330019
-    image: /img/in-the-lines_alterhen_-1.jpg
+    image: https://ucarecdn.com/321a26b6-1bf3-4634-b44d-ad14eac02a62/
     title: in the lines_alterHEN_#1
     desc: >-
       Inspired by photography and printmaking, I use my photographs or old
@@ -58,6 +58,6 @@ objkts:
       2021
 
       PNG 3888 x 5184
-    image: /img/in-the-lines_alterhen_-2.jpg
+    image: https://ucarecdn.com/be13979c-77ce-483e-8946-634904368f94/
     objkt: 330047
 ---

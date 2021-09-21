@@ -12,7 +12,7 @@ description: "In Good-Natured Savages, Patrick re-documents records from the
   \"Every day in the week is receiving day with these good-natured savages.\""
 objkts:
   - objkt: 300070
-    image: /img/patrick-jamora-image-4.gif
+    image: https://ucarecdn.com/0b79ec8a-77f6-47dc-9c88-6adf0b1b8f65/
     title: Good-Natured Savages
     desc: >-
       "Every day in the week is receiving day with these good-natured savages."
@@ -33,7 +33,7 @@ objkts:
 
       ed. 12
   - objkt: 299531
-    image: /img/patrick-jamora-image-1compressed.gif
+    image: https://ucarecdn.com/5fe565de-b002-40e1-85dc-798a4022f6f3/
     title: On Life
     desc: >-
       "Every day in the week is receiving day with these good-natured savages." 
@@ -65,9 +65,9 @@ objkts:
       GIF, 83 frames, 1414 x 2000
 
       ed. 20
-    image: /img/patrick-jamora-image-3.gif
+    image: https://ucarecdn.com/8c22a355-61a8-4904-9400-3dc1ea7977c6/
   - objkt: 296474
-    image: /img/patrick-jamora-image-2compressed.gif
+    image: https://ucarecdn.com/4ed58937-efb0-4ea8-812e-f2c7da8f8d74/
     title: On Photography
     desc: >-
       "Every day in the week is receiving day with these good-natured savages." 

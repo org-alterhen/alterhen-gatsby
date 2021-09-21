@@ -10,7 +10,7 @@ description: >
   The construction of a digital landscape fed by a multitude of data organized and processed by the machine according to a series of simple and repetitive rules. This procedural approach generates spaces and abstract architectures, the start of a new digital exploration. 
 objkts:
   - objkt: 236967
-    image: /img/casablanca_focus_3a.jpg
+    image: https://ucarecdn.com/7e1a88c7-b48d-4511-8c46-6cfb69af36f9/
     title: Casablanca_Focus_3
     desc: |-
       2021
@@ -22,9 +22,9 @@ objkts:
       2021
       PNG 1024 x 1024
       ed. 5
-    image: /img/accumulation001a.png
+    image: https://ucarecdn.com/c4da4fd1-df98-494c-81ee-fac49b2a78fe/
   - objkt: 212368
-    image: /img/resillea.png
+    image: https://ucarecdn.com/e29e8629-0470-4420-9572-c1d1af6c280a/
     title: Resille
     desc: |-
       2021
@@ -32,7 +32,7 @@ objkts:
       ed. 1
   - objkt: 212368
     title: Coral
-    image: /img/corala.png
+    image: https://ucarecdn.com/d3ebf243-ea2f-46f2-aa93-dfc45239a2d9/
     desc: |-
       2021
       PNG 3840 x 2160
