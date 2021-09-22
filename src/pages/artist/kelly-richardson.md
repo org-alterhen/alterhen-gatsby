@@ -14,7 +14,7 @@ statement: >-
 
   HALO references the significant feedback loop we are in after decades of warnings. BC is set to have the 3rd worst fire season on record, all of which occurred within the last 5 years. Simultaneously, the UN declared that it is code red for humanity as a result of climate change.
 featuredimage: https://ucarecdn.com/5afc2103-eb2c-4316-a2b2-93c2940a8aa7/
-midbanner: https://ucarecdn.com/64d74642-6844-4e9d-98ad-1bab9e193003/
+midbanner: https://ucarecdn.com/fa6e355a-6944-4fc3-8775-b28273741035/
 website: https://kellyrichardson.net/
 hicetnunc: https://www.hicetnunc.xyz/KellyRichardson/creations
 twitter: https://twitter.com/richardsonkelly
