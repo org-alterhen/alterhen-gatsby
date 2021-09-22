@@ -1,14 +1,14 @@
 ---
 templateKey: artist-post
-name: David Pettersson
-bio: David Pettersson, also known as SOMATIC BITS, is a digital artist working
-  on interactive, immersive and generative artworks, aiming to represent a
-  complex inner world of altered realities.
+name: SOMATICBITS
+bio: SOMATICBITS is a digital artist working on interactive, immersive and
+  generative artworks, aiming to represent a complex inner world of altered
+  realities.
 country: Germany
 profpic: https://ucarecdn.com/133a2245-75b1-4de6-81c6-29f12c2a5324/david_500c.gif
 title: Shine
 statement: >-
-  SOMATIC BITS shares a vision of how photons could interact in a different
+  SOMATICBITS shares a vision of how photons could interact in a different
   environment. 
 
   Interacting and creating new combinations of colors and light, shining through the spatial vacuum.
