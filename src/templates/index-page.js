@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
         <iframe title="homepage animation" style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
       </div>
     </div>
-    <section className="section section--gradient">
+    <section className="section tint-pink">
       <div className="container">
         <div className="section">
           <div className="columns">
