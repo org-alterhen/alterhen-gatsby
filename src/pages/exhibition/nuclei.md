@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 artist: Diane Drubay
-title: Ignis
+title: Ignis - 14 sec towards carbon neutrality or the point of no return
 date: 2021-09-14T13:18:47.577Z
 description: >-
   "Diane Drubay is a visual artist working with photographs and videos to create
