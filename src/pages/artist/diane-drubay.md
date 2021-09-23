@@ -8,7 +8,7 @@ country: France
 profpic: https://ucarecdn.com/21b2783b-f1bf-4965-a685-ed2befb3b5d3/diane_500c.gif
 title: Ignis
 statement: >-
-  14 sec towards a point of no return or towards carbon neutrality
+  14 sec towards carbon neutrality or the point of no return 
 
 
   With this new series, Diane Drubay plays with colour-psychology to create an immersion both fascinating and shattering. She takes the viewer into an idealized vision of a world where all the colours of the spectrum cover the sky, creating a subjugating sense of calm. In this piece, seconds become years. Gradually this mesmerizing world is being transformed into a darker, but equally fascinating vision. 14 seconds to go from ecstasy to agony. 14 years to reach carbon neutrality or the point of no return.
