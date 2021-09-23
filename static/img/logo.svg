@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165" viewBox="0 0 165 165" fill="none">
-<path d="M1.19209e-06 0H28.1698V164.361H1.19209e-06V0Z" fill="black"/>
-<path d="M17.7068 23.6694L39.1127 5.3384L159.19 145.852L137.784 164.183L17.7068 23.6694Z" fill="black"/>
-<path d="M164.19 0V28.1992L0 28.1992L1.19209e-06 0H164.19Z" fill="black"/>
-<path d="M164.19 64.4554V92.6546L0 92.6546L1.19209e-06 64.4554L164.19 64.4554Z" fill="black"/>
-<path d="M164.19 136.162V164.361H1.19209e-06V136.162L164.19 136.162Z" fill="black"/>
-<path d="M136.02 0H164.19V164.361H136.02V0Z" fill="black"/>
+<svg width="272" height="272" viewBox="0 0 272 272" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="6.10352e-05" width="46.6667" height="272" rx="6" fill="currentColor"/>
+<rect x="29.335" y="39.1686" width="46.6667" height="306.01" rx="6" transform="rotate(-40.5456 29.335 39.1686)" fill="currentColor"/>
+<rect x="272" width="46.6667" height="272" rx="6" transform="rotate(90 272 0)" fill="currentColor"/>
+<rect x="272" y="106.665" width="46.6667" height="272" rx="6" transform="rotate(90 272 106.665)" fill="currentColor"/>
+<rect x="272" y="225.333" width="46.6667" height="272" rx="6" transform="rotate(90 272 225.333)" fill="currentColor"/>
+<rect x="225.333" width="46.6667" height="272" rx="6" fill="currentColor"/>
 </svg>

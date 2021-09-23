@@ -40,7 +40,7 @@ export const ArtistPostTemplate = ({
           className="top-banner breakout-width"
         />
       ) }
-      <section className="section">
+      <section className="section artist-post">
         {helmet || ''}
         <div className="container content">
           <div className="columns" style={{margin: '0'}}>
@@ -74,13 +74,11 @@ export const ArtistPostTemplate = ({
               <p style={{whiteSpace: 'pre-wrap'}}>{bio}</p>
             </div>
             
-            <div className="column is-two-thirds" style={{paddingLeft: '2rem'}}>
+            <div className="column is-two-thirds">
               <div className="exhibition__title">
                 <h1>{title}</h1>
               </div>
-              <div className="exhibition__description">
-              <p style={{whiteSpace: 'pre-wrap'}}>{statement}</p>
-              </div>
+              <p className="exhibition__description">{statement}</p>
               <br/><br/>
               <div>
                 <Link to={`/exhibition/${ title.toLowerCase().replace(/[ ]/g,'-').replace(/["|'|,|_]/g,'') }`} className="block-btn">Enter Exhibition</Link>

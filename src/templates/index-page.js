@@ -12,17 +12,19 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="homepage">
     <div style={{padding: "2vw 4vw", position: 'absolute', top: '0', left: '0', right: '0', zIndex: '1'}}>
-      <LogoText/>
-      <div className="basic-header__icon"><LogoIcon/></div>
+      <LogoText className="logo-white"/>
+      <div className="basic-header__icon"><LogoIcon className="logo-white"/></div>
     </div>
     <div className="hero">
       <div className="hero-body">
-        <LogoIcon/>
+        <LogoIcon className="logo-white"/>
+      </div>
+      <div className="hero-body">
         <HTMLContent content={content} className="artist-post-content"/>
         <Link to="/about" className="read-more">Read More ⯈</Link>
       </div>
       <div className="hero-image" style={{ backgroundImage: 'url(../img/home-hero.png)' }}>
-
+        <iframe style="width:100%;height:100%;border:0px;" src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
       </div>
     </div>
     <section className="section section--gradient">
@@ -35,7 +37,7 @@ export const IndexPageTemplate = ({
                   {/* <h3 className="side-title">
                     ARTISTS
                   </h3> */}
-                  <h2>EXHIBITIONS</h2>
+                  <h2>EXHIB\TIONS</h2>
                   <ArtistRoll />
                 </div>
               </div>

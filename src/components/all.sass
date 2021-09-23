@@ -121,7 +121,8 @@ $menu-label-color: $primary
 .artist-list-item header
   display: flex;
   margin-bottom: 1em;
-  border: 1px solid black;
+  border: 1px solid #F9F3F3;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.03);
   padding: 1rem;
   p
     margin: 0
@@ -169,6 +170,7 @@ a
     line-height: 33px;
     letter-spacing: -0.015em;
     text-align: left;
+
   
 .logo-white 
   color: white;
@@ -261,26 +263,31 @@ a
   height: 100vh;
   flex-wrap: wrap;
   border-bottom: $border-1;
+  position: relative
 
 .hero-body
-  margin-top: 10vh;
   font-size: 18px;
   letter-spacing: 0.025em;
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
-  margin-bottom: 10vh;
   justify-content: space-evenly;
-  flex: 300px 1 1
+  flex: 1 0 300px
+  color: white;
+  a
+    color: white;
 
 .hero-image
-  bottom: 2px;
-  position: relative;
-  flex: 2 2 300px;
+  position: absolute;
+  flex: 0;
   background-size: cover;
-  height: 100vh;
-  bottom: 2px;
-  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: brightness(0.6)
+
 
 
 .read-more
@@ -309,10 +316,14 @@ a
     height: 126px
   .logo-text
     display: block;
+    width: auto;
     color: black;
     font-size: 28px
     .logo-text-HEN
       font-size: 28px
+
+.has-text-centered .logo-text
+    text-align: center;
 
 .exhibition-page
   .exhibition-page-objkt
@@ -349,6 +360,9 @@ a
     img 
       max-height: 70vh
 
+.exhibition__description
+  white-space: pre-wrap 
+  font-size: 24px
       
 @media screen and ( max-width: 767px )
   .exhibition-page .exhibition-page-objkt
@@ -370,6 +384,20 @@ a
 
 .artist-post-sidebar
   border-right: $border-1
-  margin-top: -3rem
-  margin-bottom: -3rem
+  // margin-top: -3rem
+  // margin-bottom: -3rem
   padding: 2rem
+
+
+.artist-post .column
+  display: flex
+  flex-direction: column
+  justify-content: center
+  &.is-two-thirds
+    padding-left: 2em
+
+@media screen and ( min-width: 1000px )
+  .artist-post .column
+    padding: 5em
+    &.is-two-thirds
+      padding-left: 5em

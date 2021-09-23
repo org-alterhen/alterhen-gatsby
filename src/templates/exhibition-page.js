@@ -13,10 +13,10 @@ const transformImg = (img) => {
   return img // no optimization for now, just return the img
 
   // gifs aren't being saved to CMS with file extension so below check doesn't work
-  if (img.includes('.gif')) return img
-  return (
-    img.substr(0,58) + '-/preview/1920x1080' + img.substr(57,999)
-  )
+  // if (img.includes('.gif')) return img
+  // return (
+  //   img.substr(0,58) + '-/preview/1920x1080' + img.substr(57,999)
+  // )
 }
 
 export const ExhibitionPageTemplate = ({

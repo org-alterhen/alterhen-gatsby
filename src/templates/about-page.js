@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Logo from '../components/Logo'
+import BasicHeader from '../components/BasicHeader'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -14,7 +15,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h1 className="title is-size-3 has-text-weight-bold is-bold-light has-text-centered">
                 <Logo/>
               </h1>
               <PageContent className="content" content={content} />
@@ -37,6 +38,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
+      <BasicHeader/>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
