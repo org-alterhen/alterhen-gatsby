@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
         <HTMLContent content={content} className="artist-post-content"/>
         <Link to="/about" className="read-more">Read More ⯈</Link>
       </div>
-      <div className="hero-image" style={{ backgroundImage: 'url(../img/home-hero.png)' }}>
+      <div className="hero-image" style={{ background: 'black' }}>
         <iframe title="homepage animation" style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
       </div>
     </div>
