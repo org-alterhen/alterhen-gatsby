@@ -276,12 +276,14 @@ a
   justify-content: center;
   flex: 1 0 300px
   color: white;
-  .hero-body-left 
+  &.hero-body-left 
     max-width: 400px
-  .hero-body-right
+  &.hero-body-right
     max-width: 800px
   a
     color: white;
+  p
+    margin: 1em 0
 
 .hero-image
   position: absolute;
@@ -294,8 +296,9 @@ a
   right: 0;
   z-index: -1;
   overflow: hidden;
+  filter: brightness(0.5) 
   iframe 
-    filter: brightness(0.5) better-blur(5px);
+    @include better-blur(5px);
 
 
 

@@ -24,7 +24,7 @@ export const IndexPageTemplate = ({
         <Link to="/about" className="read-more">Read More ⯈</Link>
       </div>
       <div className="hero-image" style={{ backgroundImage: 'url(../img/home-hero.png)' }}>
-        <iframe style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
+        <iframe title="homepage animation" style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
       </div>
     </div>
     <section className="section section--gradient">
