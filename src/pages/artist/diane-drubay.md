@@ -11,10 +11,10 @@ statement: >-
   14 sec towards carbon neutrality or the point of no return 
 
 
-  With this new series, Diane Drubay plays with colour-psychology to create an immersion both fascinating and shattering. She takes the viewer into an idealized vision of a world where interference colours cover the sky, creating a subjugating sense of calm. In this piece, seconds become years. Gradually this mesmerizing world is being transformed into a darker, but equally fascinating vision. 14 seconds to go from ecstasy to agony. 14 years to reach carbon neutrality or the point of no return.
+  With this new series, Diane Drubay plays with colour-psychology to create an immersion that is both fascinating and shattering. She takes the viewer into an idealized vision of a world where interference colours cover the sky, creating a subjugating sense of calm. In this piece, seconds become years. Gradually this mesmerizing world is being transformed into a darker, but equally fascinating vision. 14 seconds to go from ecstasy to agony. 14 years to reach carbon neutrality or the point of no return.
 
 
-  Drawn by the aesthetics of social science fiction literature and current scientific discoveries, the speculative visions depicted by Diane Drubay advocate for optimistic images interpreting shocking stories of possible futures.
+  Her speculative visions are drawn by the aesthetics of social science fiction literature and current climate science discoveries. She advocates for optimistic images interpreting shocking stories of possible futures.
 featuredimage: https://ucarecdn.com/aed379c4-ad79-4bc4-afed-448821a33c48/
 midbanner: https://ucarecdn.com/9fd35af7-059b-4be6-800d-0d7209be7b4c/
 website: https://dianedrubay.com/art
