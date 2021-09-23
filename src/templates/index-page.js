@@ -16,15 +16,15 @@ export const IndexPageTemplate = ({
       <div className="basic-header__icon"><LogoIcon className="logo-white"/></div>
     </div>
     <div className="hero">
-      <div className="hero-body">
+      <div className="hero-body hero-body-left">
         <LogoIcon className="logo-white"/>
       </div>
-      <div className="hero-body">
+      <div className="hero-body hero-body-right">
         <HTMLContent content={content} className="artist-post-content"/>
         <Link to="/about" className="read-more">Read More ⯈</Link>
       </div>
       <div className="hero-image" style={{ backgroundImage: 'url(../img/home-hero.png)' }}>
-        <iframe style="width:100%;height:100%;border:0px;" src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
+        <iframe style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
       </div>
     </div>
     <section className="section section--gradient">
