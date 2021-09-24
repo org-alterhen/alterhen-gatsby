@@ -40,7 +40,6 @@ collections:
       - {label: "Tumblr", name: "tumblr", widget: "string", required: false}
       - {label: "Linktree", name: "linktree", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
-      # - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "exhibition"
     label: "Exhibitions"
@@ -62,6 +61,7 @@ collections:
           - {label: "Image", name: "image", widget: image}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "desc", widget: "text"}
+      - {label: "Long Bio", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"
