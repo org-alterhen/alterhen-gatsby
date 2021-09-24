@@ -17,44 +17,72 @@ description: >-
 
   Since 2019, she is exploring natural glitches and how they impact our vision of landscapes and our imagination of the future."
 objkts:
-  - objkt: 271237
-    title: Nuclei 4
-    desc: >+
-      In a near future, artificial planets will populate our sky to capture the
-      solar energy that we no longer see.
-
-
-      2021
-
-      PNG 2400 x 2400
-
-      ed. 20
-
-    image: https://ucarecdn.com/7b601e1c-6526-43d9-bdb4-8d3fe29db679/
-  - objkt: 260804
-    title: Nuclei 3
+  - objkt: 350815
+    title: Ignis I - 14 sec towards carbon neutrality or the point of no return
     desc: >-
-      In a near future, artificial planets will populate our sky to capture the
-      solar energy that we no longer see.
+      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
+      reach carbon neutrality or the point of no return. This piece plays with
+      colour-psychology to create an immersion that draws two possible futures,
+      both fascinating and shattering.
 
 
       2021
 
-      PNG 2400 x 2400 
+      one channel full HD color video
 
-      ed. 20
-    image: https://ucarecdn.com/9525de78-32b4-46b3-8c6b-eb6d424e9088/
-  - objkt: 275331
-    title: Nuclei 5
+      MOV 1920x1080
+
+      ed. 25
+    image: https://ucarecdn.com/6b933eb4-619d-41ec-85a0-a53761e1202d/
+  - objkt: 350826
+    title: Ignis II - 14 sec towards carbon neutrality or the point of no return
     desc: >-
-      In a near future, artificial planets will populate our sky to capture the
-      solar energy that we no longer see.
+      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
+      reach carbon neutrality or the point of no return. This piece plays with
+      colour-psychology to create an immersion that draws two possible futures,
+      both fascinating and shattering.
 
 
       2021
 
-      PNG 2400 x 2400 
+      one channel full HD color video
 
-      ed. 20
-    image: https://ucarecdn.com/27bf2f70-2d52-4198-9757-490d7c07aa1f/
+      MOV 1920x1080
+
+      ed. 25
+    image: https://ucarecdn.com/576128b2-5452-4a36-8e3f-7f08212c73cb/
+  - objkt: 350839
+    title: Ignis III - 14 sec towards carbon neutrality or the point of no return
+    desc: >-
+      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
+      reach carbon neutrality or the point of no return. This piece plays with
+      colour-psychology to create an immersion that draws two possible futures,
+      both fascinating and shattering.
+
+
+      2021
+
+      one channel full HD color video
+
+      MOV 1920x1080
+
+      ed. 25
+    image: https://ucarecdn.com/792a9c0a-3986-40ab-83b9-9fa271eb24bc/
+  - title: Ignis IV - 14 sec towards carbon neutrality or the point of no return
+    desc: >-
+      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
+      reach carbon neutrality or the point of no return. This piece plays with
+      colour-psychology to create an immersion that draws two possible futures,
+      both fascinating and shattering.
+
+
+      2021
+
+      one channel full HD color video
+
+      MOV 1920x1080
+
+      ed. 25
+    objkt: 350864
+    image: https://ucarecdn.com/6547f6b8-ccd8-4a9b-803f-5455ce1d599f/
 ---
