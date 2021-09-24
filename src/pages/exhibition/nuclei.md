@@ -20,10 +20,10 @@ objkts:
   - objkt: 350815
     title: Ignis I - 14 sec towards carbon neutrality or the point of no return
     desc: >-
-      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
-      reach carbon neutrality or the point of no return. This piece plays with
-      colour-psychology to create an immersion that draws two possible futures,
-      both fascinating and shattering.
+      Seconds become years. 14 seconds to experience the metamorphosis of utopia
+      into dystopia. 14 years to reach carbon neutrality or the point of no
+      return. This piece plays with colour-psychology to create an immersion
+      that draws two possible futures, both fascinating and shattering.
 
 
       2021
@@ -37,10 +37,10 @@ objkts:
   - objkt: 350826
     title: Ignis II - 14 sec towards carbon neutrality or the point of no return
     desc: >-
-      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
-      reach carbon neutrality or the point of no return. This piece plays with
-      colour-psychology to create an immersion that draws two possible futures,
-      both fascinating and shattering.
+      Seconds become years. 14 seconds to experience the metamorphosis of utopia
+      into dystopia. 14 years to reach carbon neutrality or the point of no
+      return. This piece plays with colour-psychology to create an immersion
+      that draws two possible futures, both fascinating and shattering.
 
 
       2021
@@ -54,10 +54,10 @@ objkts:
   - objkt: 350839
     title: Ignis III - 14 sec towards carbon neutrality or the point of no return
     desc: >-
-      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
-      reach carbon neutrality or the point of no return. This piece plays with
-      colour-psychology to create an immersion that draws two possible futures,
-      both fascinating and shattering.
+      Seconds become years. 14 seconds to experience the metamorphosis of utopia
+      into dystopia. 14 years to reach carbon neutrality or the point of no
+      return. This piece plays with colour-psychology to create an immersion
+      that draws two possible futures, both fascinating and shattering.
 
 
       2021
@@ -70,10 +70,10 @@ objkts:
     image: https://ucarecdn.com/792a9c0a-3986-40ab-83b9-9fa271eb24bc/
   - title: Ignis IV - 14 sec towards carbon neutrality or the point of no return
     desc: >-
-      Seconds become years. 14 seconds to go from ecstasy to agony. 14 years to
-      reach carbon neutrality or the point of no return. This piece plays with
-      colour-psychology to create an immersion that draws two possible futures,
-      both fascinating and shattering.
+      Seconds become years. 14 seconds to experience the metamorphosis of utopia
+      into dystopia. 14 years to reach carbon neutrality or the point of no
+      return. This piece plays with colour-psychology to create an immersion
+      that draws two possible futures, both fascinating and shattering.
 
 
       2021
