@@ -36,3 +36,6 @@ objkts:
       ed. 20
     image: https://ucarecdn.com/5386cc41-fbc1-4056-9e00-e88a26443a07/
 ---
+Katya Kanke-Zaikanova is Russian artist, born in 1985. 
+
+She started her career as a photographer in 2000. Later studied contemporary dance and performance art. Works with photography, performance art, creates videos and drawings. Her art practices mostly is about women being, existentional problems, maternity, and woman gaze to reality.
