@@ -46,3 +46,6 @@ objkts:
       ed. 50
     image: https://ucarecdn.com/611459fc-9b24-4a78-9801-2206d77cc448/
 ---
+Iñigo Bilbao Oviedo, Spain. 1975. Digital Artist specialized in 3D scanning and medical imaging. 
+
+He works with X-ray machines, CT and MRI scanners ("CT Scans", 2010), laser scanners ("Memory Lane", 2015-2019, and "Junkyard", 2019) and photogrammetry or 3D scanning from photographs ("Void", 2019). His work has been shown at Ars Electronica (Linz), Transmediale (Berlin) and Mima Museum (Brussels).
