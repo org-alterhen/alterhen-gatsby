@@ -61,3 +61,6 @@ objkts:
     image: https://ucarecdn.com/be13979c-77ce-483e-8946-634904368f94/
     objkt: 330047
 ---
+Laurent La Torpille dedicates himself to music, graphics and the creation of dynamic environments, focusing on real-time interactions of images and sounds. 
+
+His work is protean and focuses on plastic research, placing the individual and new technologies at the heart of the creation process.
