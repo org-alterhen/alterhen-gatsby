@@ -12,16 +12,14 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="homepage">
     <div style={{padding: "2vw 4vw", position: 'absolute', top: '0', left: '0', right: '0', zIndex: '1'}}>
-      <LogoText className="logo-white"/>
+      <LogoText className="logo-black"/>
       <div className="basic-header__icon"><LogoIcon className="logo-white"/></div>
     </div>
     <div className="hero">
-      <div className="hero-body hero-body-left">
-        <LogoIcon className="logo-white"/>
-      </div>
-      <div className="hero-body hero-body-right">
+      <div className="hero-body-background"></div>
+      <div className="hero-body">
         <HTMLContent content={content} className="artist-post-content"/>
-        <Link to="/about" className="read-more">Read More ⯈</Link>
+        <Link to="/about" className="read-more">Read more</Link>
       </div>
       <div className="hero-image" style={{ background: 'black' }}>
         <iframe title="homepage animation" style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
@@ -33,11 +31,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-12">
               <div className="content">
-                <div className="column is-12">
-                  {/* <h3 className="side-title">
-                    ARTISTS
-                  </h3> */}
-                  <h2>EXHIB\TIONS</h2>
+                <div className="column is-12" id="exhibitions">
                   <ArtistRoll />
                 </div>
               </div>
