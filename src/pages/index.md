@@ -2,9 +2,13 @@
 templateKey: index-page
 title: alterHEN
 ---
-<h1 class="logo-text" style="font-size: 1.2rem; font-weight: bold; display: inline-block">alter<span>HEN</span></h1> introduces a new cultural practice in the art world. 
-Evolving on eco-friendly platforms, thisNFT art market offers new models for the cultural economy, being accessible to all and providing high-quality, affordable artworks. With digital limited editions, artists, cultural actors and institutions can find new revenue streams and space for community engagement.
+<h3 class="date">30 September 2021</h3>
+<h1 class="logo-text">The Opening</h1>
 
-Open the doors of this new art space, enter <span class="logo-text" style="font-size: 1.2rem; font-weight: bold;">alter<span>HEN</span></span>
+A collection of solo exhibitions by a diverse group of artists who met on the NFT platform Hicetnunc
 
-alterHEN is supported by Immaterial Future Association
+Open the doors of this new art space, enter alterHEN!
+
+<span class="if">alterHEN is supported by Immaterial Future Association</span>
+
+<a class="block-btn exhibition-entry" href="#exhibitions">View exhibitions</a>
