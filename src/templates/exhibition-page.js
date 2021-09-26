@@ -23,7 +23,8 @@ export const ExhibitionPageTemplate = ({
   title,
   artist,
   description,
-  objkts
+  objkts,
+  longbio
 }) => (
   <div className="content">
     <section className="exhibition-page">
@@ -88,10 +89,11 @@ ExhibitionPageTemplate.propTypes = {
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   artist: PropTypes.string,
   objkts: PropTypes.array,
+  longbio: PropTypes.node
 }
 
 const ExhibitionPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter, html } = data.markdownRemark
 
   return (
     <Layout>
@@ -101,6 +103,7 @@ const ExhibitionPage = ({ data }) => {
         description={frontmatter.description}
         artist={frontmatter.artist}
         objkts={frontmatter.objkts}
+        longbio={html}
       />
     </Layout>
   )
@@ -109,6 +112,7 @@ ExhibitionPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
+      html: PropTypes.node      
     }),
   }),
 }

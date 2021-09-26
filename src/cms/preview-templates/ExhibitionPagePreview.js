@@ -12,6 +12,7 @@ const ExhibitionPagePreview = ({ entry, getAsset }) => {
       title={entry.getIn(['data', 'title'])}
       description={entry.getIn(['data', 'description'])}
       objkts={{ objkts }}
+      longbio={entry.getIn(['data', 'body'])}
     />
   )
 }
