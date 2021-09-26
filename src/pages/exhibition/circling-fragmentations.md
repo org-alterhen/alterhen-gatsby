@@ -63,3 +63,4 @@ objkts:
       GIF, 8 frames, 856 x 848
       ed. 21
 ---
+Artist working with photography and found footage in the fields of collage & experimental animation, making short films & music videos.

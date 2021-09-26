@@ -38,3 +38,6 @@ objkts:
       PNG 3840 x 2160
       ed. 1
 ---
+Architect and media artist Zaki Jawhari better known as URBANDRONE has been carrying out research since 2007 on the sensitive perception of the space. 
+
+His experimental approach explores the complexity of the world where the limits between virtual and physical space become blurry. He started his artistic career performing live for electronic music festivals and producing interactive digital experiences with digital slaves and solo since 2014.

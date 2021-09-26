@@ -1,10 +1,11 @@
+@import "~bulma"
 @import "~bulma/sass/utilities/initial-variables"
 
 @mixin better-blur($radius)
   filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1'%3E%3CfeGaussianBlur stdDeviation='#{$radius}' result='b'/%3E%3CfeMorphology operator='dilate' radius='#{$radius}'/%3E %3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E%3C/svg%3E#a");
 
 body 
-  font-family: Open Sans
+  font-family: Open Sans, Helvetica, Arial, sans-serif
 
 // Config vars
 $primary: #000000
@@ -119,24 +120,76 @@ $menu-label-color: $primary
     display: inline
 
 // blog roll
+.artist-list-item
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+
 .artist-list-item.is-featured
   background-color: #d6400033;
 .artist-list-item header
-  display: flex;
   margin-bottom: 1em;
   border: 1px solid #F9F3F3;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.03);
   padding: 1rem;
+  .description-lines
+    width: auto;
+    min-width: 35%;
+    display: inline-block;
+    p
+      margin: 0 !important
+    p:last-child
+      .artist-roll-name
+        border-bottom: .5px solid #8C8B8B;
   p
     margin: 0
+    margin-bottom: .5em !important;
+    position: relative;
+  .artist-roll-title
+    width: 85%
+    line-height: 1.1em
+    height: 2.5em
+  .artist-roll-name
+    font-size: .9em;
+    letter-spacing: 0.02em
+    border-top: .5px solid #8C8B8B;
+    color: #8C8B8B;
+    width: 100%;
+  .artist-roll-arrow
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    position: absolute;
+    top: .3em;
+    right: .3em;
+    span
+      display: block;
+      position: absolute;
+      background: #E1E1E1;
+      height: .3em;
+      width: 1.4em;
+      top: 0
+      right: 0
+    span:nth-child(2)
+        height: 1.4em;
+        width: .3em;
+    span:nth-child(3)
+        width: 2.1em;
+        top: .7em
+        right: -.2em;
+        transform: rotate(135deg);
+
+a:hover .artist-list-item
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  .artist-roll-title
+    color: #000;
+  .artist-roll-arrow span
+    background: #C5C5C5;
+  
+
+
 .artist-list-item .featured-thumbnail
   flex-basis: 35%;
 .artist-roll-name, .artist-roll-title
-  font-size: 1.333em;
-  letter-spacing: 0.025em
-
-
-@import "~bulma"
+  font-size: 1.8em;
+  letter-spacing: 0.0em
 
 a
   color: black;
@@ -267,23 +320,75 @@ a
   flex-wrap: wrap;
   border-bottom: $border-1;
   position: relative
+  overflow: hidden;
 
 .hero-body
   font-size: 18px;
   letter-spacing: 0.025em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1 0 300px
-  color: white;
-  &.hero-body-left 
-    max-width: 400px
-  &.hero-body-right
-    max-width: 800px
-  a
-    color: white;
+  z-index: 100;
+  position: relative;
+  h3
+    margin-top: 20vh;
+    opacity: .5
+    margin-bottom: .3em
   p
     margin: 1em 0
+    width: 26vw;
+  h1
+    color: #000
+    font-size: 2em
+    font-weight: 900
+  a.read-more
+    font-weight: normal
+    text-decoration: underline
+    opacity: .5
+  a.block-btn
+    position: absolute
+    bottom: 3em
+  span.if
+    position: absolute
+    bottom: 6.75em
+    left: 30em
+    font-size: .5em
+    width: 15em
+    opacity: .75
+
+.hero-body-background
+  width: 100%;
+  height: 150vh;
+  top: -20vh;
+  left: -64vw;
+  background: #FFF;
+  transform: rotate(-7deg);
+  position: absolute;
+  display: block;
+  z-index: 0
+  border-right: $border-1;
+  box-shadow 0 0 1em rgba(0,0,0,0.2)
+
+@media screen and ( max-width: 1024px )
+  .hero-body-background
+    left: -53vw
+  .hero p
+    width: 35vw
+
+@media screen and ( max-width: 512px )
+  .hero-body-background
+    left: -10vw
+
+@media screen and ( max-width: 768px )
+  .hero-body span.if
+    left: 27em
+  .hero-body-background
+    left: -36vw
+  .hero p
+    width: 50vw
+
+@media screen and ( max-width: 575px )
+  .hero-body-background
+    left: -15vw
+  .hero p
+    width: 75vw
 
 .hero-image
   position: absolute;
@@ -296,7 +401,7 @@ a
   right: 0;
   z-index: -1;
   overflow: hidden;
-  filter: brightness(0.5) 
+  filter: brightness(0.75) 
   iframe 
     @include better-blur(5px);
 
@@ -393,6 +498,7 @@ a
 
 .featured-thumbnail img
   display: block
+  width: 100%
 
 .artist-post-sidebar
   border-right: $border-1
@@ -415,4 +521,4 @@ a
       padding-left: 5em
 
 .tint-pink
-  background: #FBF5F5
+  background: #F6F2F2

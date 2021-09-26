@@ -48,3 +48,8 @@ objkts:
       ed. 20
     image: https://ucarecdn.com/bfaa58ee-1d03-4b3e-a1f9-25d6952b48b4/
 ---
+«The digital is, in many ways, a wonderful material. But how can we bring it to life, make it feel warm and grainy instead of cold and smooth?» Andreas Rau (b. 1990) is an interaction designer, generative artist and jazz pianist based between Berlin and Oslo. 
+
+In his work, he explores the interplay between humans and their physical and digital environments. 
+
+With a background in creative coding, he makes computers do unexpected things and discovers beauty in the ever-changing results of generative algorithms. His work ranges from kinetic sculptures over VR experiences to generative graphics and pen plots and often incorporates playful interactions, organic movement patterns, rich textures, slowness, unexpected breaks and overlapping rhythms. It is inspired by the to-be rather than the being, the becoming rather than the actual, the evolving rather than the finished.

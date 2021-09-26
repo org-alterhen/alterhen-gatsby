@@ -52,3 +52,6 @@ objkts:
       PNG 1920 x 2742
       ed. 10
 ---
+Luluxxx is working in the Visual Effects Industry as a cgi/3d artist . 
+
+She is also a photographer and a software developer.

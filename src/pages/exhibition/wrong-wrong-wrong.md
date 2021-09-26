@@ -81,3 +81,4 @@ objkts:
       ed. 20
     image: https://ucarecdn.com/6899099e-59f3-45cb-b38e-52b0f8d64dbf/
 ---
+Johnny Dean Mann (AKA Wily Guys - b. 1979, Bath, UK) is a creative writer and digital sculptor/painter investigating the tension between ambiguity and exactitude as a parallel to quantum computing.
