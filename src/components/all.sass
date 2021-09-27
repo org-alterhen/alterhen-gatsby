@@ -88,7 +88,7 @@ $border-1: 1px solid $border-color
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 0.75rem 3rem
+  padding: 0.75rem 2rem
   background-color: transparent
   border-top: $border-1;
   text-align: right;
@@ -154,29 +154,6 @@ $menu-label-color: $primary
     border-top: $border-1;
     color: #8C8B8B;
     width: 100%;
-  .artist-roll-arrow
-    width: 2em;
-    height: 2em;
-    display: inline-block;
-    position: absolute;
-    top: .3em;
-    right: .3em;
-    span
-      display: block;
-      position: absolute;
-      background: #E1E1E1;
-      height: .3em;
-      width: 1.4em;
-      top: 0
-      right: 0
-    span:nth-child(2)
-        height: 1.4em;
-        width: .3em;
-    span:nth-child(3)
-        width: 2.1em;
-        top: .7em
-        right: -.2em;
-        transform: rotate(135deg);
 
 a:hover .artist-list-item
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -370,7 +347,6 @@ a
     height: 6em
     padding: 1.65em
     padding-left: 2.5em
-    padding-right: 18em
     line-height: 130%
     font-weight: 400
     font-size: .8em
@@ -378,6 +354,8 @@ a
     width: 100%
     background-color: #F6F2F2
     span
+      font-weight: 600
+    span.logo
       position: absolute
       display: block
       right: 0
@@ -394,6 +372,17 @@ a
     span
       opacity: 1
 
+@media screen and ( max-width: 630px )
+  .hero-body
+    width: 100vw
+    padding: 2rem
+    padding-top: 6rem
+    span.alter-hen-logo
+      display: none
+  .logo-icon svg
+    color: black;
+    path
+      fill: black;
 
 .hero-image
   position: absolute;
@@ -527,3 +516,7 @@ a
 
 .tint-pink
   background: #FFFFFF
+
+@media screen and ( max-width: 630px )
+  .tint-pink
+    padding: .5rem
