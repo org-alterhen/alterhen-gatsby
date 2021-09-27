@@ -14,6 +14,7 @@ $black: #000000
 body 
   font-family: Open Sans, Helvetica, Arial, sans-serif
   color: $black;
+  overflow: hidden
 
 $border-color: #E5DDDD
 
@@ -92,6 +93,17 @@ footer.footer
   background-color: transparent
   border-top: $border-1;
   text-align: right;
+  position: relative
+  .iflogo
+    position: absolute
+    display: block
+    height: 1.5em
+    width: 1.5em
+    left: 2rem
+    top: 1rem
+    background-image: url("../../static/img/if_logo.png")
+    background-repeat: no-repeat
+    background-size: 100% 100%
 
 //Menu overrides
 $menu-item-color: $primary
@@ -303,7 +315,7 @@ a
   display: block
 
 .hero-body
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.025em;
   position: relative;
   background: #FFF;
@@ -332,13 +344,13 @@ a
         font-weight: 800
   h1
     color: #000
-    font-size: 2em
+    font-size: 1.5em
     font-weight: 900
   a.read-more span
     font-size: .8em
   a.block-btn
     position: absolute
-    bottom: 7em
+    bottom: 6em
   span.if
     position: absolute
     bottom: 0
@@ -377,6 +389,8 @@ a
     width: 100vw
     padding: 2rem
     padding-top: 6rem
+    height: 100%
+    padding-bottom: 12em
     span.alter-hen-logo
       display: none
   .logo-icon svg
@@ -500,6 +514,9 @@ a
   // margin-bottom: -3rem
   padding: 2rem
 
+.artist-post
+  padding-top: 0
+  padding-bottom: 0
 
 .artist-post .column
   display: flex
