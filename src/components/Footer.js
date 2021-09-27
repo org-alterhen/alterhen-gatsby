@@ -7,6 +7,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer">
         <div className="content">
+          <Link to="https://immaterialfuture.org" target="_blank" className="iflogo"></Link>
           <Link to="/"><LogoText/></Link>
         </div>
       </footer>

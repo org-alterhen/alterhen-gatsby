@@ -2,13 +2,13 @@
 templateKey: index-page
 title: alterHEN
 ---
-<h3 class="date">30 September 2021</h3>
-<h1 class="logo-text">The Opening</h1>
 
-A collection of solo exhibitions by a diverse group of artists who met on the NFT platform Hicetnunc
+<span>a\ter<span>HEN</span></span> introduces a new cultural practice in the art world.
 
-Open the doors of this new art space, enter alterHEN!
+Evolving on eco-friendly platforms, this NFT art market offers new models for the cultural economy, being accessible to all and providing high-quality, affordable artworks. With digital limited editions, artists, cultural actors and institutions can find new revenue streams and space for community engagement.
 
-<span class="if">alterHEN is supported by Immaterial Future Association</span>
+Open the doors of this new art space, enter <span>a\ter<span>HEN</span></span>
 
 <a class="block-btn exhibition-entry" href="#exhibitions">View exhibitions</a>
+
+<a href="https://immaterialfuture.org" target="_blank"><span class="if">a\terHEN is supported by<br/><span>Immaterial Future Association</span><span class="logo"></span></a>

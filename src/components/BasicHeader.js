@@ -5,7 +5,7 @@ import { LogoIcon, LogoText } from './Logo'
 import { Link } from 'gatsby'
 
 const BasicHeader = ({ className }) => (
-  <div className={`basic-header ${className}`}>
+  <div className="basic-header">
     <Link to="/"><LogoText/></Link>
     <div className="basic-header__icon"><Link to="/"><LogoIcon/></Link></div>
   </div>

@@ -11,15 +11,15 @@ export const IndexPageTemplate = ({
   content
 }) => (
   <div className="homepage">
-    <div style={{padding: "2vw 4vw", position: 'absolute', top: '0', left: '0', right: '0', zIndex: '1'}}>
+    <div style={{padding: "2em", position: 'absolute', top: '0', left: '0', right: '0', zIndex: '1'}}>
       <LogoText className="logo-black"/>
       <div className="basic-header__icon"><LogoIcon className="logo-white"/></div>
     </div>
     <div className="hero">
-      <div className="hero-body-background"></div>
       <div className="hero-body">
+        <span className="alter-hen-logo"></span>
         <HTMLContent content={content} className="artist-post-content"/>
-        <Link to="/about" className="read-more">Read more</Link>
+        <Link to="/about" className="read-more">Read More <span>►</span></Link>
       </div>
       <div className="hero-image" style={{ background: 'black' }}>
         <iframe title="homepage animation" style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>

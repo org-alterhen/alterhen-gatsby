@@ -4,14 +4,17 @@
 @mixin better-blur($radius)
   filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1'%3E%3CfeGaussianBlur stdDeviation='#{$radius}' result='b'/%3E%3CfeMorphology operator='dilate' radius='#{$radius}'/%3E %3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E%3C/svg%3E#a");
 
-body 
-  font-family: Open Sans, Helvetica, Arial, sans-serif
 
 // Config vars
 $primary: #000000
 $primary-invert: #ffffff
 $body-color: #000000
 $black: #000000
+
+body 
+  font-family: Open Sans, Helvetica, Arial, sans-serif
+  color: $black;
+  overflow: hidden
 
 $border-color: #E5DDDD
 
@@ -86,10 +89,21 @@ $border-1: 1px solid $border-color
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 0.75rem 3rem
+  padding: 0.75rem 2rem
   background-color: transparent
   border-top: $border-1;
   text-align: right;
+  position: relative
+  .iflogo
+    position: absolute
+    display: block
+    height: 1.5em
+    width: 1.5em
+    left: 2rem
+    top: 1rem
+    background-image: url("../../static/img/if_logo.png")
+    background-repeat: no-repeat
+    background-size: 100% 100%
 
 //Menu overrides
 $menu-item-color: $primary
@@ -137,44 +151,21 @@ $menu-label-color: $primary
       margin: 0 !important
     p:last-child
       .artist-roll-name
-        border-bottom: .5px solid #8C8B8B;
+        border-bottom: $border-1;
   p
     margin: 0
     margin-bottom: .5em !important;
     position: relative;
   .artist-roll-title
-    width: 85%
+    width: 100%
     line-height: 1.1em
     min-height: 2.5em
   .artist-roll-name
     font-size: .9em;
     letter-spacing: 0.02em
-    border-top: .5px solid #8C8B8B;
+    border-top: $border-1;
     color: #8C8B8B;
     width: 100%;
-  .artist-roll-arrow
-    width: 2em;
-    height: 2em;
-    display: inline-block;
-    position: absolute;
-    top: .3em;
-    right: .3em;
-    span
-      display: block;
-      position: absolute;
-      background: #E1E1E1;
-      height: .3em;
-      width: 1.4em;
-      top: 0
-      right: 0
-    span:nth-child(2)
-        height: 1.4em;
-        width: .3em;
-    span:nth-child(3)
-        width: 2.1em;
-        top: .7em
-        right: -.2em;
-        transform: rotate(135deg);
 
 a:hover .artist-list-item
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -236,14 +227,14 @@ a
       fill: white;
 
 .basic-header
-  padding: 2vw 4vw
+  padding: 2em !important
 
 .basic-header__icon 
   float: right;
   
 .basic-header__icon svg
-  height: 33px;
-  width: 33px;
+  height: 2em;
+  width: 2em;
 
 .breakout-width
   min-width: calc(100% + 3rem)
@@ -316,79 +307,96 @@ a
 
 .hero
   flex-direction: row;
-  height: 100vh;
+  min-height: 100vh;
   flex-wrap: wrap;
   border-bottom: $border-1;
   position: relative
   overflow: hidden;
+  display: block
 
 .hero-body
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.025em;
-  z-index: 100;
   position: relative;
+  background: #FFF;
+  width: 29em;
+  max-width: 100vw;
+  height: 100vh;
+  padding: 4rem;
+  span.alter-hen-logo
+    display: inline-block
+    width: 4.5em
+    height: 4.5em
+    background: url("../../static/img/logo.svg")
+    background-size: cover
+    margin-top: calc(1em + 6vh)
+    margin-bottom: 1em
   h3
     margin-top: 20vh;
     opacity: .5
     margin-bottom: .3em
   p
     margin: 1em 0
-    width: 26vw;
+    width: 100%;
+    span
+      font-weight: 600
+      span
+        font-weight: 800
   h1
     color: #000
-    font-size: 2em
+    font-size: 1.5em
     font-weight: 900
-  a.read-more
-    font-weight: normal
-    text-decoration: underline
-    opacity: .5
+  a.read-more span
+    font-size: .8em
   a.block-btn
     position: absolute
-    bottom: 3em
+    bottom: 6em
   span.if
     position: absolute
-    bottom: 6.75em
-    left: 30em
-    font-size: .5em
-    width: 15em
-    opacity: .75
+    bottom: 0
+    left: 0
+    right: 0
+    height: 6em
+    padding: 1.65em
+    padding-left: 2.5em
+    line-height: 130%
+    font-weight: 400
+    font-size: .8em
+    color: #4a4a4a
+    width: 100%
+    background-color: #F6F2F2
+    span
+      font-weight: 600
+    span.logo
+      position: absolute
+      display: block
+      right: 0
+      top: 0
+      height: 6em
+      width: 7em
+      background-image: url("../../static/img/if_logo.png")
+      background-repeat: no-repeat
+      background-size: 2.3em 2.3em
+      background-position: 2em 1.8em
+      opacity: .5
+  a:hover span.if
+    color: #000
+    span
+      opacity: 1
 
-.hero-body-background
-  width: 100%;
-  height: 150vh;
-  top: -20vh;
-  left: -64vw;
-  background: #FFF;
-  transform: rotate(-7deg);
-  position: absolute;
-  display: block;
-  z-index: 0
-  border-right: $border-1;
-  box-shadow 0 0 1em rgba(0,0,0,0.2)
-
-@media screen and ( max-width: 1024px )
-  .hero-body-background
-    left: -53vw
-  .hero p
-    width: 35vw
-
-@media screen and ( max-width: 512px )
-  .hero-body-background
-    left: -10vw
-
-@media screen and ( max-width: 768px )
-  .hero-body span.if
-    left: 27em
-  .hero-body-background
-    left: -36vw
-  .hero p
-    width: 50vw
-
-@media screen and ( max-width: 575px )
-  .hero-body-background
-    left: -15vw
-  .hero p
-    width: 75vw
+@media screen and ( max-width: 630px )
+  .hero-body
+    width: 100vw
+    padding: 2rem
+    padding-top: 6rem
+    height: 100%
+    padding-bottom: 12em
+    span.alter-hen-logo
+      display: none
+  .logo-icon svg
+    color: black;
+    path
+      fill: black;
 
 .hero-image
   position: absolute;
@@ -506,6 +514,9 @@ a
   // margin-bottom: -3rem
   padding: 2rem
 
+.artist-post
+  padding-top: 0
+  padding-bottom: 0
 
 .artist-post .column
   display: flex
@@ -521,4 +532,8 @@ a
       padding-left: 5em
 
 .tint-pink
-  background: #F6F2F2
+  background: #FFFFFF
+
+@media screen and ( max-width: 630px )
+  .tint-pink
+    padding: .5rem

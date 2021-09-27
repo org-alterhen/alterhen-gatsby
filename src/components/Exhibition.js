@@ -19,7 +19,7 @@ const Exhibition = ({ className, objkts }) => (
         <button className="exhibition__closebtn" onClick={() => {
             document.getElementsByTagName('html')[0].style.overflow = ""; 
             document.body.classList.remove("exhibition")
-          }}><span>✖</span></button>
+          }}><span>×</span></button>
         {objkts &&
           <AwesomeSlider>
             {objkts.map((objkt, i) => (

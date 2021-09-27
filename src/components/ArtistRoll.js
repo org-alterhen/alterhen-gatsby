@@ -41,14 +41,13 @@ class ArtistRoll extends React.Component {
                     <span className="is-block has-text-weight-bold artist-roll-title">
                       {post.frontmatter.title}
                     </span>
-                    <span className="artist-roll-arrow"><span></span><span></span><span></span></span>
                   </p>
                   <div className="description-lines">
                     <p className="post-meta">
                       <span className="artist-roll-name">{post.frontmatter.name}</span>
                     </p>
                     <p className="post-meta">
-                      <span className="artist-roll-name">30/09/2021&thinsp;—&thinsp;30/10/2021</span>
+                      <span className="artist-roll-name">from 30.09.2021</span>
                     </p>
                   </div>
                 </header>
