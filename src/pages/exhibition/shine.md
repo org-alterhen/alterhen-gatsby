@@ -18,7 +18,7 @@ objkts:
     desc: |-
       2021
       Generative art
-      PNG 4096 x 4096
+      PNG, 4096 x 4096
       ed. 30
     image: https://ucarecdn.com/75ae7b3a-55ec-4348-b425-5e229150d636/
     objkt: 306953
@@ -28,7 +28,7 @@ objkts:
     desc: |-
       2021
       Generative art
-      PNG 4096 x 4096
+      PNG, 4096 x 4096
       ed. 30
   - objkt: 306997
     image: https://ucarecdn.com/aaf0f0fd-738e-4e31-ad0a-a1e59caa69f0/
@@ -36,14 +36,14 @@ objkts:
     desc: |-
       2021
       Generative art
-      PNG 4096 x 4096
+      PNG, 4096 x 4096
       ed. 30
   - objkt: 307020
     title: shine_ffqwerbq2
     desc: |-
       2021
       Generative art
-      PNG 4096 x 4096
+      PNG, 4096 x 4096
       ed. 30
     image: https://ucarecdn.com/377ecaac-a7a0-4a7c-9828-0c22b9d97df3/
 ---
