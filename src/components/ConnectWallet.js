@@ -73,6 +73,7 @@ const ConnectButton = ({ Tezos, setContract, setWallet, setUserAddress, setUserB
                 const userAddress = await wallet.getPKH();
                 await setup(userAddress);
                 setBeaconConnection(true);
+                localStorage.setItem('lastUserAddress', userAddress)
             }
         })();
     }, []);
