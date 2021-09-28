@@ -54,7 +54,9 @@ export const ExhibitionPageTemplate = ({
           <div className="exhibition-page-objkt-right">
             <h2>{objkt.title}</h2>
             <p style={{whiteSpace: 'pre-wrap'}}>{objkt.desc}</p>
-            <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW / COLLECT</a>
+            <p className="availability">20&thinsp;/&thinsp;50 editions available</p>
+            <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn collect inactive">Collect for 66&thinsp;tez</a>
+            <a className="connect-wallet">Connect wallet</a>
           </div>
         </div>
       ))}
