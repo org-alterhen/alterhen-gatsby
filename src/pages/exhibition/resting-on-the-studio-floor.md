@@ -58,6 +58,10 @@ objkts:
       GIF, 30 frames, 1000 x 1239
       ed. 24
     image: https://www.patricktresset.com/various/tasty_.gif
+  - objkt: 0
+    title: Test
+    desc: Test
+    video: https://patricktresset.com/various/1.mp4
 ---
 Patrick Tresset is a Brussels-based artist who, in his work, explores human traits and the aspects of human experience. 
 
