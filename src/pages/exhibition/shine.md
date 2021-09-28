@@ -4,12 +4,15 @@ artist: David Pettersson
 title: Shine
 date: 2021-09-14T13:17:55.454Z
 description: >-
-  "SOMATIC BITS shares a vision of how photons could interact in a different
-  environment. 
+  David Pettersson, also known as SOMATIC BITS, is a digital artist working on
+  interactive, immersive and generative artworks. A graphic designer turned
+  creative coder, his works are trying to touch the psyche of the viewer.
+  Immersing and engulfing anyone willing to get swept away into a world of his
+  own. Making the reality twist around, and leave a permanent trace upon the
+  mind of whoever sees his pieces. 
 
-  Interacting and creating new combinations of colours and light, shining through the spatial vacuum.
 
-  Dancing and revealing their hidden energy in ways never seen before."
+  From simplistic monochrome to hyper-detailed colourful artworks, he never stops trying to find ways to express his vision of life and has a constant flow of ideas and creativity. Life is made for experimenting - and it transpires into his creations.
 objkts:
   - title: shine_78psfgqz1
     desc: |-
