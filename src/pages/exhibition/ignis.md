@@ -4,18 +4,21 @@ artist: Diane Drubay
 title: Ignis - 14 sec towards carbon neutrality or the point of no return
 date: 2021-09-14T13:18:47.577Z
 description: >-
-  "Diane Drubay is a visual artist working with photographs and videos to create
-  anticipatory visions of other futures. Drawn by the aesthetics of social
-  science fiction literature, using colour-psychology and current scientific
-  discoveries, the speculative visions depicted by Diane Drubay advocate for
-  optimistic images interpreting shocking stories of possible futures.
+  Diane Drubay is a visual artist working with photographs and videos to create
+  anticipatory visions of other futures. Her creations are drawn by the
+  aesthetics of social science fiction literature, using colour-psychology and
+  current scientific discoveries. The speculative visions depicted by Diane
+  Drubay advocate for optimistic images interpreting shocking stories of
+  possible futures. 
 
 
-  Diane Drubay's fascination with natural light and colours started in 2012 while waiting for the golden hour in the garden of Claude Monet at Giverny. There, she captured the awakening of Nature and its changes over the months (she produced or supervised the series of videos 'Monet's Secret Garden').
+  Diane Drubay's fascination with natural light and colours started in 2012 while waiting for the golden hour in the garden of Claude Monet at Giverny. There, she captured the awakening of Nature and its changes over the months (she produced or supervised the series of videos 'Monet's Secret Garden'). Between 2013 and 2018, she has been working on one project tracing the different stages to reach the ultimate transcendence through Nature by compiling hundreds of impressions of the rising and setting sun. This led to a final 23-minute video untitled "Odyssey" and a great number of single videos and photographs. Since 2019, she is exploring natural glitches and how they impact our vision of landscapes and our imagination of the future.
 
-  Between 2013 and 2018, she has been working on one project tracing the different stages to reach the ultimate transcendence through Nature by compiling hundreds of impressions of the rising and setting sun. This led to a final 23-minute video untitled "Odyssey" and a great number of single videos and photographs. 
 
-  Since 2019, she is exploring natural glitches and how they impact our vision of landscapes and our imagination of the future."
+  She found inspiration during her art residencies in the Creative Center of Stöðvarfjörður in Iceland, the Berlin Art Institute in Germany and the Nida Art Colony in Lithuania.
+
+
+  Her work has been shown at the Inter/Intra Human Exhibition by Factory Berlin, TRESOR Berlin, Bacalart Festival in Mexico, Galerie Dièse 22 in Paris, Gothenburg Art Sound Festival in Sweden, DAT Festival in Berlin, Alte Münze in Berlin, SPEKTRUM Berlin.
 objkts:
   - objkt: 350815
     title: Ignis I - 14 sec towards carbon neutrality or the point of no return
