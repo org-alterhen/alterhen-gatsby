@@ -5,6 +5,7 @@ bio: Taking cues from art history, cinema, and science, Kelly Richardson
   constructs videos and stills that offer imaginative glimpses of the future
   which prompt a careful consideration of the present.
 country: Canada
+profpic: https://www.patricktresset.com/various/kelly_500c.gif
 title: HALO
 statement: >-
   HALO I, II and III are sequels to Camp (1998), a video which presents a cliché
