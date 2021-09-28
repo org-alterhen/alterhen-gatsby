@@ -7,13 +7,19 @@ bio: Taking cues from art history, cinema, and science, Kelly Richardson
 country: Canada
 profpic: https://www.patricktresset.com/various/kelly_500c.gif
 title: HALO
-statement: >-
+statement: >
   HALO I, II and III are sequels to Camp (1998), a video which presents a cliché
-  of outdoor life. Twenty three years later, the promise of what summer brings
+  of outdoor life. Twenty-three years later, the promise of what summer brings
   has changed. 
 
 
   HALO references the significant feedback loop we are in after decades of warnings. BC is set to have the 3rd worst fire season on record, all of which occurred within the last 5 years. Simultaneously, the UN declared that it is code red for humanity as a result of climate change.
+
+
+  23 years after producing ‘Camp’, the promise of what summer brings has changed. ‘HALO II’ presents a full, bright red moon distorted once again by heat rising from something burning and crackling out of shot. Embers float around and smoke swirls. 
+
+
+  Campfires are now banned in the summer in British Columbia (where I live). With severe, extended droughts being the new normal,  the risk of wildfire is extreme. Compounding the threat, 2021 produced record temperatures reaching a staggering 49.6C, smashing the previous record by 4.6C. It is set to be the 3rd worst fire season on record, all of which were recorded within the last 5 years. Simultaneously, the UN declared that it is code red for humanity as a result of climate change.
 featuredimage: https://ucarecdn.com/5afc2103-eb2c-4316-a2b2-93c2940a8aa7/
 midbanner: https://ucarecdn.com/fa6e355a-6944-4fc3-8775-b28273741035/
 website: https://kellyrichardson.net/
