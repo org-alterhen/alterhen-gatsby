@@ -3,16 +3,22 @@ templateKey: exhibition-page
 artist: Patrick Jamora
 title: Good-Natured Savages
 date: 2021-09-14T13:34:13.221Z
-description: "In Good-Natured Savages, Patrick re-documents records from the
-  World's Fair at St. Louis in 1904, where more than 1,100 native Filipinos were
-  exhibited. Using archival images and text copied directly from captions, his
-  work highlights how the Filipinos were portrayed as uncivilized and
-  underdeveloped savages and how it contributed to perpetuating a condescending
-  view of their culture. The title comes from the caption in one of the images:
-  \"Every day in the week is receiving day with these good-natured savages.\""
+description: >-
+  Patrick is a graphic designer and photographer from Iloilo. He shuttles
+  between his hometown and Manila, where he works as a partner at Do Good
+  Studio. 
+
+
+  Over the last 15 years, he worked as an art director for various publications, published books and other print media under different publishing houses, and contributed photos to global magazines. 
+
+
+  His book with the theme "nation-building starts in cities," published in collaboration with his studio and a local government office, won the Good Design award for print in 2019. 
+
+
+  He pursues his artistic practice using different platforms, often combining traditional with new media. He uses animation, photography, and video—usually presented with type—to create new anecdotes exploring memory, communication, fiction, and the curiosities and imperfections of the process of documentation. When implementing humor in his work, he invites the viewer to engage and discover associations and differences to their own ideas and experiences. His current research takes inspiration from local history and culture. He deep-dives into online archives to collect records and images and uses them to allow history to cross formats through modern technology and his work. He becomes archivist and curator, exploring identity while investigating traditional missteps, their effects on contemporary referential semantics, and documenting them on the blockchain.
 objkts:
   - objkt: 300070
-    image: https://ucarecdn.com/0b79ec8a-77f6-47dc-9c88-6adf0b1b8f65/
+    image: https://www.patricktresset.com/various/good_natured.gif
     title: Good-Natured Savages
     desc: >-
       "Every day in the week is receiving day with these good-natured savages."
@@ -33,7 +39,7 @@ objkts:
 
       ed. 12
   - objkt: 299531
-    image: https://ucarecdn.com/5fe565de-b002-40e1-85dc-798a4022f6f3/
+    image: https://www.patricktresset.com/various/onlife.gif
     title: On Life
     desc: >-
       "Every day in the week is receiving day with these good-natured savages." 
@@ -65,9 +71,9 @@ objkts:
       GIF, 83 frames, 1414 x 2000
 
       ed. 20
-    image: https://ucarecdn.com/8c22a355-61a8-4904-9400-3dc1ea7977c6/
+    image: https://www.patricktresset.com/various/cloth.gif
   - objkt: 296474
-    image: https://ucarecdn.com/4ed58937-efb0-4ea8-812e-f2c7da8f8d74/
+    image: https://www.patricktresset.com/various/photography.gif
     title: On Photography
     desc: >-
       "Every day in the week is receiving day with these good-natured savages." 

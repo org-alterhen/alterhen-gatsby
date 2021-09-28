@@ -5,6 +5,7 @@ bio: Katya Kanke-Zaikanova is a Russian artist working with photography and
   performance art to create drawing works and video pieces on the themes of
   existentialism and what it means to be a woman - maternity, the female gaze.
 country: Russia
+profpic: https://www.patricktresset.com/various/katia_500c.gif
 title: Empty Gaze
 statement: In search of a void between the hustle and bustle. I’m searching for
   islands of clear moments, staring nowhere. I find myself just being here again

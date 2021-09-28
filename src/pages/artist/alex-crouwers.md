@@ -5,6 +5,7 @@ bio: Alex Crouwers’ works arise in the x, y and z axes of her virtual studio.
   Ecological collapse is central in her multi-faceted practice, which ranges
   from immersive video installations to tapestries.
 country: Belgium
+profpic: https://www.patricktresset.com/various/alex_500c.gif
 title: The Plot
 statement: "Photogrammetric models of remnants on a clear-cut - a former forest
   that fell victim to climate change - are the departure points for a string of

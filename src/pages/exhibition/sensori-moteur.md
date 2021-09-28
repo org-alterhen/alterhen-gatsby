@@ -3,11 +3,13 @@ templateKey: exhibition-page
 artist: Laurent La Torpille
 title: Sensori-Moteur
 date: 2021-09-14T13:31:11.816Z
-description: With sensori-moteur Laurent La Torpille continues his exploration
-  in the fields of image and sound perception. By dematerializing reality or by
-  drawing inspiration from it, he wishes, through his digital works, to offer
-  another perspective. This has led him, since 1994, to create his own digital
-  tools which have continued to evolve.
+description: >-
+  Laurent La Torpille dedicates himself to music, graphics and the creation of
+  dynamic environments, focusing on real-time interactions of images and
+  sounds. 
+
+
+  His work is protean and focuses on plastic research, placing the individual and new technologies at the heart of the creation process.
 objkts:
   - objkt: 330106
     image: https://ucarecdn.com/4ed6a36f-e69d-4516-a5ec-c7b9aaa6ba91/
@@ -58,6 +60,8 @@ objkts:
       2021
 
       PNG 3888 x 5184
+
+      ed. 8
     image: https://ucarecdn.com/be13979c-77ce-483e-8946-634904368f94/
     objkt: 330047
 ---

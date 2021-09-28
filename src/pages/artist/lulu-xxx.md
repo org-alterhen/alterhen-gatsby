@@ -15,7 +15,7 @@ statement: "An ongoing experimentation with footage from Dmitri Kirsanoff's
   imperfections and nostalgia while bringing a different emotional state to the
   viewer. "
 featuredimage: https://ucarecdn.com/3943b434-f042-4ac8-b940-0359afa6aae2/main_page_lulu.jpg
-midbanner: https://ucarecdn.com/d3963bbf-6245-449e-b985-b4004165dd12/banner_lulucopy.jpg
+midbanner: https://ucarecdn.com/aa489cbb-c20c-461c-abf3-2ee25071566d/
 website: https://www.luluixixix.com/
 twitter: luluixixix
 instagram: luluixix/

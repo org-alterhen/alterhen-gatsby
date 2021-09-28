@@ -4,11 +4,11 @@ artist: Iñigo Bilbao
 title: X-ray
 date: 2021-09-14T13:26:52.713Z
 description: >-
-  Raw X-ray images lose their original function to be shown as artistic pieces.
+  Iñigo Bilbao Oviedo, Spain. 1975. Digital Artist specialized in 3D scanning
+  and medical imaging. 
 
-  The originals have not been manipulated, in some cases just reframed, entrusting all the work to the machine, time and chance.
 
-  The first selection from among more than 7000 vet X-ray images assigned to the artist.
+  He works with X-ray machines, CT and MRI scanners ("CT Scans", 2010), laser scanners ("Memory Lane", 2015-2019, and "Junkyard", 2019) and photogrammetry or 3D scanning from photographs ("Void", 2019). His work has been shown at Ars Electronica (Linz), Transmediale (Berlin) and Mima Museum (Brussels).
 objkts:
   - objkt: 300031
     image: https://ucarecdn.com/7b3a6a38-621b-4ccf-b7e6-b00011f8def0/

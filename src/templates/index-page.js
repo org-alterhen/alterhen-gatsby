@@ -25,6 +25,7 @@ export const IndexPageTemplate = ({
         <iframe title="homepage animation" style={{width:'100%',height:'100%',border:'0px'}} src="https://sandbox.cables.gl/viewer/61409ec67478d428e57439ca"></iframe>
       </div>
     </div>
+    <h1 className="separating-headline">EXHIB\TIONS</h1>
     <section className="section tint-pink">
       <div className="container">
         <div className="section">
@@ -40,6 +41,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+    <h1 className="separating-headline collection"><a target="_blank" rel="noreferrer" href="https://hexpo.andreasrau.eu/#alterhen.tez/collection">YOUR COLLECT\ON</a></h1>
   </div>
 )
 

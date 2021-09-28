@@ -53,8 +53,6 @@ export const ExhibitionPageTemplate = ({
   // v2 swap contract
   const contractAddress = "KT1HbQepzV1nVGg8QVznG7z4RcHseD5kwqBn";
 
-  console.log(objkts)
-
   objkts.forEach(objkt => {
     if (!objkt.hicdex) {
       objktInfo(objkt.objkt).then(objktInfo => {
@@ -62,8 +60,6 @@ export const ExhibitionPageTemplate = ({
       })
     }
   });
-
-  console.log(objkts)
 
   return (
     <div className="content">
@@ -103,7 +99,7 @@ export const ExhibitionPageTemplate = ({
                 document.getElementsByTagName('html')[0].style.overflow = "hidden"; 
                 document.body.classList.add("exhibition")
               }}>
-              { objkt.image && (
+              { objkt.image ? (
                 <PreviewCompatibleImage
                   imageInfo={{
                     image: transformImg(objkt.image),
@@ -111,12 +107,21 @@ export const ExhibitionPageTemplate = ({
                   }}
                   className=""
                 />
-              ) }
+              ) : (
+                objkt.video && (
+                  <video className="exhibition-page-video" src={objkt.video} autoPlay loop muted playsInline />
+                ) 
+              )}
               </button>
             </div>
             <div className="exhibition-page-objkt-right">
               <h2>{objkt.title}</h2>
               <p style={{whiteSpace: 'pre-wrap'}}>{objkt.desc}</p>
+
+              <p className="availability">20*&thinsp;/&thinsp;50* editions available</p>
+              <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn collect inactive">Collect for 66*&thinsp;tez</a>
+              <a href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="connect-wallet">Connect wallet</a>
+
               <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
                 <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW</a>
                 { !userAddress ? (
@@ -232,6 +237,7 @@ export const exhibitionPageQuery = graphql`
           title
           desc
           image
+          video
           objkt
         }
         artist
