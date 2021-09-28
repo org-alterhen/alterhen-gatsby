@@ -12,7 +12,7 @@ description: Drawing up shapes, lines & details of a material, a memory, in the
   repetition of a gif.
 objkts:
   - objkt: 299384
-    image: https://ucarecdn.com/e2dcbac5-3e89-4c6d-9c70-3f763800ed0a/
+    image: https://www.patricktresset.com/various/palpitation.gif
     title: Approximation and Palpitation
     desc: |+
       Through a vague shape, with a somnambulant sigh 
@@ -22,7 +22,7 @@ objkts:
       ed. 21
 
   - objkt: 299332
-    image: https://ucarecdn.com/b756afc4-ad0b-4846-8ff9-6c20ba074a61/
+    image: https://www.patricktresset.com/various/running.gif
     title: Silent Running
     desc: >-
       With soundless footsteps & inaudible breathing, she's evading the grasping
@@ -43,7 +43,7 @@ objkts:
       Found footage, pencil on laser prints, digital collage 
       GIF, 78 frames, 923 x 692
       ed. 21
-    image: https://ucarecdn.com/2db3b241-eebc-4e72-bdae-da9b50bde6fb/
+    image: https://www.patricktresset.com/various/stielauge.gif
   - objkt: 296725
     title: It Smells Like Rain
     desc: |-
@@ -52,9 +52,9 @@ objkts:
       Found footage, acrylic on laser prints, GIMP, paper collage animation
       GIF. 14 frames, 1200 x 874
       ed. 21
-    image: https://ucarecdn.com/9c289fdb-462d-42aa-a051-57484325b24a/
+    image: https://www.patricktresset.com/various/rain.gif
   - objkt: 296657
-    image: https://ucarecdn.com/43bd8ca8-63fd-4947-8f3f-6a24bdb28bf5/
+    image: https://www.patricktresset.com/various/lingering.gif
     title: Lingering Gaze
     desc: |
       Hovering above eluding shards
