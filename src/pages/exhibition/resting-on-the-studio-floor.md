@@ -24,14 +24,14 @@ objkts:
     title: Interrupted Rest on the Studio Floor
     desc: |-
       2021
-      computational animation
+      Computational animation
       GIF, 24 frames, 1000 x 1239
   - objkt: 269169
     image: https://www.patricktresset.com/various/pacing_.gif
     title: Pacing and resting on a Cold Studio Floor
     desc: |-
       2021
-      computational animation
+      Computational animation
       GIF, 28 frames, 1000 x 1239
       ed. 12
   - objkt: 305667
@@ -39,14 +39,14 @@ objkts:
     title: Soothing Rest on the Cold Studio Floor
     desc: |-
       2021
-      computational animation
+      Computational animation
       GIF, 36 frames, 1000 x 1239
       ed. 40
   - objkt: 320441
     image: https://www.patricktresset.com/various/passing_.gif
     desc: |-
       2021
-      computational animation
+      Computational animation
       GIF, 30 frames, 1000 x 1239
       ed. 40
     title: Passing Time on the Cold Studio Floor
@@ -54,7 +54,7 @@ objkts:
     title: Tasty Rest on the Cold Studio Floor
     desc: |-
       2021
-      computational animation
+      Computational animation
       GIF, 30 frames, 1000 x 1239
       ed. 24
     image: https://www.patricktresset.com/various/tasty_.gif
