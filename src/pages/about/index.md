@@ -26,7 +26,7 @@ We also have a shared experience of exhibiting, selling and collecting NFTs on H
 
 Together we believe that art should, first and foremost, be exhibited and experienced as art in bespoke, contemplative spaces aside from the marketplace, before being collected.
 
-### What is hicetnunc? 
+### What is hicetnunc?
 
 The art platform Hic et nunc takes its name from the Latin phrase meaning “here and now”, and is often abbreviated to ‘HEN’ or ‘H=N’. Created by Rafael Lima, a former social scientist from Brazil, as a “social laboratory” in March 2021, the platform exists as an eco-friendly, artist-friendly alternative to the vastly more expensive and environmentally damaging NFT platforms.
 
@@ -36,10 +36,15 @@ HEN has differentiated itself as a space for art without gatekeepers and welcomi
 
 This affordability is crucial and profound - the cost of listing an artwork is virtually non-existent. The net result is a huge influx of artists who would ordinarily be limited by the prohibitive cost of creating and selling an NFT on other platforms (this can regularly run into the hundreds of dollars). It has also created a culture of low cost editions being made available to collect for the equivalent of a few dollars only. The effects of such a frictionless and low-cost system are manifold, including:
 
-- access to a large number of international artists, forming a diverse and borderless, multicultural artistic community with a plurality of voice
-- the ability for community events to appear and gain traction with ease, such as OBJKT4OBJKT (free artwork exchanges), charity drives such as Hiceturco (for Turkish wildfire assistance) or local community spotlights such as ‘Greek et Nunc’ or ‘HENBR’ (for the Brazilian community)
-- the ability for artists to collect fellow artists (often for the first time) enabling a mutually supportive, circular economy
-- a rich, artistically experimental environment
+* access to a large number of international artists, forming a diverse and borderless, multicultural artistic community with a plurality of voice
+* the ability for community events to appear and gain traction with ease, such as OBJKT4OBJKT (free artwork exchanges), charity drives such as Hiceturco (for Turkish wildfire assistance) or local community spotlights such as ‘Greek et Nunc’ or ‘HENBR’ (for the Brazilian community)
+* the ability for artists to collect fellow artists (often for the first time) enabling a mutually supportive, circular economy
+* a rich, artistically experimental environment
 
-*IF Association sees NFTs as a powerful enabler of digital arts. They hold the potential to massively scale access to high quality artworks and to the thrill of collecting, while enabling artists to make a decent living from their artistic production. This requires a fundamentally different approach than the speculation-driven hype that has captured public attention in the last months. We see hicetnunc as the platform most likely to unleash the true power of NFTs, and AlterHEN as an excellent model of how it can be leveraged with an eye on artistic quality, fairness, and accessibility. This is why we are happy and proud to support the artist collective that stands behind AlterHEN.
-IF Association was established in 2021 to promote culture as a vector of humanity’s transition towards immaterial production and consumption. It is a Vienna-based not-for-profit entity with global ambitions.*
+### A word from our sponsor
+
+IF Association sees NFTs as a powerful enabler of digital arts. They hold the potential to massively scale access to high quality artworks and to the thrill of collecting, while enabling artists to make a decent living from their artistic production. 
+
+This requires a fundamentally different approach than the speculation-driven hype that has captured public attention in the last months. We see hicetnunc as the platform most likely to unleash the true power of NFTs, and AlterHEN as an excellent model of how it can be leveraged with an eye on artistic quality, fairness, and accessibility. This is why we are happy and proud to support the artist collective that stands behind AlterHEN.
+
+IF Association was established in 2021 to promote culture as a vector of humanity’s transition towards immaterial production and consumption. It is a Vienna-based not-for-profit entity with global ambitions.
