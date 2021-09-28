@@ -20,9 +20,17 @@ description: >-
 objkts:
   - objkt: 301293
     title: HALO I
-    desc: |-
+    desc: >-
+      23 years after producing ‘Camp’, the promise of what summer brings has
+      changed. ‘HALO I’ presents a full, partially red moon distorted once again
+      by heat rising from something burning and crackling out of shot. Embers
+      float around and smoke swirls. 
+
+
       2021
+
       Seamless loop
+
       MP4, 1920x1080, stereo sound, 30 seconds
     image: https://ucarecdn.com/40e86b5a-e18c-4ea3-b631-5f0132a3e9fe/
   - objkt: 313248
