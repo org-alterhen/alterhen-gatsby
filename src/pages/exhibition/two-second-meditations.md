@@ -22,7 +22,7 @@ description: By observing a play on scale, my work encourages looking, and then
 objkts:
   - objkt: 366870
     title: Shiva
-    image: https://ucarecdn.com/43392fbd-1d7d-41e3-b2de-2844fb6f307c/
+    image: https://www.patricktresset.com/various/shiva.gif
     desc: |-
       2021
       Oil and aerosol on canvas (Handpainted animation)
@@ -31,7 +31,7 @@ objkts:
     desc: |-
       2021
       Oil and aerosol on canvas (Handpainted animation)
-    image: https://ucarecdn.com/b9ed373c-b9a3-45a3-b28f-3fe5961d6101/
+    image: https://www.patricktresset.com/various/shakti.gif
   - objkt: 366826
     desc: |-
       2021
