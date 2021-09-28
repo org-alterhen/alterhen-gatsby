@@ -3,13 +3,10 @@ templateKey: exhibition-page
 artist: Luluxxx
 title: Ménilmontant
 date: 2021-09-14T13:31:59.129Z
-description: An ongoing experimentation with footage from Dmitri Kirsanoff's
-  Ménilmontant (1926) starring his wife Nadia Sibirskaïa. I'm using 'artificial
-  intelligence' technology to transform early cinema footage. Motion and shapes
-  are extracted from the original pictures and feed different 'neural networks'
-  to generate abstract visualizations. I like to imagine this new vision embeds
-  the imperfections and nostalgia while bringing a different emotional state to
-  the viewer.
+description: |-
+  Luluxxx is working in the Visual Effects Industry as a cgi/3d artist . 
+
+  She is also a photographer and a software developer.
 objkts:
   - objkt: 297952
     image: https://ucarecdn.com/153509fa-93d9-4609-8375-2465ebe2cf4d/
