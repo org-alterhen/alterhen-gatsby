@@ -37,7 +37,7 @@ objkts:
       2021
       Oil and aerosol on canvas (Handpainted animation)
     title: Evil Ego
-    image: https://ucarecdn.com/8c09cb66-11a4-4f76-8885-12450ccf1497/
+    image: https://www.patricktresset.com/various/evilgo.gif
 ---
 Bjorn Calleja (b. 1981, Manila, Philippines) is a Filipino painter and interdisciplinary artist. He earned his BFA from Far Eastern University, where he later became a part-time lecturer. 
 
