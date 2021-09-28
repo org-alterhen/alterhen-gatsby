@@ -5,6 +5,7 @@ bio: "Johnny Dean Mann (AKA Wily Guys) is a British creative writer and digital
   sculptor/painter investigating the tension between looseness and exactitude as
   a parallel to quantum computing. "
 country: United Kingdom
+profpic: https://www.patricktresset.com/various/wily_500c.gif
 title: WRONG, WRONG, WRONG
 statement: >-
   This collection is part of an ongoing investigation into the artistic
