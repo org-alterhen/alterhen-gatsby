@@ -16,6 +16,7 @@ objkts:
     title: Approximation and Palpitation
     desc: |+
       Through a vague shape, with a somnambulant sigh 
+
       2021
       Paper collage, GIMP selection tool 
       GIF, 24 frames, 919 x 662
@@ -48,9 +49,10 @@ objkts:
     title: It Smells Like Rain
     desc: |-
       06 Memories Of Dying
+
       2021
       Found footage, acrylic on laser prints, GIMP, paper collage animation
-      GIF. 14 frames, 1200 x 874
+      GIF, 14 frames, 1200 x 874
       ed. 21
     image: https://www.patricktresset.com/various/rain.gif
   - objkt: 296657
@@ -58,6 +60,7 @@ objkts:
     title: Lingering Gaze
     desc: |
       Hovering above eluding shards
+
       2011, 2015, 2021
       Laser print, scanner, GIMP selection tool
       GIF, 8 frames, 856 x 848
