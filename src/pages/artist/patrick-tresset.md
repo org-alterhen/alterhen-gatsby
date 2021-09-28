@@ -11,7 +11,7 @@ statement: "In this exhibition, Tresset, following his series of Human Study #2
   installations pursues his exploration of the Vanitas theme;  in contrast to
   the traditional Flemish manner, the atmosphere is stark rather than
   opulent.  Using GIFs as time-based media, these works are experiments in
-  minimalist storytelling.  More"
+  minimalist storytelling. "
 featuredimage: https://ucarecdn.com/08113f7c-3dd0-42bd-9e4e-5b728af515cd/main_page_patrickt.gif
 midbanner: https://www.patricktresset.com/various/banner_3c.gif
 website: https://www.patricktresset.com
