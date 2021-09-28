@@ -29,10 +29,10 @@ const DisconnectButton = ({
   };
 
   return (
-    <div className="buttons">
-      <button className="button" onClick={disconnectWallet}>
-        <i className="fas fa-times"></i>&nbsp; Disconnect wallet
-      </button>
+    <div className="buttons wallet-buttons">
+      <a className="" onClick={disconnectWallet}>
+        <i className="fas fa-times"></i>Disconnect wallet
+      </a>
     </div>
   );
 };

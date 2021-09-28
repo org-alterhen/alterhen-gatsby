@@ -77,15 +77,15 @@ const ConnectButton = ({ Tezos, setContract, setWallet, setUserAddress, setUserB
         })();
     }, []);
     return (
-        React.createElement("div", { className: "buttons" },
-            React.createElement("button", { className: "button", onClick: connectWallet },
+        React.createElement("div", { className: "buttons wallet-buttons" },
+            React.createElement("a", { className: "", onClick: connectWallet },
                 React.createElement("span", null,
                     React.createElement("i", { className: "fas fa-wallet" }),
-                    "\u00A0 Connect with wallet")),
-            React.createElement("button", { className: "button", disabled: loadingNano, onClick: connectNano }, loadingNano ? (React.createElement("span", null,
+                    "Connect with wallet")),
+            React.createElement("a", { className: "", disabled: loadingNano, onClick: connectNano }, loadingNano ? (React.createElement("span", null,
                 React.createElement("i", { className: "fas fa-spinner fa-spin" }),
-                "\u00A0 Loading, please wait")) : (React.createElement("span", null,
+                "Loading, please wait")) : (React.createElement("span", null,
                 React.createElement("i", { className: "fab fa-usb" }),
-                "\u00A0 Connect with Ledger Nano")))));
+                "Connect with Ledger Nano")))));
 };
 export default ConnectButton;

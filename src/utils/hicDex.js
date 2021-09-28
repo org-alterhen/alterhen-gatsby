@@ -37,11 +37,10 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
   const querytime_key = `query_${queryhash}_time`;
   
   const lastquery = localStorage.getItem(querytime_key);
-  if ( lastquery && (+ new Date) - lastquery < 30000 ) { // 3 seconds
+  if ( lastquery && (+ new Date()) - lastquery < 30000 ) { // 3 seconds
     console.log(['cache hit', queryhash, JSON.parse(localStorage.getItem(queryresult_key))]);
     return JSON.parse(localStorage.getItem(queryresult_key));
   } else {
-    localStorage.setItem(querytime_key, + new Date);
     console.log('cache miss');
     const result = await fetch(
       "https://api.hicdex.com/v1/graphql",
@@ -56,6 +55,7 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
     );
     const data = await result.json();
     localStorage.setItem(queryresult_key, JSON.stringify(data));
+    localStorage.setItem(querytime_key, + new Date());
     return await data;
   }
 }
