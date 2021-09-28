@@ -52,7 +52,7 @@ const ConnectButton = ({ Tezos, setContract, setWallet, setUserAddress, setUserB
         (async () => {
             // creates a wallet instance
             const wallet = new BeaconWallet({
-                name: "Taquito Boilerplate",
+                name: "a\\terHEN Gallery",
                 preferredNetwork: NetworkType.MAINNET,
                 disableDefaultEvents: true,
                 eventHandlers: {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 
@@ -64,32 +64,6 @@ export const ExhibitionPageTemplate = ({
   return (
     <div className="content">
 
-      { !userAddress ? (
-        <ConnectButton
-          Tezos={Tezos}
-          setContract={setContract}
-          setPublicToken={setPublicToken}
-          setWallet={setWallet}
-          setUserAddress={setUserAddress}
-          setUserBalance={setUserBalance}
-          contractAddress={contractAddress}
-          setBeaconConnection={setBeaconConnection}
-          wallet={wallet}
-        />
-      ) : (        
-        <DisconnectButton
-          wallet={wallet}
-          setPublicToken={setPublicToken}
-          setUserAddress={setUserAddress}
-          setUserBalance={setUserBalance}
-          setWallet={setWallet}
-          setTezos={setTezos}
-          setBeaconConnection={setBeaconConnection}
-        />
-      )}
-
-
-
       <section className="exhibition-page">
         <h1 className="has-text-centered">{title}</h1>
         { objkts && objkts.map((objkt, index) => (
@@ -117,33 +91,14 @@ export const ExhibitionPageTemplate = ({
             <div className="exhibition-page-objkt-right">
               <h2>{objkt.title}</h2>
               <p style={{whiteSpace: 'pre-wrap'}}>{objkt.desc}</p>
-
-              <p className="availability">20*&thinsp;/&thinsp;50* editions available</p>
-              <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn collect inactive">Collect for 66*&thinsp;tez</a>
-              <a href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="connect-wallet">Connect wallet</a>
-
-              <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
-                <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW</a>
-                { !userAddress ? (
-                  <ConnectButton
-                    Tezos={Tezos}
-                    setContract={setContract}
-                    setPublicToken={setPublicToken}
-                    setWallet={setWallet}
-                    setUserAddress={setUserAddress}
-                    setUserBalance={setUserBalance}
-                    contractAddress={contractAddress}
-                    setBeaconConnection={setBeaconConnection}
-                    wallet={wallet}
-                  />
-                ) : (
-                  objkt.hicdex && objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 && (
-                    <button className="block-btn" onClick={async () => {
+              
+              { objkt.hicdex && (                
+                <p className="availability">{objkt.hicdex.swaps_aggregate.aggregate.sum.amount_left}&thinsp;/&thinsp;{objkt.hicdex.supply} editions available</p>,
+                objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
+                    <button className="block-btn collect" onClick={async () => {
                       // setLoadingIncrement(true);
-                      // objkt.swap_id = 519763
-                      // objkt.price = "100000"
                       try {
-                        const op = await contract.methods.collect(objkt.swap_id).send({
+                        const op = await contract.methods.collect(objkt.hicdex.swaps[0].id).send({
                           amount: objkt.hicdex.swaps[0].price, // parseFloat(objkt.price)
                           mutez: true,
                           storageLimit: 310
@@ -154,11 +109,36 @@ export const ExhibitionPageTemplate = ({
                       } finally {
                         // setLoadingIncrement(false);
                       }
-                    }}>COLLECT ({objkt.hicdex.swaps[0].price / 1000000}ꜩ)</button> 
-                  )
-                )}
+                    }}>COLLECT ({objkt.hicdex.swaps[0].price / 1000000}ꜩ)</button>
+                ) : (
+                  <a href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`} disabled className="block-btn collect inactive">NOT AVAILABLE</a>
+                )
+              )}
+              {/* <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW</a> */}
+              {!userAddress ? (
+                <ConnectButton
+                  Tezos={Tezos}
+                  setContract={setContract}
+                  setPublicToken={setPublicToken}
+                  setWallet={setWallet}
+                  setUserAddress={setUserAddress}
+                  setUserBalance={setUserBalance}
+                  contractAddress={contractAddress}
+                  setBeaconConnection={setBeaconConnection}
+                  wallet={wallet}
+                />
+              ) : (
+                <DisconnectButton
+                  wallet={wallet}
+                  setPublicToken={setPublicToken}
+                  setUserAddress={setUserAddress}
+                  setUserBalance={setUserBalance}
+                  setWallet={setWallet}
+                  setTezos={setTezos}
+                  setBeaconConnection={setBeaconConnection}
+                />
+              )}
               </div>
-            </div>
           </div>
         ))}
         { objkts && <Exhibition
@@ -169,6 +149,7 @@ export const ExhibitionPageTemplate = ({
             <div className="columns">
               <div className="column is-one-third">
                 <h2>{artist}</h2>
+                <Link to={`/artist/${artist.toLowerCase().replace(/[ ]/g,'-').replace(/["|'|,|_]/g,'')}`}>← Back to Profile</Link>
                 {/* <h4>{country}</h4>
                 <SocialLinks links={{
                   website: website,
