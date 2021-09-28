@@ -16,7 +16,7 @@ description: Born in 1992, Bernardo holds a degree in Graphic Design from
   understanding." - Edmilson Nunes*
 objkts: 
   - objkt: 123456
-    video: http://ufffd.com/ufffd.com/public_html/nffft/chromavortex-preview.mp4
+    video: http://ufffd.com/nffft/chromavortex-preview.mp4
     title: Temporary Video Content
     desc: |-
       2077
