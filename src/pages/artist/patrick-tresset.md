@@ -13,7 +13,7 @@ statement: "In this exhibition, Tresset, following his series of Human Study #2
   opulent.  Using GIFs as time-based media, these works are experiments in
   minimalist storytelling.  More"
 featuredimage: https://ucarecdn.com/08113f7c-3dd0-42bd-9e4e-5b728af515cd/main_page_patrickt.gif
-midbanner: https://ucarecdn.com/045a335e-ca73-46d9-a36f-dd992fb12ff4/
+midbanner: https://www.patricktresset.com/various/banner_3c.gif
 website: https://www.patricktresset.com
 hicetnunc: https://www.hicetnunc.xyz/tresset_experimental/creations
 twitter: patricktresset
