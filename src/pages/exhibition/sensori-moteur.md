@@ -58,6 +58,8 @@ objkts:
       2021
 
       PNG 3888 x 5184
+
+      ed. 8
     image: https://ucarecdn.com/be13979c-77ce-483e-8946-634904368f94/
     objkt: 330047
 ---
