@@ -15,25 +15,21 @@ objkts:
     desc: |-
       2021
       computational animation
-      24 frames gif, 1000 x 1239
+      GIF, 24 frames, 1000 x 1239
   - objkt: 269169
     image: https://ipfs.io/ipfs/bafybeihllgzakvnjjhvfbcpw2javezolr3m3b53ow5wq3wkl3wdaskx6fm
     title: Pacing and resting on a Cold Studio Floor
     desc: |-
       2021
       computational animation
-      28 frames gif, 1000 x 1239
+      GIF, 28 frames, 1000 x 1239
   - objkt: 305667
     image: https://ipfs.io/ipfs/QmW4d1kCHgMateak2bdoqxDKiibfYbiC4A4shueozquy21
     title: Soothing Rest on the Cold Studio Floor
     desc: |-
       2021
       computational animation
-      36 frames gif, 1000 x 1239
-  - objkt: 0
-    image: https://ucarecdn.com/d3d73a5d-937b-41aa-a221-9b5fcfab5f43/
-    title: test
-    desc: test
+      GIF, 36 frames, 1000 x 1239
 ---
 Patrick Tresset is a Brussels-based artist who, in his work, explores human traits and the aspects of human experience. 
 
