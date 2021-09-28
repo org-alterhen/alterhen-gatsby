@@ -42,6 +42,9 @@ objkts:
       float around and smoke swirls. 
 
 
+      Campfires are now banned in the summer in British Columbia (where I live). With severe, extended droughts being the new normal,  the risk of wildfire is extreme. Compounding the threat, 2021 produced record temperatures reaching a staggering 49.6C, smashing the previous record by 4.6C. It is set to be the 3rd worst fire season on record, all of which were recorded within the last 5 years. Simultaneously, the UN declared that it is code red for humanity as a result of climate change.
+
+
       2021
 
       Seamless loop
