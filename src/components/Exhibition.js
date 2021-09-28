@@ -25,8 +25,12 @@ const Exhibition = ({ className, objkts }) => (
             {objkts.map((objkt, i) => (
               <div className="columns container" key={i}>
                 <div className="column is-10 is-offset-1">
-                  <div>
-                    <img src={objkt.image} alt={objkt.title}/>
+                  <div className="exhibition-slide-objkt">
+                    { objkt.image ? (
+                      <img src={objkt.image} alt={objkt.title}/>
+                    ) : ( objkt.video && (
+                      <video className="exhibition-slider-video" src={objkt.video} autoPlay loop muted playsInline />
+                    ))}
                   </div>
                   {/* <div style={{borderTop: '3px solid black'}}>
                     <div style={{display: 'flex', justifyContent: 'space-between', marginRight: '1rem'}}>

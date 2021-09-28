@@ -36,7 +36,7 @@ export const ExhibitionPageTemplate = ({
               document.getElementsByTagName('html')[0].style.overflow = "hidden"; 
               document.body.classList.add("exhibition")
             }}>
-            { objkt.image && (
+            { objkt.image ? (
               <PreviewCompatibleImage
                 imageInfo={{
                   image: transformImg(objkt.image),
@@ -44,7 +44,12 @@ export const ExhibitionPageTemplate = ({
                 }}
                 className=""
               />
-            ) }
+            ) : (
+              objkt.video && (
+                <video className="exhibition-page-video" src={objkt.video} autoPlay loop muted playsInline />
+              ) 
+            )}
+            {objkt.video}
             </button>
           </div>
           <div className="exhibition-page-objkt-right">
@@ -129,6 +134,7 @@ export const exhibitionPageQuery = graphql`
           title
           desc
           image
+          video
           objkt
         }
         artist

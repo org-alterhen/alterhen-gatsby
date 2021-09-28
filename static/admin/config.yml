@@ -59,7 +59,7 @@ collections:
         fields:
           - {label: "Objkt#", name: "objkt", widget: "number"}
           - {label: "Image", name: "image", widget: image, required: false}
-          - {label: "Video", name: "video", widget: string, required: false}
+          - {label: "Video URL", name: "video", widget: string, required: false}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "desc", widget: "text"}
       - {label: "Long Bio", name: "body", widget: "markdown"}
