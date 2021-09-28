@@ -31,7 +31,8 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
     "social-media-icons-react": "^1.1.7",
-    "uuid": "^7.0.0"
+    "uuid": "^7.0.0",
+    "@taquito/taquito": "^10.1.2"
   },
   "keywords": [
     "gatsby"

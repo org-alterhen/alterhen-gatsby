@@ -16,8 +16,13 @@ const PreviewCompatibleImage = ({ imageInfo, className }) => {
     return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} className={className}/>
   }
 
-  if (!!image && typeof image === 'string')
-    return <img style={imageStyle} src={image} alt={alt} className={className}/>
+  if (!!image && typeof image === 'string') {
+    if (image.includes('ucarecdn')) {
+      return <img style={imageStyle} data-blink-src={image} alt={alt} className={className}/>
+    } else {
+      return <img style={imageStyle} src={image} alt={alt} className={className}/>
+    }
+  }
 
   return null
 }
