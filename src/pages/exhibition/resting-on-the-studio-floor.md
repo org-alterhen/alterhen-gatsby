@@ -10,26 +10,44 @@ description: "In this exhibition, Tresset, following his series of Human Study
   minimalist storytelling. "
 objkts:
   - objkt: 279158
-    image: https://ipfs.io/ipfs/bafybeiho7yc6fwdwnuc7nlx3a3em7dbm6st4g4y5h7xne6ujwdlp4h6o4u
+    image: https://www.patricktresset.com/various/interrupted_.gif
     title: Interrupted Rest on the Studio Floor
     desc: |-
       2021
       computational animation
       GIF, 24 frames, 1000 x 1239
   - objkt: 269169
-    image: https://ipfs.io/ipfs/bafybeihllgzakvnjjhvfbcpw2javezolr3m3b53ow5wq3wkl3wdaskx6fm
+    image: https://www.patricktresset.com/various/pacing_.gif
     title: Pacing and resting on a Cold Studio Floor
     desc: |-
       2021
       computational animation
       GIF, 28 frames, 1000 x 1239
+      ed. 12
   - objkt: 305667
-    image: https://ipfs.io/ipfs/QmW4d1kCHgMateak2bdoqxDKiibfYbiC4A4shueozquy21
+    image: https://www.patricktresset.com/various/southing_.gif
     title: Soothing Rest on the Cold Studio Floor
     desc: |-
       2021
       computational animation
       GIF, 36 frames, 1000 x 1239
+      ed. 40
+  - objkt: 320441
+    image: https://www.patricktresset.com/various/passing_.gif
+    desc: |-
+      2021
+      computational animation
+      GIF, 30 frames, 1000 x 1239
+      ed. 40
+    title: Passing Time on the Cold Studio Floor
+  - objkt: 329158
+    title: Tasty Rest on the Cold Studio Floor
+    desc: |-
+      2021
+      computational animation
+      GIF, 30 frames, 1000 x 1239
+      ed. 24
+    image: https://www.patricktresset.com/various/tasty_.gif
 ---
 Patrick Tresset is a Brussels-based artist who, in his work, explores human traits and the aspects of human experience. 
 
