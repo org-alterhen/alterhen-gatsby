@@ -30,6 +30,10 @@ objkts:
       2021
       computational animation
       36 frames gif, 1000 x 1239
+  - objkt: 0
+    image: https://ucarecdn.com/d3d73a5d-937b-41aa-a221-9b5fcfab5f43/
+    title: test
+    desc: test
 ---
 Patrick Tresset is a Brussels-based artist who, in his work, explores human traits and the aspects of human experience. 
 
