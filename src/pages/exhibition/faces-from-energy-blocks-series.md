@@ -19,32 +19,32 @@ objkts:
     desc: >-
       2021
 
-      GIF Performance
-
       Photo collages with physical sculpture (cement and objects found in the streets) 
 
+      GIF Performance, 3 frames, 440 x 588
+
       ed. 1
-    image: https://ucarecdn.com/be737934-2e31-4114-8c6b-e32e9da1fd94/
+    image: https://www.patricktresset.com/various/auni_55.gif
   - objkt: 219334
     title: Face 56 - E N E R G Y_B L O C K S
-    image: https://ucarecdn.com/63d92494-a7c2-4fc0-983b-0d37f19487ae/
+    image: https://www.patricktresset.com/various/auni_56.gif
     desc: >-
       2021
 
-      GIF Performance
-
       Photo collages with physical sculpture (cement and objects found in the streets) 
+
+      GIF Performance, 3 frames, 440 x 588
 
       ed. 11
   - objkt: 223062
-    image: https://ucarecdn.com/f6b0ac1c-725b-4843-8100-c2612a021920/
+    image: https://www.patricktresset.com/various/auni_57.gif
     title: Face 57 - ENERGY_BLOCKS
     desc: >-
       2021
 
-      GIF Performance
+      Photo collages with physical sculpture (cement and objects found in the streets) 
 
-      Photo collages with physical sculpture (cement and objects found in the streets)
+      GIF Performance, 3 frames, 440 x 588
 
       ed. 5
 ---
