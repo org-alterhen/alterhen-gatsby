@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <h1 className="separating-headline collection"><a target="_blank" href="https://hexpo.andreasrau.eu/#alterhen.tez/collection">YOUR COLLECT\ON</a></h1>
+    <h1 className="separating-headline collection"><a target="_blank" rel="noreferrer" href="https://hexpo.andreasrau.eu/#alterhen.tez/collection">YOUR COLLECT\ON</a></h1>
   </div>
 )
 

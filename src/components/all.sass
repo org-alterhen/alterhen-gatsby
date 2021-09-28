@@ -94,6 +94,7 @@ footer.footer
   border-top: $border-1;
   text-align: right;
   position: relative
+  background: #FFF
   .iflogo
     position: absolute
     display: block
@@ -101,7 +102,7 @@ footer.footer
     width: 1.5em
     left: 2rem
     top: 1rem
-    background-image: url("../../static/img/if_logo.png")
+    background-image: url("../../static/img/if_logo.svg")
     background-repeat: no-repeat
     background-size: 100% 100%
 
@@ -377,7 +378,7 @@ a
       top: 0
       height: 6em
       width: 7em
-      background-image: url("../../static/img/if_logo.png")
+      background-image: url("../../static/img/if_logo.svg")
       background-repeat: no-repeat
       background-size: 2.3em 2.3em
       background-position: 2em 1.8em
@@ -579,6 +580,109 @@ a
     display: block 
     &:hover
       background: #F6F2F2
+
+.section-about-page
+  .logo-full
+    width: 4em
+    height: 5em
+    display: inline-block
+    svg
+      width: 100%
+      height: 100%
+  .content
+    p
+      letter-spacing: 0.025em
+      span
+        font-weight: 600
+        span
+          font-weight: 800
+    h3
+      font-weight: 700
+      font-size: 2em
+    >p:first-of-type
+      font-size: 2em
+      font-weight: 700
+      padding-top: 2em
+      line-height: 135%  
+    >div:first-of-type
+      margin-top: 2em
+      margin-bottom: 2em
+      width: 40%
+      opacity: .5
+      border-left: 1px solid #333
+      padding: 1em
+      padding-left: 2em
+      h3
+        font-weight: 700
+        font-size: 1.333em
+    >div:nth-of-type(2)
+      display: block
+      height: 25vw
+      margin-top: -6em
+      position: relative
+      right: 30vw
+      width: 125vw
+      background-image: url("../../static/img/about-lines-1.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+    >div:nth-of-type(3)
+      margin-top: 4em
+      position: relative
+      display: flex
+      justify-content: space-between
+      >div:nth-of-type(1)
+        width: 33%
+        font-size: 1.666666667em
+        display: block
+        position: relative
+        top: 50%
+      >div:nth-of-type(2)
+        width: 60%
+        display: block
+        position: relative
+        top: 20%
+    >div:nth-of-type(4)
+      display: block
+      height: 8vw
+      position: relative
+      right: 30vw
+      width: 125vw
+      margin-top: 4em
+      background-image: url("../../static/img/about-lines-2.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+    >div:nth-of-type(5)
+      margin-top: 4em
+      padding-top: 2em
+      margin-bottom: 0
+      position: relative
+      display: flex
+      justify-content: space-between
+      align-items: stretch
+      >div:nth-of-type(1)
+        position: absolute
+        z-index: -1
+        display: block
+        height: 150%
+        left: -100vw
+        width: 200vw
+        background: #F6F2F2
+      >div:nth-of-type(2)
+        width: 20%
+        z-index: 1
+        background-image: url("../../static/img/if_logo.svg")
+        background-repeat: no-repeat
+        background-size: 60% auto
+        background-position: left center
+        opacity: .3
+      >div:nth-of-type(3)
+        width: 80%
+        padding-top: 4em
+        opacity: .65
+        z-index: 1
+
+
+
 
 @media screen and ( min-width: 1000px )
   .artist-post .column
