@@ -49,7 +49,6 @@ export const ExhibitionPageTemplate = ({
                 <video className="exhibition-page-video" src={objkt.video} autoPlay loop muted playsInline />
               ) 
             )}
-            {objkt.video}
             </button>
           </div>
           <div className="exhibition-page-objkt-right">
