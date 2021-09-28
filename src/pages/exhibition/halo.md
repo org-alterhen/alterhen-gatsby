@@ -35,17 +35,32 @@ objkts:
     image: https://ucarecdn.com/40e86b5a-e18c-4ea3-b631-5f0132a3e9fe/
   - objkt: 313248
     title: HALO II
-    desc: |-
+    desc: >-
+      23 years after producing ‘Camp’, the promise of what summer brings has
+      changed. ‘HALO II’ presents a full, bright red moon distorted once again
+      by heat rising from something burning and crackling out of shot. Embers
+      float around and smoke swirls. 
+
+
       2021
+
       Seamless loop
+
       MP4, 1920x1080, stereo sound, 30 seconds
     image: https://ucarecdn.com/cf35ed36-d433-4ee1-b4dd-2b82cdcf0807/
   - objkt: 317668
     image: https://ucarecdn.com/b8c69def-0767-449d-9134-e5568565ad70/
     title: HALO III
-    desc: |-
+    desc: >-
+      23 years after producing ‘Camp’, the promise of what summer brings has
+      changed. ‘HALO III’ presents a bright red solar eclipse known as a “ring
+      of fire”. Embers float around and smoke swirls. 
+
+
       2021
+
       Seamless loop
+
       MP4, 1920x1080, stereo sound, 30 seconds
 ---
 Taking cues from 19th-century landscape painting, 20th-century cinema, and 21st-century planetary research, Kelly Richardson (b. 1972, Canada) crafts video installations and digital prints that offer imaginative glimpses of the future that prompt a careful consideration of the present. 
