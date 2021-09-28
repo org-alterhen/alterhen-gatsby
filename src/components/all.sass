@@ -94,6 +94,7 @@ footer.footer
   border-top: $border-1;
   text-align: right;
   position: relative
+  background: #FFF
   .iflogo
     position: absolute
     display: block
@@ -101,7 +102,7 @@ footer.footer
     width: 1.5em
     left: 2rem
     top: 1rem
-    background-image: url("../../static/img/if_logo.png")
+    background-image: url("../../static/img/if_logo.svg")
     background-repeat: no-repeat
     background-size: 100% 100%
 
@@ -262,6 +263,9 @@ a
   font-size: 18px;
   padding: 9px 18px;
   background: white;
+  width: fit-content;
+  margin-left: 0;
+  margin-right: auto;
 
   display: inline-block;
   align-items: center;
@@ -374,7 +378,7 @@ a
       top: 0
       height: 6em
       width: 7em
-      background-image: url("../../static/img/if_logo.png")
+      background-image: url("../../static/img/if_logo.svg")
       background-repeat: no-repeat
       background-size: 2.3em 2.3em
       background-position: 2em 1.8em
@@ -484,17 +488,47 @@ a
     cursor: pointer
     img 
       max-height: 70vh
+  p.availability
+    font-weight: 600;
+  a.block-btn
+    border: 1px solid #000
+    font-weight: 400
+  a.block-btn.inactive
+    opacity: .25
+    pointer-events: none
+  a.connect-wallet
+    display: inline-block
+    align-items: center;
+    text-align: center;
+    margin-top: .5em
+    font-size: .75em
+    opacity: .5
+    text-decoration: underline
+    width: fit-content
+    margin-left: 0
+    margin-right: auto
 
 .exhibition__description
   white-space: pre-wrap 
   font-size: 24px
       
-@media screen and ( max-width: 767px )
+@media screen and ( max-width: 768px )
+  .section.artist-post
+    padding-left: 0
+    padding-right: 0
+  .artist-post-sidebar
+    border-right: none !important
+    border-bottom: $border-1;
+    margin-bottom: 2em
   .exhibition-page .exhibition-page-objkt
     display: block;
     text-align: center;
     .exhibition-page-objkt-left
       border-right: none;
+  .block-btn
+    margin-left: auto
+  a.connect-wallet
+    margin-left: auto !important
 
 .exhibition-page-bio
   border-top: $border-1;
@@ -519,11 +553,158 @@ a
   padding-bottom: 0
 
 .artist-post .column
+  padding: 2em
+  padding-top: 3em
   display: flex
   flex-direction: column
   justify-content: center
   &.is-two-thirds
     padding-left: 2em
+
+.separating-headline
+  width: 100%
+  height: 4em
+  font-size: 1.5em
+  border-bottom: $border-1
+  line-height: 4em
+  text-align: center
+  font-weight: 700
+  letter-spacing: 0.025em
+
+.separating-headline.collection
+  border-top: $border-1
+  border-bottom: none
+  a
+    width: 100%
+    height: 100%
+    display: block 
+    &:hover
+      background: #F6F2F2
+
+.section-about-page
+  .logo-full
+    width: 4em
+    height: 5em
+    display: inline-block
+    svg
+      width: 100%
+      height: 100%
+  .content
+    p
+      letter-spacing: 0.025em
+      span
+        font-weight: 600
+        span
+          font-weight: 800
+    h3
+      font-weight: 700
+      font-size: 2em
+    >p:first-of-type
+      font-size: 2em
+      font-weight: 700
+      padding-top: 2em
+      line-height: 135%  
+    >div:nth-of-type(1)
+      margin-top: 2em
+      margin-bottom: 2em
+      width: 40%
+      opacity: .5
+      border-left: 1px solid #333
+      padding: 1em
+      padding-left: 2em
+      h3
+        font-weight: 700
+        font-size: 1.333em
+    >div:nth-of-type(2)
+      display: block
+      height: 25vw
+      margin-top: -6em
+      position: relative
+      right: 30vw
+      width: 125vw
+      background-image: url("../../static/img/about-lines-1.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+    >div:nth-of-type(3)
+      margin-top: 4em
+      position: relative
+      display: flex
+      justify-content: space-between
+      >div:nth-of-type(1)
+        width: 33%
+        font-size: 1.666666667em
+        display: block
+        position: relative
+        top: 50%
+      >div:nth-of-type(2)
+        width: 60%
+        display: block
+        position: relative
+        top: 20%
+    >div:nth-of-type(4)
+      display: block
+      height: 8vw
+      position: relative
+      right: 30vw
+      width: 125vw
+      margin-top: 4em
+      background-image: url("../../static/img/about-lines-2.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+    >div:nth-of-type(5)
+      margin-top: 4em
+      padding-top: 2em
+      margin-bottom: 0
+      position: relative
+      display: flex
+      justify-content: space-between
+      align-items: stretch
+      >div:nth-of-type(1)
+        position: absolute
+        z-index: -1
+        display: block
+        height: 150%
+        left: -100vw
+        width: 200vw
+        background: #F6F2F2
+      >div:nth-of-type(2)
+        width: 20%
+        z-index: 1
+        background-image: url("../../static/img/if_logo.svg")
+        background-repeat: no-repeat
+        background-size: 60% auto
+        background-position: left center
+        opacity: .3
+      >div:nth-of-type(3)
+        width: 80%
+        padding-top: 4em
+        opacity: .65
+        z-index: 1
+
+@media screen and ( max-width: 768px )
+  .section-about-page
+    .content
+      >div:nth-of-type(1)
+        width: 66%
+        margin-bottom: 4em
+      >div:nth-of-type(3)
+        display: inline
+        >div:nth-of-type(1)
+          width: 100%
+          margin-top: 1em
+          margin-bottom: 3em
+        >div:nth-of-type(2)
+          width: 100%
+
+
+@media screen and ( max-width: 512px )
+  .section-about-page
+    .content
+      >div:nth-of-type(1)
+        width: 100%
+        margin-bottom: 6em
+
+
 
 @media screen and ( min-width: 1000px )
   .artist-post .column
