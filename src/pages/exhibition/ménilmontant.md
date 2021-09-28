@@ -14,7 +14,7 @@ objkts:
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source  + custom code
-      PNG 1920 x 2742
+      PNG, 1920 x 2742
       ed. 1
   - objkt: 297937
     image: https://ucarecdn.com/67a804a6-29da-47d1-924a-e0973351c574/
@@ -22,14 +22,14 @@ objkts:
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
-      PNG 1920 x 2742
+      PNG, 1920 x 2742
       ed. 1
   - objkt: 297826
     title: "Menilmontant #4"
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
-      PNG 1920 x 2742
+      PNG, 1920 x 2742
       ed. 100
     image: https://ucarecdn.com/95436cf9-2e46-427a-a064-1255e7a16c33/
   - objkt: 297441
@@ -38,7 +38,7 @@ objkts:
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
-      PNG 1920 x 2742
+      PNG, 1920 x 2742
       ed. 10
   - objkt: 297797
     title: "Menilmontant #3"
@@ -46,7 +46,7 @@ objkts:
     desc: |-
       2015-2021
       Style transfer - layered style warping. open-source + custom code
-      PNG 1920 x 2742
+      PNG, 1920 x 2742
       ed. 10
 ---
 Luluxxx is working in the Visual Effects Industry as a cgi/3d artist . 
