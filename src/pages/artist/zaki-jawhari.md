@@ -12,8 +12,8 @@ statement: >-
   space. A questioning of the world we are experiencing here and now.
 
   The construction of a digital landscape fed by a multitude of data organized and processed by the machine according to a series of simple and repetitive rules. This procedural approach generates spaces and abstract architectures, the start of a new digital exploration. 
-featuredimage: https://ucarecdn.com/5d72f7a1-6bd7-485d-b7ea-7ebe16a3d33d/main_page_urbandrone.jpg
-midbanner: https://ucarecdn.com/859eebd4-1111-4e03-9d7c-b09fb29d68d1/banner_urbandrone.jpg
+featuredimage: https://ucarecdn.com/24a9693b-13fa-46ca-ba76-c00891641dc2/
+midbanner: https://ucarecdn.com/f48fafb9-2b91-4916-942e-d15c8ea8aed7/
 hicetnunc: https://www.hicetnunc.xyz/URBANDRONE/creations
 twitter: https://twitter.com/Urbandrone_
 instagram: https://www.instagram.com/urbandrone
