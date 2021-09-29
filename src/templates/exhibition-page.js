@@ -132,9 +132,9 @@ export const ExhibitionPageTemplate = ({
                       } finally {
                         // setLoadingIncrement(false);
                       }
-                    }}>COLLECT ({objkt.hicdex.swaps[0].price / 1000000}ꜩ)</button>
+                    }}>Collect for {objkt.hicdex.swaps[0].price / 1000000} tez</button>
                 ) : (
-                  <a href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`} disabled className="block-btn collect inactive">NOT AVAILABLE</a>
+                  <a href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`} disabled className="block-btn collect inactive">Not available</a>
                 )
               )}
               {/* <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW</a> */}
