@@ -490,13 +490,15 @@ a
       max-height: 70vh
   p.availability
     font-weight: 600;
-  a.block-btn
+  .block-btn
     border: 1px solid #000
     font-weight: 400
+    font-size: 1em
   a.block-btn.inactive
     opacity: .25
     pointer-events: none
-  a.connect-wallet
+    font-size: 1em
+  div.wallet-buttons a
     display: inline-block
     align-items: center;
     text-align: center;
@@ -557,7 +559,8 @@ a
   padding-top: 3em
   display: flex
   flex-direction: column
-  justify-content: center
+  align-self: stretch;
+  align-items: flex-start
   &.is-two-thirds
     padding-left: 2em
 
@@ -599,6 +602,12 @@ a
     h3
       font-weight: 700
       font-size: 2em
+    h4
+      width: 73%
+      margin-top: 4em
+      line-height: 135%
+    a
+      text-decoration: underline
     >p:first-of-type
       font-size: 2em
       font-weight: 700
