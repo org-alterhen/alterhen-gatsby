@@ -14,7 +14,7 @@ statement: "Photogrammetric models of remnants on a clear-cut - a former forest
   simultaneously brand new and in decay. They’re neither here nor there, these
   ghosts that only echo their physical origins in a digital void."
 featuredimage: https://ucarecdn.com/cb52972f-cc36-43ca-af21-bd3e9246125b/
-midbanner: https://ucarecdn.com/6cff8807-fe81-481b-96be-ad0b0260f5d3/
+midbanner: https://ucarecdn.com/da831f24-8981-4ff3-bfd0-c69d18ae2dca/
 website: https://www.alexandracrouwers.com/
 hicetnunc: https://www.hicetnunc.xyz/acrwrs/creations
 twitter: https://twitter.com/acrwrs
