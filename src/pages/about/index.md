@@ -47,7 +47,7 @@ We also have a shared experience of exhibiting, selling and collecting NFTs on H
 
 ### What is Hic et Nunc?
 
-The art platform Hic et Nunc takes its name from the Latin phrase meaning “here and now”, and is often abbreviated to ‘HEN’ or ‘H=N’. Created by Rafael Lima, a former social scientist from Brazil, as a “social laboratory” in March 2021, the platform exists as an eco-friendly, artist-friendly alternative to the vastly more expensive and environmentally damaging NFT platforms.
+The art platform <a target="_blank" href="https://hicetnunc.xyz">Hic et Nunc</a> takes its name from the Latin phrase meaning “here and now”, and is often abbreviated to ‘HEN’ or ‘H=N’. Created by Rafael Lima, a former social scientist from Brazil, as a “social laboratory” in March 2021, the platform exists as an eco-friendly, artist-friendly alternative to the vastly more expensive and environmentally damaging NFT platforms.
 
 Since launch, HEN has seen an unprecedented growth curve, with more than 300,000 NFTs listed and more than 10,000 active daily users.
 
@@ -59,6 +59,19 @@ This affordability is crucial and profound - the cost of listing an artwork is v
 * the ability for community events to appear and gain traction with ease, such as OBJKT4OBJKT (free artwork exchanges), charity drives such as Hiceturco (for Turkish wildfire assistance) or local community spotlights such as ‘Greek et Nunc’ or ‘HENBR’ (for the Brazilian community)
 * the ability for artists to collect fellow artists (often for the first time) enabling a mutually supportive, circular economy
 * a rich, artistically experimental environment
+
+#### Buy crypto currencies with VISA or Mastercard and start collecting NFT art in 2 steps
+
+First, you need to set-up your “wallet” where you will keep your digital currencies and the digital assets you will collect.
+Go directly to <a target="_blank" href="https://wallet.kukai.app/">wallet.kukai.app</a>, click on the “DirectAuth” button and log in with your Google, Reddit, or Twitter accounts. 
+Only as secure as your Google, Reddit, or Twitter account is. If you want something more secure, click on the + icon to make a “New Wallet”. 
+For this more secure option, make sure to have an ID verification document nearby since this is a secure and financial service.
+You will receive your wallet address. 
+
+Second, you need to buy some Tezos, the digital currency used on alterHEN. 
+Go on <a target="_blank" href="https://buy.moonpay.com/">buy.moonpay.com</a>, select a cryptocurrency from the drop-down menu, and enter how much you’d like to purchase in your currency of choice (e.g. US Dollar).
+Next you’ll be asked to enter your wallet address which you just got from Kukai. Next, we’ll ask you to verify your email address. Enter your email address and a four-digit code sent by email into the box. 
+Once you’ve done this, read the Terms of Use, and if you agree tick the box and click “Continue.” Again, make sure to have an ID verification document nearby. Go through the verification process. That’s it!
 
 <div>
 
