@@ -118,7 +118,7 @@ export const ExhibitionPageTemplate = ({
               { objkt.hicdex && (                
                 <p className="availability">{objkt.hicdex.swaps_aggregate.aggregate.sum.amount_left}&thinsp;/&thinsp;{objkt.hicdex.supply} editions available</p>,
                 objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
-                    <button className="block-btn collect" onClick={async () => {
+                    <button className={userAddress ? "block-btn collect" : "block-btn collect inactive"} onClick={async () => {
                       // setLoadingIncrement(true);
                       try {
                         const op = await contract.methods.collect(objkt.hicdex.swaps[0].id).send({
