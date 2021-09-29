@@ -15,7 +15,7 @@ statement: "In Good-Natured Savages, Patrick re-documents records from the
   view of their culture. The title comes from the caption in one of the images:
   \"Every day in the week is receiving day with these good-natured savages.\""
 featuredimage: https://ucarecdn.com/4a94c26f-2e20-4b67-8efa-887b697374fe/main_page_patrickjamora.gif
-midbanner: https://ucarecdn.com/42794c21-9837-4075-913c-d9e889cb2930/banner_patrickjamora.gif
+midbanner: https://www.patricktresset.com/various/banner_patrickj.gif
 website: https://patrickjamora.com
 hicetnunc: https://www.hicetnunc.xyz/daydreampipeline/creations
 twitter: daydreampipelne
