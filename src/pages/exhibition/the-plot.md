@@ -34,7 +34,8 @@ objkts:
       ed. 6
     title: "Diorama: The_Plot / Three Trees, day/night sequence"
     objkt: 205207
-    image: https://ucarecdn.com/00f4b2bf-d702-4bf4-a395-1f751fbd67bb/
+    image: ""
+    video: https://www.patricktresset.com/various/alex_diorama.mp4
   - objkt: 275218
     title: Grief
     desc: >+
@@ -76,7 +77,8 @@ objkts:
 
       ed. 6
 
-    image: https://ucarecdn.com/3b5d64b1-9ddc-46d8-96d8-bfc70c4063d3/
+    image: ""
+    video: https://www.patricktresset.com/various/alex_letter_p.mp4
   - title: Tools (v001)
     objkt: 229833
     desc: >
@@ -91,7 +93,8 @@ objkts:
       MP4, 1920 x 1920, 1'28", colour/silent
 
       ed. 6
-    image: https://ucarecdn.com/369ca7ad-14c7-40f1-8381-5e9884bbaec6/
+    image: ""
+    video: https://www.patricktresset.com/various/tools_v1.mp4
   - title: Fundamental Mechanics 49/52
     desc: >-
       ‘Fundamental Mechanics’ is a series in 52 chapters. The ultrashort
