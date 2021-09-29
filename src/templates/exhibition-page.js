@@ -14,6 +14,8 @@ import DisconnectButton from "../components/DisconnectWallet";
 
 import { objktInfo } from '../utils/hicDex';
 
+import { useScrollPosition } from '../utils/useScrollPosition'
+
 // BeaconConnection = {
 //   NONE = "",
 //   LISTENING = "Listening to P2P channel",
@@ -61,6 +63,27 @@ export const ExhibitionPageTemplate = ({
     }
   });
 
+  const [scroll, setScroll] = useState(0);
+
+  useScrollPosition(function setScrollPosition ({ currentPosition }) {
+    setScroll(currentPosition.y);
+    console.log(scroll);
+    let videos = document.getElementsByTagName("video");
+    for (let i = 0; i < videos.length; i++) {
+      if (checkVisible(videos[i])) {
+        videos[i].play();
+      } else {
+        videos[i].pause();
+      }
+    }
+  });
+
+  function checkVisible(elm) {
+    var rect = elm.getBoundingClientRect();
+    var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    return !(rect.bottom < 200 || rect.top - viewHeight >= -200);
+  }
+
   return (
     <div className="content">
 
@@ -83,7 +106,7 @@ export const ExhibitionPageTemplate = ({
                 />
               ) : (
                 objkt.video && (
-                  <video className="exhibition-page-video" src={objkt.video} autoPlay loop muted playsInline />
+                  <video className="exhibition-page-video" src={objkt.video} autoPlay loop playsInline />
                 ) 
               )}
               </button>
