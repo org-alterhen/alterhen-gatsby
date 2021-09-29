@@ -3,7 +3,7 @@ const queryObjktDetails = `
     hic_et_nunc_token_by_pk(id: $token) {
       supply
       title
-      swaps(limit: 1, order_by: {price: asc}, where: {amount_left: {_gt: "0"}, contract_version: {_eq: "2"}, is_valid: {_eq: true}}) {
+      swaps(limit: 1, order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, contract_version: {_eq: "2"}, is_valid: {_eq: true}}) {
         id
         price
       }
