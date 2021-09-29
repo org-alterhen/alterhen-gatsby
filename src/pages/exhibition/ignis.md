@@ -36,7 +36,8 @@ objkts:
       MOV 1920x1080
 
       ed. 25
-    image: https://ucarecdn.com/6b933eb4-619d-41ec-85a0-a53761e1202d/
+    image: ""
+    video: https://www.patricktresset.com/various/ignis_1.mov
   - objkt: 350826
     title: Ignis II - 14 sec towards carbon neutrality or the point of no return
     desc: >-
