@@ -36,7 +36,12 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
   const queryresult_key = `query_${queryhash}_result`;
   const querytime_key = `query_${queryhash}_time`;
   
-  const lastquery = localStorage.getItem(querytime_key);
+  let lastquery;
+  if (typeof window !== 'undefined') {
+    lastquery = localStorage.getItem(querytime_key);
+  } else {
+    lastquery = null;
+  }
   if ( lastquery && (+ new Date()) - lastquery < 30000 ) { // 3 seconds
     console.log(['cache hit', queryhash, JSON.parse(localStorage.getItem(queryresult_key))]);
     return JSON.parse(localStorage.getItem(queryresult_key));
@@ -54,8 +59,10 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
       }
     );
     const data = await result.json();
-    localStorage.setItem(queryresult_key, JSON.stringify(data));
-    localStorage.setItem(querytime_key, + new Date());
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(queryresult_key, JSON.stringify(data));
+      localStorage.setItem(querytime_key, + new Date());
+    }
     return await data;
   }
 }

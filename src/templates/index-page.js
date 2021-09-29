@@ -10,7 +10,12 @@ import ArtistRoll from '../components/ArtistRoll'
 export const IndexPageTemplate = ({
   content
 }) => {
-  const userAddress = localStorage.getItem('lastUserAddress')
+  let userAddress;
+  if (typeof window !== 'undefined') {
+    userAddress = localStorage.getItem('lastUserAddress')
+  } else {
+    userAddress = null
+  }
   return (
     <div className="homepage">
       <div style={{padding: "2em", position: 'absolute', top: '0', left: '0', right: '0', zIndex: '1'}}>
