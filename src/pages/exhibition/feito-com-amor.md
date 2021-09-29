@@ -13,7 +13,7 @@ description: Born in 1992, Bernardo holds a degree in Graphic Design from
   come. The result is works that start from these perceptions of ancestry that
   blend with layers of realities that cross the artist. "Differences become
   affective aesthetic bodies (work), as possible ways of distributing love and
-  understanding." - Edmilson Nunes*
+  understanding." - Edmilson Nunes* xxx
 objkts:
   - objkt: 15150
     title: Feito com amor
