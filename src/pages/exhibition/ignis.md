@@ -37,7 +37,7 @@ objkts:
 
       ed. 25
     image: ""
-    video: https://www.patricktresset.com/various/ignis_1.mov
+    video: https://www.patricktresset.com/various/ignis_1.mp4
   - objkt: 350826
     title: Ignis II - 14 sec towards carbon neutrality or the point of no return
     desc: >-
@@ -54,7 +54,8 @@ objkts:
       MOV 1920x1080
 
       ed. 25
-    image: https://ucarecdn.com/576128b2-5452-4a36-8e3f-7f08212c73cb/
+    image: ""
+    video: https://www.patricktresset.com/various/ignis_2.mp4
   - objkt: 350839
     title: Ignis III - 14 sec towards carbon neutrality or the point of no return
     desc: >-
@@ -71,7 +72,8 @@ objkts:
       MOV 1920x1080
 
       ed. 25
-    image: https://ucarecdn.com/792a9c0a-3986-40ab-83b9-9fa271eb24bc/
+    image: ""
+    video: https://www.patricktresset.com/various/ignis_1.mp4
   - title: Ignis IV - 14 sec towards carbon neutrality or the point of no return
     desc: >-
       Seconds become years. 14 seconds to experience the metamorphosis of utopia
@@ -88,7 +90,8 @@ objkts:
 
       ed. 25
     objkt: 350864
-    image: https://ucarecdn.com/6547f6b8-ccd8-4a9b-803f-5455ce1d599f/
+    image: ""
+    video: https://www.patricktresset.com/various/ignis_1.mp4
 ---
 Diane Drubay is a visual artist working with photographs and videos to create anticipatory visions of other futures. Her creations are drawn by the aesthetics of social science fiction literature, using colour-psychology and current scientific discoveries. The speculative visions depicted by Diane Drubay advocate for optimistic images interpreting shocking stories of possible futures. 
 
