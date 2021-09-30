@@ -47,7 +47,7 @@ objkts:
       GLB, 18.8MB
       ed. 33
 
-    image: https://ucarecdn.com/f023d428-5502-4918-9646-ffbab6e3d039/
+    image: https://ucarecdn.com/1fc6f92b-8993-4867-99db-2995b417b469/
     title: "Magnetic Nerves: Augmented Heart"
     objkt: 372267
 ---
