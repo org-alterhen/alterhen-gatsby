@@ -29,7 +29,7 @@ function makeHashCode(string_input) {
   return hash;
 };
 
-async function fetchGraphQL(operationsDoc, operationName, variables) {
+async function fetchGraphQL(operationsDoc, operationName, variables, cache = 100000) { // 10 seconds default cache length
   const querystring = JSON.stringify([operationsDoc, operationName, variables]);
   const queryhash = makeHashCode(querystring);
 
@@ -42,7 +42,7 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
   } else {
     lastquery = null;
   }
-  if ( lastquery && (+ new Date()) - lastquery < 30000 ) { // 3 seconds
+  if ( lastquery && (+ new Date()) - lastquery < cache ) {
     console.log(['cache hit', queryhash, JSON.parse(localStorage.getItem(queryresult_key))]);
     return JSON.parse(localStorage.getItem(queryresult_key));
   } else {
@@ -68,7 +68,11 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
 }
 
 export async function objktInfo(id) {
-    const { errors, data } = await fetchGraphQL(queryObjktDetails, "ObjktDetails", {"token": id});
+    const { errors, data } = await fetchGraphQL(
+      queryObjktDetails, 
+      "ObjktDetails", 
+      {"token": id},
+      300000);
     if (errors) {
       console.error(errors);
     }
