@@ -11,7 +11,7 @@ statement: >-
   In this exhibition, Tresset, following his series of Human Study #2
   installations, pursues his exploration of the Vanitas genre. 
 
-  In contrast to the traditional Flemish manner here, the atmosphere is stark, almost grim rather than opulent. But, like all vanitas, these are about life rather than death. They express existence's ineluctability with dark underlying humour.
+  In contrast to the traditional Flemish manner here, the atmosphere is stark, almost grim rather than opulent. But, like all vanitas, these are about life rather than death. They express existence's ineluctability with dry underlying humour.
 
   Using GIFs as time-based media, where each frame is conceived as an individual artwork, these animations are experiments in stylised minimalist storytelling. 
 featuredimage: https://ucarecdn.com/08113f7c-3dd0-42bd-9e4e-5b728af515cd/main_page_patrickt.gif
