@@ -3,7 +3,7 @@ templateKey: artist-post
 name: Mihai Grecu
 bio: Mihai Grecu is a multimedia artist from Romania investigating environmental
   and technological themes to articulate a complex and mysterious universe of
-  moving images and glimpses of an alternate present.
+  moving images.
 country: Romania
 profpic: https://ucarecdn.com/eb4fcd35-19a7-47d6-952f-a2645a33fe31/mihai_500c.gif
 title: NeoPyongyang

@@ -20,7 +20,7 @@ objkts:
     desc: |-
       2021
       Oil and aerosol on canvas (Handpainted animation)
-  - objkt: 366846
+  - objkt: 366848
     title: Shakti
     desc: |-
       2021
