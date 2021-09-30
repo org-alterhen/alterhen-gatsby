@@ -16,6 +16,8 @@ import { objktInfo } from '../utils/hicDex';
 
 import { useScrollPosition } from '../utils/useScrollPosition'
 
+import Zoomer from '../components/Zoomer'
+
 // BeaconConnection = {
 //   NONE = "",
 //   LISTENING = "Listening to P2P channel",
@@ -92,24 +94,21 @@ export const ExhibitionPageTemplate = ({
         { objkts && objkts.map((objkt, index) => (
           <div className="exhibition-page-objkt" key={index}>
             <div className="exhibition-page-objkt-left">
-              <button className="exhibition-page-button" onClick={() => {
-                document.getElementsByTagName('html')[0].style.overflow = "hidden"; 
-                document.body.classList.add("exhibition")
-              }}>
-              { objkt.image ? (
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: transformImg(objkt.image),
-                    alt: `${objkt.title} by ${artist}`,
-                  }}
-                  className=""
-                />
-              ) : (
-                objkt.video && (
-                  <video className="exhibition-page-video" src={objkt.video} autoPlay loop playsInline />
-                ) 
-              )}
-              </button>
+              <Zoomer>
+                { objkt.image ? (
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: transformImg(objkt.image),
+                      alt: `${objkt.title} by ${artist}`,
+                    }}
+                    className=""
+                  />
+                ) : (
+                  objkt.video && (
+                    <video className="exhibition-page-video" src={objkt.video} autoPlay loop playsInline />
+                  ) 
+                )}
+              </Zoomer>
             </div>
             <div className="exhibition-page-objkt-right">
               <h2>{objkt.title}</h2>

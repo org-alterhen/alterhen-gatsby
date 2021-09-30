@@ -482,12 +482,30 @@ a
         border-radius: 0;
         border: 1px solid black
   .exhibition-page-button
-    background: none;
     padding: none;
     border: none;
     cursor: pointer
-    img 
-      max-height: 70vh
+    background: transparent;
+    transition: all .2s ease-in-out
+    img, video
+      max-height: 80vh
+        // transition: none
+        
+    &.exhibition-zoomed
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background: #0006;
+      z-index: 9;
+      img, video
+        transition: 0.3s max-height ease
+        max-height: 100vh;
   p.availability
     font-weight: 600;
   .block-btn
