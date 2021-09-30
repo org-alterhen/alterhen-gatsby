@@ -15,7 +15,7 @@ statement: >-
   phrase “Made with Love”.
 
   This work was developed during the Formation and Deformation Course, at EAV-Parque Lage. Where we worked during the school term, above questions about transport, food and their crossings.
-featuredimage: https://ucarecdn.com/20f7890b-d047-43a8-b770-7f2d92f3cc28/bernardoliu.jpg
+featuredimage: https://ucarecdn.com/dd127b76-8e39-4d73-b3b6-6f0fb7e3b10d/
 midbanner: https://ucarecdn.com/4767184d-6727-41af-a097-bf0f808ed983/banner_bernardoliu.jpg
 website: https://bernardoliu.com
 hicetnunc: https://www.hicetnunc.xyz/tz/tz1LqHK1VkBNVRHh1UJa2PoBSPMdqrCU63AZ
