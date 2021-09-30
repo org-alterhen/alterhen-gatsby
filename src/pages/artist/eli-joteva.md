@@ -17,7 +17,7 @@ statement: >-
 
 
   She conducted a series of full body MRI scans and Diffusion Tensor Imaging (DTI) scans, commonly used only to show connectivity in the brain, to instead uncover nerve fibers in the chest, pelvic and feet regions of her body. She drew inspiration from the fact that hydrogen atoms, which MRI relies on, are also in constant flux on a nano-second time-scale and thus evade precise measurement. These components are key elements in the artwork which exhibits an oscillating inner landscape of hydrogen atoms, the nerves they flow along and the magnetic potentials generated between them.
-featuredimage: https://ucarecdn.com/88d7daab-ebe2-4741-a378-9534b2dee4be/main_page_joteva.gif
+featuredimage: https://www.patricktresset.com/various/joteva_home.gif
 midbanner: https://ucarecdn.com/0743e84b-5677-48e9-907f-e49f9e9ab5bf/
 website: https://www.joteva.com/
 hicetnunc: https://www.hicetnunc.xyz/tz/tz1Vo3tuxJRG7vcNHiNn8neAoL9hM5rtbqjc/creations
