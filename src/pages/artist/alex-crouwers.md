@@ -13,7 +13,7 @@ statement: "Photogrammetric models of remnants on a clear-cut - a former forest
   these type of photography-based digital models: they resemble isolated ruins,
   simultaneously brand new and in decay. They’re neither here nor there, these
   ghosts that only echo their physical origins in a digital void."
-featuredimage: https://ucarecdn.com/cb52972f-cc36-43ca-af21-bd3e9246125b/
+featuredimage: https://ucarecdn.com/3b6e08fb-f004-4a2e-9b53-4a404c548d1f/
 midbanner: https://ucarecdn.com/da831f24-8981-4ff3-bfd0-c69d18ae2dca/
 website: https://www.alexandracrouwers.com/
 hicetnunc: https://www.hicetnunc.xyz/acrwrs/creations
