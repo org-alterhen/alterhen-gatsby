@@ -22,7 +22,7 @@ statement: What lies within the bounds being? IntraBeing envisions enigmatic
   that exhibits an oscillating inner landscape of hydrogen atoms, the nerves
   they flow along and the magnetic potentials generated between them.
 featuredimage: https://ucarecdn.com/88d7daab-ebe2-4741-a378-9534b2dee4be/main_page_joteva.gif
-midbanner: https://ucarecdn.com/d31cdd4d-218d-4aac-9e65-49e821686c83/banner_joteva1.jpg
+midbanner: https://ucarecdn.com/0743e84b-5677-48e9-907f-e49f9e9ab5bf/
 website: https://www.joteva.com/
 hicetnunc: https://www.hicetnunc.xyz/tz/tz1Vo3tuxJRG7vcNHiNn8neAoL9hM5rtbqjc/creations
 twitter: https://twitter.com/joteva
