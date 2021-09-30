@@ -133,11 +133,30 @@ const ArtistPost = ({ data }) => {
         profpic={post.frontmatter.profpic}
         helmet={
           <Helmet titleTemplate="%s | Artist">
-            <title>{`${post.frontmatter.name}`}</title>
+            <title>{post.frontmatter.name}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={post.frontmatter.bio}
             />
+            
+            {/* open graph */}
+            <meta property="og:title" content={post.frontmatter.name} />
+            <meta
+              name="og:description"
+              content={post.frontmatter.bio}
+            />
+            <meta
+              property="og:image"
+              content={post.frontmatter.profpic}
+            />
+
+            
+            {/* <!-- Twitter --> */}
+            <meta property="twitter:card" content="summary_large_image"/>
+            {/* <meta property="twitter:url" content="https://alterhen.art/"/> */}
+            <meta property="twitter:title" content={post.frontmatter.name}/>
+            <meta property="twitter:description" content={post.frontmatter.bio}/>
+            <meta property="twitter:image" content={post.frontmatter.profpic}/>
           </Helmet>
         }
       />

@@ -27,12 +27,12 @@ const TemplateWrapper = ({ children }) => {
         <meta name="msapplication-TileColor" content="#000000"/>
         <meta name="theme-color" content="#ffffff"/>
 
-        <meta property="og:type" content="business.business" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+        {/* <meta property="og:url" content="/" /> */}
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix('/')}img/logo-icon-spacing.png`}
         />
       </Helmet>
       {/* <Navbar /> */}
