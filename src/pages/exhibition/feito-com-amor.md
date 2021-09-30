@@ -27,14 +27,14 @@ objkts:
 
       Brazilian food package, acrylic paint, concrete and instant noodles.
 
-      MP4, 
+      MP4, 1080 x 1080, 10''
 
       ed. 25
   - objkt: 256576
     title: "Quentinha #20 Foo Dog II"
     desc: |-
       2021
-      MP4, 
+      MP4, 1080 x 1080, 8''
       ed. 30
     video: https://www.patricktresset.com/various/256576.mp4
   - title: "Quentinha #18 - Guaravita"
@@ -42,19 +42,19 @@ objkts:
     video: https://www.patricktresset.com/various/151715.mp4
     desc: |-
       2021
-      MP4, 
+      MP4, 1080 x 1080, 8''
       ed. 30
   - video: https://www.patricktresset.com/various/306219.mp4
     title: "Quentinha #21"
     objkt: 306219
     desc: |-
       2021
-      MP4, 
+      MP4, 1920 x 1920, 8''
       ed. 30
   - title: "Quentinha #17 - Foo Dog 1"
     desc: |-
       2021
-      MP4, 
+      MP4, 1080 x 1080, 8''
       ed. 30
     video: https://www.patricktresset.com/various/123452.mp4
     objkt: 123452
