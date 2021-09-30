@@ -56,7 +56,8 @@ objkts:
       ed. 60
 
 
-    image: https://ucarecdn.com/b08a6156-d7c1-4548-ad1d-1ed5d1bd2996/
+    image: ""
+    video: https://www.patricktresset.com/various/alex_0.mp4
   - title: "Infographic: The_Plot / Three Trees, the letter P, & The Face of
       Solastalgia"
     objkt: 203506
