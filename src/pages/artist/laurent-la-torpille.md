@@ -12,8 +12,8 @@ statement: With sensori-moteur Laurent La Torpille continues his exploration in
   drawing inspiration from it, he wishes, through his digital works, to offer
   another perspective. This has led him, since 1994, to create his own digital
   tools which have continued to evolve since.
-featuredimage: https://ucarecdn.com/d0bd2f09-3cc5-4c76-89be-3528cf62bbe0/main_page_laurent.jpg
-midbanner: https://ucarecdn.com/d5dc4ca4-3b5c-417f-b53a-4a48160d3b0b/banner_laurent1.jpg
+featuredimage: https://ucarecdn.com/4e0f71f6-249a-4c54-8407-6bb7ab7d8440/
+midbanner: https://ucarecdn.com/022ee913-a9d5-4e94-99cf-c5941d005631/
 twitter: https://twitter.com/TorpilleLaurent
 linktree: https://linktr.ee/Laurent_La_Torpille
 ---
