@@ -3,7 +3,7 @@ templateKey: artist-post
 name: Andreas Rau
 bio: Andreas Rau is a generative artist and interaction designer exploring the
   interplay between humans and their digital and physical environments in
-  kinetic sculptures, plotter drawings, and generative visuals.xxx
+  kinetic sculptures, plotter drawings, and generative visuals.
 country: Norway
 profpic: https://www.patricktresset.com/various/andreas_500c.gif
 title: City Scapes
