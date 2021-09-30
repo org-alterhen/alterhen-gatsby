@@ -8,7 +8,7 @@ profpic: https://ucarecdn.com/b6604137-0306-4019-9925-60dd5edb48c3/600_compresse
 title: Circling Fragmentations
 statement: >-
   Tracing the soft edges of paper tears with fingertips. Drawing up the shapes,
-  the lines, the details of a material, a memory, in the dark room of inner
+  the lines, the details of a material, a memory, in the darkroom of inner
   vision. Trying to hold together the fragments of a being, of a body, of a self
   through a vague shape, with a somnambulant sigh; the eye hovering on images
   like a hand lingering just above the skin of an other.
