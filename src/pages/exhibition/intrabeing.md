@@ -47,9 +47,10 @@ objkts:
       GLB, 18.8MB
       ed. 33
 
-    image: https://ucarecdn.com/1fc6f92b-8993-4867-99db-2995b417b469/
+    image: ""
     title: "Magnetic Nerves: Augmented Heart"
     objkt: 372267
+    video: https://www.patricktresset.com/various/heart.mp4
 ---
 Eli Joteva (b.1990) is a Bulgarian intermedia artist and researcher based in LA. With a practice rooted in photography and digital media, she is influenced by contemporary research in the fields of quantum mechanics, neurophysics and machine vision. 
 
