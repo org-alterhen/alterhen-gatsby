@@ -15,6 +15,6 @@ statement: >-
 featuredimage: https://ucarecdn.com/24a9693b-13fa-46ca-ba76-c00891641dc2/
 midbanner: https://ucarecdn.com/f48fafb9-2b91-4916-942e-d15c8ea8aed7/
 hicetnunc: https://www.hicetnunc.xyz/URBANDRONE/creations
-twitter: https://twitter.com/Urbandrone_
-instagram: https://www.instagram.com/urbandrone
+twitter: Urbandrone_
+instagram: urbandrone
 ---
