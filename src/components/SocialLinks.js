@@ -4,6 +4,16 @@ import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 const SocialLinks = ({ links }) => (
   <>
+  { links.hicetnunc && <SocialMediaIconsReact 
+    icon="web"
+    iconColor="rgba(255,255,255,1)"
+    backgroundColor="rgba(60,60,60,1)"
+    iconSize="3"
+    borderWidth="0"
+    roundness="50%"
+    url={links.hicetnunc}
+    size="26"
+  />}
   { links.website && <SocialMediaIconsReact 
     icon="web"
     iconColor="rgba(255,255,255,1)"

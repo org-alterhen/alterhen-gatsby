@@ -23,6 +23,7 @@ export const ArtistPostTemplate = ({
   twitter,
   facebook,
   henlink,
+  hicetnunc,
   linktree,
   tumblr,
   bio,
@@ -62,7 +63,8 @@ export const ArtistPostTemplate = ({
                   facebook: facebook,
                   linktree: linktree,
                   henlink: henlink,
-                  tumblr: tumblr                  
+                  tumblr: tumblr,
+                  hicetnunc: hicetnunc,               
                 }} />
               </div>
               <h2 style={{marginTop: 0}} className="is-size-5 has-text-weight-bold">
@@ -126,6 +128,7 @@ const ArtistPost = ({ data }) => {
         facebook={post.frontmatter.facebook}
         linktree={post.frontmatter.linktree}
         henlink={post.frontmatter.henlink}
+        hicetnunc={post.frontmatter.hicetnunc}
         tumblr={post.frontmatter.tumblr}
         title={post.frontmatter.title}
         description={post.frontmatter.description}
@@ -189,6 +192,7 @@ export const pageQuery = graphql`
         tumblr
         facebook
         henlink
+        hicetnunc
         linktree
         statement
         profpic
