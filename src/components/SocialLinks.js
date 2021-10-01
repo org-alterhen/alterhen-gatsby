@@ -81,7 +81,7 @@ const SocialLinks = ({ links }) => (
     iconSize="3"
     borderWidth="0"
     roundness="50%"
-    url={`https://henlink.com/${links.henlink}`}
+    url={`https://hen.link/${links.henlink}`}
     size="26"
   />}
   </>
