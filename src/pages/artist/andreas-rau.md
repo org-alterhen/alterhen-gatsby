@@ -18,6 +18,6 @@ featuredimage: https://ucarecdn.com/748d514b-2c35-4872-8653-e15b34a53b1a/
 midbanner: https://ucarecdn.com/9b45eb06-eb69-41f5-8941-36c1d6d36510/
 website: https://andreasrau.eu
 hicetnunc: https://www.hicetnunc.xyz/andreasrau/creations
-twitter: https://twitter.com/andreasrau_eu
+twitter: andreasrau_eu
 instagram: https://www.instagram.com/andreasrau.eu/
 ---
