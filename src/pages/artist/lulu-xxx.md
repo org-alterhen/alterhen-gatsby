@@ -18,7 +18,7 @@ featuredimage: https://ucarecdn.com/3943b434-f042-4ac8-b940-0359afa6aae2/main_pa
 midbanner: https://ucarecdn.com/aa489cbb-c20c-461c-abf3-2ee25071566d/
 website: https://www.luluixixix.com/
 twitter: luluixixix
-instagram: luluixix/
+instagram: luluixix
 linktree: luluxXX
 updated: 28/08/2021 12:42:42
 email: luluixixix@gmail.com

@@ -21,6 +21,6 @@ featuredimage: https://ucarecdn.com/5afc2103-eb2c-4316-a2b2-93c2940a8aa7/
 midbanner: https://ucarecdn.com/fa6e355a-6944-4fc3-8775-b28273741035/
 website: https://kellyrichardson.net/
 hicetnunc: https://www.hicetnunc.xyz/KellyRichardson/creations
-twitter: https://twitter.com/richardsonkelly
-instagram: https://www.instagram.com/kellyrichardson_studio/
+twitter: richardsonkelly
+instagram: kellyrichardson_studio
 ---

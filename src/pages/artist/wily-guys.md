@@ -21,6 +21,6 @@ featuredimage: https://ucarecdn.com/0dd2fe2a-cf56-421e-93bd-714f54f78516/main_pa
 midbanner: https://ucarecdn.com/115ca3ee-f0f3-492a-85fc-f6922edd29fe/banner_wilyguys_alterhen_cloaked1copy.jpg
 website: https://wilyguys.com
 hicetnunc: https://www.hicetnunc.xyz/WilyGuys/creations
-twitter: https://twitter.com/GuysWily
-instagram: https://www.instagram.com/wilyguys/
+twitter: GuysWily
+instagram: wilyguys
 ---

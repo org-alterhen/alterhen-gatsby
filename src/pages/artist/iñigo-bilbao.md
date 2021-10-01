@@ -17,6 +17,6 @@ featuredimage: https://ucarecdn.com/46aadfbe-df68-4b9b-b413-678f6d841823/main_pa
 midbanner: https://ucarecdn.com/57c15d63-24ef-4b7e-b1ae-ff6b1b2550b6/banner_inigo1.jpg
 website: https://www.ibl3d.com
 hicetnunc: https://www.hicetnunc.xyz/tz/tz1YgdEoKrNkfrPXcqSK6rtYgv1Yh3cFTrsF/creations
-twitter: https://twitter.com/Ibl3D
-instagram: https://www.instagram.com/ibl3d/
+twitter: ibl3D
+instagram: ibl3d
 ---

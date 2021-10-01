@@ -14,6 +14,6 @@ statement: With sensori-moteur Laurent La Torpille continues his exploration in
   tools which have continued to evolve since.
 featuredimage: https://ucarecdn.com/4e0f71f6-249a-4c54-8407-6bb7ab7d8440/
 midbanner: https://ucarecdn.com/022ee913-a9d5-4e94-99cf-c5941d005631/
-twitter: https://twitter.com/TorpilleLaurent
-linktree: https://linktr.ee/Laurent_La_Torpille
+twitter: TorpilleLaurent
+linktree: Laurent_La_Torpille
 ---

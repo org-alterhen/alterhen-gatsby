@@ -51,7 +51,7 @@ objkts:
       ed. 40
     title: Passing Time on the Cold Studio Floor
   - objkt: 329158
-    title: Tasty Rest on the Cold Studio Floor
+    title: Loving Rest on the Cold Studio Floor
     desc: |-
       2021
       Computational animation
