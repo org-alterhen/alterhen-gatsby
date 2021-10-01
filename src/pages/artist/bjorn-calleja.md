@@ -28,7 +28,7 @@ midbanner: https://ucarecdn.com/d8eab3a4-c4c4-44df-b83e-c69d205e18a1/banner_bjor
 website: https://www.bjorncalleja.weebly.com
 hicetnunc: https://www.hicetnunc.xyz/bjorncalleja/creations
 twitter: bjorncalleja
-instagram: oskngkalye
+instagram: osongkalye
 updated: 27/08/2021 13:33:40
 email: Callejabjorn@gmail.com
 ---
