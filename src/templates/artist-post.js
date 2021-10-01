@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 // import Img from "gatsby-image"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-// import SocialLinks from '../components/SocialLinks'
+import SocialLinks from '../components/SocialLinks'
 // import ExhibitionLinks from '../components/ExhibitionLinks'
 // import Content, { HTMLContent } from '../components/Content'
 
@@ -54,11 +54,8 @@ export const ArtistPostTemplate = ({
                   className="artist-profpic"
                 />
               ) }
-              <h2 style={{marginTop: 0}} className="is-size-5 has-text-weight-bold">
-                {name}
-              </h2>
               <div className="artist-socials">
-                {/* <SocialLinks links={{
+                <SocialLinks links={{
                   website: website,
                   instagram: instagram,
                   twitter: twitter,
@@ -66,8 +63,11 @@ export const ArtistPostTemplate = ({
                   linktree: linktree,
                   henlink: henlink,
                   tumblr: tumblr                  
-                }} /> */}
+                }} />
               </div>
+              <h2 style={{marginTop: 0}} className="is-size-5 has-text-weight-bold">
+                {name}
+              </h2>
               {/* <h3 className="title is-size-1 has-text-weight-bold">
                 {title}
               </h3> */}
