@@ -21,7 +21,7 @@ featuredimage: https://www.patricktresset.com/various/joteva_home.gif
 midbanner: https://ucarecdn.com/0743e84b-5677-48e9-907f-e49f9e9ab5bf/
 website: https://www.joteva.com/
 hicetnunc: https://www.hicetnunc.xyz/tz/tz1Vo3tuxJRG7vcNHiNn8neAoL9hM5rtbqjc/creations
-twitter: https://twitter.com/joteva
-instagram: https://www.instagram.com/joteva/
-facebook: https://www.facebook.com/joteva/
+twitter: joteva
+instagram: joteva
+facebook: joteva
 ---
