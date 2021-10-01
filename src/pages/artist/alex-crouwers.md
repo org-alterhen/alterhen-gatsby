@@ -17,6 +17,6 @@ featuredimage: https://ucarecdn.com/3b6e08fb-f004-4a2e-9b53-4a404c548d1f/
 midbanner: https://ucarecdn.com/da831f24-8981-4ff3-bfd0-c69d18ae2dca/
 website: https://www.alexandracrouwers.com/
 hicetnunc: https://www.hicetnunc.xyz/acrwrs/creations
-twitter: https://twitter.com/acrwrs
-instagram: https://www.instagram.com/alexa_crwrs/
+twitter: acrwrs
+instagram: alexa_crwrs
 ---
