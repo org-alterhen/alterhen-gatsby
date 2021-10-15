@@ -54,6 +54,8 @@ export const ExhibitionPageTemplate = ({
   const [userBalance, setUserBalance] = useState(0);
   const [beaconConnection, setBeaconConnection] = useState(false);
 
+  // const [objktsHicdex, setObjktsHicdex] = useState([]);
+
   // v2 swap contract
   const contractAddress = "KT1HbQepzV1nVGg8QVznG7z4RcHseD5kwqBn";
 
@@ -69,7 +71,7 @@ export const ExhibitionPageTemplate = ({
 
   useScrollPosition(function setScrollPosition ({ currentPosition }) {
     setScroll(currentPosition.y);
-    console.log(scroll);
+    // console.log(scroll);
     let videos = document.getElementsByTagName("video");
     for (let i = 0; i < videos.length; i++) {
       if (checkVisible(videos[i])) {
@@ -115,26 +117,28 @@ export const ExhibitionPageTemplate = ({
               <p style={{whiteSpace: 'pre-wrap'}}>{objkt.desc}</p>
               
               { objkt.hicdex && (                
-                <p className="availability">{objkt.hicdex.swaps_aggregate.aggregate.sum.amount_left}&thinsp;/&thinsp;{objkt.hicdex.supply} editions available</p>,
-                objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
-                    <button className={userAddress ? "block-btn collect" : "block-btn collect inactive"} onClick={async () => {
-                      // setLoadingIncrement(true);
-                      try {
-                        const op = await contract.methods.collect(objkt.hicdex.swaps[0].id).send({
-                          amount: objkt.hicdex.swaps[0].price, // parseFloat(objkt.price)
-                          mutez: true,
-                          storageLimit: 310
-                        });
-                        await op.confirmation();
-                      } catch (error) {
-                        console.log(error);
-                      } finally {
-                        // setLoadingIncrement(false);
-                      }
-                    }}>Collect for {objkt.hicdex.swaps[0].price / 1000000} tez</button>
-                ) : (
-                  <a href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`} disabled className="block-btn collect inactive">Not available</a>
-                )
+                <>
+                  <p className="availability">{objkt.hicdex.swaps_aggregate.aggregate.sum.amount_left || 'X'}&thinsp;/&thinsp;{objkt.hicdex.supply} editions available</p>
+                  { objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
+                      <button className={userAddress ? "block-btn collect" : "block-btn collect inactive"} onClick={async () => {
+                        // setLoadingIncrement(true);
+                        try {
+                          const op = await contract.methods.collect(objkt.hicdex.swaps[0].id).send({
+                            amount: objkt.hicdex.swaps[0].price, // parseFloat(objkt.price)
+                            mutez: true,
+                            storageLimit: 310
+                          });
+                          await op.confirmation();
+                        } catch (error) {
+                          console.log(error);
+                        } finally {
+                          // setLoadingIncrement(false);
+                        }
+                      }}>Collect for {objkt.hicdex.swaps[0].price / 1000000} tez</button>
+                  ) : (
+                    <a href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`} disabled className="block-btn collect inactive">Not available</a>
+                  )}
+                </>
               )}
               {/* <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW</a> */}
               {!userAddress ? (
