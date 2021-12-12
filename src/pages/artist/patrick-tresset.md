@@ -22,4 +22,6 @@ twitter: patricktresset
 instagram: patricktresset
 updated: 27/08/2021 07:44:46
 email: tresset@patricktresset.com
+published: false
+featured: false
 ---

@@ -25,6 +25,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "artist-post"}
+      - {label: "Published", name: "published", widget: "boolean", default: true, required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", default: true, required: false}
       - {label: "Artist Name", name: "name", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Country", name: "country", widget: "string", required: false}

@@ -20,6 +20,8 @@ exports.createPages = ({ actions, graphql }) => {
               templateKey
               artist
               name
+              published
+              featured
             }
           }
         }
@@ -36,17 +38,21 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach((edge) => {
       const id = edge.node.id
       const artist = edge.node.frontmatter.artist || edge.node.frontmatter.name || ''
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-          artist
-        },
-      })
+      const published = edge.node.frontmatter.published == null ? true : edge.node.frontmatter.published
+      if (published) {
+        console.log(edge.node.frontmatter)
+        createPage({
+          path: edge.node.fields.slug,
+          component: path.resolve(
+            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id,
+            artist
+          },
+        })
+      }
     })
   })
 }

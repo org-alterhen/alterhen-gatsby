@@ -74,7 +74,13 @@ export default () => (
       query ArtistRollQuery {
         allMarkdownRemark(
           sort: { order: ASC, fields: [frontmatter___name] }
-          filter: { frontmatter: { templateKey: { eq: "artist-post" } } }
+          filter: { 
+            frontmatter: { 
+              templateKey: { eq: "artist-post" },
+              published: { ne: false },
+              featured: { ne: false }
+            } 
+          }
         ) {
           edges {
             node {
@@ -88,6 +94,8 @@ export default () => (
                 title
                 templateKey
                 featuredimage
+                published
+                featured
               }
             }
           }

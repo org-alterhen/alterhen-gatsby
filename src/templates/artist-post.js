@@ -97,6 +97,7 @@ export const ArtistPostTemplate = ({
 }
 
 ArtistPostTemplate.propTypes = {
+  published: PropTypes.bool,
   title: PropTypes.string,
   description: PropTypes.string,
   helmet: PropTypes.object,
@@ -181,6 +182,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        published
         title
         name
         description
