@@ -1,5 +1,7 @@
 ---
 templateKey: artist-post
+published: true
+featured: true
 name: Patrick Tresset
 bio: Patrick Tresset is a Brussels-based artist exploring aspects of the human
   condition and our perception of time and memory via an exploration of the
@@ -22,6 +24,4 @@ twitter: patricktresset
 instagram: patricktresset
 updated: 27/08/2021 07:44:46
 email: tresset@patricktresset.com
-published: false
-featured: false
 ---
