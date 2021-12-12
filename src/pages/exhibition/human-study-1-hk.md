@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-page
-artist: Patrick Tresset
+artist: Patrick Tresset I
 title: "Human Study #1, HK"
 date: 2021-12-12T08:46:38.115Z
 description: xxxx
