@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
-published: true
-featured: true
+published: false
+featured: false
 name: Patrick Tresset
 bio: Patrick Tresset is a Brussels-based artist exploring aspects of the human
   condition and our perception of time and memory via an exploration of the
