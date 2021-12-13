@@ -8,7 +8,7 @@ bio: Patrick Tresset is a Brussels-based artist exploring aspects of the human
   drawing practice using computational systems and robotic actors.
 country: France
 profpic: https://ucarecdn.com/b713f308-03f5-49d6-aaf6-bae5c1576e15/patrickt_500c.gif
-title: "Human Study #1, HK"
+title: Human Study I, HK
 statement: >-
   In this exhibition, Tresset, following his series of Human Study #2
   installations, pursues his exploration of the Vanitas genre. 
