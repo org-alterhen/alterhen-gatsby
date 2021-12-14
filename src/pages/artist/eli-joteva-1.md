@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Eli Joteva
 bio: "Eli Joteva is a Bulgarian intermedia artist and researcher based in LA.
   Her practice is influenced by quantum mechanics, neurophysics and machine
