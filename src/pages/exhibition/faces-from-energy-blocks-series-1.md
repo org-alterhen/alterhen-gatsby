@@ -37,7 +37,7 @@ objkts:
       GIF Performance, 3 frames, 440 x 588
   - objkt: 571656
     image: https://patricktresset.com/various/II/3_Face76_EnergyBlocks.gif
-    title: Face 56 - ENERGY_BLOCKS
+    title: Face 76 - ENERGY_BLOCKS
     desc: >-
       2021
 
