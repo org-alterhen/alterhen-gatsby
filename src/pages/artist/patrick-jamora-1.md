@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Patrick Jamora
 bio: Patrick Jamora is a graphic designer, photographer and multimedia artist
   from the Philippines, working with images and typography to investigate the
