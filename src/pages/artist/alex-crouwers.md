@@ -6,7 +6,7 @@ bio: Alex Crouwers’ works arise in the x, y and z axes of her virtual studio.
   from immersive video installations to tapestries.
 country: Belgium
 profpic: https://www.patricktresset.com/various/alex_500c.gif
-title: The Plot
+title: Fundamental Mechanics
 statement: >-
   ‘Fundamental Mechanics’ relates to the motions of mechanical looms. This
   72-part series of miniature animations was made while I was researching
