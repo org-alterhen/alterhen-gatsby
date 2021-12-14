@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Anna Malina Zemlianski
 bio: Artist working with photography and found footage in the fields of collage
   & experimental animation, making short films & music videos.
