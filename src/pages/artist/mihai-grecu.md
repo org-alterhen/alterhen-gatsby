@@ -14,8 +14,8 @@ statement: 'The "Subliminal ghosts series" is a collection of moving images
   between human spirituality and the advancement of technology. What if ghosts
   can emerge from the rise of artificial intelligence? Ectoplasms of mysterious
   digital simulations weave a layered lucid dream. '
-featuredimage: https://ucarecdn.com/fb5043c5-e61c-4cdb-9fa4-8f5c8c83b2ea/
-midbanner: https://ucarecdn.com/5daeae47-2eec-4aa7-83a9-5b168c5cd4b9/
+featuredimage: https://ucarecdn.com/9cf8d1a2-26ac-4c16-8c35-9db2a7c807da/
+midbanner: https://ucarecdn.com/b55f9be1-f66f-4b5e-862b-7aabcc6fea07/
 website: https://mihaigrecu.net/
 hicetnunc: https://www.hicetnunc.art/mihaigrecu/creations
 twitter: the_grecu
