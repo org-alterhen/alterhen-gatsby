@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 artist: Eli Joteva
-title: Chthonic Light
+title: Chtonic Light
 date: 2021-12-14T11:53:26.195Z
 description: >-
   Eli Joteva (b.1990) is a Bulgarian intermedia artist and researcher based in
