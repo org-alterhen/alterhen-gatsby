@@ -1,5 +1,6 @@
 ---
 templateKey: artist-post
+featured: true
 name: SOMATICBITS
 bio: SOMATICBITS is a digital artist working on interactive, immersive and
   generative artworks, aiming to represent a complex inner world of altered
