@@ -18,7 +18,8 @@ statement: >+
   Ho Yan Lam Grace as the sitter.
 
 
-  Human Study#1, 3RNP is an installation where the human becomes an actor. In a scene reminiscent of a life drawing class, the human takes the sitter's role to be sketched by 3 robots. When the subject arrives by appointment, he is seated in an armchair. An assistant attaches sheets of paper onto the robots’ desks and wakes each one up, twisting its arm or knocking three times. 
+  Human Study#1, is an installation where the human becomes an actor. In a scene reminiscent of a life drawing class, the human takes the sitter's role to be sketched by a number of robots. When the subject arrives by appointment, he is seated in an armchair. An assistant attaches sheets of paper onto the robots’ desks and wakes each one up, twisting its arm or knocking three times. 
+
 
   The robots, stylised minimal artists, are only capable of drawing obsessively. Their bodies are old school desks on which the drawing paper is pinned. Their left arms bolted on the table, are only able to draw. The robots, named RNP-n all look alike. Their eyes focus on the subject or look at the drawing in progress. 
 
@@ -26,7 +27,7 @@ statement: >+
   The drawing sessions last 15 min, during which time the human cannot see the drawings in progress. The sitter only sees the robots alternating between observing and drawing, sometimes pausing. The sounds produced by each robot’s motors create an improvised soundtrack. 
 
 
-  5RNP (the larger version of the installation) was premiered at the Merge festival in association with Tate Modern in London in 2012, it has since been exhibited in numerous locations including at the Museum of Modern and Contemporary Arts (Seoul) at Ars Electronica 2014 (Linz), BOZAR (Brussels), Variation (Paris), BIAN (Montreal), Japan Media Festival (Kyoto),  Update_5 (Ghent) where it was awarded the Prix du Public and 3rd Prix du Jury, it was also awarded the Bronze Lumen Prize, part of the jury selection at the Japan media festival. The smaller version 3RNP has been extensively exhibited around the world.
+  Human Study #1, 5 RNP  was premiered at the Merge festival in association with Tate Modern in London in 2012, it has since been exhibited in numerous locations including at the Museum of Modern and Contemporary Arts (Seoul) at Ars Electronica 2014 (Linz), BOZAR (Brussels), Variation (Paris), BIAN (Montreal), Japan Media Festival (Kyoto),  Update_5 (Ghent) where it was awarded the Prix du Public and 3rd Prix du Jury, it was also awarded the Bronze Lumen Prize, part of the jury selection at the Japan media festival. The smaller version 3RNP has been extensively exhibited around the world.
 
 featuredimage: https://patricktresset.com/various/II/thumbnail.gif
 midbanner: https://ucarecdn.com/fc639d93-c124-4f95-b789-1d5d4a0159ca/
