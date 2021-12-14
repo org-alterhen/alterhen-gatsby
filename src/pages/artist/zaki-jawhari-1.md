@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Zaki Jawhari
 bio: URBANDRONE is a project of the Greek architect Jawhari Zaki. Since 2007, he
   has explored the complexity of a world in continual movement and
