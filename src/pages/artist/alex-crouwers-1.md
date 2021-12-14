@@ -1,6 +1,6 @@
 ---
 templateKey: artist-post
-published: true
+published: false
 featured: false
 name: Alex Crouwers
 bio: Alex Crouwers’ works arise in the x, y and z axes of her virtual studio.
