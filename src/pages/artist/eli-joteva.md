@@ -6,7 +6,7 @@ bio: "Eli Joteva is a Bulgarian intermedia artist and researcher based in LA.
   vision and aims to shed light on the invisible forces that influence us.  "
 country: Bulgaria
 profpic: https://ucarecdn.com/c6a29238-842e-4525-8274-31a21de507e3/joteva_500c.gif
-title: Chthonic Light
+title: Chtonic Light
 statement: Inspired by fermentation cycles in wine-making, the project "Chtonic
   Light" transforms decaying matter into digital light. In each NFT of this
   series, 3D scans of grapes decompose and regrow digitally. What new light/life
