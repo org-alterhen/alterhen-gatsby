@@ -15,7 +15,7 @@ statement: "Mmmmultiplicityyyyy examines the evolution of the American colonial
 featuredimage: https://ucarecdn.com/fffbcb84-e87d-4fed-a006-74581ec18d3f/
 midbanner: https://ucarecdn.com/f4ff937a-4a93-4874-8edc-7552956f02b7/
 website: https://patrickjamora.com
-hicetnunc: https://www.hicetnunc.xyz/daydreampipeline/creations
+hicetnunc: https://www.hicetnunc.art/daydreampipeline/creations
 twitter: daydreampipelne
 instagram: padraick
 updated: 26/08/2021 16:39:12
