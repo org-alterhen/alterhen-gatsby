@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Laurent La Torpille
 bio: Laurent La Torpille is a French artist dedicated to the creation of dynamic
   environments - real-time interactions of sound and image. His work places the
