@@ -6,16 +6,14 @@ bio: Patrick Jamora is a graphic designer, photographer and multimedia artist
   curiosities and imperfections of the documentary process.
 country: Philippines
 profpic: https://ucarecdn.com/0e0443aa-3bd2-4047-9120-52fd805b653e/patrickj_500c.gif
-title: Good-Natured Savages
-statement: "In Good-Natured Savages, Patrick re-documents records from the
-  World's Fair at St. Louis in 1904, where more than 1,100 native Filipinos were
-  exhibited. Using archival images and text copied directly from captions, his
-  work highlights how the Filipinos were portrayed as uncivilized and
-  underdeveloped savages and how it contributed to perpetuating a condescending
-  view of their culture. The title comes from the caption in one of the images:
-  \"Every day in the week is receiving day with these good-natured savages.\""
-featuredimage: https://ucarecdn.com/4a94c26f-2e20-4b67-8efa-887b697374fe/main_page_patrickjamora.gif
-midbanner: https://www.patricktresset.com/various/banner_patrickj.gif
+title: Mmmmultiplicityyyyy
+statement: "Mmmmultiplicityyyyy examines the evolution of the American colonial
+  gaze and how their conceptions of Filipinos have shifted from savage - to
+  subordinate - to friend, more than 70 years after the World's Fair in 1904. It
+  features local practices that are influenced by more than 300 years of Spanish
+  and American rule. "
+featuredimage: https://ucarecdn.com/fffbcb84-e87d-4fed-a006-74581ec18d3f/
+midbanner: https://ucarecdn.com/f4ff937a-4a93-4874-8edc-7552956f02b7/
 website: https://patrickjamora.com
 hicetnunc: https://www.hicetnunc.xyz/daydreampipeline/creations
 twitter: daydreampipelne
