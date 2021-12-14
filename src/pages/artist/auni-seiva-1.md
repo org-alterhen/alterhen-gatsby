@@ -1,6 +1,6 @@
 ---
 templateKey: artist-post
-published: true
+published: false
 featured: false
 name: Auni Seiva
 bio: Auni Seiva is a Brazilian graffiti artist turned fine artist, focusing on
