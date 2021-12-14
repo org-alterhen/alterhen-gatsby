@@ -1,9 +1,7 @@
 ---
 templateKey: artist-post
 name: B. Calleja - D. Bato
-bio: Bjorn Calleja is a Filipino painter and interdisciplinary artist, whose
-  works play with the idea of the micro and macro-cosms of humans within and
-  against their environments, in an ecological, social, and internal sense.
+bio: ..
 country: Philippines
 profpic: https://ucarecdn.com/ebc60391-d922-43a5-9893-a6da837f570c/bjorn_500c.gif
 title: Terra Ignota
