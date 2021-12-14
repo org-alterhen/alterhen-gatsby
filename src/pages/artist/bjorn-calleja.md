@@ -1,32 +1,33 @@
 ---
 templateKey: artist-post
-name: Bjorn Calleja
+name: B. Calleja - D. Bato
 bio: Bjorn Calleja is a Filipino painter and interdisciplinary artist, whose
   works play with the idea of the micro and macro-cosms of humans within and
   against their environments, in an ecological, social, and internal sense.
 country: Philippines
 profpic: https://ucarecdn.com/ebc60391-d922-43a5-9893-a6da837f570c/bjorn_500c.gif
-title: Two Second Meditations
-statement: By observing a play on scale, my work encourages looking, and then
-  looking slowly and deeply, allowing enough breathing space for meaning to
-  materialize. The subjects I use in my paintings, range from the familiar
-  pictures of ﬂowers, landscapes and portraits, to referenced historical images,
-  photos of sports events, to portrayals of imagined, surreal individuals and
-  scenarios, these images are purged of their original meaning and is reframed
-  as a landscape where tiny beings would be painted over and exist. These minute
-  cartoonish characters in humanoid forms are the central unifying theme that
-  collates my recent body of works, populating my paintings, sculptures,
-  installations, and animations. These beings are depicted in diverse range of
-  human activities and eccentric identities that personiﬁes both mindless and
-  intelligent fragments of ideas connecting visible and invisible relationships
-  between man and environment, symbols and meaning, space and time, identity and
-  the cultural landscape. My work is my reﬂection and response to the world, it
-  examines how we humans, through all our advancements and destructions caused,
-  are responsible in shaping the bigger image which is this plane we inhabit.
-featuredimage: https://ucarecdn.com/b89187bf-f921-436c-9a46-554435170457/main_page_bjorn.jpg
-midbanner: https://ucarecdn.com/d8eab3a4-c4c4-44df-b83e-c69d205e18a1/banner_bjorn1.jpg
+title: Terra Ignota
+statement: >-
+  A collaboration between artists Bjorn Calleja and Dennis Bato, “Terra Ignota,”
+  in partnership with Mono8 Gallery is an interrogation into an unfamiliar
+  terrain where the two artists' practices intersect. The exhibition examines
+  how Calleja and Bato utilize space and forms in their works to represent
+  environments where identities exist. Calleja's colourful works present images
+  drawn from ﬂowers, landscapes and portraits, referenced historical images,
+  photos of sports events, portrayals of the imagined, and surreal scenarios.
+  Thus, his works entice the audience to look more closely and allow enough
+  breathing space for meaning to materialize. Calleja shows a microcosm within a
+  microcosm, where images can turn into landscapes even if they do not carry the
+  same visual references as expected. Hence, arranging characters who personify
+  the artist’s exploration into the essence of being and the invisible
+  relationships that traverse through the universe. 
+
+
+  Meanwhile, Bato’s dark and monochromatic portrayals in silhouette depict human relationships and behaviour in contexts of space and time. Bato peers into this perspective, which is an exploration into the patterns of chaos. The layers in his works reveal the multi-dimensional characteristics of space: the physical and the psychic aspect where is defined by recurring events. The lines in Bato’s works converge into points where we can trace the similar paths followed by different people while the silhouette act like ghost particles of our every interaction.
+featuredimage: https://ucarecdn.com/cb52b268-dae4-4d2a-b467-223bb63d3881/
+midbanner: https://ucarecdn.com/87dac0d8-77b3-4e24-bf62-d2ab5f050903/
 website: https://www.bjorncalleja.weebly.com
-hicetnunc: https://www.hicetnunc.xyz/bjorncalleja/creations
+hicetnunc: https://www.hicetnunc.art/bjorncalleja/creations
 twitter: bjorncalleja
 instagram: osongkalye
 updated: 27/08/2021 13:33:40
