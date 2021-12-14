@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Iñigo Bilbao
 bio: Iñigo Bilbao is a Spanish digital artist, focusing on the interactions
   between physical and digital environments. He has worked with 3D printers, 3D
