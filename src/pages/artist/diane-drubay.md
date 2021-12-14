@@ -1,5 +1,6 @@
 ---
 templateKey: artist-post
+featured: true
 name: Diane Drubay
 bio: Diane Drubay is a visual artist working with photography and digital media
   to create visions of alternative realities. She nudges for more Nature
