@@ -6,17 +6,14 @@ bio: Iñigo Bilbao is a Spanish digital artist, focusing on the interactions
   scanners and photogrammetry in work exhibited internationally.
 country: Spain
 profpic: https://ucarecdn.com/77600b34-c4db-4875-832d-27da708dfe68/inigo_500c.gif
-title: X-ray
-statement: >-
-  Raw X-ray images lose their original function to be showed as artistic pieces.
-
-  The originals have not been manipulated, in some cases just reframed, entrusting all the work to the machine, time and chance.
-
-  First selection from among more than 7000 vet X-ray images assigned to the artist.
-featuredimage: https://ucarecdn.com/46aadfbe-df68-4b9b-b413-678f6d841823/main_page_inigo.jpg
-midbanner: https://ucarecdn.com/57c15d63-24ef-4b7e-b1ae-ff6b1b2550b6/banner_inigo1.jpg
+title: 80s Technology X-ray Images
+statement: "The foundations of our digital culture exposed to x-rays: science
+  fiction landscapes which make us think inside of these devices the worlds that
+  they made us imagine really existed."
+featuredimage: https://ucarecdn.com/a5c3bf93-345d-4c9b-9432-3886cdb25d60/
+midbanner: https://ucarecdn.com/0aab8d36-19f7-4bca-a2cc-1ee9448e25d0/
 website: https://www.ibl3d.com
-hicetnunc: https://www.hicetnunc.xyz/tz/tz1YgdEoKrNkfrPXcqSK6rtYgv1Yh3cFTrsF/creations
+hicetnunc: https://www.hicetnunc.art/tz/tz1YgdEoKrNkfrPXcqSK6rtYgv1Yh3cFTrsF/creations
 twitter: ibl3D
 instagram: ibl3d
 ---
