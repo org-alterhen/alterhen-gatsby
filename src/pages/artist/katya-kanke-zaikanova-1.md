@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Katya Kanke-Zaikanova
 bio: Katya Kanke-Zaikanova is a Russian artist working with photography and
   performance art to create drawing works and video pieces on the themes of
