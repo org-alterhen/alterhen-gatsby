@@ -24,7 +24,7 @@ objkts:
     video: https://patricktresset.com/various/II/ring.mp4
   - video: https://patricktresset.com/various/II/neutrinoOK.mp4
     objkt: 93154
-    title: Death in the neutrino detector
+    title: Death in the neutrino detector III
     desc: |-
       2021
       3D
