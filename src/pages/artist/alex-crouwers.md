@@ -21,7 +21,7 @@ statement: >-
 
 
   'Fundamental Mechanics' is a suggestive and effective series exploring non-linearity, non-spaces, portals, choices, and cognition, weaving a bridge across 500 years of art history.
-featuredimage: https://ucarecdn.com/3b6e08fb-f004-4a2e-9b53-4a404c548d1f/
+featuredimage: https://ucarecdn.com/0c4d0078-ed9e-4538-ab6b-ab47895be5e4/
 midbanner: https://ucarecdn.com/da831f24-8981-4ff3-bfd0-c69d18ae2dca/
 website: https://www.alexandracrouwers.com/
 hicetnunc: https://www.hicetnunc.art/acrwrs/creations
