@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Bjorn Calleja
 bio: Bjorn Calleja is a Filipino painter and interdisciplinary artist, whose
   works play with the idea of the micro and macro-cosms of humans within and
