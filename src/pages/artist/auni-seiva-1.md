@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
-published: false
-featured: false
+published: true
+featured: true
 name: Auni Seiva
 bio: Auni Seiva is a Brazilian graffiti artist turned fine artist, focusing on
   ethical-existential sustainability. Her work critiques irrational consumerism
