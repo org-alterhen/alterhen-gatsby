@@ -48,7 +48,7 @@ class ArtistRoll extends React.Component {
                       <span className="artist-roll-name">{post.frontmatter.name}</span>
                     </p>
                     <p className="post-meta">
-                      <span className="artist-roll-name">from 30.09.2021</span>
+                      <span className="artist-roll-name">from 15.12.2021</span>
                     </p>
                   </div>
                 </header>
