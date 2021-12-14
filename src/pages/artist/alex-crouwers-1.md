@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Alex Crouwers
 bio: Alex Crouwers’ works arise in the x, y and z axes of her virtual studio.
   Ecological collapse is central in her multi-faceted practice, which ranges
