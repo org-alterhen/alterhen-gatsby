@@ -1,5 +1,7 @@
 ---
 templateKey: artist-post
+published: true
+featured: true
 name: Kelly Richardson
 bio: Taking cues from art history, cinema, and science, Kelly Richardson
   constructs videos and stills that offer imaginative glimpses of the future
