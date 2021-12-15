@@ -85,4 +85,16 @@ objkts:
       Oil, acrylic and aerosol on canvas
       20 x 24 inches
 ---
-...
+Dennis Bato
+
+Reality is subjective, just like a shapeshifter varying between each spectators’ perspective. Dennis Bato inquires on the connection of spatial context with human forms and perceptions. Exploring issues and imposes inquiries on social relevance, observation of the chaotic society, adapting, and how it may transcend to different modes of representations. A collection of gathered thoughts that creates an illustration of graphic truths and deceptions, often finding balance from created chaos and deconstructed forms out of our society’s norms.
+Dennis Bato (b. 1989) is a street artist who portrays current issues he observes around him. Through various materials and formats, he focuses on themes of society versus individuality. He has a constant thirst for awareness and answers, which leads lot of his research towards philosophy. As a licensed architect, he tends to push the boundaries of material experimentation in communicating ideas through his work. Bato received his BS in Architecture from the Far Eastern University. His works have been exhibited in Shanghai, Jakarta, and Manila. He is currently under the MFA program of the University of the Philippines, Diliman.
+
+Bjorn Calleja
+
+Bjorn Calleja (b. 1981, Manila, Philippines) is a Filipino painter and interdisciplinary artist. He earned his BFA from Far Eastern University, where he later became a part-time lecturer. Aside from exhibiting his work, his early career involved corporate jobs and stints as a graphic designer. He also co-founded Design. Other Things. (2012-2014), a design studio that employed a team of visual artists.
+Solo exhibitions include The Ennead at Secret Fresh Gallery (2018); Acme at West Gallery (2018); Postcolonial Rubbish at Pablo Gallery (2017); Self-Portrait as a Hamburger at Secret Fresh Gallery (2016); There is no Solution because there is no Problem at Underground Gallery (2016); Confessions of an Almost Artist at West Gallery (2013); Bubblegum Stories at Secret Fresh Gallery (2012); Eat my Daddy at The Crucible Gallery (2012); Some Failed Attempts in Creating a Good Image for Painting at West Gallery (2011); The Color Bringer at Secret Fresh Gallery (2011); Fear Made me Do This at Lost Projects (2011). His work has also been included in various group exhibitions locally and abroad, and published in books; Toy Art 2.0 (2014), Philippines: Inter Tropical Convergence Zone Contemporary Artists from the Philippines Imago Mundi - Luciano Benetton Collection (2014).
+
+MONO8
+
+MONO8 is a Manila-based contemporary art space presenting mid-career and emerging artists from the Philippines, Asia Pacific, and other parts of the world. Committed to its vision of re-defining the gallery space as a platform for artistic exchanges and the critical understanding of contemporary art, we actively emphasize the importance of presenting diverse formats that range from painting, sculpture, installation, new media, and other experimental forms. Our strong curatorial program supports and engages artists in realizing new possibilities in producing a broader range of exhibitions and bodies of work. We believe that these approaches may foster dynamic relationships between artists, patrons, and the public.
