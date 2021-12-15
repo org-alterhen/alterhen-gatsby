@@ -7,9 +7,7 @@ country: Germany
 profpic: https://ucarecdn.com/b6604137-0306-4019-9925-60dd5edb48c3/600_compressed.gif
 title: Red Thread
 statement: >-
-  RED THREAD
-
-
+  
   If it is not just a backdrop or a decor or a lawn painted green by Antonioni, a filmed landscape in a fictional film has a documentary layer: At the time of filming at least, this is what the scenery looked like. These leaves were trembling in the wind, that cloud was floating up there, indifferently, the trees were bearing witness to a confusion of staged & lived realities.
 
 
