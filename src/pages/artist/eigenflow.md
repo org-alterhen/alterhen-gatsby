@@ -9,8 +9,8 @@ bio: |-
 country: France/Germany
 title: eigenflow
 statement: >-
-  We are a nature-sensitive species. In a time of high severe weather phenomena,
-  embracing our inner connection with the natural surroundings is essential.
+  
+  We are a nature-sensitive species. In a time of high severe weather phenomena, embracing our inner connection with the natural surroundings is essential.
 
 
   Through this collaboration, Diane Drubay and SOMATICBITS created a series of AI-generated photographs composed of 220 artificial weather phenomena. The pictures are being created from dozens of breathtaking seascapes captured worldwide, then transformed into thousands of pieces to synthesize artificial landscapes, and finally recomposed as a synthetic meteorological journey. This project is inspired by the daily collective attention on weather and its impact on our lives and emotions, and how certain natural environment transforms the way we feel and think.
