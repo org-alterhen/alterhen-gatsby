@@ -1,7 +1,9 @@
 ---
 templateKey: artist-post
 name: B. Calleja - D. Bato
-bio: ..
+bio: |-
+  Dennis Bato (b. 1989)
+  Bjorn Calleja (b. 1981)
 country: Philippines
 profpic: https://ucarecdn.com/ebc60391-d922-43a5-9893-a6da837f570c/bjorn_500c.gif
 title: Terra Ignota
