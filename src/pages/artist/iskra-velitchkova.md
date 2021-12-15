@@ -1,5 +1,7 @@
 ---
 templateKey: artist-post
+published: true
+featured: true
 name: Iskra Velitchkova
 bio: Iskra Velitchkova is a Bulgarian multidisciplinary artist exploring the
   interactions between humans and machines in a context of historical and
