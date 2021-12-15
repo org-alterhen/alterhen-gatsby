@@ -1,5 +1,7 @@
 ---
 templateKey: artist-post
+published: true
+featured: false
 name: Andreas Rau
 bio: Andreas Rau is a generative artist and interaction designer exploring the
   interplay between humans and their digital and physical environments in
