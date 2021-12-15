@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Mihai Grecu
 bio: Mihai Grecu is a multimedia artist from Romania investigating environmental
   and technological themes to articulate a complex and mysterious universe of
