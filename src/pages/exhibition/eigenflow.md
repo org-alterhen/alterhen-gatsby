@@ -29,28 +29,28 @@ description: >+
 
 
 objkts:
-  - objkt: 306953
+  - objkt: 574466
     video: https://patricktresset.com/various/II/COLD_WAVE.mp4
     title: COLD WAVE
     desc: |
       2021
       GAN art
       MP4, 1024 x 1024 , 12''
-  - objkt: 306979
+  - objkt: 574476
     title: GALE
     video: https://patricktresset.com/various/II/GALE.mp4
     desc: |-
       2021
       GAN art
       MP4, 1024 x 1024 , 12''
-  - objkt: 306997
+  - objkt: 574483
     video: https://patricktresset.com/various/II/HEAT_WAVE.mp4
     title: HEAT WAVE
     desc: |-
       2021
       GAN art
       MP4, 1024 x 1024 , 12''
-  - objkt: 307020
+  - objkt: 574499
     video: https://patricktresset.com/various/II/SUMMER_STORM.mp4
     title: SUMMER STORM
     desc: |-
