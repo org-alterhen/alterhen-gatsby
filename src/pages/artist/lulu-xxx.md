@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-featured: true
+featured: false
 name: Luluxxx
 bio: Luluxxx is a photographer, 3D artist and developer based in Paris, working
   to create transformative, generative representations on the theme of identity,
