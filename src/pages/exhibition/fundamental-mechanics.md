@@ -47,12 +47,6 @@ objkts:
     desc: "\n"
     image: https://patricktresset.com/various/II/4_51_AC20191128_0_d4e5435a.gif
     video: ""
-  - title: 2019 GIF, 360 x 639, 150 frames
-    desc: |
-      2019
-      GIF, 360 x 639, 150 frames
-    objkt: 81163
-    image: https://www.patricktresset.com/various/alex_c.gif
   - objkt: 579799
     image: https://patricktresset.com/various/II/5_FundamentallMechanics_token.gif
     title: Fundamentall Mechanics / collection token
