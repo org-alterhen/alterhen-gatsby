@@ -7,6 +7,7 @@ bio: |-
   Diane Drubay
   SOMATICBITS
 country: France / Germany
+profpic: https://patricktresset.com/various/II/eigenflow.gif
 title: eigenflow
 statement: >-
   We are a nature-sensitive species. In a time of high severe weather phenomena,
