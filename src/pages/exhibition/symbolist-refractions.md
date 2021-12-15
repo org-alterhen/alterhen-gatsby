@@ -29,7 +29,7 @@ objkts:
     desc: |-
       2021
       PNG 4096 x 4096
-  - objkt: 572662
+  - objkt: 572666
     image: https://ucarecdn.com/29bebb2e-1b54-4e76-80a2-bd1b4b9ebb51/
     title: symbolist_refractions#4
     desc: |
