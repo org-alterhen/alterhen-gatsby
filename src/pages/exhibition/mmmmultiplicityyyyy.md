@@ -35,7 +35,7 @@ objkts:
     title: Rrrraaainnnny Seeeaasonnnnn
     desc: |
       2021
-      MP4, 1586 x 2048, 23
+      MP4, 1586 x 2048, 23''
     image: ""
     video: https://patricktresset.com/various/II/Rrrraaainnnn.mp4
   - objkt: 582290
