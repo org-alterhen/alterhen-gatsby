@@ -1,5 +1,7 @@
 ---
 templateKey: artist-post
+published: true
+featured: true
 name: Wily Guys
 bio: "Johnny Dean Mann (AKA Wily Guys) is a British creative writer and digital
   sculptor/painter investigating the tension between looseness and exactitude as
