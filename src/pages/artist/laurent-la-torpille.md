@@ -13,7 +13,7 @@ statement: >
   I developed this graphic simulator to create architectures of glass and light.
   Inspired by the symbolist style, I play with the reflection refraction to
   sculpt pixels as matter.
-featuredimage: https://ucarecdn.com/a4437137-9394-4cca-a0a8-294d51cdeee0/
+featuredimage: https://ucarecdn.com/5fe16424-3d5a-47f6-9cc0-df197af9b8fa/
 midbanner: https://ucarecdn.com/c5a246ec-bcc1-450b-9d15-36a4e6051801/
 twitter: TorpilleLaurent
 linktree: Laurent_La_Torpille
