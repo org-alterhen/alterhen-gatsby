@@ -57,11 +57,11 @@ objkts:
     image: https://patricktresset.com/various/II/5_FundamentallMechanics_token.gif
     title: Fundamentall Mechanics / collection token
     desc: >-
-      52+20 .gif animations (360px  ×  639px), Alexandra Crouwers. Made between
-      March 16, 2019 - April 17, 2020.
+      This token represents 52+20 .gif animations (360px  ×  639px), made
+      between March 16, 2019 and April 17, 2020.
 
 
-      Minted on hicetnunc.xyz between objkt/28370 (Fundamental Mechanics (0)1/52, April 10, 2021) and objkt/195966 (Fundamental Mechanics X0/t /end_of_series, August 6, 2021), each in an edition of 12, with 6 available as individual works, and 6 (including 1 AP) as part of complete sets represented by this token (see notes).
+      The .gifs were minted on hicetnunc.xyz between objkt/28370 (Fundamental Mechanics (0)1/52, April 10, 2021) and objkt/195966 (Fundamental Mechanics X0/t /end_of_series, August 6, 2021), each in an edition of 12, with 6 available as individual works, and 6 (including 1 AP) as part of complete sets encompassed by this NFT. For a\terHEN II, the first 3/6 are swapped.
 ---
 The works of Alexandra Crouwers (The Netherlands, º1974) arise in the x, y and z axes of her virtual studio. There, she builds designs for woven tapestries and wallpaper, digital dioramas, and boundless sets for video installations. Her multi-faceted practice addresses deep concerns about ecological collapse, and our detached relation to wilderness. Like an expert time-traveler Crouwers shuttles between deep history and the far future, using literature, cinema, evolutionary biology and contemporary visual culture as companions. 
 
