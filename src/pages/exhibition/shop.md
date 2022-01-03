@@ -5,8 +5,8 @@ title: Shop
 date: 2022-01-03T05:49:25.708Z
 description: ..
 objkts:
-  - objkt: 615497
-    image: https://ucarecdn.com/19225baa-0274-4881-957d-c79111ff3b4e/
+  - objkt: 615601
+    image: https://ucarecdn.com/3847f77b-309f-48c8-93d8-5f55afd7f1ab/
     video: ""
     title: Stielauge
     desc: |-
