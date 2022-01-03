@@ -35,5 +35,12 @@ objkts:
       Diane Drubay
 
       Ignis III, Still from video, Utopia series, 2021
+  - objkt: 615657
+    image: https://ucarecdn.com/b83df071-a029-4731-a7bd-c35accfaeb4d/
+    title: Woman with a Green fur Jacket
+    desc: |
+      Patrick Tresset
+
+      Woman with a Green fur Jacket, Masked Portraits series, 2021
 ---
 ..
