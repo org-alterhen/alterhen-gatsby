@@ -32,6 +32,17 @@ statement: >-
   The name alterHEN is inspired by “altermodern”
 
   Altermodern, a portmanteau word defined by Nicolas Bourriaud, is an attempt at contextualizing art made in today's global context as a reaction against standardisation and commercialism.
+
+
+
+  A word from our sponsor
+
+
+  IF Association sees NFTs as a powerful enabler of digital arts. They hold the potential to massively scale access to high-quality artworks and to the thrill of collecting while enabling artists to make a decent living from their artistic production.
+
+  This requires a fundamentally different approach than the speculation-driven hype that has captured public attention in the last months. We see hicetnunc as the platform most likely to unleash the true power of NFTs, and AlterHEN as an excellent model of how it can be leveraged with an eye on artistic quality, fairness, and accessibility. This is why we are happy and proud to support the artist collective that stands behind AlterHEN.
+
+  IF Association was established in 2021 to promote culture as a vector of humanity’s transition towards immaterial production and consumption. It is a Vienna-based not-for-profit entity with global ambitions.
 featuredimage: https://ucarecdn.com/e23f7ca5-404e-40c1-be2c-322a6c489bef/
 midbanner: https://ucarecdn.com/41871ef0-fc7b-4199-a4f7-33c6b31d2280/
 website: https://alterhen.art
