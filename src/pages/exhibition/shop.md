@@ -13,5 +13,12 @@ objkts:
       Anna Malina Zemlianski
 
       Still from Stielauge, Circling Fragmentations exhibition, 2021
+  - objkt: 615707
+    image: https://ucarecdn.com/29b0eb00-ffe8-479a-b8d9-b4ef5d8da4f7/
+    title: Flower
+    desc: |-
+      SOMATICBITS
+
+      Flower, 2021
 ---
 ..
