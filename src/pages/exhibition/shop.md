@@ -20,5 +20,13 @@ objkts:
       SOMATICBITS
 
       Flower, 2021
+  - objkt: 615646
+    video: ""
+    title: Sssssemiotiiiiicssss
+    image: https://ucarecdn.com/e6380530-4de3-4664-8721-4c007f2260f2/
+    desc: |
+      Patrick Jamora
+
+      Still from Sssssemiotiiiiicssss, Mmmmultiplicityyyyy exhibition, 2021
 ---
 ..
