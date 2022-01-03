@@ -28,5 +28,12 @@ objkts:
       Patrick Jamora
 
       Still from Sssssemiotiiiiicssss, Mmmmultiplicityyyyy exhibition, 2021
+  - objkt: 615679
+    image: https://ucarecdn.com/8135abba-ec55-4a46-b116-e39063a86010/
+    title: Ignis III
+    desc: |-
+      Diane Drubay
+
+      Ignis III, Still from video, Utopia series, 2021
 ---
 ..
