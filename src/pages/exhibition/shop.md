@@ -42,5 +42,13 @@ objkts:
       Patrick Tresset
 
       Woman with a Green fur Jacket, Masked Portraits series, 2021
+  - title: Lightline
+    objkt: 615689
+    desc: |+
+      Mihai Grecu
+
+      Lightline, 2020
+
+    image: https://ucarecdn.com/137ffa28-de62-42bf-84c3-42f8a34cd077/
 ---
 ..
