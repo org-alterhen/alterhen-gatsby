@@ -12,6 +12,6 @@ objkts:
     desc: |-
       Anna Malina Zemlianski
 
-      Still from Stielauge from the Circling Fragmentations exhibition, 2021
+      Still from Stielauge, Circling Fragmentations exhibition, 2021
 ---
 ..
