@@ -50,5 +50,16 @@ objkts:
       Lightline, 2020
 
     image: https://ucarecdn.com/137ffa28-de62-42bf-84c3-42f8a34cd077/
+  - objkt: 631128
+    image: https://ucarecdn.com/ac3a145c-62ab-455c-b569-052cd26fe5dc/
+    title: Russia
+    desc: |-
+      Alina Glazoun
+
+      Russia
+      Mixed media, 100 cm x 150 cm
+      2021
+
+      Courtesy of the Aksenov Family Foundation
 ---
 ..
