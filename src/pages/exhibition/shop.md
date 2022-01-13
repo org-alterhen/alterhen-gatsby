@@ -21,7 +21,7 @@ objkts:
 
       Flower, 2021
   - objkt: 631128
-    image: https://ucarecdn.com/7c849518-b6a7-420b-898b-21532312ccdd/
+    image: https://ucarecdn.com/c1b7e80e-1ff9-4c6a-8d28-5ca050ff6d9f/
     title: Russia
     desc: |-
       Alina Glazoun
