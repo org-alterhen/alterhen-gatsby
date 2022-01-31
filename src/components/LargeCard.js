@@ -12,8 +12,8 @@ export const LargeCard = ({ title, summary, url, image, imageAlt }) => {
   }
 
   return (
-    <Link to={url} className="LargeCard">
-      <div className="LargeCard__Cover">
+    <Link to={url} className="large-card">
+      <div className="large-card__cover">
         {image ? (
           <>
             {
@@ -27,10 +27,10 @@ export const LargeCard = ({ title, summary, url, image, imageAlt }) => {
           </>
         ) : null}
       </div>
-      <div className="LargeCard__Meta">
-        <h3 className="LargeCard__Meta__Title">{title}</h3>
-        <p className="LargeCard__Meta__Summary">{summary}</p>
-        <span className="LargeCard__Meta__CTA block-btn">View exhibition</span>
+      <div className="large-card__meta">
+        <h3 className="large-card__meta__title">{title}</h3>
+        <p className="large-card__meta__summary">{summary}</p>
+        <span className="large-card__meta__cta block-btn">View exhibition</span>
       </div>
     </Link>
   )

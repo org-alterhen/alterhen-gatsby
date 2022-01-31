@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({ content, exhibitionGroups }) => {
         </div>
       </div>
       <h1 className="separating-headline">EXHIB\TIONS</h1>
-      <section className="section tint-pink">
+      <section className="section section--tight-mobile">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -56,6 +56,16 @@ export const IndexPageTemplate = ({ content, exhibitionGroups }) => {
                     />
                   ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1 className="separating-headline">A\TERHEN SHOP</h1>
+      <section className="section section--tight-mobile">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-12" id="shop"></div>
             </div>
           </div>
         </div>
