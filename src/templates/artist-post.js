@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 
-import ArtistPostTemplate from './ArtistPostTemplate'
+import { ArtistPostTemplate } from './ArtistPostTemplate'
 
 const ArtistPost = ({ data }) => {
   const { markdownRemark: post } = data

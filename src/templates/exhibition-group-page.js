@@ -4,17 +4,7 @@ import PropTypes from 'prop-types'
 
 import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
-// import ArtistRoll from '../components/ArtistRoll'
-
-export const ExhibitionGroupPageTemplate = ({ title }) => {
-  return (
-    <section className="section tint-pink">
-      <h1 className="separating-headline">EXHIB\TIONS</h1>
-    </section>
-  )
-}
-
-ExhibitionGroupPageTemplate.propTypes = {}
+import { ExhibitionGroupPageTemplate } from './ExhibitionGroupPageTemplate'
 
 const ExhibitionGroupPage = ({ data }) => {
   console.log(data)
