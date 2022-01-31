@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
@@ -6,7 +6,7 @@ import BasicHeader from '../components/BasicHeader'
 
 import ExhibitionDetail from '../components/ExhibitionDetail'
 
-const ExhibitionPage = ({ data }) => {
+const ShopPage = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
 
   return (
@@ -22,8 +22,7 @@ const ExhibitionPage = ({ data }) => {
     </Layout>
   )
 }
-
-ExhibitionPage.propTypes = {
+ShopPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -32,10 +31,10 @@ ExhibitionPage.propTypes = {
   }),
 }
 
-export default ExhibitionPage
+export default ShopPage
 
-export const exhibitionPageQuery = graphql`
-  query ExhibitionPage($id: String!) {
+export const ShopPageQuery = graphql`
+  query ShopPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

@@ -2,8 +2,7 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 @mixin better-blur($radius)
-  filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1'%3E%3CfeGaussianBlur stdDeviation='#{$radius}' result='b'/%3E%3CfeMorphology operator='dilate' radius='#{$radius}'/%3E %3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E%3C/svg%3E#a");
-
+  filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1'%3E%3CfeGaussianBlur stdDeviation='#{$radius}' result='b'/%3E%3CfeMorphology operator='dilate' radius='#{$radius}'/%3E %3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E%3C/svg%3E#a")
 
 // Config vars
 $primary: #000000
@@ -11,9 +10,9 @@ $primary-invert: #ffffff
 $body-color: #000000
 $black: #000000
 
-body 
+body
   font-family: Open Sans, Helvetica, Arial, sans-serif
-  color: $black;
+  color: $black
   overflow: hidden
 
 $border-color: #E5DDDD
@@ -21,7 +20,7 @@ $border-color: #E5DDDD
 $border-1: 1px solid $border-color
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -53,28 +52,28 @@ $border-1: 1px solid $border-color
   align-items: center
 
 .full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+  width: 100vw
+  height: 400px
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
 
 .btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: $primary
-    text-align: center
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+  display: inline-block
+  padding: 12px 16px 10px
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: #fff
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  color: $primary
+  text-align: center
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
@@ -91,8 +90,8 @@ $border-1: 1px solid $border-color
 footer.footer
   padding: 0.75rem 2rem
   background-color: transparent
-  border-top: $border-1;
-  text-align: right;
+  border-top: $border-1
+  text-align: right
   position: relative
   background: #FFF
   .iflogo
@@ -111,10 +110,9 @@ $menu-item-color: $primary
 $menu-item-hover-color: $primary !important
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $primary-invert
-$menu-item-active-background-color:	$primary-invert
+$menu-item-active-background-color: 	$primary-invert
 $menu-list-border-left: 1px solid $primary-invert
 $menu-label-color: $primary
-
 
 .menu-label
   font-size: 1em !important
@@ -125,117 +123,113 @@ $menu-label-color: $primary
 .social
   padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $primary-invert
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: $primary-invert
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline
 
 // blog roll
 .artist-list-item
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05)
 
 .artist-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .artist-list-item header
-  margin-bottom: 1em;
-  border: 1px solid #F9F3F3;
-  padding: 1rem;
+  margin-bottom: 1em
+  border: 1px solid #F9F3F3
+  padding: 1rem
   .description-lines
-    width: auto;
-    min-width: 35%;
-    display: inline-block;
+    width: auto
+    min-width: 35%
+    display: inline-block
     p
       margin: 0 !important
     p:last-child
       .artist-roll-name
-        border-bottom: $border-1;
+        border-bottom: $border-1
   p
     margin: 0
-    margin-bottom: .5em !important;
-    position: relative;
+    margin-bottom: .5em !important
+    position: relative
   .artist-roll-title
     width: 100%
     line-height: 1.1em
     min-height: 2.5em
   .artist-roll-name
-    font-size: .9em;
+    font-size: .9em
     letter-spacing: 0.02em
-    border-top: $border-1;
-    color: #8C8B8B;
-    width: 100%;
+    border-top: $border-1
+    color: #8C8B8B
+    width: 100%
 
 a:hover .artist-list-item
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
   .artist-roll-title
-    color: #000;
+    color: #000
   .artist-roll-arrow span
-    background: #C5C5C5;
-  
-
+    background: #C5C5C5
 
 .artist-list-item .featured-thumbnail
-  flex-basis: 35%;
+  flex-basis: 35%
 .artist-roll-name, .artist-roll-title
-  font-size: 1.8em;
+  font-size: 1.8em
   letter-spacing: 0.0em
 
 a
-  color: black;
+  color: black
   &:visited
     color: initial
 
 // responsiveness
 +tablet-only
   .artist-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .artist-list-item header
     display: block
   .artist-list-item .featured-thumbnail
-    text-align: center;
+    text-align: center
 
+.logo-text
 
-.logo-text 
-
-  font-family: Open Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: -0.015em;
-  text-align: left;
+  font-family: Open Sans
+  font-size: 24px
+  font-style: normal
+  font-weight: 600
+  line-height: 33px
+  letter-spacing: -0.015em
+  text-align: left
 
   .logo-text-HEN
-    font-family: Open Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 33px;
-    letter-spacing: -0.015em;
-    text-align: left;
+    font-family: Open Sans
+    font-size: 24px
+    font-style: normal
+    font-weight: 800
+    line-height: 33px
+    letter-spacing: -0.015em
+    text-align: left
 
-  
-.logo-white 
-  color: white;
+.logo-white
+  color: white
   svg
-    color: white;
+    color: white
     path
-      fill: white;
+      fill: white
 
 .basic-header
   padding: 2em !important
 
-.basic-header__icon 
-  float: right;
-  
+.basic-header__icon
+  float: right
+
 .basic-header__icon svg
-  height: 2em;
-  width: 2em;
+  height: 2em
+  width: 2em
 
 .breakout-width
   min-width: calc(100% + 3rem)
@@ -249,85 +243,92 @@ a
   margin-bottom: 3rem
   height: 50vh
   object-fit: cover
-  
+
 .breakout-width.top-banner
-  margin: 0;
-  height: 50vh;
-  max-height: 50vw;
+  margin: 0
+  height: 50vh
+  max-height: 50vw
   object-fit: cover
   display: block
 
 .block-btn
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 9px 18px;
-  background: white;
-  width: fit-content;
-  margin-left: 0;
-  margin-right: auto;
+  font-family: Open Sans
+  font-style: normal
+  font-weight: bold
+  font-size: 18px
+  padding: 9px 18px
+  background: white
+  width: fit-content
+  margin-left: 0
+  margin-right: auto
 
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.025em;
+  display: inline-block
+  align-items: center
+  text-align: center
+  letter-spacing: 0.025em
 
-  color: #000000;
-  
-  border: 3px solid #000000;
+  color: #000000
 
-  cursor: pointer;
+  border: 3px solid #000000
+
+  cursor: pointer
   transition: 0.3s background ease, 0.3s color ease
-  &:hover 
-    color: white;
+
+  &.inactive
+    opacity: .25
+    pointer-events: none
+    &:hover
+      cursor: not-allowed
+
+  &:hover
+    color: white
     background: black
 
 @media (min-width: 1024px)
-  .side-title 
-    font-family: Open Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0.025em;
-    text-align: left;
-    transform: rotate(-90deg);
-    display: inline-block;
+  .side-title
+    font-family: Open Sans
+    font-size: 18px
+    font-style: normal
+    font-weight: 700
+    line-height: 26px
+    letter-spacing: 0.025em
+    text-align: left
+    transform: rotate(-90deg)
+    display: inline-block
     width: 200px
-    height: 0;
-    position: relative;
-    left: -170px;
-    margin: 0;
+    height: 0
+    position: relative
+    left: -170px
+    margin: 0
     top: 60px
 
 .home-logo-wrap
-  justify-content: center;
-  align-items: center;
+  justify-content: center
+  align-items: center
 
 .artist-socials
-  margin-bottom: 0.75em;
-  a 
-    margin-right: 0.5em;
+  margin-bottom: 0.75em
+  a
+    margin-right: 0.5em
 
 .hero
-  flex-direction: row;
-  min-height: 100vh;
-  flex-wrap: wrap;
-  border-bottom: $border-1;
+  flex-direction: row
+  min-height: 100vh
+  flex-wrap: wrap
+  border-bottom: $border-1
   position: relative
-  overflow: hidden;
+  overflow: hidden
   display: block
 
 .hero-body
-  font-size: 16px;
-  letter-spacing: 0.025em;
-  position: relative;
-  background: #FFF;
-  width: 29em;
-  max-width: 100vw;
-  height: 100vh;
-  padding: 4rem;
+  font-size: 16px
+  letter-spacing: 0.025em
+  position: relative
+  background: #FFF
+  width: 29em
+  max-width: 100vw
+  height: 100vh
+  padding: 4rem
   span.alter-hen-logo
     display: inline-block
     width: 4.5em
@@ -337,12 +338,12 @@ a
     margin-top: calc(1em + 6vh)
     margin-bottom: 1em
   h3
-    margin-top: 20vh;
+    margin-top: 20vh
     opacity: .5
     margin-bottom: .3em
   p
     margin: 1em 0
-    width: 100%;
+    width: 100%
     span
       font-weight: 600
       span
@@ -399,174 +400,157 @@ a
     span.alter-hen-logo
       display: none
   .logo-icon svg
-    color: black;
+    color: black
     path
-      fill: black;
+      fill: black
 
 .hero-image
-  position: absolute;
-  flex: 0;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  overflow: hidden;
-  filter: brightness(0.75) 
-  iframe 
-    @include better-blur(5px);
-
-
+  position: absolute
+  flex: 0
+  background-size: cover
+  height: 100%
+  width: 100%
+  top: 0
+  left: 0
+  right: 0
+  z-index: -1
+  overflow: hidden
+  filter: brightness(0.75)
+  iframe
+    @include better-blur(5px)
 
 .read-more
-  letter-spacing: 0.025em;
-  font-weight: bold;
-  color: black;
-  font-size: 18px;
+  letter-spacing: 0.025em
+  font-weight: bold
+  color: black
+  font-size: 18px
 
 .homepage h2
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 0.025em;
-  margin-bottom: 2em;
+  font-size: 24px
+  font-weight: bold
+  letter-spacing: 0.025em
+  margin-bottom: 2em
 
 .post-meta
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 1em;
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin-top: 1em
   .artist-roll-title
-    margin-right: 1rem;
+    margin-right: 1rem
 
 .logo-full
   .logo-icon
     width: 126px
     height: 126px
   .logo-text
-    display: block;
-    width: auto;
-    color: black;
+    display: block
+    width: auto
+    color: black
     font-size: 28px
     .logo-text-HEN
       font-size: 28px
 
 .has-text-centered .logo-text
-    text-align: center;
+  text-align: center
 
 .exhibition-page
   .exhibition-page-objkt
     border-top: $border-1
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 90vh;
+    display: flex
+    flex-wrap: wrap
+    min-height: 90vh
     .exhibition-page-objkt-left
-      flex: 3 0 400px;
-      padding: 3rem;
-      border-right: $border-1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    .exhibition-page-objkt-right      
-      flex: 1 0 300px;
-      padding: 3rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex: 3 0 400px
+      padding: 3rem
+      border-right: $border-1
+      display: flex
+      justify-content: center
+      align-items: center
+    .exhibition-page-objkt-right
+      flex: 1 0 300px
+      padding: 3rem
+      display: flex
+      flex-direction: column
+      justify-content: center
       a.button
-        font-weight: 700;
-        font-size: 14px;
-        letter-spacing: 0.025em;
-        padding: 12px 24px;
-        line-height: 1.5;
-        border-radius: 0;
+        font-weight: 700
+        font-size: 14px
+        letter-spacing: 0.025em
+        padding: 12px 24px
+        line-height: 1.5
+        border-radius: 0
         border: 1px solid black
   .exhibition-page-button
-    padding: 0;
-    border: none;
+    padding: 0
+    border: none
     cursor: pointer
-    background: transparent;
+    background: transparent
     transition: all .2s ease-in-out
-    &:focus-visible 
+    &:focus-visible
       outline: none
     img, video
       max-height: 80vh
         // transition: none
-        
+
     &.exhibition-zoomed
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background: #0006;
-      z-index: 9;
+      position: fixed
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 100%
+      background: #0006
+      z-index: 9
       img, video
         transition: 0.3s max-height ease
-        max-height: 100vh;
+        max-height: 100vh
   p.availability
-    font-weight: 600;
+    font-weight: 600
   .block-btn
     border: 1px solid #000
     font-weight: 400
     font-size: 1em
-  .block-btn.inactive
-    opacity: .25
-    pointer-events: none
-    font-size: 1em
-  div.wallet-buttons a
-    display: inline-block
-    align-items: center;
-    text-align: center;
-    margin-top: .5em
-    font-size: .75em
-    opacity: .5
-    text-decoration: underline
-    width: fit-content
-    margin-left: 0
-    margin-right: auto
 
 .exhibition__description
-  white-space: pre-wrap 
+  white-space: pre-wrap
   font-size: 24px
-      
+
 @media screen and ( max-width: 768px )
   #exhibitions
     .columns
-      display: flex;
-      flex-wrap: wrap;
+      display: flex
+      flex-wrap: wrap
       .column
-        flex: 1 0 100%;
+        flex: 1 0 100%
 
   .section.artist-post
     padding-left: 0
     padding-right: 0
   .artist-post-sidebar
     border-right: none !important
-    border-bottom: $border-1;
+    border-bottom: $border-1
     margin-bottom: 2em
   .exhibition-page .exhibition-page-objkt
-    display: block;
-    text-align: center;
+    display: block
+    text-align: center
     .exhibition-page-objkt-left
-      border-right: none;
+      border-right: none
   .block-btn
     margin-left: auto
   a.connect-wallet
     margin-left: auto !important
 
 .exhibition-page-bio
-  border-top: $border-1;
+  border-top: $border-1
   padding: 0
   .columns
     margin: 0
-  .column 
-    padding: 3rem;
+  .column
+    padding: 3rem
 
 .featured-thumbnail img
   display: block
@@ -587,7 +571,7 @@ a
   padding-top: 3em
   display: flex
   flex-direction: column
-  align-self: stretch;
+  align-self: stretch
   align-items: flex-start
   &.is-two-thirds
     padding-left: 2em
@@ -608,7 +592,7 @@ a
   a
     width: 100%
     height: 100%
-    display: block 
+    display: block
     &:hover
       background: #F6F2F2
 
@@ -640,7 +624,7 @@ a
       font-size: 2em
       font-weight: 700
       padding-top: 2em
-      line-height: 135%  
+      line-height: 135%
     >div:nth-of-type(1)
       margin-top: 2em
       margin-bottom: 2em
@@ -733,15 +717,12 @@ a
         >div:nth-of-type(2)
           width: 100%
 
-
 @media screen and ( max-width: 512px )
   .section-about-page
     .content
       >div:nth-of-type(1)
         width: 100%
         margin-bottom: 6em
-
-
 
 @media screen and ( min-width: 1000px )
   .artist-post .column
@@ -757,20 +738,37 @@ a
     padding: .5rem
 
 .exhibition-slide-objkt
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100%
 
 .wallet-buttons
-  size: 0.8em;
+  size: 0.8em
   flex-direction: column
   align-items: flex-start
-  a 
-    color: #555;
-    text-decoration: underline;
+  button, a
+    transition: color 200ms ease-in-out
+    color: #aaaaaa
+    text-decoration: underline
     font-weight: 500
-
+    padding: 0
+    display: inline-block
+    align-items: center
+    background: none
+    border: 0 none
+    text-align: center
+    margin-top: .5em
+    font-size: .75em
+    width: fit-content
+    margin-left: 0
+    margin-right: auto
+    &:hover,
+    &:focus
+      cursor: pointer
+      color: #000
+    &:active
+      outline: 1px dotted #555
 
 @media screen and ( max-width: 768px )
   .wallet-buttons

@@ -1,7 +1,6 @@
-const _ = require('lodash')
+const webpack = require('webpack')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -37,10 +36,13 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach((edge) => {
       const id = edge.node.id
-      const artist = edge.node.frontmatter.artist || edge.node.frontmatter.name || ''
-      const published = edge.node.frontmatter.published == null ? true : edge.node.frontmatter.published
+      const artist =
+        edge.node.frontmatter.artist || edge.node.frontmatter.name || ''
+      const published =
+        edge.node.frontmatter.published == null
+          ? true
+          : edge.node.frontmatter.published
       if (published) {
-        console.log(edge.node.frontmatter)
         createPage({
           path: edge.node.fields.slug,
           component: path.resolve(
@@ -49,7 +51,7 @@ exports.createPages = ({ actions, graphql }) => {
           // additional data can be passed via context
           context: {
             id,
-            artist
+            artist,
           },
         })
       }
@@ -59,7 +61,6 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
-  fmImagesToRelative(node) // convert image paths for gatsby images
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
@@ -69,4 +70,25 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        stream: require.resolve('stream-browserify'),
+        path: require.resolve('path-browserify'),
+        http: require.resolve('stream-http'),
+        https: require.resolve('https-browserify'),
+        os: require.resolve('os-browserify/browser'),
+        crypto: require.resolve('crypto-browserify'),
+        buffer: require.resolve('buffer/'),
+      },
+    },
+    plugins: [
+      new webpack.ProvidePlugin({
+        Buffer: ['buffer', 'Buffer'],
+      }),
+    ],
+  })
 }

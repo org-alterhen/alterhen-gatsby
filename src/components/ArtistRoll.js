@@ -12,18 +12,19 @@ class ArtistRoll extends React.Component {
     const transformImg = (img) => {
       if (img.includes('.gif')) return img
       if (!img.includes('ucarecdn')) return img
-      return (
-        img.substr(0,58) + '-/scale_crop/599x475' + img.substr(57,999)
-      )
+      return img.substr(0, 58) + '-/scale_crop/599x475' + img.substr(57, 999)
     }
-
-
 
     return (
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <Link to={post.fields.slug} className="is-parent column is-6" style={{order:random(1,999)}} key={post.id}>
+            <Link
+              to={post.fields.slug}
+              className="is-parent column is-6"
+              style={{ order: random(1, 999) }}
+              key={post.id}
+            >
               <article className={`artist-list-item tile is-child`}>
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
@@ -45,7 +46,9 @@ class ArtistRoll extends React.Component {
                   </p>
                   <div className="description-lines">
                     <p className="post-meta">
-                      <span className="artist-roll-name">{post.frontmatter.name}</span>
+                      <span className="artist-roll-name">
+                        {post.frontmatter.name}
+                      </span>
                     </p>
                     <p className="post-meta">
                       <span className="artist-roll-name">from 15.12.2021</span>
@@ -68,18 +71,18 @@ ArtistRoll.propTypes = {
   }),
 }
 
-export default () => (
+const artistRollQuery = () => (
   <StaticQuery
     query={graphql`
       query ArtistRollQuery {
         allMarkdownRemark(
           sort: { order: ASC, fields: [frontmatter___name] }
-          filter: { 
-            frontmatter: { 
-              templateKey: { eq: "artist-post" },
-              published: { ne: false },
+          filter: {
+            frontmatter: {
+              templateKey: { eq: "artist-post" }
+              published: { ne: false }
               featured: { ne: false }
-            } 
+            }
           }
         ) {
           edges {
@@ -105,3 +108,5 @@ export default () => (
     render={(data, count) => <ArtistRoll data={data} count={count} />}
   />
 )
+
+export default artistRollQuery
