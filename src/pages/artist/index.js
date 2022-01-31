@@ -1,18 +1,18 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import ArtistRoll from '../../components/ArtistRoll'
+import ExhibitionsList from '../../components/ExhibitionsList'
 import BasicHeader from '../../components/BasicHeader'
 
 export default class ArtistIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <BasicHeader/>      
+        <BasicHeader />
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/artist-index.jpg')`
+            backgroundImage: `url('/img/artist-index.jpg')`,
           }}
         >
           <h1
@@ -22,7 +22,7 @@ export default class ArtistIndexPage extends React.Component {
               color: 'white',
               padding: '1rem',
               fontWeight: '400',
-              letterSpacing: '0.4rem'
+              letterSpacing: '0.4rem',
             }}
           >
             artists
@@ -31,7 +31,7 @@ export default class ArtistIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <ArtistRoll />
+              <ExhibitionsList />
             </div>
           </div>
         </section>

@@ -6,13 +6,14 @@ import Layout from '../components/Layout'
 import { IndexPageTemplate } from './IndexPageTemplate'
 
 const IndexPage = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter, html } = data.page
+  const exhibitionGroups = data.exhibitiongroups.edges.map((eg) => eg.node)
 
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
+        exhibitionGroups={exhibitionGroups}
         content={html}
       />
     </Layout>
@@ -32,15 +33,29 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    page: markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1080, quality: 95) {
-              ...GatsbyImageSharpFluid
-            }
+      }
+    }
+    exhibitiongroups: allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "exhibition-group-page" }
+          published: { ne: false }
+        }
+      }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            featuredimage
+            summary
           }
         }
       }

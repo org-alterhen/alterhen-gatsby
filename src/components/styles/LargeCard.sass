@@ -1,0 +1,33 @@
+.LargeCard
+    display: block
+    box-shadow: $box-shadow
+    &:hover,
+    &:focus
+        box-shadow: $box-shadow-hover
+    &__Cover
+        aspect-ratio: 728 / 750
+        img
+            display: block
+    &__Meta
+        padding: var(--p-rythm-lg)
+        display: flex
+        flex-direction: column
+        &__Title
+            @include base-heading
+            font-size: var(--fs-h1)
+        &__Summary
+            margin-top: var(--p-rythm)
+            margin-bottom: var(--p-rythm-lg)
+        &__CTA
+            margin-top: auto
+
+@include from($bp-medium)
+    .LargeCard
+        display: grid
+        grid-template-columns: 5fr 7fr
+        grid-template-areas: "Meta Cover"
+        &__Cover
+            grid-area: Cover
+        &__Meta
+            &__Title
+                grid-area: Meta

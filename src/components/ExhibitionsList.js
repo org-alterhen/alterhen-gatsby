@@ -29,7 +29,7 @@ class ExhibitionsList extends React.Component {
                   ? transformImg(exhibition.frontmatter.featuredimage)
                   : false
               }
-              imageAlt={`featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}
+              imageAlt={`Featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}
               className={'is-parent column is-6'}
               style={{ order: random(1, 999) }}
             />
@@ -43,4 +43,4 @@ ExhibitionsList.propTypes = {
   exhibitions: PropTypes.array,
 }
 
-export { ExhibitionsList }
+export default ExhibitionsList

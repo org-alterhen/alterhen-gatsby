@@ -3,28 +3,20 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { HTMLContent } from '../components/Content'
 import { LogoText, LogoIcon } from '../components/Logo'
+import { LargeCard } from '../components/LargeCard'
 
-import ExhibitionsList from '../components/ExhibitionsList'
-
-export const IndexPageTemplate = ({ content }) => {
+export const IndexPageTemplate = ({ content, exhibitionGroups }) => {
   let userAddress
+
   if (typeof window !== 'undefined') {
     userAddress = localStorage.getItem('lastUserAddress')
   } else {
     userAddress = null
   }
+
   return (
     <div className="homepage">
-      <div
-        style={{
-          padding: '2em',
-          position: 'absolute',
-          top: '0',
-          left: '0',
-          right: '0',
-          zIndex: '1',
-        }}
-      >
+      <div className="basic-header basic-header--on-top">
         <LogoText className="logo-black" />
         <div className="basic-header__icon">
           <LogoIcon className="logo-white" />
@@ -51,12 +43,18 @@ export const IndexPageTemplate = ({ content }) => {
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-12">
-                <div className="content">
-                  <div className="column is-12" id="exhibitions">
-                    {/* <ExhibitionsList /> */}
-                  </div>
-                </div>
+              <div className="column is-12" id="exhibitions">
+                {exhibitionGroups &&
+                  exhibitionGroups.map((g, i) => (
+                    <LargeCard
+                      key={`exhibitiongroup-${i}`}
+                      title={g.frontmatter.title}
+                      summary={g.frontmatter.summary}
+                      url={g.fields.slug}
+                      image={g.frontmatter.featuredimage}
+                      imageAlt={`Featured artwork for ${g.frontmatter.title}`}
+                    />
+                  ))}
               </div>
             </div>
           </div>
@@ -78,7 +76,6 @@ export const IndexPageTemplate = ({ content }) => {
 }
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   content: PropTypes.node,
 }

@@ -1,0 +1,40 @@
+// Inclusive of the value and above.
+@mixin from($value)
+    @media screen and (min-width: $value)
+        @content
+
+// Up to but not inclusive (1px less) the value:
+@mixin to($value, $legacy: null)
+    @media screen and (max-width: ($value - 1))
+        @content
+
+@mixin from-to($min, $max)
+    @media screen and (min-width: $min) and (max-width: ($max - 1))
+        @content
+
+@mixin from-sm()
+    @include from($bp-small)
+        @content
+
+@mixin from-md()
+    @include from($bp-medium)
+        @content
+
+@mixin from-lg()
+    @include from($bp-large)
+        @content
+
+@mixin to-sm()
+    @include to($bp-small)
+        @content
+
+@mixin to-md()
+    @include to($bp-medium)
+        @content
+
+@mixin to-lg()
+    @include to($bp-large)
+        @content
+
+@mixin better-blur($radius)
+    filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1'%3E%3CfeGaussianBlur stdDeviation='#{$radius}' result='b'/%3E%3CfeMorphology operator='dilate' radius='#{$radius}'/%3E %3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E%3C/svg%3E#a")

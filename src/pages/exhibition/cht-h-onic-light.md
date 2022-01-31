@@ -14,6 +14,7 @@ description: >-
 
 
   She has exhibited internationally in venues like Ars Electronica, Fischer Museum, Rijksmuseum Twenthe, Photon Gallery, SciArt Initiative, DC I/O, Culture Hub LA, FakeMeHard, Gogbot, Currents New Media, xCoax, DA Fest, Sariev Contemporary and Queensland Center for Photography. She has been a resident artist at Vermont Studio Center, ACRE, Photo+Sphere and an active member of UCLA Art Sci Center | Lab. She is currently artist in residence at STEAM Imaging III with Ars Electronica & Fraunhofer MEVIS, Professor at houdini.school, VR Gallery Director and Curator at SUPERCOLLIDER and Co-founder of current.cam.
+featuredimage: https://unco-assets.s3.amazonaws.com/media/images/2021TheUnconformityFestival038.2e16d0ba.fill-1344x899.jpg
 objkts:
   - objkt: 578508
     title: Chtonic Spectra I

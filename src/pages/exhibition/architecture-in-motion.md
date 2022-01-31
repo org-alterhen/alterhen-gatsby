@@ -9,6 +9,7 @@ description: >
 
 
   His experimental approach explores the complexity of the world where the limits between virtual and physical space become blurry. He started his artistic career performing live for electronic music festivals and producing interactive digital experiences with digital slaves and solo since 2014.
+featuredimage: https://unco-assets.s3.amazonaws.com/media/images/2021TheUnconformityFestival038.2e16d0ba.fill-1344x899.jpg
 objkts:
   - objkt: 236967
     image: https://ucarecdn.com/af405b29-9dce-4fcd-9f20-1a072c460ecb/

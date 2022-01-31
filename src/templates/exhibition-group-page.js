@@ -7,6 +7,7 @@ import BasicHeader from '../components/BasicHeader'
 import { ExhibitionGroupPageTemplate } from './ExhibitionGroupPageTemplate'
 
 const ExhibitionGroupPage = ({ data }) => {
+  // This isnt ideal, but NetlifyCMS relation widgets can't return the full data of the relation -JS
   const exhibitions = data.page.frontmatter.exhibitions.map((exhibition) => {
     const fullExhib = data.exhibitions.edges.find(
       (e) => e.node.frontmatter.title === exhibition.exhibition
