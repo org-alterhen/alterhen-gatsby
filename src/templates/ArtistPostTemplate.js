@@ -1,16 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import ExhibitionSummary from '../components/ExhibitionSummary'
 import SocialLinks from '../components/SocialLinks'
 // import ExhibitionLinks from '../components/ExhibitionLinks'
 
 export const ArtistPostTemplate = ({
   helmet,
   name,
-  title,
-  description,
-  statement,
+  currentExhibition,
+  pastExhibitions,
   country,
   website,
   instagram,
@@ -73,27 +73,22 @@ export const ArtistPostTemplate = ({
             </div>
 
             <div className="column is-two-thirds">
-              <div className="exhibition__title">
-                <h1>{title}</h1>
-              </div>
-              <p className="exhibition__description">{statement}</p>
-              <br />
-              <br />
-              <div>
-                <Link
-                  to={`/exhibition/${title
-                    .toLowerCase()
-                    .replace(/[ ]/g, '-')
-                    .replace(/["|'|,|_]/g, '')}`}
-                  className="block-btn"
-                >
-                  Enter Exhibition
-                </Link>
-                {/* <ExhibitionLinks posts={[title]}></ExhibitionLinks> */}
-              </div>
-              <br />
-              <br />
-              <br />
+              {pastExhibitions && (
+                <h1 className="separating-headline">CURRENT EXHIB\TION</h1>
+              )}
+              <ExhibitionSummary exhibition={currentExhibition} />
+
+              {pastExhibitions && (
+                <h1 className="separating-headline">PAST EXHIB\TIONS</h1>
+              )}
+
+              {pastExhibitions &&
+                pastExhibitions.map((e, i) => (
+                  <ExhibitionSummary
+                    key={`exhibitionsummary-${i}`}
+                    exhibition={e}
+                  />
+                ))}
             </div>
           </div>
         </div>
@@ -103,13 +98,14 @@ export const ArtistPostTemplate = ({
 }
 
 ArtistPostTemplate.propTypes = {
+  currentExhibition: PropTypes.shape({}),
+  pastExhibitions: PropTypes.oneOfType([PropTypes.array, PropTypes.bool]),
   published: PropTypes.bool,
   title: PropTypes.string,
   description: PropTypes.string,
   helmet: PropTypes.object,
   name: PropTypes.string,
   bio: PropTypes.string,
-  statement: PropTypes.string,
   country: PropTypes.string,
   website: PropTypes.string,
   links: PropTypes.array,

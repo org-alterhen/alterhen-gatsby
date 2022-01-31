@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { HTMLContent } from '../components/Content'
 import { LogoText, LogoIcon } from '../components/Logo'
 
-import ArtistRoll from '../components/ArtistRoll'
+import ExhibitionsList from '../components/ExhibitionsList'
 
 export const IndexPageTemplate = ({ content }) => {
   let userAddress
@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({ content }) => {
               <div className="column is-12">
                 <div className="content">
                   <div className="column is-12" id="exhibitions">
-                    <ArtistRoll />
+                    {/* <ExhibitionsList /> */}
                   </div>
                 </div>
               </div>

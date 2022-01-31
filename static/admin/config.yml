@@ -33,8 +33,6 @@ collections:
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Country", name: "country", widget: "string", required: false}
       - {label: "Profile Picture", name: "profpic", widget: image, required: false}
-      - {label: "Exhibition Title", name: "title", widget: "string"}
-      - {label: "Statement", name: "statement", widget: "text", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Banner", name: "midbanner", widget: image}
       - {label: "Website", name: "website", widget: "string", required: false}
@@ -44,6 +42,7 @@ collections:
       - {label: "Tumblr", name: "tumblr", widget: "string", required: false}
       - {label: "Linktree", name: "linktree", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: 'Current Exhibition', name: 'currentexhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title", required: false }
 
   - name: "exhibition"
     label: "Exhibitions"
@@ -54,8 +53,10 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "exhibition-page"}
       - {label: "Artist", name: "artist", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Statement", name: "statement", widget: "text", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
       - label: "Objkts"
         name: "objkts"
         widget: "list"
@@ -136,4 +137,4 @@ collections:
         name: 'exhibitions'
         widget: "list"
         fields:
-          - {label: 'Exhibition', name: 'exhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "{{slug}}" }
+          - {label: 'Exhibition', name: 'exhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title" }

@@ -11,12 +11,22 @@ import { ArtistPostTemplate } from './ArtistPostTemplate'
 const ArtistPost = ({ data }) => {
   const { markdownRemark: post } = data
 
+  const currentExhibition = data.exhibitions.edges.find(
+    (e) => e.node.frontmatter.title === post.frontmatter.currentexhibition
+  ).node
+  const pastExhibitions = data.exhibitions.edges
+    .filter(
+      (e) => e.node.frontmatter.title !== post.frontmatter.currentexhibition
+    )
+    .map((e) => e.node)
+
   return (
     <Layout>
       <BasicHeader />
       <ArtistPostTemplate
+        currentExhibition={currentExhibition}
+        pastExhibitions={pastExhibitions.length > 0 ? pastExhibitions : false}
         bio={post.frontmatter.bio}
-        statement={post.frontmatter.statement}
         country={post.frontmatter.country}
         website={post.frontmatter.website}
         links={post.frontmatter.links}
@@ -28,8 +38,6 @@ const ArtistPost = ({ data }) => {
         henlink={post.frontmatter.henlink}
         hicetnunc={post.frontmatter.hicetnunc}
         tumblr={post.frontmatter.tumblr}
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
         midbanner={post.frontmatter.midbanner}
         profpic={post.frontmatter.profpic}
         helmet={
@@ -67,17 +75,17 @@ ArtistPost.propTypes = {
 export default ArtistPost
 
 export const pageQuery = graphql`
-  query ArtistPostByID($id: String!) {
+  query ArtistPostByID($id: String!, $artist: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
         published
-        title
         name
-        description
         bio
         country
+        profpic
+        midbanner
         website
         instagram
         twitter
@@ -86,9 +94,28 @@ export const pageQuery = graphql`
         henlink
         hicetnunc
         linktree
-        statement
-        profpic
-        midbanner
+        currentexhibition
+      }
+    }
+    exhibitions: allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "exhibition-page" }
+          artist: { eq: $artist }
+        }
+      }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            statement
+          }
+        }
       }
     }
   }
