@@ -42,13 +42,6 @@ const ConnectButton = ({
       const wallet = new BeaconWallet({
         name: 'a\\terHEN Gallery',
         preferredNetwork: NetworkType.MAINNET,
-        disableDefaultEvents: true,
-        eventHandlers: {
-          // To keep the pairing alert, we have to add the following default event handlers back
-          [BeaconEvent.PAIR_INIT]: {
-            handler: defaultEventCallbacks.PAIR_INIT,
-          },
-        },
       })
       Tezos.setWalletProvider(wallet)
       setWallet(wallet)

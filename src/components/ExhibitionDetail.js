@@ -92,12 +92,14 @@ const ExhibitionDetail = ({
                 <h2>{objkt.title}</h2>
                 <p style={{ whiteSpace: 'pre-wrap' }}>{objkt.desc}</p>
 
-                {objkt.hicdex && (
+                {objkt.hicdex ? (
                   <CollectButton
                     objkt={objkt}
                     contract={contract}
                     userAddress={userAddress}
                   />
+                ) : (
+                  <span>Loading OBJKT data...</span>
                 )}
 
                 {!userAddress ? (

@@ -219,6 +219,17 @@ a
   object-fit: cover
   display: block
 
+.block-btn-message
+  margin-top: 1em
+  font-weight: bold
+  a
+    text-decoration: underline
+    color: inherit
+  &--error
+    font-weight: normal
+    font-size: 0.75em
+    color: red
+
 .block-btn
   font-family: Open Sans
   font-style: normal
@@ -229,6 +240,7 @@ a
   width: fit-content
   margin-left: 0
   margin-right: auto
+  position: relative
 
   display: inline-block
   align-items: center
@@ -246,6 +258,22 @@ a
     display: block
     margin-left: auto
     margin-right: auto
+
+  &.loading
+    padding-right: 40px
+    &::after
+      content: ''
+      display: block
+      width: 16px
+      height: 16px
+      border-radius: 100%
+      border: 1px solid currentColor
+      border-right-color: transparent
+      position: absolute
+      top: 50%
+      right: 15px
+      margin-top: -8px
+      animation: rot360 500ms infinite linear
 
   &.inactive
     opacity: .25

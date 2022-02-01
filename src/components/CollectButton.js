@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const CollectButton = function ({ objkt, contract, userAddress }) {
+  const [loading, setLoading] = useState(false)
+  const [successfulCollect, setSuccessfulCollect] = useState(false)
+  const [collectError, setCollectError] = useState(false)
+  let btnClasses = ''
+  if (loading) {
+    btnClasses += ' loading'
+  }
+  if (!userAddress) {
+    btnClasses += ' inactive'
+  }
   return (
     <>
       <p className="availability">
@@ -9,11 +19,11 @@ const CollectButton = function ({ objkt, contract, userAddress }) {
       </p>
       {objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
         <button
-          className={
-            userAddress ? 'block-btn collect' : 'block-btn collect inactive'
-          }
+          className={`block-btn collect ${btnClasses}`}
           onClick={async () => {
-            // setLoadingIncrement(true);
+            setLoading(true)
+            setSuccessfulCollect(false)
+            setCollectError(false)
             try {
               const op = await contract.methods
                 .collect(objkt.hicdex.swaps[0].id)
@@ -23,10 +33,13 @@ const CollectButton = function ({ objkt, contract, userAddress }) {
                   storageLimit: 310,
                 })
               await op.confirmation()
+              setSuccessfulCollect(true)
             } catch (error) {
               console.log(error)
+              setLoading(false)
+              setCollectError(true)
             } finally {
-              // setLoadingIncrement(false);
+              setLoading(false)
             }
           }}
         >
@@ -40,6 +53,22 @@ const CollectButton = function ({ objkt, contract, userAddress }) {
         >
           Not available
         </a>
+      )}
+      {successfulCollect && (
+        <p className="block-btn-message">Thank you for collecting!</p>
+      )}
+      {collectError && (
+        <p className="block-btn-message block-btn-message--error">
+          Unfortunately error has occurred. Please message us on Twitter at{' '}
+          <a
+            href="https://twitter.com/alterHEN"
+            target="_BLANK"
+            rel="noreferrer"
+          >
+            @alterHEN
+          </a>{' '}
+          so we can assist.
+        </p>
       )}
     </>
   )
