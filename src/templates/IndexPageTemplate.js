@@ -4,7 +4,6 @@ import { Link } from 'gatsby'
 import { random } from 'lodash-es'
 
 import { HTMLContent } from '../components/Content'
-import { LogoText, LogoIcon } from '../components/Logo'
 import { LargeCard } from '../components/LargeCard'
 
 export const IndexPageTemplate = ({
@@ -20,8 +19,6 @@ export const IndexPageTemplate = ({
     userAddress = null
   }
 
-  console.log(shopContent)
-
   const shopImgTransform = (img) => {
     if (img.includes('.gif')) return img
     if (!img.includes('ucarecdn')) return img
@@ -30,12 +27,6 @@ export const IndexPageTemplate = ({
 
   return (
     <div className="homepage">
-      <div className="basic-header basic-header--on-top">
-        <LogoText className="logo-black" />
-        <div className="basic-header__icon">
-          <LogoIcon className="logo-white" />
-        </div>
-      </div>
       <div className="hero">
         <div className="hero-body">
           <span className="alter-hen-logo"></span>
@@ -44,7 +35,10 @@ export const IndexPageTemplate = ({
             Read More <span>►</span>
           </Link>
         </div>
-        <div className="hero-image" style={{ background: 'black' }}>
+        <div
+          className="hero-image hero-image--dark-overlay"
+          style={{ background: 'black' }}
+        >
           <iframe
             title="homepage animation"
             style={{ width: '100%', height: '100%', border: '0px' }}
@@ -100,7 +94,7 @@ export const IndexPageTemplate = ({
                       >
                         <img
                           src={shopImgTransform(o.image)}
-                          alt={`Poster image for ${o.title}`}
+                          alt={`Poster artwork for ${o.title}`}
                         />
                       </Link>
                     ))}

@@ -26,10 +26,14 @@ const ExhibitionGroupPage = ({ data }) => {
 
   return (
     <Layout>
-      <BasicHeader />
+      <BasicHeader themeLight={true} onTop={true} />
       <ExhibitionGroupPageTemplate
         exhibitions={exhibitions}
         title={data.page.frontmatter.title}
+        description={data.page.frontmatter.description}
+        summary={data.page.frontmatter.summary}
+        logo={data.page.frontmatter.logo}
+        featuredimage={data.page.frontmatter.featuredimage}
       />
     </Layout>
   )
@@ -37,6 +41,11 @@ const ExhibitionGroupPage = ({ data }) => {
 
 ExhibitionGroupPage.propTypes = {
   data: PropTypes.object.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  summary: PropTypes.string,
+  logo: PropTypes.string,
+  featuredimage: PropTypes.string,
 }
 
 export default ExhibitionGroupPage
@@ -46,6 +55,10 @@ export const exhibitionGroupPageQuery = graphql`
     page: markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        featuredimage
+        description
+        summary
+        logo
         exhibitions {
           exhibition
         }

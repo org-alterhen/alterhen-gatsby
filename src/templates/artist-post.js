@@ -11,9 +11,11 @@ import { ArtistPostTemplate } from './ArtistPostTemplate'
 const ArtistPost = ({ data }) => {
   const { markdownRemark: post } = data
 
-  const currentExhibition = data.exhibitions.edges.find(
+  let currentExhibition = data.exhibitions.edges.find(
     (e) => e.node.frontmatter.title === post.frontmatter.currentexhibition
-  ).node
+  )
+  currentExhibition = currentExhibition ? currentExhibition.node : false
+
   const pastExhibitions = data.exhibitions.edges
     .filter(
       (e) => e.node.frontmatter.title !== post.frontmatter.currentexhibition

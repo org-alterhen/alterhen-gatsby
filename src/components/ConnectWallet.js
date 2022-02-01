@@ -61,7 +61,7 @@ const ConnectButton = ({
           localStorage.setItem('lastUserAddress', userAddress)
       }
     })()
-  })
+  }, [])
   return React.createElement(
     'div',
     { className: 'buttons wallet-buttons' },

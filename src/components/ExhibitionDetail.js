@@ -18,14 +18,20 @@ import { checkVisible, slugify } from '../utils/misc'
 
 import Zoomer from '../components/Zoomer'
 
+const TezosInstance = new TezosToolkit('https://api.tez.ie/rpc/mainnet')
+
 const transformImg = (img) => {
   return img // no optimization for now, just return the img
 }
 
-const ExhibitionDetail = ({ title, artist, description, objkts, longbio }) => {
-  const [Tezos, setTezos] = useState(
-    new TezosToolkit('https://api.tez.ie/rpc/mainnet')
-  )
+const ExhibitionDetail = ({
+  title,
+  description,
+  objkts,
+  artistName = false,
+  artistSlug = false,
+}) => {
+  const [Tezos, setTezos] = useState(TezosInstance)
   const [contract, setContract] = useState(undefined)
   const [wallet, setWallet] = useState(null)
   const [userAddress, setUserAddress] = useState('')
@@ -65,7 +71,7 @@ const ExhibitionDetail = ({ title, artist, description, objkts, longbio }) => {
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: transformImg(objkt.image),
-                        alt: `${objkt.title} by ${artist}`,
+                        alt: `${objkt.title} by ${artistName}`,
                       }}
                       className=""
                     />
@@ -115,15 +121,13 @@ const ExhibitionDetail = ({ title, artist, description, objkts, longbio }) => {
             </div>
           ))}
         {objkts && <ExhibitionSlider objkts={objkts} />}
-        {artist && (
+        {artistName && artistSlug && (
           <div className="exhibition-page-bio">
             <div className="container">
               <div className="columns">
                 <div className="column is-one-third">
-                  <h2>{artist}</h2>
-                  <Link to={`/artist/${slugify(artist)}`}>
-                    ← Back to Profile
-                  </Link>
+                  <h2>{artistName}</h2>
+                  <Link to={artistSlug}>← Back to Profile</Link>
                 </div>
                 <div className="column is-two-thirds">
                   <p style={{ whiteSpace: 'pre-wrap' }}>{description}</p>
@@ -141,9 +145,9 @@ ExhibitionDetail.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  artist: PropTypes.string,
+  artistSlug: PropTypes.string,
+  artistName: PropTypes.string,
   objkts: PropTypes.array,
-  longbio: PropTypes.node,
 }
 
 export default ExhibitionDetail

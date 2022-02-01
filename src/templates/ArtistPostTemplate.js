@@ -37,7 +37,7 @@ export const ArtistPostTemplate = ({
       )}
       <section className="section artist-post">
         {helmet || ''}
-        <div className="container content">
+        <div className="container">
           <div className="columns" style={{ margin: '0' }}>
             <div className="column is-one-third artist-post-sidebar">
               {profpic && (
@@ -73,10 +73,12 @@ export const ArtistPostTemplate = ({
             </div>
 
             <div className="column is-two-thirds">
-              {pastExhibitions && (
-                <h1 className="separating-headline">CURRENT EXHIB\TION</h1>
+              {currentExhibition && (
+                <>
+                  <h1 className="separating-headline">CURRENT EXHIB\TION</h1>
+                  <ExhibitionSummary exhibition={currentExhibition} />
+                </>
               )}
-              <ExhibitionSummary exhibition={currentExhibition} />
 
               {pastExhibitions && (
                 <h1 className="separating-headline">PAST EXHIB\TIONS</h1>

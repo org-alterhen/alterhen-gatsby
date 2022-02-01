@@ -127,3 +127,4 @@ collections:
         widget: "list"
         fields:
           - {label: 'Exhibition', name: 'exhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title" }
+      - {label: "Logo", name: "logo", widget: "file", required: false}

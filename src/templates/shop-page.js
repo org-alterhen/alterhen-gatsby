@@ -15,7 +15,6 @@ const ShopPage = ({ data }) => {
       <ExhibitionDetail
         title={frontmatter.title}
         description={frontmatter.description}
-        artist={frontmatter.artist}
         objkts={frontmatter.objkts}
         longbio={html}
       />
@@ -46,7 +45,6 @@ export const ShopPageQuery = graphql`
           video
           objkt
         }
-        artist
       }
     }
   }

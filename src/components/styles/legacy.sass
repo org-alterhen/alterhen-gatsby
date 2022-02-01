@@ -80,15 +80,6 @@ footer.footer
     background-repeat: no-repeat
     background-size: 100% 100%
 
-//Menu overrides
-$menu-item-color: $primary
-$menu-item-hover-color: $primary !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $primary-invert
-$menu-item-active-background-color: 	$primary-invert
-$menu-list-border-left: 1px solid $primary-invert
-$menu-label-color: $primary
-
 .menu-label
   font-size: 1em !important
   text-align: left
@@ -114,8 +105,6 @@ $menu-label-color: $primary
 .artist-list-item.is-featured
   background-color: #d6400033
 .artist-list-item header
-  margin-bottom: 1em
-  border: 1px solid #F9F3F3
   padding: 1rem
   .description-lines
     width: auto
@@ -150,8 +139,9 @@ a:hover .artist-list-item
 
 .artist-list-item .featured-thumbnail
   flex-basis: 35%
+
 .artist-roll-name, .artist-roll-title
-  font-size: 1.8em
+  font-size: var(--fs-h2)
   letter-spacing: 0.0em
 
 a
@@ -171,7 +161,6 @@ a
     text-align: center
 
 .logo-text
-
   font-family: Open Sans
   font-size: 24px
   font-style: normal
@@ -203,7 +192,7 @@ a
     top: 0
     left: 0
     right: 0
-    zIndex: 1
+    z-index: 1
   &__icon
     float: right
     svg
@@ -293,7 +282,12 @@ a
 .artist-socials
   margin-bottom: 0.75em
   a
+    display: inline-block
+    transition: all .2s ease-in-out
     margin-right: 0.5em
+    &:hover,
+    &:focus
+      opacity: 0.7
 
 .hero
   flex-direction: row
@@ -312,7 +306,24 @@ a
   max-width: 100vw
   height: 100vh
   padding: 4rem
-  span.alter-hen-logo
+  padding-bottom: 10rem // To account for absolutely positioned content on homepage
+  &--align-bottom
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+  &__logo
+    width: 100%
+    height: auto
+    display: block
+  &__title
+    @include base-heading
+    font-size: var(--fs-h1)
+  &__summary
+    margin-top: var(--p-rythm)
+    margin-bottom: calc(var(--p-rythm-lg) * 2)
+  &__logo + &__title
+    margin-top: var(--p-rythm)
+  .alter-hen-logo
     display: inline-block
     width: 4.5em
     height: 4.5em
@@ -320,17 +331,18 @@ a
     background-size: cover
     margin-top: calc(1em + 6vh)
     margin-bottom: 1em
+    p
+      margin: 1em 0
+      width: 100%
+      span
+        font-weight: 600
+        span
+          font-weight: 800
   h3
     margin-top: 20vh
     opacity: .5
     margin-bottom: .3em
-  p
-    margin: 1em 0
-    width: 100%
-    span
-      font-weight: 600
-      span
-        font-weight: 800
+
   h1
     color: #000
     font-size: 1.5em
@@ -392,15 +404,27 @@ a
   flex: 0
   background-size: cover
   height: 100%
-  width: 100%
+  width: calc(100% - 29em)
   top: 0
-  left: 0
+  left: 29em
   right: 0
   z-index: -1
   overflow: hidden
-  filter: brightness(0.75)
-  iframe
-    @include better-blur(5px)
+  img
+    width: 100%
+    height: 100%
+    display: block
+    object-fit: cover
+  &--dark-overlay
+    &:before
+      content: ''
+      position: absolute
+      z-index: 2
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      background: rgba(0,0,0,0.25)
 
 .read-more
   letter-spacing: 0.025em
@@ -527,13 +551,26 @@ a
   a.connect-wallet
     margin-left: auto !important
 
-.exhibition-page-bio
+.exhibition-more
+  background: #f7f7f7
+  padding: 3rem 0
+  .featured-cards
+    padding: 0 3rem
+
+.exhibition-page-bio,
+.exhibition-group-link
   border-top: $border-1
   padding: 0
   .columns
     margin: 0
   .column
     padding: 3rem
+
+@include to($bp-small)
+  .exhibition-page-bio,
+  .exhibition-group-link
+    .column + .column
+      padding-top: 0
 
 .featured-thumbnail img
   display: block
@@ -557,7 +594,7 @@ a
   align-self: stretch
   align-items: flex-start
   &.is-two-thirds
-    padding-left: 2em
+    padding: 0
 
 .separating-headline
   width: 100%
@@ -580,6 +617,12 @@ a
 
 .separating-headline.collection
   border-bottom: none
+
+.section
+  &--border-top
+    border-top: $border-1
+  &--border-bottom
+    border-bottom: $border-1
 
 .section-about-page
   .logo-full
@@ -708,12 +751,6 @@ a
       >div:nth-of-type(1)
         width: 100%
         margin-bottom: 6em
-
-@media screen and ( min-width: 1000px )
-  .artist-post .column
-    padding: 5em
-    &.is-two-thirds
-      padding-left: 5em
 
 @media screen and ( max-width: 630px )
   .section--tight-mobile

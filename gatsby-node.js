@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql }) => {
               templateKey
               artist
               name
+              title
               published
               featured
             }
@@ -42,6 +43,7 @@ exports.createPages = ({ actions, graphql }) => {
         edge.node.frontmatter.published == null
           ? true
           : edge.node.frontmatter.published
+      const title = edge.node.frontmatter.title || ''
       if (published) {
         createPage({
           path: edge.node.fields.slug,
@@ -52,6 +54,7 @@ exports.createPages = ({ actions, graphql }) => {
           context: {
             id,
             artist,
+            title,
           },
         })
       }

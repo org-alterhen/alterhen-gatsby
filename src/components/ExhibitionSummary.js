@@ -4,25 +4,17 @@ import { Link } from 'gatsby'
 
 const ExhibitionSummary = ({ exhibition }) => {
   return (
-    <>
-      <div className="exhibition__title">
-        <h1>{exhibition.frontmatter.title}</h1>
-      </div>
-      <p className="exhibition__description">
+    <div className="exhibition-summary">
+      <h3 className="exhibition-summary__title">
+        {exhibition.frontmatter.title}
+      </h3>
+      <p className="exhibition-summary__statement">
         {exhibition.frontmatter.statement}
       </p>
-      <br />
-      <br />
-      <div>
-        <Link to={exhibition.fields.slug} className="block-btn">
-          Enter Exhibition
-        </Link>
-        {/* <ExhibitionLinks posts={[title]}></ExhibitionLinks> */}
-      </div>
-      <br />
-      <br />
-      <br />
-    </>
+      <Link to={exhibition.fields.slug} className="block-btn">
+        Enter Exhibition
+      </Link>
+    </div>
   )
 }
 

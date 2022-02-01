@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import BasicHeader from '../components/BasicHeader'
 import { IndexPageTemplate } from './IndexPageTemplate'
 
 const IndexPage = ({ data }) => {
@@ -10,6 +11,7 @@ const IndexPage = ({ data }) => {
   const exhibitionGroups = data.exhibitiongroups.edges.map((eg) => eg.node)
   return (
     <Layout>
+      <BasicHeader themeLight={true} onTop={true} />
       <IndexPageTemplate
         title={frontmatter.title}
         exhibitionGroups={exhibitionGroups}

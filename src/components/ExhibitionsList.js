@@ -8,12 +8,6 @@ class ExhibitionsList extends React.Component {
   render() {
     const { exhibitions } = this.props
 
-    const transformImg = (img) => {
-      if (img.includes('.gif')) return img
-      if (!img.includes('ucarecdn')) return img
-      return img.substr(0, 58) + '-/scale_crop/599x475' + img.substr(57, 999)
-    }
-
     return (
       <div className="columns is-multiline">
         {exhibitions &&
@@ -24,11 +18,7 @@ class ExhibitionsList extends React.Component {
               artist={exhibition.frontmatter.artist}
               publishedDate={exhibition.frontmatter.date}
               url={exhibition.fields.slug}
-              imageUrl={
-                exhibition.frontmatter.featuredimage
-                  ? transformImg(exhibition.frontmatter.featuredimage)
-                  : false
-              }
+              image={exhibition.frontmatter.featuredimage}
               imageAlt={`Featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}
               className={'is-parent column is-6'}
               style={{ order: random(1, 999) }}
