@@ -8,13 +8,13 @@ import { IndexPageTemplate } from './IndexPageTemplate'
 const IndexPage = ({ data }) => {
   const { frontmatter, html } = data.page
   const exhibitionGroups = data.exhibitiongroups.edges.map((eg) => eg.node)
-
   return (
     <Layout>
       <IndexPageTemplate
         title={frontmatter.title}
         exhibitionGroups={exhibitionGroups}
         content={html}
+        shopContent={data.shop.edges[0].node}
       />
     </Layout>
   )
@@ -56,6 +56,24 @@ export const pageQuery = graphql`
             title
             featuredimage
             summary
+          }
+        }
+      }
+    }
+    shop: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "shop-page" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            objkts {
+              image
+              title
+            }
           }
         }
       }
