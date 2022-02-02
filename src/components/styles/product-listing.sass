@@ -1,8 +1,11 @@
 .product-listing
     margin-bottom: var(--p-rythm-lg)
+    display: grid
+    grid-template-columns: 1fr
+    gap: var(--p-rythm-lg)
     &__item
-
         img
+            transition: box-shadow $speed ease-in
             display: block
             box-shadow: $box-shadow
             &:hover,
@@ -11,6 +14,4 @@
 
 @include from($bp-medium)
     .product-listing
-        display: grid
         grid-template-columns: repeat(4, 1fr)
-        gap: var(--p-rythm-lg)

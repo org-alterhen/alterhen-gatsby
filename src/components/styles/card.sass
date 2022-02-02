@@ -1,5 +1,11 @@
 .card
+    transition: box-shadow $speed ease-in
     display: block
     border-radius: 0
     > header
         background: white
+    &:hover,
+    &:focus
+        box-shadow: $box-shadow-hover
+        .artist-roll-arrow span
+            background: #C5C5C5

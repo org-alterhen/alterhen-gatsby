@@ -98,10 +98,6 @@ footer.footer
   vertical-align: middle
   display: inline
 
-// blog roll
-.artist-list-item
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05)
-
 .artist-list-item.is-featured
   background-color: #d6400033
 .artist-list-item header
@@ -129,13 +125,6 @@ footer.footer
     border-top: $border-1
     color: #8C8B8B
     width: 100%
-
-a:hover .artist-list-item
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
-  .artist-roll-title
-    color: #000
-  .artist-roll-arrow span
-    background: #C5C5C5
 
 .artist-list-item .featured-thumbnail
   flex-basis: 35%
@@ -420,6 +409,8 @@ a
     padding-top: 6rem
     height: 100%
     padding-bottom: 12em
+    &__summary
+      margin-bottom: 0
     span.alter-hen-logo
       display: none
   .logo-icon svg
@@ -432,9 +423,9 @@ a
   flex: 0
   background-size: cover
   height: 100%
-  width: calc(100% - 29em)
+  width: 100%
   top: 0
-  left: 29em
+  left: 0
   right: 0
   z-index: -1
   overflow: hidden
@@ -453,6 +444,11 @@ a
       top: 0
       left: 0
       background: rgba(0,0,0,0.25)
+
+@include from($bp-medium)
+  .hero-image
+    left: 29em
+    width: calc(100% - 29em)
 
 .read-more
   letter-spacing: 0.025em
