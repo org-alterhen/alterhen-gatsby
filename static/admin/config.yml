@@ -28,7 +28,6 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "artist-post"}
       - {label: "Published", name: "published", widget: "boolean", default: true, required: false}
-      - {label: "Featured", name: "featured", widget: "boolean", default: true, required: false}
       - {label: "Artist Name", name: "name", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Country", name: "country", widget: "string", required: false}
@@ -42,7 +41,7 @@ collections:
       - {label: "Tumblr", name: "tumblr", widget: "string", required: false}
       - {label: "Linktree", name: "linktree", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
-      - {label: 'Current Exhibition', name: 'currentexhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title", required: false }
+      - {label: 'Current Exhibition', name: 'currentexhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title", required: false, default: '' }
 
   - name: "exhibition"
     label: "Exhibitions"

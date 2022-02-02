@@ -3,6 +3,10 @@ templateKey: exhibition-page
 artist: Katya Kanke-Zaikanova
 title: Empty Gaze
 date: 2021-09-14T13:29:04.640Z
+statement: In search of a void between the hustle and bustle. I’m searching for
+  islands of clear moments, staring nowhere. I find myself just being here again
+  through the void.
+featuredimage: https://ucarecdn.com/6b44ea98-2c49-4bf3-a2a3-fec43d728684/main_page_katya.jpg
 description: >-
   Katya Kanke-Zaikanova is Russian artist, born in 1985. 
 
@@ -38,6 +42,7 @@ objkts:
       ed. 20
     image: https://ucarecdn.com/5386cc41-fbc1-4056-9e00-e88a26443a07/
 ---
-Katya Kanke-Zaikanova is Russian artist, born in 1985. 
+
+Katya Kanke-Zaikanova is Russian artist, born in 1985.
 
 She started her career as a photographer in 2000. Later studied contemporary dance and performance art. Works with photography, performance art, creates videos and drawings. Her art practices mostly is about women being, existentional problems, maternity, and woman gaze to reality.

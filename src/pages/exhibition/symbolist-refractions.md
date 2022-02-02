@@ -3,6 +3,11 @@ templateKey: exhibition-page
 artist: Laurent La Torpille
 title: Symbolist refractions
 date: 2021-12-14T13:51:21.021Z
+statement: >
+  I developed this graphic simulator to create architectures of glass and light.
+  Inspired by the symbolist style, I play with the reflection refraction to
+  sculpt pixels as matter.
+featuredimage: https://ucarecdn.com/5fe16424-3d5a-47f6-9cc0-df197af9b8fa/
 description: >-
   Laurent La Torpille dedicates himself to music, graphics and the creation of
   dynamic environments, focusing on real-time interactions of images and
@@ -43,6 +48,7 @@ objkts:
     image: https://ucarecdn.com/69c98039-f0e2-4893-b518-01eb8a53439c/
     objkt: 572673
 ---
-Laurent La Torpille dedicates himself to music, graphics and the creation of dynamic environments, focusing on real-time interactions of images and sounds. 
+
+Laurent La Torpille dedicates himself to music, graphics and the creation of dynamic environments, focusing on real-time interactions of images and sounds.
 
 His work is protean and focuses on plastic research, placing the individual and new technologies at the heart of the creation process.

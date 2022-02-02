@@ -3,6 +3,13 @@ templateKey: exhibition-page
 artist: Alex Crouwers
 title: The Plot
 date: 2021-09-22T13:01:47.780Z
+statement: 'Photogrammetric models of remnants on a clear-cut - a former forest
+  that fell victim to climate change - are the departure points for a string of
+  works relating to ecological grief. There’s a devastating poetry connected to
+  these type of photography-based digital models: they resemble isolated ruins,
+  simultaneously brand new and in decay. They’re neither here nor there, these
+  ghosts that only echo their physical origins in a digital void.'
+featuredimage: https://ucarecdn.com/3b6e08fb-f004-4a2e-9b53-4a404c548d1f/
 description: >-
   The works of Alexandra Crouwers (The Netherlands, º1974) arise in the x, y and
   z axes of her virtual studio. There, she builds designs for woven tapestries
@@ -32,9 +39,9 @@ objkts:
       MP4, 1080 x 1080, 1'00", colour/silent
 
       ed. 6
-    title: "Diorama: The_Plot / Three Trees, day/night sequence"
+    title: 'Diorama: The_Plot / Three Trees, day/night sequence'
     objkt: 205207
-    image: ""
+    image: ''
     video: https://www.patricktresset.com/various/daynight.mp4
   - objkt: 275218
     title: Grief
@@ -56,10 +63,10 @@ objkts:
       ed. 60
 
 
-    image: ""
+    image: ''
     video: https://www.patricktresset.com/various/alex_0.mp4
-  - title: "Infographic: The_Plot / Three Trees, the letter P, & The Face of
-      Solastalgia"
+  - title: 'Infographic: The_Plot / Three Trees, the letter P, & The Face of
+      Solastalgia'
     objkt: 203506
     desc: >+
       Loop based on a photogrammetric model of three tree stumps at The Plot
@@ -78,7 +85,7 @@ objkts:
 
       ed. 6
 
-    image: ""
+    image: ''
     video: https://www.patricktresset.com/various/nest.mp4
   - title: Tools (v001)
     objkt: 229833
@@ -94,7 +101,7 @@ objkts:
       MP4, 1920 x 1920, 1'28", colour/silent
 
       ed. 6
-    image: ""
+    image: ''
     video: https://www.patricktresset.com/various/tools.mp4
   - title: Fundamental Mechanics 49/52
     desc: >-
@@ -113,8 +120,9 @@ objkts:
     objkt: 81163
     image: https://www.patricktresset.com/various/alex_c.gif
 ---
-The works of Alexandra Crouwers (The Netherlands, º1974) arise in the x, y and z axes of her virtual studio. There, she builds designs for woven tapestries and wallpaper, digital dioramas, and boundless sets for video installations. Her multi-faceted practice addresses deep concerns about ecological collapse, and our detached relation to wilderness. Like an expert time-traveler Crouwers shuttles between deep history and the far future, using literature, cinema, evolutionary biology and contemporary visual culture as companions. 
 
-Alexandra lives and works in Antwerp (Belgium) and is currently working on a PhD in arts in animation at Leuven University/LUCA School of Arts, Brussels. Her research is focused on dealing with ecological grief in relation to a ‘real world’ location: a former family forest that had to be cleared due to a climate-change related bark beetle infestation. “Until recently, I would describe escapism as my core-business, and science-fiction as my genre. Due to the upheaval of a virus and a growing public awareness of the severity of our ecological crises, my work has inadvertently shifted to activism.” 
+The works of Alexandra Crouwers (The Netherlands, º1974) arise in the x, y and z axes of her virtual studio. There, she builds designs for woven tapestries and wallpaper, digital dioramas, and boundless sets for video installations. Her multi-faceted practice addresses deep concerns about ecological collapse, and our detached relation to wilderness. Like an expert time-traveler Crouwers shuttles between deep history and the far future, using literature, cinema, evolutionary biology and contemporary visual culture as companions.
+
+Alexandra lives and works in Antwerp (Belgium) and is currently working on a PhD in arts in animation at Leuven University/LUCA School of Arts, Brussels. Her research is focused on dealing with ecological grief in relation to a ‘real world’ location: a former family forest that had to be cleared due to a climate-change related bark beetle infestation. “Until recently, I would describe escapism as my core-business, and science-fiction as my genre. Due to the upheaval of a virus and a growing public awareness of the severity of our ecological crises, my work has inadvertently shifted to activism.”
 
 Crouwers graduated at the Sandberg Institute in Amsterdam in 2001. Film screenings include Uppsala Short Film Festival, Transmediale (Berlin), Portable Film Festival (Sydney/Melbourne), and Berwick Film & Media Arts Festival (UK). Exhibitions include S.M.A.K. Museum (Ghent, B), and Le Fresnoy, Studio National des Arts Contemporains (Tourcoing, FR).

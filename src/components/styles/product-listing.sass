@@ -1,8 +1,13 @@
 .product-listing
     margin-bottom: var(--p-rythm-lg)
     &__item
+
         img
             display: block
+            box-shadow: $box-shadow
+            &:hover,
+            &:focus
+                box-shadow: $box-shadow-hover
 
 @include from($bp-medium)
     .product-listing

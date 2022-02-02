@@ -12,17 +12,18 @@ class ExhibitionsList extends React.Component {
       <div className="columns is-multiline">
         {exhibitions &&
           exhibitions.map((exhibition) => (
-            <Card
-              key={exhibition.id}
-              title={exhibition.frontmatter.title}
-              artist={exhibition.frontmatter.artist}
-              publishedDate={exhibition.frontmatter.date}
-              url={exhibition.fields.slug}
-              image={exhibition.frontmatter.featuredimage}
-              imageAlt={`Featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}
-              className={'is-parent column is-6'}
-              style={{ order: random(1, 999) }}
-            />
+            <div className={'is-parent column is-6'}>
+              <Card
+                key={exhibition.id}
+                title={exhibition.frontmatter.title}
+                artist={exhibition.frontmatter.artist}
+                publishedDate={exhibition.frontmatter.date}
+                url={exhibition.fields.slug}
+                image={exhibition.frontmatter.featuredimage}
+                imageAlt={`Featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}
+                style={{ order: random(1, 999) }}
+              />
+            </div>
           ))}
       </div>
     )

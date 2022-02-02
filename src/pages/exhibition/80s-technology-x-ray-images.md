@@ -9,6 +9,10 @@ description: >-
 
 
   He works with X-ray machines, CT and MRI scanners ("CT Scans", 2010), laser scanners ("Memory Lane", 2015-2019, and "Junkyard", 2019) and photogrammetry or 3D scanning from photographs ("Void", 2019). His work has been shown at Ars Electronica (Linz), Transmediale (Berlin) and Mima Museum (Brussels).
+statement: 'The foundations of our digital culture exposed to x-rays: science
+  fiction landscapes which make us think inside of these devices the worlds that
+  they made us imagine really existed.'
+featuredimage: https://ucarecdn.com/a5c3bf93-345d-4c9b-9432-3886cdb25d60/
 objkts:
   - objkt: 486266
     image: https://ucarecdn.com/880ad7a3-ef57-4a2b-b1af-1b7bf0d8beae/
@@ -41,6 +45,7 @@ objkts:
       JPG, 2500 x 2500
     image: https://ucarecdn.com/b0e8d5d6-7f76-47b2-be5d-0c8105aa54fd/
 ---
-Iñigo Bilbao Oviedo, Spain. 1975. Digital Artist specialized in 3D scanning and medical imaging. 
+
+Iñigo Bilbao Oviedo, Spain. 1975. Digital Artist specialized in 3D scanning and medical imaging.
 
 He works with X-ray machines, CT and MRI scanners ("CT Scans", 2010), laser scanners ("Memory Lane", 2015-2019, and "Junkyard", 2019) and photogrammetry or 3D scanning from photographs ("Void", 2019). His work has been shown at Ars Electronica (Linz), Transmediale (Berlin) and Mima Museum (Brussels).
