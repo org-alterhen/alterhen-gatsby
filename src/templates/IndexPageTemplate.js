@@ -63,6 +63,7 @@ export const IndexPageTemplate = ({
                       url={g.fields.slug}
                       image={g.frontmatter.featuredimage}
                       imageAlt={`Featured artwork for ${g.frontmatter.title}`}
+                      logoUrl={g.frontmatter.logo}
                     />
                   ))}
               </div>

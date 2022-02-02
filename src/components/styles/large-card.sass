@@ -12,11 +12,15 @@
         padding: var(--p-rythm-lg)
         display: flex
         flex-direction: column
+        &__logo
+            margin-bottom: var(--p-rythm)
+            display: block
+            width: 100%
         &__title
             @include base-heading
             font-size: var(--fs-h2)
         &__summary
-            margin-top: var(--p-rythm)
+            margin-top: calc(var(--p-rythm) - .4em) // Adjust for line-height -JS
             margin-bottom: var(--p-rythm-lg)
         &__cta
             margin-top: auto
