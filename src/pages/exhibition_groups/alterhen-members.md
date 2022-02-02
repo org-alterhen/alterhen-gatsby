@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-group-page
 title: A\terHEN Members Exhibition II
-featuredimage: https://ucarecdn.com/f4ff937a-4a93-4874-8edc-7552956f02b7/
+featuredimage: https://ucarecdn.com/20cc462d-ed7c-4291-ae21-d7ecc0963e75/
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta urna
   at justo fringilla sagittis. Sed in purus sit amet diam molestie ultrices ac
   at libero. Nam bibendum magna quis massa sodales.
