@@ -73,11 +73,11 @@ export const ArtistPostTemplate = ({
             </div>
 
             <div className="column is-two-thirds">
+              {currentExhibition && pastExhibitions && (
+                <h1 className="separating-headline">CURRENT EXHIB\TION</h1>
+              )}
               {currentExhibition && (
-                <>
-                  <h1 className="separating-headline">CURRENT EXHIB\TION</h1>
-                  <ExhibitionSummary exhibition={currentExhibition} />
-                </>
+                <ExhibitionSummary exhibition={currentExhibition} />
               )}
 
               {pastExhibitions && (

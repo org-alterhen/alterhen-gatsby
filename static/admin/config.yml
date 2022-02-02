@@ -32,7 +32,6 @@ collections:
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Country", name: "country", widget: "string", required: false}
       - {label: "Profile Picture", name: "profpic", widget: image, required: false}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Banner", name: "midbanner", widget: image}
       - {label: "Website", name: "website", widget: "string", required: false}
       - {label: "Hicetnunc", name: "hicetnunc", widget: "string", required: false}

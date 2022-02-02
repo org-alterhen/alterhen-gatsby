@@ -25,6 +25,9 @@
         &__cta
             margin-top: auto
 
+.large-card + .large-card
+    margin-top: calc(var(--p-rythm-lg) * 2)
+
 @include from($bp-medium)
     .large-card
         display: grid
