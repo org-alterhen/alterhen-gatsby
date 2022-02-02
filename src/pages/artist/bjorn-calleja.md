@@ -1,33 +1,15 @@
 ---
 templateKey: artist-post
-name: B. Calleja - D. Bato
-bio: |-
-  Dennis Bato (b. 1989)
-  Bjorn Calleja (b. 1981)
+name: Bjorn Calleja
+bio: Bjorn Calleja is a Filipino painter and interdisciplinary artist, whose
+  works play with the idea of the micro and macro-cosms of humans within and
+  against their environments, in an ecological, social, and internal sense.
+currentexhibition: Two Second Meditations
 country: Philippines
-profpic: https://patricktresset.com/various/II/bd.gif
-title: Terra Ignota
-statement: >-
-  A collaboration between artists Bjorn Calleja and Dennis Bato, “Terra Ignota,”
-  in partnership with Mono8 Gallery is an interrogation into an unfamiliar
-  terrain where the two artists' practices intersect. The exhibition examines
-  how Calleja and Bato utilize space and forms in their works to represent
-  environments where identities exist. Calleja's colourful works present images
-  drawn from ﬂowers, landscapes and portraits, referenced historical images,
-  photos of sports events, portrayals of the imagined, and surreal scenarios.
-  Thus, his works entice the audience to look more closely and allow enough
-  breathing space for meaning to materialize. Calleja shows a microcosm within a
-  microcosm, where images can turn into landscapes even if they do not carry the
-  same visual references as expected. Hence, arranging characters who personify
-  the artist’s exploration into the essence of being and the invisible
-  relationships that traverse through the universe. 
-
-
-  Meanwhile, Bato’s dark and monochromatic portrayals in silhouette depict human relationships and behaviour in contexts of space and time. Bato peers into this perspective, which is an exploration into the patterns of chaos. The layers in his works reveal the multi-dimensional characteristics of space: the physical and the psychic aspect where is defined by recurring events. The lines in Bato’s works converge into points where we can trace the similar paths followed by different people while the silhouette act like ghost particles of our every interaction.
-featuredimage: https://ucarecdn.com/cb52b268-dae4-4d2a-b467-223bb63d3881/
-midbanner: https://ucarecdn.com/87dac0d8-77b3-4e24-bf62-d2ab5f050903/
+profpic: https://ucarecdn.com/ebc60391-d922-43a5-9893-a6da837f570c/bjorn_500c.gif
+midbanner: https://ucarecdn.com/d8eab3a4-c4c4-44df-b83e-c69d205e18a1/banner_bjorn1.jpg
 website: https://www.bjorncalleja.weebly.com
-hicetnunc: https://www.hicetnunc.art/bjorncalleja/creations
+hicetnunc: https://www.hicetnunc.xyz/bjorncalleja/creations
 twitter: bjorncalleja
 instagram: osongkalye
 updated: 27/08/2021 13:33:40

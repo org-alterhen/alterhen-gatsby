@@ -3,6 +3,13 @@ templateKey: exhibition-page
 artist: Auni Seiva
 title: Faces from Energy Blocks series
 date: 2021-12-14T14:22:03.688Z
+statement: Adept of the quantum thought of the materialization of thoughts and
+  the creation of her own reality in a multiverse of possibilities, she goes
+  searching for her treasures in the midst of urban chaos, collecting and
+  gathering them.  Transforming them into objects of power, trophies, symbols
+  that she displays as a surviving warrior in a dystopian world.  (Walter Nomura
+  @tinho23sp artist/curator statement)
+featuredimage: https://patricktresset.com/various/II/auni_thumbnail.gif
 description: >-
   Auni Seiva is a Brazilian artist, born in São Paulo, 1986. She started her
   trajectory in Graffiti culture, 2005. Not satisfied with just painting her
@@ -45,6 +52,7 @@ objkts:
 
       GIF Performance, 3 frames, 440 x 588
 ---
-Auni Seiva is a Brazilian artist, born in São Paulo, 1986. She started her trajectory in Graffiti culture, 2005. Not satisfied with just painting her name on walls, she seeks to establish her name as a contemporary artist (without limits). Ethical-existential sustainability Studies of quantum physics, psyche, synchronicity, mysticism (mainly oriental), and the use of discarded objects by the city to criticize the current society, with a tendency to impulsive, irresponsible and often irrational consumerism. The artist realizes that such lack of control is based, countless times, on an attempt to supply internal shortages and emptiness. 
+
+Auni Seiva is a Brazilian artist, born in São Paulo, 1986. She started her trajectory in Graffiti culture, 2005. Not satisfied with just painting her name on walls, she seeks to establish her name as a contemporary artist (without limits). Ethical-existential sustainability Studies of quantum physics, psyche, synchronicity, mysticism (mainly oriental), and the use of discarded objects by the city to criticize the current society, with a tendency to impulsive, irresponsible and often irrational consumerism. The artist realizes that such lack of control is based, countless times, on an attempt to supply internal shortages and emptiness.
 
 The collection of objects is done mainly in my bicycle trips, that's how I started this research, in the path of 36km (round trip) daily, from Guarulhos, where I lived at the time, to the Alex Vallauri Residence (FUNARTE SP). Currently his work is focused on NFTs, performance and sculptures. She is represented by the gallery "A7MA" with exclusivity of the series "Post-Graffiti"

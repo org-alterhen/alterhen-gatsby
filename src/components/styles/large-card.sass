@@ -1,0 +1,37 @@
+.large-card
+    display: block
+    box-shadow: $box-shadow
+    &:hover,
+    &:focus
+        box-shadow: $box-shadow-hover
+    &__cover
+        aspect-ratio: 728 / 750
+        img
+            display: block
+    &__meta
+        padding: var(--p-rythm-lg)
+        display: flex
+        flex-direction: column
+        &__logo
+            margin-bottom: var(--p-rythm)
+            display: block
+            width: 100%
+        &__title
+            @include base-heading
+            font-size: var(--fs-h2)
+        &__summary
+            margin-top: calc(var(--p-rythm) - .4em) // Adjust for line-height -JS
+            margin-bottom: var(--p-rythm-lg)
+        &__cta
+            margin-top: auto
+
+@include from($bp-medium)
+    .large-card
+        display: grid
+        grid-template-columns: 5fr 7fr
+        grid-template-areas: "Meta Cover"
+        &__cover
+            grid-area: Cover
+        &__meta
+            &__title
+                grid-area: Meta

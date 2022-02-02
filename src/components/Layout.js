@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 // import Navbar from '../components/Navbar'
 // import logo from '../img/logo.svg'
-import './all.sass'
+import './styles/app.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
@@ -16,16 +16,36 @@ const TemplateWrapper = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
 
-
-        <link rel="apple-touch-icon" sizes="180x180" href={`${withPrefix('/')}favicon/apple-touch-icon.png`}/>
-        <link rel="icon" type="image/png" sizes="32x32" href={`${withPrefix('/')}favicon/favicon-32x32.png`}/>
-        <link rel="icon" type="image/png" sizes="16x16" href={`${withPrefix('/')}favicon/favicon-16x16.png`}/>
-        <link rel="manifest" href={`${withPrefix('/')}favicon/site.webmanifest`}/>
-        <link rel="mask-icon" href={`${withPrefix('/')}favicon/safari-pinned-tab.svg`} color="#000000"/>
-        <meta name="apple-mobile-web-app-title" content="a\terHEN"/>
-        <meta name="application-name" content="a\terHEN"/>
-        <meta name="msapplication-TileColor" content="#000000"/>
-        <meta name="theme-color" content="#ffffff"/>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href={`${withPrefix('/')}favicon/apple-touch-icon.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={`${withPrefix('/')}favicon/favicon-32x32.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={`${withPrefix('/')}favicon/favicon-16x16.png`}
+        />
+        <link
+          rel="manifest"
+          href={`${withPrefix('/')}favicon/site.webmanifest`}
+        />
+        <link
+          rel="mask-icon"
+          href={`${withPrefix('/')}favicon/safari-pinned-tab.svg`}
+          color="#000000"
+        />
+        <meta name="apple-mobile-web-app-title" content="a\terHEN" />
+        <meta name="application-name" content="a\terHEN" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="theme-color" content="#ffffff" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />

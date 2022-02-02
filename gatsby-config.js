@@ -63,20 +63,35 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        customizeWebpackConfig: (config, { stage, plugins }) => {
+          config.resolve = {
+            ...config.resolve,
+            fallback: {
+              ...config.resolve.fallback,
+              stream: require.resolve('stream-browserify'),
+              path: require.resolve('path-browserify'),
+              http: require.resolve('stream-http'),
+              https: require.resolve('https-browserify'),
+              os: require.resolve('os-browserify/browser'),
+              crypto: require.resolve('crypto-browserify'),
+              buffer: require.resolve('buffer/'),
+            },
+          }
+        },
       },
     },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        purgeOnly: ['/app.sass'], // applies purging only on the bulma css file
       },
-    }, // must be after other CSS plugins    
+    }, // must be after other CSS plugins
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "G-VG5H88KK9Q",
+        trackingId: 'G-VG5H88KK9Q',
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
@@ -84,7 +99,7 @@ module.exports = {
         // Setting this parameter is also optional
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        exclude: ["/admin/**"],
+        exclude: ['/admin/**'],
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
         // Defers execution of google analytics script after page load
@@ -92,7 +107,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "alterhen.art",
+        cookieDomain: 'alterhen.art',
         // defaults to false
         enableWebVitalsTracking: true,
       },

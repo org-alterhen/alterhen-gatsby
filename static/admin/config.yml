@@ -8,6 +8,8 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+local_backend: true
+
 media_library:
   name: uploadcare
   config:
@@ -26,13 +28,10 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "artist-post"}
       - {label: "Published", name: "published", widget: "boolean", default: true, required: false}
-      - {label: "Featured", name: "featured", widget: "boolean", default: true, required: false}
       - {label: "Artist Name", name: "name", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Country", name: "country", widget: "string", required: false}
       - {label: "Profile Picture", name: "profpic", widget: image, required: false}
-      - {label: "Exhibition Title", name: "title", widget: "string"}
-      - {label: "Statement", name: "statement", widget: "text", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Banner", name: "midbanner", widget: image}
       - {label: "Website", name: "website", widget: "string", required: false}
@@ -42,6 +41,7 @@ collections:
       - {label: "Tumblr", name: "tumblr", widget: "string", required: false}
       - {label: "Linktree", name: "linktree", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: 'Current Exhibition', name: 'currentexhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title", required: false, default: '' }
 
   - name: "exhibition"
     label: "Exhibitions"
@@ -52,8 +52,10 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "exhibition-page"}
       - {label: "Artist", name: "artist", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Statement", name: "statement", widget: "text", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
       - label: "Objkts"
         name: "objkts"
         widget: "list"
@@ -75,7 +77,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
@@ -90,17 +91,39 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/exhibition/index.md"
-        label: "Exhibitions Page"
-        name: "exhibition"
+      - file: "src/pages/shop/index.md"
+        label: "Shop"
+        name: "shop"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "exhibition-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "shop-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - label: "Objkts"
+            name: "objkts"
+            widget: "list"
+            summary: '#{{fields.objkt}} - {{fields.title}}'
+            fields:
+              - {label: "Objkt#", name: "objkt", widget: "number"}
+              - {label: "Image", name: "image", widget: image, required: false}
+              - {label: "Video URL", name: "video", widget: string, required: false}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+
+  - label: "Exhibition Group"
+    name: "exhibition_group"
+    folder: "src/pages/exhibition_groups"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "exhibition-group-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Short Summary", name: "summary", widget: "text", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Published", name: "published", widget: "boolean", default: true, required: false}
+      - label: 'Exhibitions'
+        name: 'exhibitions'
+        widget: "list"
+        fields:
+          - {label: 'Exhibition', name: 'exhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title" }
+      - {label: "Logo", name: "logo", widget: "file", required: false}

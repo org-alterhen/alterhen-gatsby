@@ -1,233 +1,52 @@
-import React, { useState } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import BasicHeader from '../components/BasicHeader'
 
-import Exhibition from '../components/Exhibition'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-// import SocialLinks from '../components/SocialLinks'
-import { TezosToolkit } from "@taquito/taquito";
-
-import ConnectButton from '../components/ConnectWallet'
-import DisconnectButton from "../components/DisconnectWallet";
-
-import { objktInfo } from '../utils/hicDex';
-
-import { useScrollPosition } from '../utils/useScrollPosition'
-
-import Zoomer from '../components/Zoomer'
-
-// BeaconConnection = {
-//   NONE = "",
-//   LISTENING = "Listening to P2P channel",
-//   CONNECTED = "Channel connected",
-//   PERMISSION_REQUEST_SENT = "Permission request sent, waiting for response",
-//   PERMISSION_REQUEST_SUCCESS = "Wallet is connected"
-// }
-
-const transformImg = (img) => {
-  return img // no optimization for now, just return the img
-
-  // gifs aren't being saved to CMS with file extension so below check doesn't work
-  // if (img.includes('.gif')) return img
-  // return (
-  //   img.substr(0,58) + '-/preview/1920x1080' + img.substr(57,999)
-  // )
-}
-
-export const ExhibitionPageTemplate = ({
-  title,
-  artist,
-  description,
-  objkts,
-  longbio
-}) => {
-  
-  const [Tezos, setTezos] = useState(
-    new TezosToolkit("https://api.tez.ie/rpc/mainnet")
-  );
-  const [contract, setContract] = useState(undefined);
-  const [publicToken, setPublicToken] = useState("");
-  const [wallet, setWallet] = useState(null);
-  const [userAddress, setUserAddress] = useState("");
-  const [userBalance, setUserBalance] = useState(0);
-  const [beaconConnection, setBeaconConnection] = useState(false);
-
-  // const [objktsHicdex, setObjktsHicdex] = useState([]);
-
-  // v2 swap contract
-  const contractAddress = "KT1HbQepzV1nVGg8QVznG7z4RcHseD5kwqBn";
-
-  objkts.forEach(objkt => {
-    if (!objkt.hicdex) {
-      objktInfo(objkt.objkt).then(objktInfo => {
-        objkt.hicdex = objktInfo
-      })
-    }
-  });
-
-  const [scroll, setScroll] = useState(0);
-
-  useScrollPosition(function setScrollPosition ({ currentPosition }) {
-    setScroll(currentPosition.y);
-    // console.log(scroll);
-    let videos = document.getElementsByTagName("video");
-    for (let i = 0; i < videos.length; i++) {
-      if (checkVisible(videos[i])) {
-        videos[i].play();
-      } else {
-        videos[i].pause();
-      }
-    }
-  });
-
-  function checkVisible(elm) {
-    var rect = elm.getBoundingClientRect();
-    var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-    return !(rect.bottom < 200 || rect.top - viewHeight >= -200);
-  }
-
-  return (
-    <div className="content">
-
-      <section className="exhibition-page">
-        <h1 className="has-text-centered">{title}</h1>
-        { objkts && objkts.map((objkt, index) => (
-          <div className="exhibition-page-objkt" key={index}>
-            <div className="exhibition-page-objkt-left">
-              <Zoomer>
-                { objkt.image ? (
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: transformImg(objkt.image),
-                      alt: `${objkt.title} by ${artist}`,
-                    }}
-                    className=""
-                  />
-                ) : (
-                  objkt.video && (
-                    <video className="exhibition-page-video" src={objkt.video} autoPlay loop playsInline />
-                  ) 
-                )}
-              </Zoomer>
-            </div>
-            <div className="exhibition-page-objkt-right">
-              <h2>{objkt.title}</h2>
-              <p style={{whiteSpace: 'pre-wrap'}}>{objkt.desc}</p>
-              
-              { objkt.hicdex && (                
-                <>
-                  <p className="availability">{objkt.hicdex.swaps_aggregate.aggregate.sum.amount_left || 'X'}&thinsp;/&thinsp;{objkt.hicdex.supply} editions available</p>
-                  { objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
-                      <button className={userAddress ? "block-btn collect" : "block-btn collect inactive"} onClick={async () => {
-                        // setLoadingIncrement(true);
-                        try {
-                          const op = await contract.methods.collect(objkt.hicdex.swaps[0].id).send({
-                            amount: objkt.hicdex.swaps[0].price, // parseFloat(objkt.price)
-                            mutez: true,
-                            storageLimit: 310
-                          });
-                          await op.confirmation();
-                        } catch (error) {
-                          console.log(error);
-                        } finally {
-                          // setLoadingIncrement(false);
-                        }
-                      }}>Collect for {objkt.hicdex.swaps[0].price / 1000000} tez</button>
-                  ) : (
-                    <a href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`} disabled className="block-btn collect inactive">Not available</a>
-                  )}
-                </>
-              )}
-              {/* <a target="_blank" rel="noreferrer" href={"https://hicetnunc.xyz/objkt/" + objkt.objkt} className="block-btn">VIEW</a> */}
-              {!userAddress ? (
-                <ConnectButton
-                  Tezos={Tezos}
-                  setContract={setContract}
-                  setPublicToken={setPublicToken}
-                  setWallet={setWallet}
-                  setUserAddress={setUserAddress}
-                  setUserBalance={setUserBalance}
-                  contractAddress={contractAddress}
-                  setBeaconConnection={setBeaconConnection}
-                  wallet={wallet}
-                />
-              ) : (
-                <DisconnectButton
-                  wallet={wallet}
-                  setPublicToken={setPublicToken}
-                  setUserAddress={setUserAddress}
-                  setUserBalance={setUserBalance}
-                  setWallet={setWallet}
-                  setTezos={setTezos}
-                  setBeaconConnection={setBeaconConnection}
-                />
-              )}
-              </div>
-          </div>
-        ))}
-        { objkts && <Exhibition
-          objkts={objkts}
-        /> }
-        <div className="exhibition-page-bio">
-          <div className="container">
-            <div className="columns">
-              <div className="column is-one-third">
-                <h2>{artist}</h2>
-                <Link to={`/artist/${artist.toLowerCase().replace(/[ ]/g,'-').replace(/["|'|,|_]/g,'')}`}>← Back to Profile</Link>
-                {/* <h4>{country}</h4>
-                <SocialLinks links={{
-                  website: website,
-                  instagram: instagram,
-                  twitter: twitter,
-                  facebook: facebook,
-                  linktree: linktree,
-                  henlink: henlink,
-                  tumblr: tumblr                  
-                }} /> */}
-              </div>
-              <div className="column is-two-thirds">
-                <p style={{whiteSpace: 'pre-wrap'}}>{description}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  )
-}
-
-ExhibitionPageTemplate.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  artist: PropTypes.string,
-  objkts: PropTypes.array,
-  longbio: PropTypes.node
-}
+import ExhibitionDetail from '../components/ExhibitionDetail'
+import ExhibitionGroupLink from '../components/ExhibitionGroupLink'
+import FeaturedCards from '../components/FeaturedCards'
 
 const ExhibitionPage = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.page
+  let exhibitionGroup = data.exhibitiongroup.edges[0]
+  exhibitionGroup = exhibitionGroup ? exhibitionGroup.node : false
+
+  const pastexhibitions = data.pastexhibitions.edges.map((e) => e.node)
 
   return (
     <Layout>
-      <BasicHeader/>
-      <ExhibitionPageTemplate
+      <BasicHeader />
+      <ExhibitionDetail
         title={frontmatter.title}
         description={frontmatter.description}
-        artist={frontmatter.artist}
+        artistName={frontmatter.artist}
+        artistSlug={data.artist.fields.slug}
         objkts={frontmatter.objkts}
-        longbio={html}
       />
+      {exhibitionGroup && (
+        <ExhibitionGroupLink
+          exhibitionTitle={frontmatter.title}
+          exhibitionGroup={exhibitionGroup}
+        />
+      )}
+      {pastexhibitions.length > 1 && (
+        <div className="exhibition-more">
+          <div className="container content">
+            <FeaturedCards cards={pastexhibitions} title="Past exhibitions" />
+          </div>
+        </div>
+      )}
     </Layout>
   )
 }
+
 ExhibitionPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
+    page: PropTypes.shape({
       frontmatter: PropTypes.object,
-      html: PropTypes.node      
+      html: PropTypes.node,
     }),
   }),
 }
@@ -235,8 +54,8 @@ ExhibitionPage.propTypes = {
 export default ExhibitionPage
 
 export const exhibitionPageQuery = graphql`
-  query ExhibitionPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query ExhibitionPage($id: String!, $title: String!, $artist: String!) {
+    page: markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
         description
@@ -248,6 +67,54 @@ export const exhibitionPageQuery = graphql`
           objkt
         }
         artist
+      }
+    }
+    artist: markdownRemark(
+      frontmatter: { templateKey: { eq: "artist-post" }, name: { eq: $artist } }
+    ) {
+      fields {
+        slug
+      }
+    }
+    pastexhibitions: allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "exhibition-page" }
+          artist: { eq: $artist }
+        }
+      }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            artist
+            featuredimage
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    exhibitiongroup: allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "exhibition-group-page" }
+          exhibitions: { elemMatch: { exhibition: { eq: $title } } }
+        }
+      }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            summary
+          }
+          fields {
+            slug
+          }
+        }
       }
     }
   }

@@ -1,0 +1,1 @@
+export const HEN_V2_SWAP_CONTRACT = "KT1HbQepzV1nVGg8QVznG7z4RcHseD5kwqBn"

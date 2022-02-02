@@ -10,3 +10,4 @@ yarn-error.log
 
 # local files backup
 static/img/local/*
+.vscode

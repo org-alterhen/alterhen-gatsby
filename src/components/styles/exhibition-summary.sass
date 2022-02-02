@@ -1,0 +1,13 @@
+.exhibition-summary
+    padding: 5rem
+    &__title
+        @include base-heading
+        font-size: var(--fs-h1)
+    &__statement
+        font-size: var(--fs-h2)
+        margin-top: var(--p-rythm-lg)
+    .block-btn
+        margin-top: calc(2 * var(--p-rythm-lg))
+
+.exhibition-summary + .exhibition-summary
+    padding-top: 0

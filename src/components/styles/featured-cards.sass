@@ -1,0 +1,12 @@
+@include to($bp-medium)
+    .featured-cards
+        &__list
+            > a + a
+                margin-top: var(--p-rythm-lg)
+
+@include from($bp-medium)
+    .featured-cards
+        &__list
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            gap: var(--p-rythm-lg)

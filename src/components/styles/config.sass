@@ -1,0 +1,47 @@
+/**
+ * Media Queries - *Try* and make everything fit within these - use @from/to/between
+ */
+$bp-tiny: 500px
+$bp-small: 768px
+$bp-medium: 1024px
+$bp-large: 1280px
+$bp-very-large: 1440px
+
+/**
+ * Colors
+ */
+$primary: #000000
+$primary-invert: #ffffff
+$body-color: #000000
+$black: #000000
+
+$box-shadow: 0px 10px 20px rgb(0 0 0 / 5%)
+$box-shadow-hover: 0px 10px 20px rgb(0 0 0 / 10%)
+
+$speed: 300ms
+
+$menu-item-color: $primary
+$menu-item-hover-color: $primary !important
+$menu-item-hover-background-color: $black
+$menu-item-active-color: $primary-invert
+$menu-item-active-background-color: $primary-invert
+$menu-list-border-left: 1px solid $primary-invert
+$menu-label-color: $primary
+$content-heading-color: $primary
+$text-strong: $primary
+
+@keyframes rot360
+    0%
+        transform: rotate(0deg)
+
+    100%
+        transform: rotate(360deg)
+
+:root
+    --p-rythm: 16px
+    --p-rythm-sm: calc(var(--p-rythm) / 2)
+    --p-rythm-lg: calc(var(--p-rythm) * 2)
+    --fs-h1: 38px
+    --fs-h2: 24px
+    --fs-body-lg: 24px
+    --fs-body: 16px

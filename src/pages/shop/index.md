@@ -1,13 +1,19 @@
 ---
-templateKey: exhibition-page
-artist: Shop
+templateKey: shop-page
 title: Shop
-date: 2022-01-03T05:49:25.708Z
-description: ..
+description: >-
+  Welcome to the shop of a\terHEN. Like a postcard from a museum shop, we now are offering affordable NFTs you can collect to remember your visit on a\terHEN.
+
+  a\terHEN introduces a new cultural practice in the art world.
+
+  Evolving on eco-friendly platforms, this NFT art market offers new models for the cultural economy, being accessible to all and providing high-quality, affordable artworks. With digital limited editions, artists, cultural actors and institutions can find new revenue streams and space for community engagement.
+
+  a\terHEN is supported by Immaterial Future Association
+
 objkts:
   - objkt: 615601
     image: https://ucarecdn.com/3847f77b-309f-48c8-93d8-5f55afd7f1ab/
-    video: ""
+    video: ''
     title: Stielauge
     desc: |-
       Anna Malina Zemlianski
@@ -32,7 +38,7 @@ objkts:
 
       Courtesy of the Aksenov Family Foundation
   - objkt: 615646
-    video: ""
+    video: ''
     title: Sssssemiotiiiiicssss
     image: https://ucarecdn.com/e6380530-4de3-4664-8721-4c007f2260f2/
     desc: |
@@ -62,4 +68,3 @@ objkts:
 
     image: https://ucarecdn.com/137ffa28-de62-42bf-84c3-42f8a34cd077/
 ---
-..

@@ -1,40 +1,26 @@
-import React, { Dispatch, SetStateAction } from "react";
-import { BeaconWallet } from "@taquito/beacon-wallet";
-import { TezosToolkit } from "@taquito/taquito";
+import React from 'react'
+import { TezosToolkit } from '@taquito/taquito'
 
-const DisconnectButton = ({
-  wallet,
-  setPublicToken,
-  setUserAddress,
-  setUserBalance,
-  setWallet,
-  setTezos,
-  setBeaconConnection
-}) => {
+const DisconnectButton = ({ wallet, setUserAddress, setWallet, setTezos }) => {
   const disconnectWallet = async () => {
-    //window.localStorage.clear();
-    setUserAddress("");
-    setUserBalance(0);
-    setWallet(null);
-    const tezosTK = new TezosToolkit("https://api.tez.ie/rpc/mainnet");
-    setTezos(tezosTK);
-    setBeaconConnection(false);
-    setPublicToken(null);
-    console.log("disconnecting wallet");
+    setUserAddress('')
+    setWallet(null)
+    const tezosTK = new TezosToolkit('https://api.tez.ie/rpc/mainnet')
+    setTezos(tezosTK)
     if (wallet) {
-      await wallet.client.removeAllAccounts();
-      await wallet.client.removeAllPeers();
-      await wallet.client.destroy();
+      await wallet.client.removeAllAccounts()
+      await wallet.client.removeAllPeers()
+      await wallet.client.destroy()
     }
-  };
+  }
 
   return (
     <div className="buttons wallet-buttons">
-      <a className="" onClick={disconnectWallet}>
+      <button onClick={disconnectWallet}>
         <i className="fas fa-times"></i>Disconnect wallet
-      </a>
+      </button>
     </div>
-  );
-};
+  )
+}
 
-export default DisconnectButton;
+export default DisconnectButton

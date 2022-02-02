@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ArtistPostTemplate } from '../../templates/artist-post'
+import { ArtistPostTemplate } from '../../templates/ArtistPostTemplate'
 
 const ArtistPostPreview = ({ entry, widgetFor }) => {
   return (

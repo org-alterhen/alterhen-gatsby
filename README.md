@@ -2,14 +2,9 @@
 
 ### A Gatsby powered informational website and exhibition platform for a\terHEN
 
-## To Do:
-
-- build homepage CMS
-
-
 ### Built with Gatsby + Netlify CMS Starter
 
-## Features
+## Dev Features
 
 - A simple landing page with blog functionality built with Netlify CMS
 - Editable Pages: Landing, About, Product, Artist-Collection and Contact page with Netlify Form support
@@ -26,28 +21,38 @@
 
 ## Prerequisites
 
-- Node (I recommend using v8.2.0 or higher)
+- git
+- NodeJS v12 - use [nvm](https://github.com/nvm-sh/nvm) to manage node versions easily
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 - [Netlify CLI](https://github.com/netlify/cli)
 
-### Access Locally
+### Develop Locally
 
-Pulldown a local copy of the Github repo
-```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-$ cd [REPO_NAME]
-$ yarn
-$ netlify dev # or ntl dev
-```
-
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
-
-To test the CMS locally, you'll need to run a production build of the site:
+Pulldown a local copy of the Github repo and install dependancies:
 
 ```
-$ npm run build
-$ netlify dev # or ntl dev
+$ git clone git@github.com:kylegrover/alterhen-gatsby.git
+$ cd alterhen-gatsby
+$ nvm use # Skip this if you have node v12 manually installed
+$ npm install
 ```
+
+Run the development server:
+
+```
+$ cd alterhen-gatsby
+$ npm run develop
+```
+
+In another terminal session, run the local proxy server. This allows us to test the CMS changes locally without persisting to production:
+
+```
+$ cd alterhen-gatsby
+$ npx netlify-cms-proxy-server
+```
+
+View the frontend: http://localhost:8000/
+Access the CMS at: http://localhost:8000/admin/
 
 ### Media Libraries
 

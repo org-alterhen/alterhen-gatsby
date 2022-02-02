@@ -3,6 +3,11 @@ templateKey: exhibition-page
 artist: Zaki Jawhari
 title: NETWORKS
 date: 2021-12-14T11:25:35.352Z
+featuredimage: https://ucarecdn.com/76684522-0611-436e-b73e-ff18beca7d7f/
+statement: 'Networks is a potential architecture or agencement. A blueprint of
+  what I am experiencing in my hybrid world: Tensions / Densities / Dynamics /
+  speed . Connections and interactions define the network and its topology the
+  DNA of the system.'
 description: >
   Architect and media artist Zaki Jawhari better known as URBANDRONE has been
   carrying out research since 2007 on the sensitive perception of the space. 
@@ -39,6 +44,7 @@ objkts:
       Custom software
       JPG, 2048 x 2048
 ---
-Architect and media artist Zaki Jawhari better known as URBANDRONE has been carrying out research since 2007 on the sensitive perception of the space. 
+
+Architect and media artist Zaki Jawhari better known as URBANDRONE has been carrying out research since 2007 on the sensitive perception of the space.
 
 His experimental approach explores the complexity of the world where the limits between virtual and physical space become blurry. He started his artistic career performing live for electronic music festivals and producing interactive digital experiences with digital slaves and solo since 2014.

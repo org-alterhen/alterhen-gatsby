@@ -6,6 +6,7 @@ name: Auni Seiva
 bio: Auni Seiva is a Brazilian graffiti artist turned fine artist, focusing on
   ethical-existential sustainability. Her work critiques irrational consumerism
   in a multidisciplinary approach based on the use of found objects.
+currentexhibition: Faces from Energy Blocks series
 country: Brazil
 profpic: https://ucarecdn.com/4e57f3b2-8f86-4473-a973-a3e6aaca0476/500c.gif
 title: '"Faces" from "Energy Blocks" series'

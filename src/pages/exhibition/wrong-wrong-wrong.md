@@ -3,6 +3,17 @@ templateKey: exhibition-page
 artist: Wily Guys
 title: WRONG, WRONG, WRONG
 date: 2021-09-14T13:35:56.163Z
+statement: >-
+  This collection is part of an ongoing investigation into the artistic
+  possibilities of error and uncertainty, as a way of mirroring the mysterious,
+  counter-intuitive aspects of the quantum world.
+
+
+  It is an attempt to accept a ‘failure’ of classical exactitude in aesthetics, as a way of gaining a deeper understanding of the human perception of the world, particularly as that perception modulates in extreme contexts.
+
+
+  Each work donates 25% to charitable causes.
+featuredimage: https://ucarecdn.com/0dd2fe2a-cf56-421e-93bd-714f54f78516/main_page_wilyguys_alterhen_milkasbalm.jpg
 description: Johnny Dean Mann (AKA Wily Guys - b. 1979, Bath, UK) is a creative
   writer and digital sculptor/painter investigating the tension between
   ambiguity and exactitude as a parallel to quantum computing.
@@ -76,4 +87,5 @@ objkts:
       ed. 20
     image: https://ucarecdn.com/6899099e-59f3-45cb-b38e-52b0f8d64dbf/
 ---
+
 Johnny Dean Mann (AKA Wily Guys - b. 1979, Bath, UK) is a creative writer and digital sculptor/painter investigating the tension between ambiguity and exactitude as a parallel to quantum computing.
