@@ -14,7 +14,7 @@ description: Example lng description. Lorem ipsum dolor sit amet, consectetur
   amet, consectetur adipiscing elit. Sed porta urna at justo fringilla sagittis.
   Sed in purus sit amet diam molestie ultrices ac at libero. Nam bibendum magna
   quis massa sodales.
-published: true
+published: false
 exhibitions:
   - exhibition: Chtonic Light
   - exhibition: Mmmmultiplicityyyyy
