@@ -4,7 +4,6 @@ const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {

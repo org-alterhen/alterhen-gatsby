@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-page
-artist: David Pettersson
+artist: SOMATICBITS
 title: Shine
 date: 2021-09-14T13:17:55.454Z
 statement: >-

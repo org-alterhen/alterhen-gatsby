@@ -14,7 +14,7 @@ import { HEN_V2_SWAP_CONTRACT } from '../constants'
 import { objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
-import { checkVisible, slugify } from '../utils/misc'
+import { checkVisible } from '../utils/misc'
 
 import Zoomer from '../components/Zoomer'
 
@@ -23,6 +23,8 @@ const TezosInstance = new TezosToolkit('https://api.tez.ie/rpc/mainnet')
 const transformImg = (img) => {
   return img // no optimization for now, just return the img
 }
+
+const isBrowser = typeof window !== `undefined`
 
 const ExhibitionDetail = ({
   title,
@@ -36,13 +38,17 @@ const ExhibitionDetail = ({
   const [wallet, setWallet] = useState(null)
   const [userAddress, setUserAddress] = useState('')
 
-  objkts.forEach((objkt) => {
-    if (!objkt.hicdex) {
-      objktInfo(objkt.objkt).then((objktInfo) => {
-        objkt.hicdex = objktInfo
-      })
-    }
-  })
+  // Running objktInfo() on build for all pages leads to errors. Looks like they start failing
+  // after ~30 requests in quick succession. For now, only fetch this data on the client.
+  if (isBrowser) {
+    objkts.forEach((objkt) => {
+      if (!objkt.hicdex) {
+        objktInfo(objkt.objkt).then((objktInfo) => {
+          objkt.hicdex = objktInfo
+        })
+      }
+    })
+  }
 
   const [_, setScroll] = useState(0)
 
