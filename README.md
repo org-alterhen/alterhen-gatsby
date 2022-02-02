@@ -22,7 +22,7 @@
 ## Prerequisites
 
 - git
-- NodeJS v12 - use [nvm](https://github.com/nvm-sh/nvm) to manage node versions easily
+- NodeJS v16 - use [nvm](https://github.com/nvm-sh/nvm) to manage node versions easily
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 - [Netlify CLI](https://github.com/netlify/cli)
 
@@ -33,7 +33,7 @@ Pulldown a local copy of the Github repo and install dependancies:
 ```
 $ git clone git@github.com:kylegrover/alterhen-gatsby.git
 $ cd alterhen-gatsby
-$ nvm use # Skip this if you have node v12 manually installed
+$ nvm use # Skip this if you have node v16 manually installed
 $ npm install
 ```
 
