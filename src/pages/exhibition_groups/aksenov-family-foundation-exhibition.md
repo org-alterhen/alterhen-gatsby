@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-group-page
-title: Aksenov Family Foundation Exhibition
+title: ACollection
 featuredimage: https://ucarecdn.com/27ce2d21-391d-4fa3-a816-6f8746143037/
 summary: >
   Acollection is the first group exhibition of NFT works by contemporary Russian
