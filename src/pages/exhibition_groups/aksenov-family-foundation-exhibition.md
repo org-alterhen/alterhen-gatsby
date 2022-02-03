@@ -17,7 +17,6 @@ description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet lorem non dui pellentesque pharetra. In hac habitasse platea dictumst. Proin non scelerisque magna, id egestas ipsum.
 published: true
 exhibitions:
-  - exhibition: 80s Technology X-ray Images
-  - exhibition: City Scapes
+  - exhibition: Friends
 logo: https://ucarecdn.com/ee19cb2f-cacc-4265-bc54-e4690ed02b9a/
 ---
