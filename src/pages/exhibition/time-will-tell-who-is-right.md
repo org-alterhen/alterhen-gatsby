@@ -82,5 +82,12 @@ objkts:
       MP4, 1600 x 1958, 13 ''
 
       Based on the painting Red Monkey (2003)
+  - video: https://patricktresset.com/various/aff/The_Crisis_of_Ugliness.mp4
+    objkt: 656837
+    title: The Crisis of Ugliness
+    desc: |-
+      2022
+      MP4, 1500 x 1768, 5 ''
+      Based on the artwork The Crisis of Ugliness (2004)
 ---
 .
