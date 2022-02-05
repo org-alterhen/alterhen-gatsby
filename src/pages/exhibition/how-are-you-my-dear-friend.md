@@ -231,5 +231,32 @@ description: >-
 
   Private collections
 featuredimage: https://ucarecdn.com/89576885-cce9-4dd5-a649-9723a77b217e/
+objkts:
+  - objkt: 658045
+    title: Your step, I miss my step
+    video: https://patricktresset.com/various/aff/2_YSIMMS_AKHMETGALIEVA_preview.mp4
+    desc: >-
+      Tanya Akhmetgalieva
+
+      Your Step, I Miss My Step
+
+      2022
+
+      MP4, 1920 x 1920, 6’’
+
+
+      I'm out of time again. Our times are different. Your time moves smoothly and thoughtfully, while mine moves in leaps and bounds, with abrupt pauses, gaps, failures. We have this habit - to live each moment to the last, burn everything to the ground, do not make plans, do not wait for tomorrow. After all, everyone knows there is no tomorrow. Nothing will happen. And while the wheel of life revolves - dance and don't stop.
+  - objkt: 658044
+    image: https://ucarecdn.com/d7667f30-e143-4788-b7c1-a84a318a6f5c/
+    title: Neither wind nor fire
+    desc: >-
+      Neither Wind Nor Fire
+
+      2022
+
+      PNG, 4000 x 4000
+
+
+      Click after click, spark, lightning, rustle, clatter. It's not long before dawn. Someone is dotting the road map. The wheel of the day will creak and start moving soon. Don't touch the flowers and look better at the sky when the motion begins again.
 ---
 .
