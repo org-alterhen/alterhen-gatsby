@@ -22,5 +22,6 @@ exhibitions:
   - exhibition: "Landscape Sublime "
   - exhibition: How Are You, My Dear Friend?
   - exhibition: "Maybe Therapy "
+  - exhibition: Come What May Not
 logo: https://ucarecdn.com/ee19cb2f-cacc-4265-bc54-e4690ed02b9a/
 ---
