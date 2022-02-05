@@ -10,5 +10,5 @@ profpic: https://ucarecdn.com/8641ff1e-25e9-4765-8f64-288da6ae5821/
 midbanner: https://ucarecdn.com/ece72bb1-c9bb-47cc-8a3b-d7c5fbe32ed1/
 website: https://www.anasamoylova.com
 instagram: https://instagram.com/anasamoylova
-currentexhibition: ""
+currentexhibition: "Landscape Sublime "
 ---
