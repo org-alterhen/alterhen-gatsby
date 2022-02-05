@@ -107,5 +107,19 @@ objkts:
     desc: |-
       2022
       MP4, 1080 x 1350, 12 ''
+  - objkt: 658160
+    video: https://patricktresset.com/various/aff/shined-54.mp4
+    title: Shined 54
+    desc: |-
+      2022
+      MP4, 1080 x 1350, 11 ''
+  - objkt: 658159
+    title: It's Greedily to Love, My Dear Friend
+    desc: |-
+      2022
+      MP4, 1000 x 800, 15 ''
+
+      Based on the artwork from Aksenov Family Foundation Collection.
+    video: https://patricktresset.com/various/aff/IGLT.mp4
 ---
 .
