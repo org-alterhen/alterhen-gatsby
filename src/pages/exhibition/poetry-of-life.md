@@ -2,7 +2,13 @@
 templateKey: exhibition-page
 artist: Liza Kulagina
 title: Poetry of life
-statement: .
+statement: >-
+  My paintings are the poetry of life that consists of simple things and cozy
+  moments. 
+
+  One other motif that unites my work is the expression of emotions through vibrant colors. 
+
+  This is also connected to the fast speed theme: we feel so many emotions in each moment, they are differently bright, every emotion has its color and it always varies at each step of my way.
 date: 2022-02-05T05:18:03.728Z
 description: >-
   Liza Kulagina (b. 1991, Moscow, Russia). Liza is a Russian artist who works
