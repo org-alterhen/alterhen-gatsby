@@ -71,5 +71,20 @@ objkts:
 
       Based on the artwork Malevich Sold Here (1989)
     video: https://patricktresset.com/various/aff/malevich_sold_here.mp4
+  - objkt: 659301
+    video: https://patricktresset.com/various/aff/Lenin-Coca.mp4
+    title: Lenin and Coca Cola
+    desc: |-
+      2022
+      MP4, 3000 x 1798, 12 ''
+
+      Based on the artwork Lenin-Coca Cola (1982)
+  - objkt: 659300
+    video: https://patricktresset.com/various/aff/Lenin_and_Coca_Cola.mp4
+    title: Lenin - Coca-Cola XXI
+    desc: |-
+      2022
+      MP4, 2736 x 1636, 9 ''
+      Based on the artwork from Aksenov Family Foundation Collection
 ---
 .
