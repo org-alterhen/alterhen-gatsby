@@ -43,5 +43,11 @@ objkts:
     desc: |-
       2022
       GIF, 653 x 495
+  - objkt: 658568
+    image: https://patricktresset.com/various/aff/The_breath_of_spring_Kulagina.gif
+    title: The breath of spring
+    desc: |-
+      2022
+      GIF, 1012 x 1417
 ---
 ..
