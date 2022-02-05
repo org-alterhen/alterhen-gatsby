@@ -40,7 +40,7 @@ collections:
       - {label: "Tumblr", name: "tumblr", widget: "string", required: false}
       - {label: "Linktree", name: "linktree", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
-      - {label: 'Current Exhibition', name: 'currentexhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title", required: false, default: '' }
+      - {label: 'Current Exhibition', name: 'currentexhibition', widget: 'relation',  options_length: 1000, collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title", required: false, default: '' }
 
   - name: "exhibition"
     label: "Exhibitions"
@@ -118,5 +118,5 @@ collections:
         name: 'exhibitions'
         widget: "list"
         fields:
-          - {label: 'Exhibition', name: 'exhibition', widget: 'relation', collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title" }
+          - {label: 'Exhibition', name: 'exhibition', widget: 'relation', options_length: 1000, collection: "exhibition", search_fields: ["title"], display_fields: ["title"], value_field: "title" }
       - {label: "Logo", name: "logo", widget: "file", required: false}
