@@ -13,7 +13,7 @@ bio: >-
 
   The artist regularly participates in Russian and foreign shows.
 country: Ukraine
-midbanner: https://ucarecdn.com/d1ef0567-a373-4d39-b1bc-49ef9b230fe2/
+midbanner: https://ucarecdn.com/8d69491b-9df9-486a-bcf4-9f8db68e01f2/
 website: ""
 instagram: http://instagram.com/alina_glazoun
 currentexhibition: ""
