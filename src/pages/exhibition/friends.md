@@ -2,16 +2,18 @@
 templateKey: exhibition-page
 artist: Dmitry Kavka
 title: Friends
-statement: "Серия видео рисунков «Друзья» — это развитие графической истории про
-  двух мальчиков и их приятелей, которая была впервые показана на выставке
-  «Приобретённая беспомощность» (ЦТИ Фабрика. 2017, Москва) и получила своё
-  продолжение на выставке «Четыре мальчика» (Афимолл Сити. 2019). Повседневная
-  жизнь подростков странным образом переплетается с библейскими сюжетами,
-  древнегреческими мифами и историей искусства. Ситуации, в которых оказываются
-  главное герои, это одновременно и реальные события, и просвечивающие сквозь
-  них события нереальные. Нереальность — главная тема всей серии. Она намекает
-  на ту версию жизни, которая с этим ребятами не произошла, и которая так и не
-  стала для них спасением. Звук: Леонид Курашов"
+statement: >-
+  A series of video drawings Friends is a graphic story about two boys and their
+  buddies. It was first shown at the exhibition "Learned Helplessness" (CCI
+  Fabrika, Moscow, 2017) and was continued at the exhibition "Four Boys"
+  (Afimall City, Moscow, 2019). The everyday life of teens collides in the most
+  bizarre ways with Biblical stories, ancient Greek myths, and the history of
+  art. The circumstances in which the main characters find themselves are both
+  real and unreal, shining through them.
+
+  Unreality is the central theme of the whole series. It alludes to the version of life that never happened to these guys and that never became their salvation.
+
+  Sound: Leonid Kurashov
 date: 2022-02-03T12:27:41.123Z
 description: >-
   Dmitry Kavka (b. 1974, Moscow, Russia) is an artist and graphic designer. He
