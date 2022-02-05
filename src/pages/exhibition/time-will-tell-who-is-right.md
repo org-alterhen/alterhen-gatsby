@@ -89,5 +89,13 @@ objkts:
       2022
       MP4, 1500 x 1768, 5 ''
       Based on the artwork The Crisis of Ugliness (2004)
+  - objkt: 656836
+    video: https://patricktresset.com/various/aff/I_Hated_School.mp4
+    title: I Hated School
+    desc: |-
+      2022
+      MP4, 1000 x 714, 5 ''
+
+      Based on the painting I Hated School (2013)
 ---
 .
