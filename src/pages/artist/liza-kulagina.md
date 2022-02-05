@@ -9,5 +9,5 @@ country: Russia
 midbanner: https://ucarecdn.com/995072b3-d1dc-41b8-b211-29244a9b8a72/
 website: http://project5152837.tilda.ws/
 instagram: Instagram.com/alina_glazoun https://www.instagram.com/elizavetavs_art/
-currentexhibition: ""
+currentexhibition: Poetry of life
 ---
