@@ -100,5 +100,12 @@ description: >-
 
   Awards, Grants, R
 featuredimage: https://ucarecdn.com/35396b65-94ee-43c5-83e4-ab40eb875c11/
+objkts:
+  - objkt: 658161
+    video: https://patricktresset.com/various/aff/shined-99.mp4
+    title: Shined 99
+    desc: |-
+      2022
+      MP4, 1080 x 1350, 12 ''
 ---
 .
