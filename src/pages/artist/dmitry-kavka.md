@@ -7,7 +7,7 @@ bio: Dmitry Kavka creates projects at the intersection of digital and physical
   artist to explore the paradoxes of new sensitivity, social shifts, and
   transformations of images in the digital environment.
 country: Russia
-profpic: https://ucarecdn.com/62d27698-aa88-449d-9513-62e4a3627e4c/
+profpic: https://ucarecdn.com/d63e3e06-15b5-4610-b65a-d65ed94b1d85/
 midbanner: https://ucarecdn.com/b88bc2f6-b68c-4ac9-9266-22b79be1ad5b/
 website: http://dmitrykavka.com/
 twitter: https://twitter.com/sonynokia
