@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 artist: Alina Glazoun
-title: Russia
+title: _Russia
 statement: .
 date: 2022-02-05T04:50:25.878Z
 description: >-
