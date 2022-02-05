@@ -11,5 +11,5 @@ profpic: https://ucarecdn.com/13b16a30-1c7c-4201-ba19-7620626ceb2b/
 midbanner: https://ucarecdn.com/30a560be-8d70-4853-9ff4-c030f3e141e6/
 website: http://www.gutov.ru/
 instagram: https://www.instagram.com/dmitrygutov/
-currentexhibition: ""
+currentexhibition: "Time Will Tell Who is Right "
 ---
