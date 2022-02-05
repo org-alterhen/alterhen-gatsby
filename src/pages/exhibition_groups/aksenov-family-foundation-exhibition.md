@@ -20,5 +20,6 @@ exhibitions:
   - exhibition: Shined
   - exhibition: Lenin and Coca Cola
   - exhibition: "Landscape Sublime "
+  - exhibition: How Are You, My Dear Friend?
 logo: https://ucarecdn.com/ee19cb2f-cacc-4265-bc54-e4690ed02b9a/
 ---
