@@ -19,5 +19,6 @@ exhibitions:
   - exhibition: Poetry of life
   - exhibition: Shined
   - exhibition: Lenin and Coca Cola
+  - exhibition: "Landscape Sublime "
 logo: https://ucarecdn.com/ee19cb2f-cacc-4265-bc54-e4690ed02b9a/
 ---
