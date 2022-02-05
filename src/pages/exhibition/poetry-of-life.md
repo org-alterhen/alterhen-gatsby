@@ -37,5 +37,11 @@ objkts:
     desc: |-
       2022
       GIF, 661 x 913
+  - objkt: 658508
+    title: Creation of the world
+    image: https://patricktresset.com/various/aff/Creation_of_the_world_Kulagina_2.gif
+    desc: |-
+      2022
+      GIF, 653 x 495
 ---
 ..
