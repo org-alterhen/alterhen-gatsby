@@ -57,5 +57,14 @@ description: >
 
   The State Tretyakov Gallery, Moscow, Russia
 featuredimage: https://ucarecdn.com/2881f954-d93e-4e2c-b089-977a40bf95b2/
+objkts:
+  - objkt: 656834
+    video: https://patricktresset.com/various/aff/Time_Will_Tell_Who_is_Right.mp4
+    title: Time Will Tell Who is Right
+    desc: |-
+      2022
+      MP4, 2292 x 4392, 9 ''
+
+      Based on the artwork from Aksenov Family Foundation Collection
 ---
 .
