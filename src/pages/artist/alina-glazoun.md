@@ -16,5 +16,5 @@ country: Ukraine
 midbanner: https://ucarecdn.com/8d69491b-9df9-486a-bcf4-9f8db68e01f2/
 website: ""
 instagram: http://instagram.com/alina_glazoun
-currentexhibition: ""
+currentexhibition: 0-Russia
 ---
