@@ -33,5 +33,11 @@ objkts:
     desc: |
       2022
       MP4, 3849 x 2160, 18 ''
+  - objkt: 659676
+    video: https://patricktresset.com/various/aff/Volcanoes_vid.mp4
+    title: Volcanoes
+    desc: |
+      2022
+      MP4, 1080 x 864
 ---
 .
