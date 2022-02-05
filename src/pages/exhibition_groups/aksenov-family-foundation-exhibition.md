@@ -17,5 +17,6 @@ exhibitions:
   - exhibition: Friends
   - exhibition: Russia
   - exhibition: Poetry of life
+  - exhibition: Shined
 logo: https://ucarecdn.com/ee19cb2f-cacc-4265-bc54-e4690ed02b9a/
 ---
