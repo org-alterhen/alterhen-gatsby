@@ -11,5 +11,5 @@ country: Russia
 profpic: https://ucarecdn.com/67442b20-283f-466f-87e5-0e864db0cf1a/
 midbanner: https://ucarecdn.com/b8aac67c-96c8-4686-a69e-4486d96da162/
 website: https://www.albinamokhryakova.com
-currentexhibition: ""
+currentexhibition: "Maybe Therapy "
 ---
