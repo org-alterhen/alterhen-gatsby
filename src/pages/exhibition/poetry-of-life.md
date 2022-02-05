@@ -25,5 +25,17 @@ objkts:
     desc: |-
       2022
       GIF, 750 x 724
+  - objkt: 656603
+    image: https://patricktresset.com/various/aff/Break_Kulagina_6.gif
+    title: Break
+    desc: |-
+      2022
+      GIF, 572 x 577
+  - objkt: 656604
+    title: Poetry of life
+    image: https://patricktresset.com/various/aff/Poetry_of_life_Kulagina_4.gif
+    desc: |-
+      2022
+      GIF, 661 x 913
 ---
 ..
