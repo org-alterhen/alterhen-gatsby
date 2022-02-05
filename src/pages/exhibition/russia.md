@@ -2,7 +2,14 @@
 templateKey: exhibition-page
 artist: Alina Glazoun
 title: Russia
-statement: .
+statement: >
+  Alina Glazoun research is focused on how the latest forms of communication
+  influence world perception and culture. The development of internet
+  communication, smartphones, messaging, formed the basis of the transition from
+  text to visuality, in Alina Glazoun works this transition takes psychedelic
+  forms of landscapes or still lifes with concentrated texts.
+
+  Images of animals and plants, multilayering of styles and techniques, references to art history - characteristic features of Alina Glazoun 's creativity.
 date: 2022-02-05T04:50:25.878Z
 description: >-
   Alina Glazoun (b. 1988, Kirovograd, Ukraine) is an artist, who graduated with
@@ -27,9 +34,14 @@ objkts:
   - objkt: 656759
     video: https://patricktresset.com/various/aff/Heart.mp4
     title: Heart
-    desc: |-
+    desc: >-
       2022
+
       Video
+
       MP4, 1980 x 1080, 37 ''
+
+
+      Includes lyrics by composer Isaac Dunayevsky from the legendary 1934 Soviet film Jolly Fellows. In the U.S. the film was shown as Moscow Laughs.
 ---
 .
