@@ -188,12 +188,9 @@ description: >-
 
   2016 Sergey Kuryokhin Award — Special prize from L'INSTITUT FRANÇAIS, St Petersburg, Russia
 
-
   2015 Sergey Kuryokhin Award — The Best Project of Visual Art, St Petersburg, Russia
 
-
   2010 Shortlisted for Kandinsky Prize, The Young Artist of the Year nomination, Moscow, Russia
-
 
   2010 Novoyaz — First prize, The Hermitage Museum, St Petersburg, Russia
 
@@ -203,17 +200,16 @@ description: >-
 
   2021 Komi Biennale Residence, Vorkuta, Russia
 
-
   2019 Atelier Mondial, Basel, Switzerland
 
+  2017 Artist-in-residence program, The Ural Industrial Biennial of Contemporary Art, Ekaterinburg, Russia 
 
-  2017 Artist-in-residence program, The Ural Industrial Biennial of Contemporary Art, Ekaterinburg, Russia
-   
   2016 Cité Internationale des Arts, Paris, France
-   
+
   2010 The residence of The 1st Ural Industrial Biennial of Contemporary Art, The Sverdlovsk Wool Spinning Mill, Ekaterinburg, Russia
    
   Collections
+
 
   EMMA — Espoo Museum of Moderns Art, Espoo, Finland 
 
@@ -257,6 +253,18 @@ objkts:
       PNG, 4000 x 4000
 
 
-      Click after click, spark, lightning, rustle, clatter. It's not long before dawn. Someone is dotting the road map. The wheel of the day will creak and start moving soon. Don't touch the flowers and look better at the sky when the motion begins again.
+      Click after click, spark, lightning, rustle, clatter. It's not long before dawn. Someone is dotting the road map. The wheel of the day will creak and start moving soon. Don't touch the flowers and look better at the sky when the motion begins again. 
+  - objkt: 658043
+    video: https://patricktresset.com/various/aff/1_HARMF_AKHMETGALIEVA_preview.mp4
+    title: How are you my dear friend?
+    desc: >-
+      How Are You, My Dear Friend?
+
+      2022
+
+      MP4, 1080 x 1920, 20’’
+
+
+      What are you doing now? How is your magical garden? It's snowing somewhere today, again. Voices behind the wall: little words, big words, great importance, and hollowness of words. Can you hear me? My soul is a fragile overflowing fountain, but I can't wake up yet. My words turn to stone and sink, and I send you warm winds, good dreams, two magical dolphins, and a tiny seed of mystery from my heart.
 ---
 .
