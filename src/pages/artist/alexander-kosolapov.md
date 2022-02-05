@@ -14,5 +14,5 @@ profpic: https://ucarecdn.com/25d59cdf-7b3c-4aa2-966f-ebd63abad8ca/
 midbanner: https://ucarecdn.com/032f8730-ea3c-493d-91aa-4258613ee6e5/
 website: https://www.sotsart.com/
 facebook: https://www.facebook.com/Sotsart
-currentexhibition: ""
+currentexhibition: Lenin and Coca Cola
 ---
