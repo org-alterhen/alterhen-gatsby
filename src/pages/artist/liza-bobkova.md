@@ -10,5 +10,5 @@ country: Russia
 midbanner: https://ucarecdn.com/ebd00107-5be3-4d9c-bd01-4b1568cfe963/
 website: www.lizabobkova.com
 instagram: https://www.instagram.com/lizabobkova.artist/
-currentexhibition: ""
+currentexhibition: Shined
 ---
