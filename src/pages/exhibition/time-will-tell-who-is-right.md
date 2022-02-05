@@ -65,6 +65,22 @@ objkts:
       2022
       MP4, 2292 x 4392, 9 ''
 
-      Based on the artwork from Aksenov Family Foundation Collection
+      Based on the artwork from Aksenov Family Foundation Collection 
+  - objkt: 656835
+    video: https://patricktresset.com/various/aff/Three_Heroes.mp4
+    title: Three Heroes
+    desc: |-
+      2022
+      MP4, 1400 x 1164, 24 ''
+
+      Based on the painting Three heroes (2013)
+  - objkt: 656838
+    video: https://patricktresset.com/various/aff/Red_Monkey.mp4
+    title: Red Monkey
+    desc: |-
+      2022
+      MP4, 1600 x 1958, 13 ''
+
+      Based on the painting Red Monkey (2003)
 ---
 .
