@@ -348,13 +348,13 @@ a
     background-size: cover
     margin-top: calc(1em + 6vh)
     margin-bottom: 1em
-    p
-      margin: 1em 0
-      width: 100%
+  p
+    margin: 1em 0
+    width: 100%
+    span
+      font-weight: 600
       span
-        font-weight: 600
-        span
-          font-weight: 800
+        font-weight: 800
   h3
     margin-top: 20vh
     opacity: .5
@@ -550,6 +550,13 @@ a
   white-space: pre-wrap
   font-size: 24px
 
+.artist-profpic:not([class~=".gif"])
+  margin-bottom: 20px
+
+@include to($bp-medium)
+  .artist-profpic
+    max-width: 200px
+
 @media screen and ( max-width: 768px )
   #exhibitions
     .columns
@@ -565,6 +572,7 @@ a
     border-right: none !important
     border-bottom: $border-1
     margin-bottom: 2em
+
   .exhibition-page .exhibition-page-objkt
     display: block
     text-align: center

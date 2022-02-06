@@ -12,7 +12,10 @@ class ExhibitionsList extends React.Component {
       <div className="columns is-multiline">
         {exhibitions &&
           exhibitions.map((exhibition) => (
-            <div className={'is-parent column is-6'}>
+            <div
+              className={'is-parent column is-6'}
+              style={{ order: random(1, 999) }}
+            >
               <Card
                 key={exhibition.id}
                 title={exhibition.frontmatter.title}
@@ -21,7 +24,6 @@ class ExhibitionsList extends React.Component {
                 url={exhibition.fields.slug}
                 image={exhibition.frontmatter.featuredimage}
                 imageAlt={`Featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}
-                style={{ order: random(1, 999) }}
               />
             </div>
           ))}

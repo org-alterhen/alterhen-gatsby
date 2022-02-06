@@ -1,5 +1,5 @@
 .exhibition-summary
-    padding: 5rem
+    padding: 2rem
     &__title
         @include base-heading
         font-size: var(--fs-h1)
@@ -11,3 +11,7 @@
 
 .exhibition-summary + .exhibition-summary
     padding-top: 0
+
+@include from($bp-medium)
+    .exhibition-summary
+        padding: 5rem
