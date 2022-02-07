@@ -9,12 +9,16 @@ statement: >-
 
   Text often holds a central place in his works – a quote from classical literature or a common phrase taken from life resonate and are relevant today.
 date: 2022-02-05T09:38:43.776Z
-description: >-
-  Dmitry Gutov actively employs the technique of visual citation in his work.
-  The artist appropriates recognisable images from the history of Art, Russian
-  icon painting, oriental calligraphy, creating new "interpretations" of them.
+description: >
+  Dmitry Gutov (b. 1960, Moscow) is an artist and art historian. He graduated
+  from the St Petersburg Academy of Arts. In 1994 Gutov founded the Lifshitz
+  Institute, which focused on studying the philosophy of art and avant-garde
+  critique in Soviet Marxism. The artist works in a variety of media: painting,
+  sculpture, photo, video, installation. 
 
-  Text often holds a central place in his works – a quote from classical literature or a common phrase taken from life resonate and are relevant today.
+  Participant of the Venice Biennale of Contemporary Art (1995, 2007, 2011, 2013), Manifesta (1996, 2014), Moscow Biennale (2007, 2009, 2015), Istanbul Biennial (1992), Shanghai Biennale (2012). 
+
+  His works are in the permanent collections of many museums including The State Tretyakov Gallery, Russian Museum, and Centre Georges Pompidou. 
 featuredimage: https://ucarecdn.com/2881f954-d93e-4e2c-b089-977a40bf95b2/
 objkts:
   - objkt: 656834
