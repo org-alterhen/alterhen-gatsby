@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-group-page
 title: A\terHEN Members Exhibition II
-featuredimage: https://ucarecdn.com/20cc462d-ed7c-4291-ae21-d7ecc0963e75/
+featuredimage: https://ucarecdn.com/ffd3058c-66c0-42af-ac51-27cc1951e65c/
 credit: Patrick Jamora
 summary: Reflecting the diversity of artists in the NFT scene, Exhibition II is
   the new show presented by the members of alterHEN. For this occasion, the
