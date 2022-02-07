@@ -40,19 +40,21 @@ export const ExhibitionGroupPageTemplate = ({
           {credit && <div className="hero-image__credit">{credit}</div>}
         </div>
       </div>
-      <section className="section section--tight-mobile section--border-top">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-12" id="exhibitions">
-                <div className="page-statement">
-                  <p>{description}</p>
+      {description && (
+        <section className="section section--tight-mobile section--border-top">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-12" id="exhibitions">
+                  <div className="page-statement">
+                    <p>{description}</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
       <h1 className="separating-headline" id="exhibitions">
         EXHIB\TIONS
       </h1>
