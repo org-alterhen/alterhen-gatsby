@@ -15,15 +15,6 @@ export const ExhibitionGroupPageTemplate = ({
   logo,
   exhibitions,
 }) => {
-  const sDate = new Date(start_date)
-  const sYear = sDate.getFullYear()
-  const sMonth = sDate.getMonth()
-  const sDay = sDate.getDate()
-  const eDate = new Date(end_date)
-  const eYear = eDate.getFullYear()
-  const eMonth = eDate.getMonth()
-  const eDay = eDate.getDate()
-
   return (
     <>
       <div className="hero">
@@ -66,7 +57,7 @@ export const ExhibitionGroupPageTemplate = ({
                 <ExhibitionsList
                   exhibitions={exhibitions}
                   overrides={{
-                    publishedDate: `From ${sDay}/${sMonth}/${sYear} to ${eDay}/${eMonth}/${eYear}`,
+                    publishedDate: `From ${start_date} to ${end_date}`,
                   }}
                 />
               </div>
