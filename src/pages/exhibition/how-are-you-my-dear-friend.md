@@ -3,10 +3,12 @@ templateKey: exhibition-page
 artist: Tanya Akmetgalieva
 title: How Are You, My Dear Friend?
 statement: >-
-  How Are You, My Dear Friend?
-
-
-  The works presented at the exhibition open a series of the artist's first digital sculptures made using 3D technology and animation. They consist of mechanisms, unexpected constructions and details, living objects, toys. Their movement is always looped in themselves, repeating again and again. Such themes as game, memory, time, illusions, mutations, absurdity are important for Tanya Akhmetgaliyeva's works. 
+  The works presented at the exhibition open a series of the artist's first
+  digital sculptures made using 3D technology and animation. They consist of
+  mechanisms, unexpected constructions and details, living objects, toys. Their
+  movement is always looped in themselves, repeating again and again. Such
+  themes as game, memory, time, illusions, mutations, absurdity are important
+  for Tanya Akhmetgaliyeva's works. 
 
   Juicy colors beckon and hypnotize, enticing into the fairy-tale worlds of endless phantoms and strange dreams. 
 date: 2022-02-05T07:52:01.546Z
