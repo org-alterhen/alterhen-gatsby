@@ -85,6 +85,15 @@ objkts:
     desc: |-
       2022
       MP4, 2736 x 1636, 9 ''
+
       Based on the artwork from Aksenov Family Foundation Collection
+  - objkt: 662563
+    video: https://patricktresset.com/various/aff/blue_caviar.mp4
+    title: Blue Caviar
+    desc: |-
+      2022
+      MP4, 1600 x 1332, 10 ''
+
+      Based on the artwork Blue Caviar (1991)
 ---
 .
