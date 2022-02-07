@@ -10,8 +10,8 @@ country: Russia
 profpic: https://ucarecdn.com/d63e3e06-15b5-4610-b65a-d65ed94b1d85/
 midbanner: https://ucarecdn.com/b88bc2f6-b68c-4ac9-9266-22b79be1ad5b/
 website: http://dmitrykavka.com/
-twitter: https://twitter.com/sonynokia
-instagram: https://www.instagram.com/dmitry.kavka/
-linktree: https://linktr.ee/dmitrykavka
+twitter: sonynokia
+instagram: dmitry.kavka
+linktree: dmitrykavka
 currentexhibition: Friends
 ---
