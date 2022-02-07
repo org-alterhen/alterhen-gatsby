@@ -9,7 +9,7 @@ statement: >
   text to visuality, in Alina Glazoun works this transition takes psychedelic
   forms of landscapes or still lifes with concentrated texts.
 
-  Images of animals and plants, multilayering of styles and techniques, references to art history - characteristic features of Alina Glazoun 's creativity.
+  Images of animals and plants, multilayering of styles and techniques, references to art history - characteristic features of Alina Glazoun's creativity.
 date: 2022-02-05T04:50:25.878Z
 description: >-
   Alina Glazoun (b. 1988, Kirovograd, Ukraine) is an artist, who graduated with
