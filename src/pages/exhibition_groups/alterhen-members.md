@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-group-page
-title: Exhibition II by alterHEN
+title: Exhibition II by a\terHEN
 featuredimage: https://ucarecdn.com/ffd3058c-66c0-42af-ac51-27cc1951e65c/
 credit: Patrick Jamora
 summary: Reflecting the diversity of artists in the NFT scene, Exhibition II is
