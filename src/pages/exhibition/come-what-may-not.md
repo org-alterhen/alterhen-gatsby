@@ -51,7 +51,7 @@ objkts:
     desc: |
       2022
       MP4, 2500 x 1738, 30 ''
-  - objkt: 0
+  - objkt: 660916
     video: https://patricktresset.com/various/aff/Ulyana_Podkorytova-brevno.mp4
     title: I Am (S)He, Who Is a Living Log
     desc: |
