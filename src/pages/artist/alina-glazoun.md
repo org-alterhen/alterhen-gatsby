@@ -16,6 +16,6 @@ country: Ukraine
 profpic: https://ucarecdn.com/6beb3805-fa0b-4181-91b8-f45b4d060116/
 midbanner: https://ucarecdn.com/8d69491b-9df9-486a-bcf4-9f8db68e01f2/
 website: ""
-instagram: http://instagram.com/alina_glazoun
+instagram: alina_glazoun
 currentexhibition: Russia
 ---
