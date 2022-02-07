@@ -3,9 +3,15 @@ templateKey: exhibition-page
 artist: Anastasia Samoylova
 title: "Landscape Sublime "
 statement: >-
-  Landscape Sublime 
-   
-  In 2013, Samoylova began Landscape Sublime, a long-term project on the pictorial conventions through which natural and manmade landscapes are depicted and understood. Whether on popular image-sharing social media websites or in advertisements that permeate booming cities, landscapes are portrayed in idealized colors and perfect light. Conformist and conventional, such depictions are less about real places than the feelings they are meant to evoke. The algorithms of popular taste and fantasy have taken to an extreme those notions of the sublime landscape that first took hold in western art in the 18th century. 
+  In 2013, Samoylova began Landscape Sublime, a long-term project on the
+  pictorial conventions through which natural and manmade landscapes are
+  depicted and understood. Whether on popular image-sharing social media
+  websites or in advertisements that permeate booming cities, landscapes are
+  portrayed in idealized colors and perfect light. Conformist and conventional,
+  such depictions are less about real places than the feelings they are meant to
+  evoke. The algorithms of popular taste and fantasy have taken to an extreme
+  those notions of the sublime landscape that first took hold in western art in
+  the 18th century. 
 
 
   For the Landscape Sublime series Samoylova sources images from various online platforms as well as her own archive. These are grouped by subject (for example, ‘mountains’, ‘wildfires’, ‘glaciers’ or ‘real estate billboards’). They are then printed out, sculpted into temporary installations, and re-photographed. The final still-life images appear to be somewhere between physicality and the illusion of a computer-generated space. Informed by Russian Constructivism and the feeling of tumultuous social change it evoked, Samoylova’s tableaux offer a layered and complex commentary on the delirious power of images to shape our understanding of the world. 
