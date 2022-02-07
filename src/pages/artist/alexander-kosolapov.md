@@ -13,6 +13,6 @@ country: USA
 profpic: https://ucarecdn.com/4c350e0e-8685-48e4-86de-84c70f6c1924/
 midbanner: https://ucarecdn.com/032f8730-ea3c-493d-91aa-4258613ee6e5/
 website: https://www.sotsart.com/
-facebook: https://www.facebook.com/Sotsart
+facebook: Sotsart
 currentexhibition: Lenin and Coca Cola
 ---
