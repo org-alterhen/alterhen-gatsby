@@ -11,6 +11,7 @@ export const LargeCard = ({
   image,
   imageAlt,
   logoUrl = false,
+  credit = false,
 }) => {
   const transformImg = (img) => {
     if (img.includes('.gif')) return img
@@ -33,6 +34,7 @@ export const LargeCard = ({
             }
           </>
         ) : null}
+        {credit && <div className="large-card__cover__credit">{credit}</div>}
       </div>
       <div className="large-card__meta">
         {logoUrl && (

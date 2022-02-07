@@ -8,10 +8,22 @@ export const ExhibitionGroupPageTemplate = ({
   title,
   summary,
   description,
+  start_date,
+  end_date,
+  credit = false,
   featuredimage,
   logo,
   exhibitions,
 }) => {
+  const sDate = new Date(start_date)
+  const sYear = sDate.getFullYear()
+  const sMonth = sDate.getMonth()
+  const sDay = sDate.getDate()
+  const eDate = new Date(end_date)
+  const eYear = eDate.getFullYear()
+  const eMonth = eDate.getMonth()
+  const eDay = eDate.getDate()
+
   return (
     <>
       <div className="hero">
@@ -25,6 +37,7 @@ export const ExhibitionGroupPageTemplate = ({
         </div>
         <div className="hero-image">
           <img src={featuredimage} />
+          {credit && <div className="hero-image__credit">{credit}</div>}
         </div>
       </div>
       <section className="section section--tight-mobile section--border-top">
@@ -48,7 +61,12 @@ export const ExhibitionGroupPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column is-12" id="exhibitions">
-                <ExhibitionsList exhibitions={exhibitions} />
+                <ExhibitionsList
+                  exhibitions={exhibitions}
+                  overrides={{
+                    publishedDate: `From ${sDay}/${sMonth}/${sYear} to ${eDay}/${eMonth}/${eYear}`,
+                  }}
+                />
               </div>
             </div>
           </div>

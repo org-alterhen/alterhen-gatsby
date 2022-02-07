@@ -6,7 +6,7 @@ import { Card } from './Card'
 
 class ExhibitionsList extends React.Component {
   render() {
-    const { exhibitions } = this.props
+    const { exhibitions, overrides } = this.props
 
     return (
       <div className="columns is-multiline">
@@ -14,13 +14,17 @@ class ExhibitionsList extends React.Component {
           exhibitions.map((exhibition) => (
             <div
               className={'is-parent column is-6'}
+              key={exhibition.id}
               style={{ order: random(1, 999) }}
             >
               <Card
-                key={exhibition.id}
                 title={exhibition.frontmatter.title}
                 artist={exhibition.frontmatter.artist}
-                publishedDate={exhibition.frontmatter.date}
+                publishedDate={
+                  overrides.publishedDate
+                    ? overrides.publishedDate
+                    : exhibition.frontmatter.date
+                }
                 url={exhibition.fields.slug}
                 image={exhibition.frontmatter.featuredimage}
                 imageAlt={`Featured artwork for ${exhibition.frontmatter.name} - ${exhibition.frontmatter.title}`}

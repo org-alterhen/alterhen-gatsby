@@ -1,0 +1,40 @@
+.if-credit
+    position: relative
+    height: 6em
+    padding: 1.65em
+    padding-left: 2.5em
+    line-height: 130%
+    font-weight: 400
+    font-size: .8em
+    color: #4a4a4a
+    width: 100%
+    background-color: #F6F2F2
+    margin-left: -4rem
+    margin-right: -4rem
+    margin-bottom: -4rem
+    width: calc(100% + 8rem)
+    span
+        font-weight: 600
+    .logo
+        position: absolute
+        display: block
+        right: 0
+        top: 0
+        height: 6em
+        width: 7em
+        background-image: url("#{$static-location}if_logo.svg")
+        background-repeat: no-repeat
+        background-size: 2.3em 2.3em
+        background-position: 2em 1.8em
+        opacity: .5
+    &:hover
+        color: #000
+        span
+            opacity: 1
+
+@include to($bp-medium)
+    .if-credit
+        margin-left: -2rem
+        margin-right: -2rem
+        margin-bottom: -2rem
+        width: calc(100% + 4rem)

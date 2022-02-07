@@ -56,6 +56,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            credit
             featuredimage
             summary
             logo

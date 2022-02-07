@@ -31,6 +31,9 @@ const ExhibitionGroupPage = ({ data }) => {
         exhibitions={exhibitions}
         title={data.page.frontmatter.title}
         description={data.page.frontmatter.description}
+        start_date={data.page.frontmatter.start_date}
+        end_date={data.page.frontmatter.end_date}
+        credit={data.page.frontmatter.credit}
         summary={data.page.frontmatter.summary}
         logo={data.page.frontmatter.logo}
         featuredimage={data.page.frontmatter.featuredimage}
@@ -59,6 +62,9 @@ export const exhibitionGroupPageQuery = graphql`
         description
         summary
         logo
+        start_date
+        end_date
+        credit
         exhibitions {
           exhibition
         }

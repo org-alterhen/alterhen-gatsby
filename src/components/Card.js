@@ -51,7 +51,7 @@ export const Card = ({
             </p>
             {publishedDate && (
               <p className="post-meta">
-                <span className="artist-roll-name">from {publishedDate}</span>
+                <span className="artist-roll-name">{publishedDate}</span>
               </p>
             )}
           </div>

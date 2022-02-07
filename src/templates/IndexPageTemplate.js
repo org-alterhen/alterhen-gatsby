@@ -34,6 +34,22 @@ export const IndexPageTemplate = ({
           <Link to="/about" className="read-more">
             Read More <span>►</span>
           </Link>
+          <a class="block-btn hero-body__cta" href="#exhibitions">
+            View exhibitions
+          </a>
+
+          <a
+            class="if-credit"
+            href="https://immaterialfuture.org"
+            target="_blank"
+          >
+            <span class="if">
+              a\terHEN is supported by
+              <br />
+              <span>Immaterial Future Association</span>
+              <span class="logo"></span>
+            </span>
+          </a>
         </div>
         <div
           className="hero-image hero-image--dark-overlay"
@@ -64,6 +80,7 @@ export const IndexPageTemplate = ({
                       image={g.frontmatter.featuredimage}
                       imageAlt={`Featured artwork for ${g.frontmatter.title}`}
                       logoUrl={g.frontmatter.logo}
+                      credit={g.frontmatter.credit}
                     />
                   ))}
               </div>

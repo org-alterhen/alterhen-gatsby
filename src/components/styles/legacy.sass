@@ -306,150 +306,6 @@ a
     &:focus
       opacity: 0.7
 
-.hero
-  flex-direction: row
-  min-height: 100vh
-  flex-wrap: wrap
-  position: relative
-  overflow: hidden
-  display: block
-
-.hero-body
-  font-size: 16px
-  letter-spacing: 0.025em
-  position: relative
-  background: #FFF
-  width: 29em
-  max-width: 100vw
-  height: 100vh
-  padding: 4rem
-  padding-bottom: 10rem // To account for absolutely positioned content on homepage
-  &--align-bottom
-    display: flex
-    flex-direction: column
-    justify-content: flex-end
-  &__logo
-    width: 100%
-    height: auto
-    display: block
-  &__title
-    @include base-heading
-    font-size: var(--fs-h1)
-  &__summary
-    margin-top: var(--p-rythm)
-    margin-bottom: calc(var(--p-rythm-lg) * 2)
-  &__logo + &__title
-    margin-top: var(--p-rythm)
-  .alter-hen-logo
-    display: inline-block
-    width: 4.5em
-    height: 4.5em
-    background: url("#{$static-location}logo.svg")
-    background-size: cover
-    margin-top: calc(1em + 6vh)
-    margin-bottom: 1em
-  p
-    margin: 1em 0
-    width: 100%
-    span
-      font-weight: 600
-      span
-        font-weight: 800
-  h3
-    margin-top: 20vh
-    opacity: .5
-    margin-bottom: .3em
-
-  h1
-    color: #000
-    font-size: 1.5em
-    font-weight: 900
-  a.read-more span
-    font-size: .8em
-  a.block-btn
-    position: absolute
-    bottom: 6em
-  span.if
-    position: absolute
-    bottom: 0
-    left: 0
-    right: 0
-    height: 6em
-    padding: 1.65em
-    padding-left: 2.5em
-    line-height: 130%
-    font-weight: 400
-    font-size: .8em
-    color: #4a4a4a
-    width: 100%
-    background-color: #F6F2F2
-    span
-      font-weight: 600
-    span.logo
-      position: absolute
-      display: block
-      right: 0
-      top: 0
-      height: 6em
-      width: 7em
-      background-image: url("#{$static-location}if_logo.svg")
-      background-repeat: no-repeat
-      background-size: 2.3em 2.3em
-      background-position: 2em 1.8em
-      opacity: .5
-  a:hover span.if
-    color: #000
-    span
-      opacity: 1
-
-@media screen and ( max-width: 630px )
-  .hero-body
-    width: 100vw
-    padding: 2rem
-    padding-top: 6rem
-    height: 100%
-    padding-bottom: 12em
-    &__summary
-      margin-bottom: 0
-    span.alter-hen-logo
-      display: none
-  .logo-icon svg
-    color: black
-    path
-      fill: black
-
-.hero-image
-  position: absolute
-  flex: 0
-  background-size: cover
-  height: 100%
-  width: 100%
-  top: 0
-  left: 0
-  right: 0
-  z-index: -1
-  overflow: hidden
-  img
-    width: 100%
-    height: 100%
-    display: block
-    object-fit: cover
-  &--dark-overlay
-    &:before
-      content: ''
-      position: absolute
-      z-index: 2
-      width: 100%
-      height: 100%
-      top: 0
-      left: 0
-      background: rgba(0,0,0,0.25)
-
-@include from($bp-medium)
-  .hero-image
-    left: 29em
-    width: calc(100% - 29em)
-
 .read-more
   letter-spacing: 0.025em
   font-weight: bold
@@ -481,6 +337,12 @@ a
     font-size: 28px
     .logo-text-HEN
       font-size: 28px
+
+@media screen and ( max-width: 630px )
+  .logo-icon svg
+    color: black
+    path
+      fill: black
 
 .has-text-centered .logo-text
   text-align: center
@@ -578,8 +440,6 @@ a
     text-align: center
     .exhibition-page-objkt-left
       border-right: none
-  .block-btn
-    margin-left: auto
   a.connect-wallet
     margin-left: auto !important
 
