@@ -8,7 +8,10 @@ import { IndexPageTemplate } from './IndexPageTemplate'
 
 const IndexPage = ({ data }) => {
   const { frontmatter, html } = data.page
-  const exhibitionGroups = data.exhibitiongroups.edges.map((eg) => eg.node)
+  const exhibitionGroups = data.exhibitiongroups.edges
+    .map((eg) => eg.node)
+    .sort((a, b) => a.frontmatter.order < b.frontmatter.order)
+
   return (
     <Layout>
       <BasicHeader themeLight={true} onTop={true} />
@@ -59,6 +62,7 @@ export const pageQuery = graphql`
             credit
             featuredimage
             summary
+            order
             logo
           }
         }

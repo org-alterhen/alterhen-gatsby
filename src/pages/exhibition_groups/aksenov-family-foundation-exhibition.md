@@ -12,12 +12,11 @@ description: >-
   artists, whose aesthetic and conceptual approaches resonate with the strategy
   and the art policy of the Aksenov Family Foundation's collection.
    
-
-   
   The artists are active participants in the contemporary Russian artistic process, and NFT works of many of them are created especially for the exhibition. Ecology, rethinking of the new digital world, social agenda, ironic but at the same time critical attitude to reality, and the motives of folk folklore are the key themes the artists work with. Their work becomes a complex and multifaceted commentary on the variety of images that form our understanding of the modern world.
 published: true
 start_date: 2022-02-05T23:04:46.012Z
 end_date: 2022-03-11T23:04:46.022Z
+order: 1
 exhibitions:
   - exhibition: Friends
   - exhibition: Russia

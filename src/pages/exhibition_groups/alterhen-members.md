@@ -18,6 +18,7 @@ description: Example lng description. Lorem ipsum dolor sit amet, consectetur
 published: true
 start_date: 2022-02-05T23:04:46.012Z
 end_date: 2022-03-11T23:04:46.022Z
+order: 5
 exhibitions:
   - exhibition: Chtonic Light
   - exhibition: Mmmmultiplicityyyyy

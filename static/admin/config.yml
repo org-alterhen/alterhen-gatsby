@@ -117,6 +117,7 @@ collections:
       - {label: "Published", name: "published", widget: "boolean", default: true, required: false}
       - {label: "Exhibition Start", name: "start_date", widget: "date", default: "", required: false}
       - {label: "Exhibition End", name: "end_date", widget: "date", default: "", required: false}
+      - {label: "Order", name: "order", widget: "number", default: 100, required: false}
       - label: 'Exhibitions'
         name: 'exhibitions'
         widget: "list"
