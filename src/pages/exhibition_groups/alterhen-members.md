@@ -10,8 +10,8 @@ description: Reflecting the diversity of artists in the NFT scene, Exhibition II
   is the new show presented by the members of alterHEN. For this occasion, the
   artists have experimented with new collaborations.
 published: true
-start_date: 2022-02-05T23:04:46.012Z
-end_date: 2022-03-11T23:04:46.022Z
+start_date: 2021-12-14T23:04:46.012Z
+end_date: 2022-02-13T23:04:46.022Z
 order: 5
 exhibitions:
   - exhibition: Chtonic Light
