@@ -64,7 +64,7 @@ description: >
 featuredimage: https://ucarecdn.com/76fa05a8-6e4b-447a-ae4a-ce615a838625/
 objkts:
   - objkt: 659302
-    title: Malevich sold here.
+    title: Malevich sold here
     desc: |
       2022
       MP4, 1200 x 836
