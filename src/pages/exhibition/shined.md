@@ -13,94 +13,24 @@ statement: >-
 
   Later, Liza began using this flickering method, shooting landscapes and random moments. "I want to show the passing of time by these video slides, a moment of memory that is born and then by a flash of light is going nowhere.”
 date: 2022-02-05T05:46:33.031Z
-description: >-
-  Liza Bobkova (b. 1987, St Petersburg, Russia)
+description: >
+  Liza Bobkova (b. 1987, St Petersburg, Russia) is a contemporary Russian
+  artist. She graduated from Stieglitz State Academy of Art and Design (St.
+  Petersburg) in 2011. 
 
+  The artist works with installations and she also works in different media such as metal work and paper drawings. She creates massive metal installations (at the same time brutal, heroic and precious, jewelry) and works with graphics. A characteristic motif present in both mediums is “a wave that can be interpreted as a pulse, as a sound, as a bit that forms space-time. 
+   Selected solo shows include: Presence detection methods. A manual for invisibled in MYTH gallery (Saint-Petersburg, 2022); I see a catastrophe all the time I sleep in Iragui gallery (Moscow, 2021) Eagerly loved dear friend in Richter hotel (Moscow, 2020), Buffer zone in MYTH Gallery St. Petersburg, 2019), Once we had the time in the Ping Pong gallery (Moscow, 2018), When all rastamans let their cats go in Cite Internationale des Arts (Paris, 2016).
+  Selected Group exhibitions: Viennacontemporary art fair (Austria, 2021),  Summer Exhibition, The Dom Radio (St Petersburg, 2021) , Phantasma, Multimedia Art Museum (Moscow, 2021), Cosmoscow art fair (Moscow, 2020),  Auf der Party Ohne Ende, Aperto gallery (Berlin, 2020), I’m Here. Do You Hear?, 2 STAGE project, Bolshoy Drama Theater ( St. Petersburg, 2019)
+   Liza Bobkova is a winner of the “Digital Dreams” competition by Cultural Creative Agency Qatar-Russia and MMOMA (2020), participant of the residence Cite Internationale des Arts (Paris, 2016). Works are held in private collections in Russia, France, Austria, UAE, the United States, Hong Kong.                                        
+  Ongoing curatorial projects                                                
 
-  Education:   
-                                       
-  2005-2011 St Petersburg Stieglitz State Academy of Art and Design
+  Dialogues – Liza created an open educational program about contemporary art at Steglitz Academy since 2017, St Petersburg, Russia.
 
+  Also, a Library dedicated to contemporary art at the Department of Metal in Architecture, Sculpture, and Jewelry (Steglitz Academy) in collaboration with art foundations, museums, and private initiatives. (There were no books about contemporary art before).
 
-  Solo exhibitions:       
-                                   
-  2022 presence detection methods. a manual for invisibled, curated by Alexander Evangely, MYTH gallery, St.Petersburg, Russia
+  Liza Bobkova is a visiting lecturer at the State Steglitz Academy of Art and Design.
 
-  2021 Gesture Slightly Stuck, curated by Kirill Spasskov, Stieglitz Museum of Applied Arts, St Petersburg, Russia
-
-  2021 I See a Catastrophe All the Time I Sleep, Iragui Gallery, Moscow, Russia
-
-  2020 Greedily to Love Dear Friend, Richter, Moscow, Russia
-
-  2020 Quarantine drawings, www.lizabobkova.com
-
-  2019 Buffer Zone, MYTH gallery, St. Petersburg, Russia
-
-  2018 Once We Became the Time, Pinkpong gallery, Moscow, Russia
-
-  2018 Post-love. Bobby Lee, FFTN gallery, St. Petersburg, Russia
-
-  2017 I Am Everything, Elektrozavod gallery, Moscow, Russia
-
-  2017 Fur-seal mirage, Art Hub residence, Abu Dhabi, UAE
-
-  2017 When All Rastamans Let Their Cats Go. 2.0, UnDtled, Moscow, Russia
-
-  2016 When All Rastamans Let Their Cats Go, Cite Internationale des Arts, Paris, France
-
-  2016 Period of Oscillation, Start Project, Winzavod CCA, Moscow Russia
-
-  2015 Essays, computer-generated paintings, video. Printcafe, St Petersburg, Russia
-
-
-  Group exhibitions:
-
-
-  2021 Salut, Sfera foundation, Moscow, Russia
-
-  2021 A Summer Exhibition, The Dom Radio, St Petersburg, Russia                
-
-  2021 Phantasma, Multimedia Art Museum, Moscow, Russia
-
-  2020 Swan Lake, online exhibition at ArtCatch Utrecht, Netherlands
-
-  2020 Auf der Party Ohne Ende, Aperto gallery, Berlin, Germany
-
-  2019 I’m Here. Do You Hear? Performance with composer Y. Kravchenko, 2 STAGE project, Bolshoy Drama Theater, St. Petersburg, Russia
-
-  2019 Hold Your Breath and Count to Five, at the group show Levels, curated by M. Kolotovkina, Stepan Razin beer manufactory, St Petersburg, Russia
-
-  2019 If You Would Be My Friend, sculpture at the group show Look Above, the Sky Is Falling, MYTH gallery, St Petersburg, Russia
-
-  2019 (Co)rrelations, WYNWOOD Hotel, St Petersburg, Russia.
-
-  2019 Abstraction in the Avant-Garde, Kuryokhin Art Center, St Petersburg, Russia
-
-  2018 Post Post Text, Ground Peschanaya, Moscow, Russia
-
-  2018 I Hope Nobody Heard Us, FFTN gallery, St Petersburg, Russia
-
-  2017 Constructions and Varieties, 10th Cyberfest, Ground Hodinka gallery, Moscow, Russia
-
-  2017 Rhythm. Motion. Dynamics., ArDs project, Solyanka VPA, Moscow, Russia
-
-  2017 So Close. So Far, Consulate General of Finland, Taiga, St Petersburg, Russia
-
-  2016 FORMA, festival of contemporary art, Moscow, Russia
-
-  2016 Globus 2.0., Savina gallery and MARS Art Center, Moscow, Russia
-
-  2016 Art vs.Tech, at the conference Art and Technology, Moscow, Russia
-
-  2016 Russian Contemporary | Drawings. No Limits. Pushkin House, London, Great Britain
-
-  2016 Russian Contemporary | Drawings. No Limits. Russian House of Science and Culture, Berlin Germany. Sparta Art Agency & Savina Gallery. 
-
-  2015 Lights and Sounds of the Сity, The Museum of Urban Sculpture, St Petersburg, Russia                                                
-
-  2014 Magnetic Field, Rizzordi Art Foundation, Parallel Program of Manifesta 10, St Petersburg, Russia. 
-
-  2012 Inconclusive Analysis, Museum of Modern Art, Moscow International Biennale for Young Art, Moscow, 
+  Her works are held in private collections in Russia, France, UAE, United States, Hong Kong, Austria, United Kingdom, Germany, Bulgaria, Italy. 
 featuredimage: https://ucarecdn.com/35396b65-94ee-43c5-83e4-ab40eb875c11/
 objkts:
   - objkt: 658161
