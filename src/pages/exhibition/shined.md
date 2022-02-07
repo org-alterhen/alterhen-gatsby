@@ -16,12 +16,14 @@ date: 2022-02-05T05:46:33.031Z
 description: >-
   Liza Bobkova (b. 1987, St Petersburg, Russia)
 
-  Education:                                        
 
+  Education:   
+                                       
   2005-2011 St Petersburg Stieglitz State Academy of Art and Design
 
-  Solo exhibitions:                                        
 
+  Solo exhibitions:       
+                                   
   2022 presence detection methods. a manual for invisibled, curated by Alexander Evangely, MYTH gallery, St.Petersburg, Russia
 
   2021 Gesture Slightly Stuck, curated by Kirill Spasskov, Stieglitz Museum of Applied Arts, St Petersburg, Russia
@@ -50,7 +52,9 @@ description: >-
 
   2015 Essays, computer-generated paintings, video. Printcafe, St Petersburg, Russia
 
+
   Group exhibitions:
+
 
   2021 Salut, Sfera foundation, Moscow, Russia
 
@@ -96,9 +100,7 @@ description: >-
 
   2014 Magnetic Field, Rizzordi Art Foundation, Parallel Program of Manifesta 10, St Petersburg, Russia. 
 
-  2012 Inconclusive Analysis, Museum of Modern Art, Moscow International Biennale for Young Art, Moscow, Russia
-
-  Awards, Grants, R
+  2012 Inconclusive Analysis, Museum of Modern Art, Moscow International Biennale for Young Art, Moscow, 
 featuredimage: https://ucarecdn.com/35396b65-94ee-43c5-83e4-ab40eb875c11/
 objkts:
   - objkt: 658161
