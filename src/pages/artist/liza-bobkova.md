@@ -9,7 +9,7 @@ bio: Liza Bobkova graduated from the Department of Metal Art at The Saint
 country: Russia
 profpic: https://ucarecdn.com/01af06eb-356a-4b3c-be84-13c1280fe7a2/
 midbanner: https://ucarecdn.com/ebd00107-5be3-4d9c-bd01-4b1568cfe963/
-website: www.lizabobkova.com
+website: https://www.lizabobkova.com
 instagram: lizabobkova.artist
 currentexhibition: Shined
 ---
