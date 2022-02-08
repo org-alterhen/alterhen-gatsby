@@ -63,7 +63,7 @@ description: >
   The State Tretyakov Gallery, Moscow, Russia
 featuredimage: https://ucarecdn.com/76fa05a8-6e4b-447a-ae4a-ce615a838625/
 objkts:
-  - objkt: 659302
+  - objkt: 664736
     title: Malevich sold here
     desc: |
       2022
