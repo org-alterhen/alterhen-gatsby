@@ -6,9 +6,13 @@ credit: ""
 summary: Reflecting the diversity of artists in the NFT scene, Exhibition II is
   the new show presented by the members of alterHEN. For this occasion, the
   artists have experimented with new collaborations.
-description: Reflecting the diversity of artists in the NFT scene, Exhibition II
-  is the new show presented by the members of alterHEN. For this occasion, the
-  artists have experimented with new collaborations.
+description: Offering a variety of formats, Exhibition II is an opportunity for
+  alterHEN artists to experiment in two different ways. Some artists tried
+  machine learning generated images, others tested 3D scans or even the
+  combination of movie soundtrack with gif animation. The big challenge of this
+  exhibition was around collaboration where Bjorn Calleja invited Dennis Bato to
+  co-create a series of paintings mixing their artistic practices with
+  brilliance. This collaboration has been facilitated by mono8 gallery.
 published: true
 start_date: 15/12/2021
 end_date: 14/02/2022
