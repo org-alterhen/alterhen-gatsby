@@ -3,7 +3,7 @@ templateKey: exhibition-page
 artist: Albina Mokhryakova
 title: "Maybe Therapy "
 statement: >-
-  Maybe Therapy (part of the project Maybe Therapy, Paris, 2020) 
+  Maybe Therapy (part of the project Maybe Therapy, Paris, 2020)) 
 
   The number of young people with mental disorders is growing annually worldwide. Today we see how the desire for a stable emotional state has become an impulse for the development of various types of therapies: from pharmacological and psychotherapeutic to physical and spiritual. Immersing myself in the material, I have noticed the studies in which religious discourse is compared with pharmaceutical and psychotherapeutic discourses. 
 
