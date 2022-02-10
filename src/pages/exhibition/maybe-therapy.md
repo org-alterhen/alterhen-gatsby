@@ -20,14 +20,16 @@ statement: >-
 
   “Albina Mokhryakova attempts to find non-existent justice, twisting the plot and imitating a seemingly confessional film. She seeks to unify the phenomenon that has already opened to a substantive view — internal history and motivation — whether Gaddafi existed, who killed him and what history is. The construction and representation of history is a special way of modelling the conditionality of reality that Mokhryakova works with” (Karina Karaeva, art critic) 
 date: 2022-02-05T08:29:04.203Z
-description: >-
+description: >
   Albina Mokhryakova (b. 1990, Bratsk, Russia). She is the winner of the
   Kandinsky Prize in the Young Artist of the Year nomination. The artist is a
   participant in the 2nd Russian Triennial of Contemporary Art. In 2018-2019 she
   represented Russia at The International Encounter of Art Schools Students
   Artagon IV and Artagon Live (Paris, France). 
 
+
   She is also a participant of the Bergman. Metamorphosis exhibition and ArtDocFest and Spirit of Fire film festivals. She is a co-author of The ICE collective video installation at the Robert Wilson Residence (Robert Wilson, Watermill Center, New York).
+
 
   Mokhryakova graduated from Novosibirsk State University (The Faculty of Humanities, Philology Department) and The Rodchenko Art School (video-art class supervised by Kirill Preobrazhenskiy and Dimitri Venkov (2018)).
 
@@ -37,6 +39,8 @@ description: >-
 
   Awards:
 
+
+  2021 The winner of the Kandinsky Prize in Young Artist of the Year nomination;
 
   2019 The winner of the Kandinsky Prize in Young Artist of the Year nomination;
 
