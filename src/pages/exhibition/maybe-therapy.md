@@ -50,7 +50,7 @@ objkts:
       2020
       Screenshot
       PNG, 1920 x 1080
-  - objkt: 659262
+  - objkt: 667391
     image: https://ucarecdn.com/668814f2-d40c-4c45-bbc1-8173939dcbdf/
     title: "Maybe Therapy? "
     desc: |-
