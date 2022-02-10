@@ -67,5 +67,12 @@ objkts:
       2020
       JPEG, 1920 x 1080
     image: https://ucarecdn.com/ec6d8a42-bf13-4ddb-af41-8f26fa6a5703/
+  - objkt: 659261
+    title: "Maybe Therapy? "
+    desc: |
+      2020
+      MP4, 1920 x 1080
+    image: null
+    video: https://patricktresset.com/various/aff/Maybe_Therapy_nft.mp4
 ---
 .
