@@ -61,18 +61,6 @@ objkts:
       2020
       Screenshot
       PNG, 1920 x 1080
-  - objkt: 659261
-    video: https://patricktresset.com/various/aff/Maybe_Therapy_nft.mp4
-    title: "Maybe Therapy? "
-    desc: |
-      2020
-      MP4, 1920 x 1080, 1 ' 
-  - objkt: 659260
-    title: Kahegha
-    desc: |-
-      2020
-      JPEG, 1920 x 1080
-    image: https://ucarecdn.com/ec6d8a42-bf13-4ddb-af41-8f26fa6a5703/
   - desc: |-
       2020
       Screenshot
@@ -80,5 +68,11 @@ objkts:
     title: "Maybe Therapy? "
     objkt: 667391
     image: https://ucarecdn.com/9d8653f7-12ad-431c-a9c8-576a0a2133e6/
+  - objkt: 659260
+    title: Kahegha
+    desc: |-
+      2020
+      JPEG, 1920 x 1080
+    image: https://ucarecdn.com/ec6d8a42-bf13-4ddb-af41-8f26fa6a5703/
 ---
 .
