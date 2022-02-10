@@ -74,5 +74,11 @@ objkts:
       MP4, 1920 x 1080
     image: null
     video: https://patricktresset.com/various/aff/Maybe_Therapy_nft.mp4
+  - objkt: 667391
+    image: https://ucarecdn.com/27a43184-b6e7-479e-8788-702e5fb4a76e/
+    title: "Maybe Therapy? "
+    desc: |-
+      2020
+      JPEG, 1920 x 1080
 ---
 .
