@@ -3,7 +3,7 @@ templateKey: exhibition-page
 artist: Albina Mokhryakova
 title: "Maybe Therapy "
 statement: >-
-  Maybe Therapy (part of the project Maybe Therapy, Paris, 2020)) 
+  Maybe Therapy (part of the project Maybe Therapy, Paris, 2020)
 
   The number of young people with mental disorders is growing annually worldwide. Today we see how the desire for a stable emotional state has become an impulse for the development of various types of therapies: from pharmacological and psychotherapeutic to physical and spiritual. Immersing myself in the material, I have noticed the studies in which religious discourse is compared with pharmaceutical and psychotherapeutic discourses. 
 
@@ -61,12 +61,6 @@ objkts:
     title: "Maybe Therapy? "
     objkt: 667391
     image: https://ucarecdn.com/9d8653f7-12ad-431c-a9c8-576a0a2133e6/
-  - objkt: 659260
-    title: Kahegha
-    desc: |-
-      2020
-      JPEG, 1920 x 1080
-    image: https://ucarecdn.com/ec6d8a42-bf13-4ddb-af41-8f26fa6a5703/
   - objkt: 659261
     title: "Maybe Therapy? "
     desc: |
@@ -74,11 +68,11 @@ objkts:
       MP4, 1920 x 1080
     image: null
     video: https://patricktresset.com/various/aff/Maybe_Therapy_nft.mp4
-  - objkt: 667391
-    image: https://ucarecdn.com/27a43184-b6e7-479e-8788-702e5fb4a76e/
-    title: "Maybe Therapy? "
+  - objkt: 659260
+    title: Kahegha
     desc: |-
       2020
       JPEG, 1920 x 1080
+    image: https://ucarecdn.com/ec6d8a42-bf13-4ddb-af41-8f26fa6a5703/
 ---
 .
