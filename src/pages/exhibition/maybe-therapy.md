@@ -34,7 +34,9 @@ description: >
   Mokhryakova graduated from Novosibirsk State University (The Faculty of Humanities, Philology Department) and The Rodchenko Art School (video-art class supervised by Kirill Preobrazhenskiy and Dimitri Venkov (2018)).
 
 
+
   She is a resident at Garage Studios. She lives and works in Moscow. 
+
 
 
   Awards:
@@ -42,7 +44,9 @@ description: >
 
   2021 The winner of the Kandinsky Prize in Young Artist of the Year nomination;
 
+
   2019 The winner of the Kandinsky Prize in Young Artist of the Year nomination;
+
 
   2018-2019 The representative of Russia at The International Encounter of Art Schools Students Artagon IV and Artagon Live (Paris, France).
 featuredimage: https://ucarecdn.com/bf07b422-85f1-4c61-af04-65334de4da06/
