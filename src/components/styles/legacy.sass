@@ -139,11 +139,11 @@ a
     color: initial
 
 // responsiveness
-+tablet-only
+@include from(768px)
   .artist-list-item .featured-thumbnail
     flex-basis: 50%
 
-+mobile
+@include to(768px)
   .artist-list-item header
     display: block
   .artist-list-item .featured-thumbnail
@@ -175,7 +175,7 @@ a
       fill: white
 
 .basic-header
-  padding: 2em !important
+  padding: var(--p-rythm-lg)
   &--on-top
     position: absolute
     top: 0
@@ -352,7 +352,6 @@ a
     border-top: $border-1
     display: flex
     flex-wrap: wrap
-    min-height: 90vh
     .exhibition-page-objkt-left
       flex: 3 0 400px
       padding: 3rem
@@ -360,12 +359,15 @@ a
       display: flex
       justify-content: center
       align-items: center
+      position: relative
     .exhibition-page-objkt-right
       flex: 1 0 300px
       padding: 3rem
       display: flex
       flex-direction: column
       justify-content: center
+      .block-btn
+        margin: 0 auto
       a.button
         font-weight: 700
         font-size: 14px
@@ -380,33 +382,34 @@ a
     cursor: pointer
     background: transparent
     transition: all .2s ease-in-out
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 100
+
     &:focus-visible
       outline: none
     img, video
+      position: relative
+      z-index: 2
       max-height: 80vh
-        // transition: none
 
-    &.exhibition-zoomed
-      position: fixed
-      top: 0
-      left: 0
-      right: 0
-      bottom: 0
-      display: flex
-      justify-content: center
-      align-items: center
-      width: 100%
-      background: #0006
-      z-index: 9
-      img, video
-        transition: 0.3s max-height ease
-        max-height: 100vh
   p.availability
     font-weight: 600
   .block-btn
     border: 1px solid #000
     font-weight: 400
     font-size: 1em
+
+@include from($bp-medium)
+  .exhibition-page
+    .exhibition-page-objkt
+      min-height: 90vh
+      .exhibition-page-objkt-right
+        .block-btn
+          margin: 0
 
 .exhibition__description
   white-space: pre-wrap
@@ -655,31 +658,8 @@ a
   height: 100%
 
 .wallet-buttons
-  size: 0.8em
   flex-direction: column
   align-items: flex-start
-  button, a
-    transition: color 200ms ease-in-out
-    color: #aaaaaa
-    text-decoration: underline
-    font-weight: 500
-    padding: 0
-    display: inline-block
-    align-items: center
-    background: none
-    border: 0 none
-    text-align: center
-    margin-top: .5em
-    font-size: .75em
-    width: fit-content
-    margin-left: 0
-    margin-right: auto
-    &:hover,
-    &:focus
-      cursor: pointer
-      color: #000
-    &:active
-      outline: 1px dotted #555
 
 @media screen and ( max-width: 768px )
   .wallet-buttons

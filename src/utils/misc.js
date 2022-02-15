@@ -13,3 +13,11 @@ export function slugify(str) {
     .replace(/[ ]/g, '-')
     .replace(/["|'|,|_]/g, '')
 }
+
+export const isDesktop =
+  typeof window !== `undefined` &&
+  window.matchMedia(
+    'screen and (min-width: 769px) and (orientation: landscape)'
+  ).matches
+
+export const isBrowser = typeof window !== `undefined`

@@ -42,6 +42,7 @@ export const IndexPageTemplate = ({
             class="if-credit"
             href="https://immaterialfuture.org"
             target="_blank"
+            rel="noreferrer"
           >
             <span class="if">
               a\terHEN is supported by

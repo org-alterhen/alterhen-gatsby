@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react'
 import { BeaconWallet } from '@taquito/beacon-wallet'
-import {
-  NetworkType,
-  BeaconEvent,
-  defaultEventCallbacks,
-} from '@airgap/beacon-sdk'
+import { NetworkType } from '@airgap/beacon-sdk'
+
+// TODO: Move this state to the top of the app higherarchy -JS
 
 const ConnectButton = ({
   Tezos,
@@ -55,19 +53,14 @@ const ConnectButton = ({
       }
     })()
   }, [])
-  return React.createElement(
-    'div',
-    { className: 'buttons wallet-buttons' },
-    React.createElement(
-      'button',
-      { className: '', onClick: connectWallet },
-      React.createElement(
-        'span',
-        null,
-        React.createElement('i', { className: 'fas fa-wallet' }),
-        'Connect with wallet'
-      )
-    )
+
+  return (
+    <button className="small-link" onClick={connectWallet}>
+      <span>
+        <i className="fas fa-wallet"></i>
+        Connect with wallet
+      </span>
+    </button>
   )
 }
 export default ConnectButton
