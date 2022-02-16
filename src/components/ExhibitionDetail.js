@@ -84,7 +84,7 @@ const ExhibitionDetail = ({
                 <p style={{ whiteSpace: 'pre-wrap' }}>
                   {objkt.desc}
                   <br />
-                  <div className="small-link-group">
+                  <span className="small-link-group">
                     {objkt.objkt && (
                       <a
                         className="small-link small-link--dark"
@@ -102,7 +102,7 @@ const ExhibitionDetail = ({
                     >
                       View fullscreen
                     </button>
-                  </div>
+                  </span>
                 </p>
                 {objkt.hicdex ? (
                   <CollectButton
