@@ -13,10 +13,18 @@ featuredimage: https://ucarecdn.com/875612c3-f1d1-4758-8957-b0faf98f9c2e/
 objkts:
   - objkt: 499365
     title: Example Interactive OBJKT
-    desc: DO NOT COLLECT
+    desc: |-
+      2022
+      Video
+      MP4, 912 x 1280, 30''
+      Sound: Leonid Kurashov
   - objkt: 672864
     title: Example 3d Object
-    desc: DO NOT COLLECT
+    desc: |-
+      2022
+      Video
+      MP4, 912 x 1280, 30''
+      Sound: Leonid Kurashov
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac mi ut odio venenatis luctus maximus ac metus. Donec tristique semper sem, eget ullamcorper urna volutpat in. Cras imperdiet dictum sagittis. Proin finibus justo in turpis condimentum efficitur id a ipsum. In tristique posuere luctus. Etiam fermentum fermentum est at hendrerit. Morbi auctor urna non leo congue, ac venenatis nisi dapibus. Vivamus in enim nec lacus scelerisque volutpat id non urna. Nunc id ultrices ipsum. Duis sed dignissim eros. Cras rhoncus odio scelerisque, bibendum tellus sed, fringilla nunc. Nunc a purus metus. Sed et ullamcorper urna, sed rhoncus massa. Pellentesque blandit dolor sed sem tincidunt semper et at justo. Proin pharetra mauris ornare mi eleifend lacinia. Sed sit amet nisi at est luctus aliquam at nec massa.
 
