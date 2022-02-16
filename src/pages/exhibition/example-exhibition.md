@@ -11,7 +11,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
   ullamcorper urna volutpat in. "
 featuredimage: https://ucarecdn.com/875612c3-f1d1-4758-8957-b0faf98f9c2e/
 objkts:
-  - objkt: 250333
+  - objkt: 499365
     title: Example Interactive OBJKT
     desc: DO NOT COLLECT
   - objkt: 672864
