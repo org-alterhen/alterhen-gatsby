@@ -73,15 +73,6 @@ const ExhibitionDetail = ({
           objkts.map((objkt, index) => (
             <div className="exhibition-page-objkt" key={index}>
               <div className="exhibition-page-objkt-left">
-                {isDesktop && (
-                  <button
-                    className={`exhibition-page-button`}
-                    onClick={() => {
-                      setSliderVisible(!sliderVisible)
-                      setSliderSlide(index)
-                    }}
-                  ></button>
-                )}
                 <ObjktEmbed
                   objkt={objkt}
                   userAddress={userAddress}
@@ -90,8 +81,29 @@ const ExhibitionDetail = ({
               </div>
               <div className="exhibition-page-objkt-right">
                 <h2>{objkt.title}</h2>
-                <p style={{ whiteSpace: 'pre-wrap' }}>{objkt.desc}</p>
-
+                <p style={{ whiteSpace: 'pre-wrap' }}>
+                  {objkt.desc}
+                  <br />
+                  <div className="small-link-group">
+                    {objkt.objkt && (
+                      <a
+                        className="small-link small-link--dark"
+                        href={`https://teia.art/objkt/${objkt.objkt}`}
+                      >
+                        View on Teia
+                      </a>
+                    )}
+                    <button
+                      className={`small-link small-link--dark`}
+                      onClick={() => {
+                        setSliderVisible(!sliderVisible)
+                        setSliderSlide(index)
+                      }}
+                    >
+                      View fullscreen
+                    </button>
+                  </div>
+                </p>
                 {objkt.hicdex ? (
                   <CollectButton
                     objkt={objkt}
@@ -118,14 +130,6 @@ const ExhibitionDetail = ({
                       setWallet={setWallet}
                       setTezos={setTezos}
                     />
-                  )}
-                  {objkt.objkt && (
-                    <a
-                      className="small-link"
-                      href={`https://teia.art/objkt/${objkt.objkt}`}
-                    >
-                      View on Teia
-                    </a>
                   )}
                 </div>
               </div>
