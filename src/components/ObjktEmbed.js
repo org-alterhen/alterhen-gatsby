@@ -3,7 +3,7 @@ import React from 'react'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { hashToURL } from '../utils/hicDex'
 
-const ObjktEmbed = ({ objkt, userAddress, artistName }) => {
+const ObjktEmbed = ({ objkt, userAddress, artistName, children }) => {
   let output = null
   let type = null
 
@@ -15,21 +15,11 @@ const ObjktEmbed = ({ objkt, userAddress, artistName }) => {
           image: objkt.image,
           alt: `${objkt.title} by ${artistName}`,
         }}
-        className="objkt-embed__asset"
       />
     )
   } else if (objkt.video && objkt.video !== '') {
     type = 'video'
-    output = (
-      <video
-        className="objkt-embed__asset"
-        src={objkt.video}
-        autoPlay
-        loop
-        playsInline
-        preload=""
-      />
-    )
+    output = <video src={objkt.video} autoPlay loop playsInline preload="" />
   } else if (
     objkt.hicdex &&
     (objkt.hicdex.mime === 'model/gltf-binary' ||
@@ -47,27 +37,28 @@ const ObjktEmbed = ({ objkt, userAddress, artistName }) => {
       'camera-controls': true,
     }
     type = 'gltf'
-    output = (
-      <div className="objkt-embed__asset">
-        <model-viewer {...options}></model-viewer>
-      </div>
-    )
+    output = <model-viewer {...options}></model-viewer>
   } else if (objkt.hicdex && objkt.hicdex.mime === 'application/x-directory') {
     const artifactUrl = hashToURL(objkt.hicdex.artifact_uri)
     type = 'html'
     output = (
-      <div className="objkt-embed__asset">
-        <iframe
-          title="html-embed"
-          src={`${artifactUrl}/?creator=${objkt.hicdex.creator_id}&viewer=${userAddress}&objkt=${objkt.objkt}`}
-          sandbox="allow-scripts allow-same-origin"
-          allow="accelerometer; camera; gyroscope; microphone; xr-spatial-tracking;"
-        />
-      </div>
+      <iframe
+        title="html-embed"
+        src={`${artifactUrl}/?creator=${objkt.hicdex.creator_id}&viewer=${userAddress}&objkt=${objkt.objkt}`}
+        sandbox="allow-scripts allow-same-origin"
+        allow="accelerometer; camera; gyroscope; microphone; xr-spatial-tracking;"
+      />
     )
   }
 
-  return <div className={`objkt-embed objkt-embed--${type}`}>{output}</div>
+  return (
+    <div className={`objkt-embed objkt-embed--${type}`}>
+      <div className="objkt-embed__asset">
+        {output}
+        <div className="objkt-embed__asset__actions">{children}</div>
+      </div>
+    </div>
+  )
 }
 
 export default ObjktEmbed

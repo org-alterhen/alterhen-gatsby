@@ -7,7 +7,18 @@
         font-size: var(--fs-h2)
         margin-top: var(--p-rythm-lg)
     .block-btn
-        margin-top: calc(2 * var(--p-rythm-lg))
+        margin-top: var(--p-rythm-lg)
+    &__footer
+        margin-top: var(--p-rythm-lg)
+        padding-top: var(--p-rythm-lg)
+        border-top: $border-1
+        &__description
+            p + p
+                margin-top: .5em
+            &__link
+                margin-top: .5em
+                display: inline-block
+                text-decoration: underline
 
 .exhibition-summary + .exhibition-summary
     padding-top: 0

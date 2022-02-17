@@ -5,6 +5,8 @@ import { Link } from 'gatsby'
 import ExhibitionSlider from '../components/ExhibitionSlider'
 import { TezosToolkit } from '@taquito/taquito'
 
+import fullscreen from '../img/fullscreen-icon.svg'
+
 import ObjktEmbed from '../components/ObjktEmbed'
 import ConnectButton from '../components/ConnectWallet'
 import DisconnectButton from '../components/DisconnectWallet'
@@ -77,33 +79,21 @@ const ExhibitionDetail = ({
                   objkt={objkt}
                   userAddress={userAddress}
                   artistName={artistName}
-                />
+                >
+                  <button
+                    className="icon-btn"
+                    onClick={() => {
+                      setSliderVisible(!sliderVisible)
+                      setSliderSlide(index)
+                    }}
+                  >
+                    <img src={fullscreen} alt="View fullscreen" />
+                  </button>
+                </ObjktEmbed>
               </div>
               <div className="exhibition-page-objkt-right">
                 <h2>{objkt.title}</h2>
-                <p style={{ whiteSpace: 'pre-wrap' }}>
-                  {objkt.desc}
-                  <br />
-                  <span className="small-link-group">
-                    {objkt.objkt && (
-                      <a
-                        className="small-link small-link--dark"
-                        href={`https://teia.art/objkt/${objkt.objkt}`}
-                      >
-                        View on Teia
-                      </a>
-                    )}
-                    <button
-                      className={`small-link small-link--dark`}
-                      onClick={() => {
-                        setSliderVisible(!sliderVisible)
-                        setSliderSlide(index)
-                      }}
-                    >
-                      View fullscreen
-                    </button>
-                  </span>
-                </p>
+                <p style={{ whiteSpace: 'pre-wrap' }}>{objkt.desc}</p>
                 {objkt.hicdex ? (
                   <CollectButton
                     objkt={objkt}
@@ -130,6 +120,14 @@ const ExhibitionDetail = ({
                       setWallet={setWallet}
                       setTezos={setTezos}
                     />
+                  )}
+                  {objkt.objkt && (
+                    <a
+                      className="small-link"
+                      href={`https://teia.art/objkt/${objkt.objkt}`}
+                    >
+                      View on Teia
+                    </a>
                   )}
                 </div>
               </div>

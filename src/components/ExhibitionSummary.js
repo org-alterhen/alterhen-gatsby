@@ -12,7 +12,7 @@ const ExhibitionSummary = ({ exhibition }) => {
         {exhibition.frontmatter.statement}
       </p>
       <Link to={exhibition.fields.slug} className="block-btn">
-        Enter Exhibition
+        Enter Exhibit
       </Link>
     </div>
   )

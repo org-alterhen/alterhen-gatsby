@@ -1,0 +1,21 @@
+.icon-btn
+    transition: background-color $speed / 2 ease-in
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 30px
+    height: 30px
+    background: rgba(black, 0.8)
+    border: 0 none
+    box-shadow: 0 none
+    border-radius: 100%
+    &:hover
+        cursor: pointer
+        background: rgba(black, 1)
+        img
+            opacity: 1
+    img
+        transition: opacity $speed / 2 ease-in
+        opacity: 0.8
+        width: 14px
+        display: block

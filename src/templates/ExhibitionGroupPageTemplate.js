@@ -23,7 +23,7 @@ export const ExhibitionGroupPageTemplate = ({
           <h1 className="hero-body__title">{title}</h1>
           <p className="hero-body__summary">{summary}</p>
           <Link to="#exhibitions" className="block-btn">
-            View Exhibitions
+            View Exhibits
           </Link>
         </div>
         <div className="hero-image">
@@ -47,7 +47,7 @@ export const ExhibitionGroupPageTemplate = ({
         </section>
       )}
       <h1 className="separating-headline" id="exhibitions">
-        EXHIB\TIONS
+        EXHIB\TS
       </h1>
       <section className="section section--tight-mobile">
         <div className="container">
