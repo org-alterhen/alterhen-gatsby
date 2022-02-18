@@ -1,5 +1,7 @@
+@use "sass:math"
+
 .icon-btn
-    transition: background-color $speed / 2 ease-in
+    transition: background-color math.div($speed, 2) ease-in
     display: flex
     justify-content: center
     align-items: center
@@ -15,7 +17,7 @@
         img
             opacity: 1
     img
-        transition: opacity $speed / 2 ease-in
+        transition: opacity math.div($speed, 2) ease-in
         opacity: 0.8
         width: 14px
         display: block

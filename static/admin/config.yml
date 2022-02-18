@@ -104,7 +104,7 @@ collections:
 
   - label: "Exhibition Group"
     name: "exhibition_group"
-    folder: "src/pages/exhibition_groups"
+    folder: "src/pages/"
     create: true
     slug: "{{slug}}"
     fields:
