@@ -47,7 +47,7 @@ const CollectButton = function ({ objkt, contract, userAddress }) {
         </button>
       ) : (
         <a
-          href={`https://hicetnunc.xyz/objkt/${objkt.objkt}`}
+          href={`https://teia.art/objkt/${objkt.objkt}`}
           disabled
           className="block-btn collect inactive"
         >

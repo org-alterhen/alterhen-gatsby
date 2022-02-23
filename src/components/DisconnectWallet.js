@@ -15,11 +15,9 @@ const DisconnectButton = ({ wallet, setUserAddress, setWallet, setTezos }) => {
   }
 
   return (
-    <div className="buttons wallet-buttons">
-      <button onClick={disconnectWallet}>
-        <i className="fas fa-times"></i>Disconnect wallet
-      </button>
-    </div>
+    <button className="small-link" onClick={disconnectWallet}>
+      <i className="fas fa-times"></i>Disconnect wallet
+    </button>
   )
 }
 

@@ -1229,6 +1229,11 @@
     "querystring" "^0.2.0"
     "strip-ansi" "^6.0.0"
 
+"@google/model-viewer@^1.10.1":
+  "integrity" "sha512-mQ7FhALWLj1rc4P7NXUNVG4glfgIeKK18X5UlQ0C+InkTsaLvfdTkOz5ixTwDWaw3ba8j6DMyGcN0mzMqc/OyA=="
+  "resolved" "https://registry.npmjs.org/@google/model-viewer/-/model-viewer-1.10.1.tgz"
+  "version" "1.10.1"
+
 "@graphql-tools/batch-execute@^7.1.2":
   "integrity" "sha512-IuR2SB2MnC2ztA/XeTMTfWcA0Wy7ZH5u+nDkDNLAdX+AaSyDnsQS35sCmHqG0VOGTl7rzoyBWLCKGwSJplgtwg=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/batch-execute/-/batch-execute-7.1.2.tgz"

@@ -1,0 +1,35 @@
+.small-link
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    size: 0.8em
+    transition: color 200ms ease-in-out
+    color: #aaaaaa
+    font-weight: bold
+    text-decoration: underline
+    font-weight: 500
+    padding: 0
+    display: inline-block
+    align-items: center
+    background: none
+    border: 0 none
+    text-align: center
+    margin-top: .5em
+    font-size: .75em
+    width: fit-content
+    margin-left: 0
+    margin-right: auto
+    &:visited
+        color: #aaaaaa
+    &:hover,
+    &:focus
+        cursor: pointer
+        color: #000
+        text-decoration: underline
+    &:active
+        outline: 1px dotted #555
+
+    &--dark
+        color: black
+
+.small-link-group
+    .small-link + .small-link
+        margin-left: 1em

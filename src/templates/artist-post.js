@@ -16,6 +16,14 @@ const ArtistPost = ({ data }) => {
   )
   currentExhibition = currentExhibition ? currentExhibition.node : false
 
+  if (currentExhibition) {
+    currentExhibition.exhibitiongroup = data.exhibitiongroup.edges.find((g) =>
+      g.node.frontmatter.exhibitions.find(
+        (e) => e.exhibition === currentExhibition.frontmatter.title
+      )
+    )
+  }
+
   const pastExhibitions = data.exhibitions.edges
     .filter(
       (e) => e.node.frontmatter.title !== post.frontmatter.currentexhibition
@@ -97,6 +105,24 @@ export const pageQuery = graphql`
         hicetnunc
         linktree
         currentexhibition
+      }
+    }
+    exhibitiongroup: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "exhibition-group-page" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            summary
+            exhibitions {
+              exhibition
+            }
+          }
+          fields {
+            slug
+          }
+        }
       }
     }
     exhibitions: allMarkdownRemark(

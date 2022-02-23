@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function HTML(props) {
   return (
@@ -20,9 +20,13 @@ export default function HTML(props) {
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
+        <script
+          type="module"
+          src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+        ></script>
         {props.postBodyComponents}
-        
-        <script 
+
+        <script
           dangerouslySetInnerHTML={{
             __html: `
             (function(src, cb) {
@@ -39,8 +43,9 @@ export default function HTML(props) {
                 webp:true
               });
             })
-            `
-          }}/>
+            `,
+          }}
+        />
       </body>
     </html>
   )

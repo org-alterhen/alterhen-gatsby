@@ -22,7 +22,7 @@ const ExhibitionPage = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.description}
         artistName={frontmatter.artist}
-        artistSlug={data.artist.fields.slug}
+        artistSlug={data.artist ? data.artist.fields.slug : false}
         objkts={frontmatter.objkts}
       />
       {exhibitionGroup && (

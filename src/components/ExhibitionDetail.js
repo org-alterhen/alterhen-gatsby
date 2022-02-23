@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 import ExhibitionSlider from '../components/ExhibitionSlider'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import { TezosToolkit } from '@taquito/taquito'
 
+import fullscreen from '../img/fullscreen-icon.svg'
+
+import ObjktEmbed from '../components/ObjktEmbed'
 import ConnectButton from '../components/ConnectWallet'
 import DisconnectButton from '../components/DisconnectWallet'
 import CollectButton from '../components/CollectButton'
@@ -14,17 +16,9 @@ import { HEN_V2_SWAP_CONTRACT } from '../constants'
 import { objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
-import { checkVisible } from '../utils/misc'
-
-import Zoomer from '../components/Zoomer'
+import { checkVisible, isDesktop, isBrowser } from '../utils/misc'
 
 const TezosInstance = new TezosToolkit('https://api.tez.ie/rpc/mainnet')
-
-const transformImg = (img) => {
-  return img // no optimization for now, just return the img
-}
-
-const isBrowser = typeof window !== `undefined`
 
 const ExhibitionDetail = ({
   title,
@@ -37,6 +31,8 @@ const ExhibitionDetail = ({
   const [contract, setContract] = useState(undefined)
   const [wallet, setWallet] = useState(null)
   const [userAddress, setUserAddress] = useState('')
+  const [sliderVisible, setSliderVisible] = useState(false)
+  const [sliderSlide, setSliderSlide] = useState(0)
 
   // Running objktInfo() on build for all pages leads to errors. Looks like they start failing
   // after ~30 requests in quick succession. For now, only fetch this data on the client.
@@ -55,11 +51,18 @@ const ExhibitionDetail = ({
   useScrollPosition(function setScrollPosition({ currentPosition }) {
     setScroll(currentPosition.y)
     let videos = document.getElementsByTagName('video')
-    for (let i = 0; i < videos.length; i++) {
-      if (checkVisible(videos[i])) {
-        videos[i].play()
-      } else {
-        videos[i].pause()
+    if (!sliderVisible) {
+      for (let i = 0; i < videos.length; i++) {
+        if (checkVisible(videos[i])) {
+          const res = videos[i].play()
+          if (res !== undefined) {
+            res.then().catch((error) => {
+              console.log(error)
+            })
+          }
+        } else {
+          videos[i].pause()
+        }
       }
     }
   })
@@ -72,32 +75,25 @@ const ExhibitionDetail = ({
           objkts.map((objkt, index) => (
             <div className="exhibition-page-objkt" key={index}>
               <div className="exhibition-page-objkt-left">
-                <Zoomer>
-                  {objkt.image ? (
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: transformImg(objkt.image),
-                        alt: `${objkt.title} by ${artistName}`,
-                      }}
-                      className=""
-                    />
-                  ) : (
-                    objkt.video && (
-                      <video
-                        className="exhibition-page-video"
-                        src={objkt.video}
-                        autoPlay
-                        loop
-                        playsInline
-                      />
-                    )
-                  )}
-                </Zoomer>
+                <ObjktEmbed
+                  objkt={objkt}
+                  userAddress={userAddress}
+                  artistName={artistName}
+                >
+                  <button
+                    className="icon-btn"
+                    onClick={() => {
+                      setSliderVisible(!sliderVisible)
+                      setSliderSlide(index)
+                    }}
+                  >
+                    <img src={fullscreen} alt="View fullscreen" />
+                  </button>
+                </ObjktEmbed>
               </div>
               <div className="exhibition-page-objkt-right">
                 <h2>{objkt.title}</h2>
                 <p style={{ whiteSpace: 'pre-wrap' }}>{objkt.desc}</p>
-
                 {objkt.hicdex ? (
                   <CollectButton
                     objkt={objkt}
@@ -107,28 +103,46 @@ const ExhibitionDetail = ({
                 ) : (
                   <span>Loading OBJKT data...</span>
                 )}
-
-                {!userAddress ? (
-                  <ConnectButton
-                    Tezos={Tezos}
-                    setContract={setContract}
-                    setWallet={setWallet}
-                    setUserAddress={setUserAddress}
-                    contractAddress={HEN_V2_SWAP_CONTRACT}
-                    wallet={wallet}
-                  />
-                ) : (
-                  <DisconnectButton
-                    wallet={wallet}
-                    setUserAddress={setUserAddress}
-                    setWallet={setWallet}
-                    setTezos={setTezos}
-                  />
-                )}
+                <div className="buttons wallet-buttons">
+                  {!userAddress ? (
+                    <ConnectButton
+                      Tezos={Tezos}
+                      setContract={setContract}
+                      setWallet={setWallet}
+                      setUserAddress={setUserAddress}
+                      contractAddress={HEN_V2_SWAP_CONTRACT}
+                      wallet={wallet}
+                    />
+                  ) : (
+                    <DisconnectButton
+                      wallet={wallet}
+                      setUserAddress={setUserAddress}
+                      setWallet={setWallet}
+                      setTezos={setTezos}
+                    />
+                  )}
+                  {objkt.objkt && (
+                    <a
+                      className="small-link"
+                      href={`https://teia.art/objkt/${objkt.objkt}`}
+                    >
+                      View on Teia
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
-        {objkts && <ExhibitionSlider objkts={objkts} />}
+        {objkts && sliderVisible && (
+          <ExhibitionSlider
+            objkts={objkts}
+            sliderSlide={sliderSlide}
+            setSliderVisible={setSliderVisible}
+            userAddress={userAddress}
+            artistName={artistName}
+            extraClasses={sliderVisible ? '' : 'is-hidden'}
+          />
+        )}
         {artistName && artistSlug && (
           <div className="exhibition-page-bio">
             <div className="container">
