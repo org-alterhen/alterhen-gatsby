@@ -45,14 +45,6 @@ description: >-
   2005 Winner of Design Innovation Awards, Moscow, Russia
 featuredimage: https://ucarecdn.com/81662f4a-583b-4454-9c9d-4af11d261aec/
 objkts:
-  - objkt: 250333
-    title: THIS ONE
-    desc: THIS ONE
-    video: ""
-  - objkt: 672864
-    title: AND THIS
-    desc: AND THIS
-    video: ""
   - objkt: 657281
     video: https://patricktresset.com/various/aff/Friend_03.mp4
     title: "Friend #3"
