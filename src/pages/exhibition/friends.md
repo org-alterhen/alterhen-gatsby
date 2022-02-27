@@ -45,6 +45,14 @@ description: >-
   2005 Winner of Design Innovation Awards, Moscow, Russia
 featuredimage: https://ucarecdn.com/81662f4a-583b-4454-9c9d-4af11d261aec/
 objkts:
+  - objkt: 657279
+    title: "Friend #1"
+    desc: |-
+      2022
+      Video
+      MP4, 912 x 1280, 30''
+      Sound: Leonid Kurashov
+    video: https://patricktresset.com/various/aff/Friend_01.mp4
   - objkt: 657281
     video: https://patricktresset.com/various/aff/Friend_03.mp4
     title: "Friend #3"
