@@ -53,6 +53,14 @@ objkts:
       MP4, 912 x 1280, 30''
       Sound: Leonid Kurashov
     video: https://patricktresset.com/various/aff/Friend_01.mp4
+  - objkt: 657280
+    video: https://patricktresset.com/various/aff/Friend_02.mp4
+    title: "Friend #2"
+    desc: |-
+      2022
+      Video
+      MP4, 912 x 1280, 30''
+      Sound: Leonid Kurashov
   - objkt: 657281
     video: https://patricktresset.com/various/aff/Friend_03.mp4
     title: "Friend #3"
