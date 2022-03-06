@@ -2,12 +2,11 @@
 templateKey: exhibition-page
 artist: Eli Joteva
 title: Chtonic Light
-date: 2021-12-14T12:51:37.565Z
 statement: Inspired by fermentation cycles in wine-making, the project "Chtonic
   Light" transforms decaying matter into digital light. In each NFT of this
   series, 3D scans of grapes decompose and regrow digitally. What new light/life
   forms can our contemporary tools birth?
-featuredimage: https://ucarecdn.com/00011eea-47d8-490e-b7fa-b213a79776f9/
+date: 2021-12-14T12:51:37.565Z
 description: >-
   Eli Joteva (b.1990) is a Bulgarian intermedia artist and researcher based in
   LA. With a practice rooted in photography and digital media, she is influenced
@@ -19,6 +18,7 @@ description: >-
 
 
   She has exhibited internationally in venues like Ars Electronica, Fischer Museum, Rijksmuseum Twenthe, Photon Gallery, SciArt Initiative, DC I/O, Culture Hub LA, FakeMeHard, Gogbot, Currents New Media, xCoax, DA Fest, Sariev Contemporary and Queensland Center for Photography. She has been a resident artist at Vermont Studio Center, ACRE, Photo+Sphere and an active member of UCLA Art Sci Center | Lab. She is currently artist in residence at STEAM Imaging III with Ars Electronica & Fraunhofer MEVIS, Professor at houdini.school, VR Gallery Director and Curator at SUPERCOLLIDER and Co-founder of current.cam.
+featuredimage: https://ucarecdn.com/d6ac232b-4193-49be-8254-cb42cfdbd616/
 objkts:
   - objkt: 578508
     title: Chtonic Spectra I
@@ -27,14 +27,6 @@ objkts:
       Closeup of spectral rays in ChtonicCycle I
       JPG, 1280 x 720
     image: https://ucarecdn.com/142402f9-a148-4402-b2b7-bfebb1aa6c5a/
-  - objkt: 368393
-    title: Chtonic Cycle I
-    desc: |-
-      2021
-      Liquid light breaks free from digital grapes
-      GIF, 1920 x 1920, 39 frames
-    image: https://patricktresset.com/various/II/2_j.gif
-    video: ''
   - objkt: 578516
     title: Chtonic Spectra II
     desc: |-
@@ -47,7 +39,7 @@ objkts:
       3D scan data of grapes weightlessly grows into a moving light painting  
       MP4, 1280 x 1280, 20''
 
-    image: ''
+    image: ""
     title: Chtonic Cycle II
     objkt: 578520
     video: https://patricktresset.com/various/II/4_ChtonicCycle2.mp4
