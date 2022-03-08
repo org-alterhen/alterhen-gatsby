@@ -12,5 +12,5 @@ website: www.videophonicworkshop.com
 twitter: videophonicwshp
 instagram: videophonicworkshop
 facebook: videophonicworkshop
-currentexhibition: ""
+currentexhibition: Excerpts from 1987 Series and Waveform Series
 ---
