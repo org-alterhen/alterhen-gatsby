@@ -17,9 +17,19 @@ const ExhibitionGroupPage = ({ data }) => {
       (a) => a.node.frontmatter.name === fullExhib.frontmatter.artist
     )
 
-    // We want the user to pass via the Artists page to see the exhibition.
-    // So replace the slug here to achieve that, whilst keeping <ExhibitionsList> reusable. -JS
-    fullExhib.fields.slug = artist.node.fields.slug
+    try {
+      // We want the user to pass via the Artists page to see the exhibition.
+      // So replace the slug here to achieve that, whilst keeping <ExhibitionsList> reusable. -JS
+      fullExhib.fields.slug = artist.node.fields.slug
+    } catch (e) {
+      // Unfortunately we rely on the name on the Artist Page and Exhibtition page matching exactly
+      // if there is a content error, the above will fail. We don't want that to break the build so
+      // wrap it in a try...catch. We could use a relational field, but it would slow the build times
+      // down significantly. TODO: Resolve this with CMS change. -JS
+      console.log(e)
+      console.log(artist)
+      console.log(fullExhib.fields.slug)
+    }
 
     return fullExhib
   })
