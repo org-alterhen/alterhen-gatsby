@@ -12,5 +12,5 @@ midbanner: https://ucarecdn.com/1e58ef45-3d79-4917-9630-7ef792a047d4/
 website: ianraposo.com
 twitter: fodaseopeq
 instagram: foda.se.o.peq
-currentexhibition: ""
+currentexhibition: Habit hole
 ---
