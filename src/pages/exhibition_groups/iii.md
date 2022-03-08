@@ -13,4 +13,5 @@ exhibitions:
   - exhibition: Translating William Blake
   - exhibition: From milk
   - exhibition: 80s & 90s Technology X-ray Images (II)
+  - exhibition: Excerpts from 1987 Series and Waveform Series
 ---
