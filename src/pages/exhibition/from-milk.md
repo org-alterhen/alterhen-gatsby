@@ -38,13 +38,6 @@ objkts:
       2022
       Scanography
       2491 × 3408
-  - objkt: 665929
-    video: https://patricktresset.com/various/III/vir-vladimir-video-NFT.mp4
-    title: Virgin of Vladimir / milk video
-    desc: |
-      2022
-      Video
-      608 x 824, 10''
   - objkt: 666033
     image: https://patricktresset.com/various/III/benua-NFT.gif
     title: Benois Madonna / milk image
