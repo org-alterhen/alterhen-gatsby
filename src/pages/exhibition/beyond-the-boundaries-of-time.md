@@ -27,23 +27,27 @@ objkts:
       2007-2022
       Photography
       2400  x  1612
+    image: https://ucarecdn.com/aef62dd7-a275-475d-946c-1b67b58ad25e/
   - title: Look South
     desc: |-
       2007-2022
       Photography
       2400  x  1592
     objkt: 690733
+    image: https://ucarecdn.com/3a3e41d6-5905-42d9-a45c-bef511a5f675/
   - objkt: 690740
     title: Look West
     desc: |-
       2007-2022
       Photography
       2400  x  1592
+    image: https://ucarecdn.com/dac7f4ce-9961-4507-a9e2-96e60b8f61e2/
   - objkt: 690762
     title: Look North
     desc: |-
       2007-2022
       Photography
       2400  x  1600
+    image: https://ucarecdn.com/e498ed5d-b994-44b6-a3c6-9b4b827dd3c8/
 ---
 Katya Kanke-Zaikanova, born in 1985. She started her career as a photographer in 2000. Later studied contemporary dance and performance art. Works with photography, performance art, creates videos and drawings. Her art practices mostly is about women being, existential problems, and woman gaze to reality.
