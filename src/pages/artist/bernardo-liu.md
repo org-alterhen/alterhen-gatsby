@@ -10,7 +10,7 @@ midbanner: https://ucarecdn.com/4fe0b3a4-8e43-4b42-82f2-2f97f5084e04/
 website: https://bernardoliu.com
 twitter: BernardoLiu
 instagram: bernardoliu
-currentexhibition: Feito com amor
+currentexhibition: Shortcuts
 henlink: bernardoliu
 profpic: https://ucarecdn.com/0b1df249-f889-4a44-80d4-c5bc773450d8/bernardo_500c.gif
 hicetnunc: https://www.teia.art/tz/tz1LqHK1VkBNVRHh1UJa2PoBSPMdqrCU63AZ
