@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-page
-artist: "Eli Joteva "
+artist: Eli Joteva
 title: Effluesense
 statement: "Is it possible that biological life has senses, desires and
   pulsations beyond human comprehension? Effluesense is a photography project
