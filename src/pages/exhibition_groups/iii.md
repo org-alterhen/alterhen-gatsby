@@ -2,7 +2,7 @@
 templateKey: exhibition-group-page
 title: III
 featuredimage: https://ucarecdn.com/d1baae55-9f79-470c-b786-a7734dc6e54e/
-credit: false
+credit: ''
 summary: III
 description: III
 published: true
