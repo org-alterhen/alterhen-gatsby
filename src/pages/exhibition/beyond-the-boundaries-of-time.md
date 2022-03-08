@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-page
-artist: Katya Kanke
+artist: Katya Kanke-Zaikanova
 title: Beyond the boundaries of time
 statement: >-
   World after the war. We will forever remember the world of nowadays in two
