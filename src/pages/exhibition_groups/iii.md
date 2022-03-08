@@ -19,4 +19,5 @@ exhibitions:
   - exhibition: Shortcuts
   - exhibition: Habit hole
   - exhibition: Beyond the boundaries of time
+  - exhibition: Effluesense
 ---
