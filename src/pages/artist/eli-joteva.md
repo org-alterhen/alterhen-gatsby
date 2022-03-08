@@ -14,5 +14,5 @@ hicetnunc: https://www.teia.art/tz/tz1Vo3tuxJRG7vcNHiNn8neAoL9hM5rtbqjc/creation
 twitter: joteva
 instagram: joteva
 facebook: joteva
-currentexhibition: Chtonic Light
+currentexhibition: Effluesense
 ---
