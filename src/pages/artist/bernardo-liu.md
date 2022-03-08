@@ -1,19 +1,19 @@
 ---
 templateKey: artist-post
-bio: Bernardo Liu is a Brazilian urban artist and tattoo artist, working on
-  themes of the perception of time and cross-cultural ancestral memory. He
-  produces paintings, sculptures and papercut work.
-currentexhibition: Feito com amor
-henlink: bernardoliu
 published: true
 name: Bernardo Liu
+bio: "Bernardo Liu is a plastic artist from Rio de Janeiro. As a descendant of
+  Orientals, his artistic research explores intersections between both cultures.
+  Possible places of collision, such as symbols, feelings, or habits. "
 country: Brazil
-profpic: https://ucarecdn.com/0b1df249-f889-4a44-80d4-c5bc773450d8/bernardo_500c.gif
-midbanner: https://ucarecdn.com/4767184d-6727-41af-a097-bf0f808ed983/banner_bernardoliu.jpg
+midbanner: https://ucarecdn.com/4fe0b3a4-8e43-4b42-82f2-2f97f5084e04/
 website: https://bernardoliu.com
-hicetnunc: https://www.hicetnunc.xyz/tz/tz1LqHK1VkBNVRHh1UJa2PoBSPMdqrCU63AZ
 twitter: BernardoLiu
 instagram: bernardoliu
+currentexhibition: Feito com amor
+henlink: bernardoliu
+profpic: https://ucarecdn.com/0b1df249-f889-4a44-80d4-c5bc773450d8/bernardo_500c.gif
+hicetnunc: https://www.teia.art/tz/tz1LqHK1VkBNVRHh1UJa2PoBSPMdqrCU63AZ
 updated: 27/08/2021 21:07:23
 email: bernardosandt@gmail.com
 ---
