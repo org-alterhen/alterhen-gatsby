@@ -12,7 +12,7 @@ website: https://wilyguys.com
 hicetnunc: https://www.hicetnunc.xyz/WilyGuys/creations
 twitter: GuysWily
 instagram: wilyguys
-currentexhibition: WRONG, WRONG, WRONG
+currentexhibition: Translating William Blake
 featured: false
 title: WRONG, WRONG, WRONG
 ---
