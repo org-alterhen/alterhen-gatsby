@@ -17,4 +17,5 @@ exhibitions:
   - exhibition: portr(aa)
   - exhibition: N_RAYSSCULPT_alterHEN_#3
   - exhibition: Shortcuts
+  - exhibition: Habit hole
 ---
