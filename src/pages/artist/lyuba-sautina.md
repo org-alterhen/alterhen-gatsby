@@ -14,5 +14,5 @@ website: http://cargocollective.com/sautina
 twitter: sautina
 instagram: lyuba.sautina
 facebook: sautina.lyuba
-currentexhibition: ""
+currentexhibition: From milk
 ---
