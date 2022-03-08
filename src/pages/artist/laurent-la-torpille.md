@@ -10,5 +10,5 @@ profpic: https://ucarecdn.com/b575f1b7-8822-47a6-b1c4-0723eb3b572e/laurent_500c.
 midbanner: https://ucarecdn.com/0f0ca465-6df3-4b9f-aa56-fabb2b98d17e/
 twitter: TorpilleLaurent
 linktree: Laurent_La_Torpille
-currentexhibition: Symbolist refractions
+currentexhibition: N_RAYSSCULPT_alterHEN_#3
 ---
