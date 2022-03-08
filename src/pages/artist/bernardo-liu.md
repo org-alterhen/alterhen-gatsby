@@ -1,6 +1,6 @@
 ---
 templateKey: artist-post
-published: true
+published: false
 name: Bernardo Liu
 bio: "Bernardo Liu is a plastic artist from Rio de Janeiro. As a descendant of
   Orientals, his artistic research explores intersections between both cultures.
