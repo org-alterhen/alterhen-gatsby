@@ -11,7 +11,7 @@ website: https://www.ibl3d.com
 hicetnunc: https://www.hicetnunc.art/tz/tz1YgdEoKrNkfrPXcqSK6rtYgv1Yh3cFTrsF/creations
 twitter: ibl3D
 instagram: ibl3d
-currentexhibition: 80s Technology X-ray Images
+currentexhibition: 80s & 90s Technology X-ray Images (II)
 featuredimage: https://ucarecdn.com/a5c3bf93-345d-4c9b-9432-3886cdb25d60/
 title: 80s Technology X-ray Images
 ---
