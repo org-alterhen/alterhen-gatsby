@@ -1,7 +1,7 @@
 ---
 templateKey: artist-post
 published: true
-name: " Ian Raposo"
+name: Ian Raposo
 bio: >-
   Ian Raposo (1992), Rio de Janeiro resident, is a visual artist that has 
 
