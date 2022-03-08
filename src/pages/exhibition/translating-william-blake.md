@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-page
-artist: Johnny Dean Mann
+artist: Johnny Dean Mann (Wily Guys)
 title: Translating William Blake
 statement: >-
   Reimagining of William Blake’s ‘Illustrations of the Book of Job’.
