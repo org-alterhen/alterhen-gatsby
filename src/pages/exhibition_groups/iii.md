@@ -11,4 +11,5 @@ end_date: 8/04/2022
 order: 100
 exhibitions:
   - exhibition: Translating William Blake
+  - exhibition: From milk
 ---
