@@ -20,4 +20,5 @@ exhibitions:
   - exhibition: Habit hole
   - exhibition: Beyond the boundaries of time
   - exhibition: Effluesense
+  - exhibition: Istanbul Archived
 ---
