@@ -36,5 +36,6 @@ exhibitions:
   - exhibition: Istanbul Archived
   - exhibition: Solvent Suns
   - exhibition: "[Sic] 1  Là où nous sommes"
+  - exhibition: Thalys 9440 vers Paris
 logo: https://ucarecdn.com/bb6eed07-0a45-48b9-853c-601620c4af5b/
 ---
