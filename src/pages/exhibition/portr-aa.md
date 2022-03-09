@@ -36,9 +36,15 @@ objkts:
   - objkt: 681962
     image: https://ucarecdn.com/e7a069c1-3a0e-4d85-954d-868615e2f483/
     title: "althen3 - #3"
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2022
+
       Digital
+
       1600 x 2285
 ---
 I am working in Paris as a cgi/3d artist . I’m also a photographer and a software developer. I started using Neural Network based Artificial Intelligence technology around 2015. I enjoy using optical flow analysis tools to capture motion from moving footage. I enjoy manipulating still digital images and motion sequences in a transformative/generative way. I’m building and using my own tools using open-sourced and custom code. i consider my work as transformative. i like to explore abstraction and baroque.inspiration comes from personal photography or friends social media . some may come from the 'internet soup' .
