@@ -37,9 +37,15 @@ objkts:
     image: https://ucarecdn.com/3a3e41d6-5905-42d9-a45c-bef511a5f675/
   - objkt: 690740
     title: Look West
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2007-2022
+
       Photography
+
       2400  x  1592
     image: https://ucarecdn.com/dac7f4ce-9961-4507-a9e2-96e60b8f61e2/
   - objkt: 690762
