@@ -53,9 +53,15 @@ objkts:
     title: BAROK_alterHEN#4
   - objkt: 682396
     image: https://ucarecdn.com/13d81def-120d-4f6b-b56a-9cee794059ca/
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2022
+
       PNG
+
       4320 x 7680, 8K
     title: BAROK_alterHEN#5
 ---
