@@ -5,8 +5,8 @@ name: eigenflow
 bio: |-
   Diane Drubay
   SOMATICBITS
-currentexhibition: eigenflow
 country: France / Germany
 profpic: https://patricktresset.com/various/II/eigenflow.gif
-midbanner: https://ucarecdn.com/d8a4d7e8-1945-45cf-85be-612f6ce83147/
+midbanner: https://ucarecdn.com/349fc3af-6422-40ac-8fdb-656527cafeca/
+currentexhibition: eigenflow
 ---
