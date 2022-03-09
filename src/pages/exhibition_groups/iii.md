@@ -20,7 +20,7 @@ description: "Art is not made to be only exhibited. It is also a bridge between
 published: true
 start_date: 9/03/2022
 end_date: 8/04/2022
-order: 100
+order: 1
 exhibitions:
   - exhibition: Translating William Blake
   - exhibition: From milk
