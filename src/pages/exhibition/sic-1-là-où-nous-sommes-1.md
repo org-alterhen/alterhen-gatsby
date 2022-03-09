@@ -34,7 +34,7 @@ description: >-
 
 
   She graduated from Ecole Nationale Supérieure des Arts Décoratifs (Ensad), Paris, in animation cinema (2012)
-featuredimage: https://ucarecdn.com/09f36d12-58eb-4f93-8b82-9a01556881c3/
+featuredimage: https://ucarecdn.com/4d21e219-321a-4b6c-a20b-8c6b6f294e6d/
 objkts:
   - objkt: 689018
     image: https://ucarecdn.com/8dfce1bd-680f-4778-9936-c536152339dd/
