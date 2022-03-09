@@ -11,5 +11,5 @@ midbanner: https://ucarecdn.com/efa9de1c-f253-4676-b0d3-01f4cdf53019/
 website: https://cargocollective.com/natalianneboucher
 twitter: natalianne_b
 instagram: natalianneboucher
-currentexhibition: ""
+currentexhibition: '[Sic] 1 " Là où nous sommes"'
 ---
