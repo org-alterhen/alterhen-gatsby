@@ -2,8 +2,12 @@
 templateKey: exhibition-group-page
 title: Exhibition III by a\terHEN
 featuredimage: https://ucarecdn.com/3134a345-902b-4252-b7b5-c4aa4cbe0dd9/
-credit: ""
-summary: ""
+credit: Katya Kanke, 2007-2022
+summary: "Art is not made to be only exhibited. It is also a bridge between
+  people, time and spaces. The current geopolitical situation cannot leave
+  without reaction. We must support the people and artists in Ukraine. 100% of
+  the sales of some NFTs will be donated to the Ukraine Emergency Response Fund
+  (via GivingBlock) "
 description: >-
   Like all journeys and landings in a new world, the journey always goes
   smoothly with a friend.  For this Exhibition III, the members of alterHEN
@@ -13,7 +17,7 @@ description: >-
   could have answered. 
 
   Mixing guest artists and founding members, exhibition III presents the first NFTs by Natalianne Boucher, Ian Raposo, Lyuba Sautina and Videophonic Workshop, among the latest pieces by Eli Joteva, a collaboration by Diane Drubay and David Pettersson, Inigo Bilbao, Katya Kanke, Laurent La Torpille, Luluxxx, Patrick Tresset and Wily Guys.
-published: false
+published: true
 start_date: 9/03/2022
 end_date: 8/04/2022
 order: 100
@@ -30,4 +34,5 @@ exhibitions:
   - exhibition: Effluesense
   - exhibition: Istanbul Archived
   - exhibition: Solvent Suns
+logo: https://ucarecdn.com/bb6eed07-0a45-48b9-853c-601620c4af5b/
 ---
