@@ -29,22 +29,40 @@ objkts:
   - title: THE TURNING OF CAPTIVITY
     objkt: 396295
     image: https://ucarecdn.com/cd426b76-656d-459e-970b-bc87cc43c01d/
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2021
+
       Digital
+
       16000 x 12800
   - objkt: 213751
     title: I AM YOUNG AND YE ARE VERY OLD
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2021
+
       Digital
+
       16000 x 12800
     image: https://ucarecdn.com/0944a0d3-dc59-4260-9855-c02c7c49052c/
   - objkt: 195663
     title: I SHALL COME FORTH LIKE GOLD
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2021
+
       Digital
+
       16000 x 12800
     image: https://ucarecdn.com/74b9b65e-8ac2-45a8-8a75-b2d5a2e1a2a7/
 ---
