@@ -8,9 +8,8 @@ import { IndexPageTemplate } from './IndexPageTemplate'
 
 const IndexPage = ({ data }) => {
   const { frontmatter, html } = data.page
-  const exhibitionGroups = data.exhibitiongroups.edges
-    .map((eg) => eg.node)
-    .sort((a, b) => a.frontmatter.order < b.frontmatter.order)
+  const exhibitionGroups = data.exhibitiongroups.edges.map((eg) => eg.node)
+  exhibitionGroups.sort((a, b) => a.frontmatter.order - b.frontmatter.order)
 
   return (
     <Layout>

@@ -34,21 +34,21 @@ export const IndexPageTemplate = ({
           <Link to="/about" className="read-more">
             Read More <span>►</span>
           </Link>
-          <a class="block-btn hero-body__cta" href="#exhibitions">
+          <a className="block-btn hero-body__cta" href="#exhibitions">
             View exhibitions
           </a>
 
           <a
-            class="if-credit"
+            className="if-credit"
             href="https://immaterialfuture.org"
             target="_blank"
             rel="noreferrer"
           >
-            <span class="if">
+            <span className="if">
               a\terHEN is supported by
               <br />
               <span>Immaterial Future Association</span>
-              <span class="logo"></span>
+              <span className="logo"></span>
             </span>
           </a>
         </div>
