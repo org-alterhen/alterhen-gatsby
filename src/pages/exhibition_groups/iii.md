@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-group-page
-title: III
+title: Exhibition II by a\terHEN
 featuredimage: https://ucarecdn.com/d1baae55-9f79-470c-b786-a7734dc6e54e/
 credit: ""
 summary: III
