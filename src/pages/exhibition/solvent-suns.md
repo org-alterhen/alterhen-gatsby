@@ -42,7 +42,7 @@ objkts:
     title: Solvent Suns 1
     desc: >-
       Between a desire to be submerged by its warmth and a fear of seeing it
-      dissolve, each of these videos is a sensory metaphor for the suns future.
+      dissolve, each of these videos is a sensory metaphor for the sun's future.
 
 
       2022
