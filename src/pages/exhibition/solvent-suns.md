@@ -50,6 +50,9 @@ objkts:
       One channel color video
 
       MP4, 1080 x 1080, 20 ''
+
+
+      100% of the proceeds from this NFT will be donated to the Ukraine Emergency Response Fund
   - objkt: 692438
     video: https://patricktresset.com/various/III/e_1.mp4
     title: Solvent Suns 2
