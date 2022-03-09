@@ -73,6 +73,7 @@ objkts:
       2022
       Photography
       3998 x 2670
+    image: https://ucarecdn.com/52d52774-368c-4bbc-9f03-3a471d1596e3/
   - objkt: 688678
     title: "[Sic]_Lons 1.5"
     image: https://ucarecdn.com/842c4a34-6f54-43b9-8eae-6786f4e47de9/
