@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-group-page
 title: Exhibition III by a\terHEN
-featuredimage: https://ucarecdn.com/d1baae55-9f79-470c-b786-a7734dc6e54e/
+featuredimage: https://ucarecdn.com/3134a345-902b-4252-b7b5-c4aa4cbe0dd9/
 credit: ""
 summary: ""
 description: >-
