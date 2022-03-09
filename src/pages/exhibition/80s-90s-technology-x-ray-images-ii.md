@@ -14,9 +14,15 @@ featuredimage: https://ucarecdn.com/092c35a2-99c7-4114-ac56-edb312ecfc80/
 objkts:
   - objkt: 666248
     title: Sony PlayStation DualShock Controller (1997)
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2022
+
       digital x-ray (JPEG)
+
       2500 x 2500
     image: https://ucarecdn.com/ae978da1-3a82-454d-8cf5-3effc207a8d1/
   - objkt: 666231
