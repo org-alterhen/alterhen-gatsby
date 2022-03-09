@@ -8,7 +8,7 @@ bio: >
   of motherhood and childhood, looking upon them as an experience shaped by
   natural, local and cultural contexts. 
 country: Russia
-profpic: https://ucarecdn.com/2a3c2bb0-3109-40c5-a417-8800817a2e4b/-/crop/863x1022/216,0/-/preview/
+profpic: https://ucarecdn.com/6bcc497d-54e8-4ce4-bf88-f6d93eff8c66/
 midbanner: https://ucarecdn.com/c64b6705-ffa1-4224-84d0-1fa1cb26240d/
 website: http://cargocollective.com/sautina
 twitter: sautina
