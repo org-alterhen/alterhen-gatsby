@@ -3,10 +3,10 @@ templateKey: exhibition-page
 artist: Luluxxx
 title: portr(aa)
 statement: Portr(aa) is an automated Portrait generator I'm currently building.
-  .it uses neural network based technique (AI) to generate colors and shapes
-  from a set of input pictures. Abstraction comes from a mix of various digital
-  image manipulation algorithm applied all along the process. these are early
-  results from the experiment.
+  it uses neural network based technique (AI) to generate colors and shapes from
+  a set of input pictures. Abstraction comes from a mix of various digital image
+  manipulation algorithms applied all along the process. these are early results
+  from the experiment.
 date: 2022-03-08T07:57:43.615Z
 description: I am working in Paris as a cgi/3d artist. I’m also a photographer
   and a software developer. I started using Neural Network based Artificial
