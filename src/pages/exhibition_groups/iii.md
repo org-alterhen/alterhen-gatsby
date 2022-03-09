@@ -35,6 +35,6 @@ exhibitions:
   - exhibition: Effluesense
   - exhibition: Istanbul Archived
   - exhibition: Solvent Suns
-  - exhibition: '[Sic] 1 " Là où nous sommes"'
+  - exhibition: "[Sic] 1  Là où nous sommes"
 logo: https://ucarecdn.com/bb6eed07-0a45-48b9-853c-601620c4af5b/
 ---
