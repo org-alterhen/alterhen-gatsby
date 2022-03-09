@@ -48,9 +48,15 @@ objkts:
   - objkt: 666039
     video: https://patricktresset.com/various/III/source-video-854-480.mp4
     title: The Source / video
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2020
+
       Video
+
       1920 x 1080, 16 ''
   - objkt: 666059
     image: https://ucarecdn.com/3468797a-9cfb-4a15-bc02-6b1089f8cb14/
