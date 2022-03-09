@@ -1,6 +1,6 @@
 ---
 templateKey: exhibition-group-page
-title: Exhibition III by a\terHEN
+title: III by a\terHEN
 featuredimage: https://ucarecdn.com/3134a345-902b-4252-b7b5-c4aa4cbe0dd9/
 credit: Katya Kanke, 2007-2022
 summary: >-
