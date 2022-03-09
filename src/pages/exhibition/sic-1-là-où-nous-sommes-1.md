@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 artist: Natalianne Boucher
-title: '[Sic] 1 " Là où nous sommes"'
+title: "[Sic] 1  Là où nous sommes"
 statement: >-
   The «[Sic]» series is the result of the reception of another artist’s work, a
   collaborative quote of the initial artwork.
