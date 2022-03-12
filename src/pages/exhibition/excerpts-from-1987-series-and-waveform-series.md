@@ -28,9 +28,15 @@ objkts:
   - objkt: 668847
     title: Waveform Series 131795
     video: https://patricktresset.com/various/III/0.mp4
-    desc: |-
+    desc: >-
+      100% of the proceeds from this NFT will be donated to the Ukraine
+      Emergency Response Fund
+
+
       2022
+
       MP4
+
       1268 x 1024, 9''
   - title: 1987 Series 56441
     objkt: 668854
