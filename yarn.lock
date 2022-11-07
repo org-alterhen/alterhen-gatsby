@@ -1229,11 +1229,6 @@
     "querystring" "^0.2.0"
     "strip-ansi" "^6.0.0"
 
-"@google/model-viewer@^1.10.1":
-  "integrity" "sha512-mQ7FhALWLj1rc4P7NXUNVG4glfgIeKK18X5UlQ0C+InkTsaLvfdTkOz5ixTwDWaw3ba8j6DMyGcN0mzMqc/OyA=="
-  "resolved" "https://registry.npmjs.org/@google/model-viewer/-/model-viewer-1.10.1.tgz"
-  "version" "1.10.1"
-
 "@graphql-tools/batch-execute@^7.1.2":
   "integrity" "sha512-IuR2SB2MnC2ztA/XeTMTfWcA0Wy7ZH5u+nDkDNLAdX+AaSyDnsQS35sCmHqG0VOGTl7rzoyBWLCKGwSJplgtwg=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/batch-execute/-/batch-execute-7.1.2.tgz"
@@ -11606,6 +11601,13 @@
   "resolved" "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.1.tgz"
   "version" "2.1.1"
 
+"react-social-icons@^5.15.0":
+  "integrity" "sha512-khfDgUiUwEBe34T6br2+mkXQg3hLVDdviVjexxZoVCsogMgxTy/m8+KlX/j6Wa7P2BPxgZ7yZ2jXw3X06pUUFQ=="
+  "resolved" "https://registry.npmjs.org/react-social-icons/-/react-social-icons-5.15.0.tgz"
+  "version" "5.15.0"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "react-sortable-hoc@^2.0.0":
   "integrity" "sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg=="
   "resolved" "https://registry.npmjs.org/react-sortable-hoc/-/react-sortable-hoc-2.0.0.tgz"
@@ -11706,7 +11708,7 @@
     "@babel/runtime" "^7.0.0"
     "memoize-one" ">=3.1.1 <6"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.0-0 || ^15.4.0-0 || ^16.0.0-0", "react@^15.0.0 || ^16.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react@^15.3.0 || ^16.0.0 || ^17.0.0", "react@^15.3.0 || ^16.0.0-alpha || ^17.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.0.0-0", "react@^16.14.0", "react@^16.3.0 || ^17.0.0", "react@^16.5.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.8.4", "react@^16.8.4 || ^17.0.0", "react@^16.9.0 || ^17.0.0", "react@>= 16.14", "react@>= 16.3", "react@>=15", "react@>=15.5 <=16.x", "react@>=16", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.0", "react@0.14.x || 15.x || 16.x || 17.x", "react@15.x || 16.x || 17.x":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.0-0 || ^15.4.0-0 || ^16.0.0-0", "react@^15.0.0 || ^16.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react@^15.3.0 || ^16.0.0 || ^17.0.0", "react@^15.3.0 || ^16.0.0-alpha || ^17.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.0.0-0", "react@^16.14.0", "react@^16.3.0 || ^17.0.0", "react@^16.5.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.8.4", "react@^16.8.4 || ^17.0.0", "react@^16.9.0 || ^17.0.0", "react@>= 16.14", "react@>= 16.3", "react@>=15", "react@>=15.5 <=16.x", "react@>=16", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.0", "react@0.14.x || 15.x || 16.x || 17.x", "react@15.x || 16.x || 17.x", "react@15.x.x || 16.x.x || 17.x.x || 18.x.x":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
