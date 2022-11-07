@@ -1,4 +1,4 @@
-const queryObjktDetails = `
+/*const queryObjktDetails = `
   query ObjktDetails($token: bigint!) {
     hic_et_nunc_token_by_pk(id: $token) {
       supply
@@ -18,7 +18,24 @@ const queryObjktDetails = `
         }
       }
     }
-  }  
+  }
+`*/
+
+const queryObjktDetails = `
+  query ObjktDetails($token: bigint!) {
+    token_by_pk(id: $token) {
+      artifact_uri
+      title
+      supply
+      mime
+      swaps(order_by: {timestamp: desc}) {
+        amount_left
+        id
+        price
+        contract_address
+      }
+    }
+  }
 `
 
 export const hashToURL = (hash) => {
@@ -67,7 +84,7 @@ async function fetchGraphQL(
     return JSON.parse(localStorage.getItem(queryresult_key))
   } else {
     console.log('cache miss')
-    const result = await fetch('https://api.hicdex.com/v1/graphql', {
+    const result = await fetch('https://api.teia.rocks/v1/graphql', {
       method: 'POST',
       body: JSON.stringify({
         query: operationsDoc,
@@ -85,6 +102,22 @@ async function fetchGraphQL(
   }
 }
 
+/*export async function objktInfo(id) {
+  const { errors, data } = await fetchGraphQL(
+    queryObjktDetails,
+    'ObjktDetails',
+    { token: id },
+    300000
+  )
+
+  if (errors) {
+    console.error(errors)
+  }
+
+  // return data.hic_et_nunc_token_by_pk
+  return data.token_by_pk
+}*/
+
 export async function objktInfo(id) {
   const { errors, data } = await fetchGraphQL(
     queryObjktDetails,
@@ -97,5 +130,6 @@ export async function objktInfo(id) {
     console.error(errors)
   }
 
-  return data.hic_et_nunc_token_by_pk
+  // return data.hic_et_nunc_token_by_pk
+  return data.token_by_pk
 }

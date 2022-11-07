@@ -14,7 +14,7 @@ const CollectButton = function ({ objkt, contract, userAddress }) {
   return (
     <>
       <p className="availability">
-        {objkt.hicdex.swaps_aggregate.aggregate.sum.amount_left || 'X'}
+        {objkt.hicdex.swaps[0].amount_left || 'X'}
         &thinsp;/&thinsp;{objkt.hicdex.supply} editions available
       </p>
       {objkt.hicdex.swaps && objkt.hicdex.swaps.length > 0 ? (
