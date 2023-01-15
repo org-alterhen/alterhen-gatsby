@@ -1,38 +1,41 @@
-/*const queryObjktDetails = `
-  query ObjktDetails($token: bigint!) {
-    hic_et_nunc_token_by_pk(id: $token) {
+import { TEIA_GRAPHQL_ENDPOINT } from '../constants'
+import { OBJKT_GRAPHQL_ENDPOINT } from '../constants'
+
+// const queryTokenDetailsTeia = `
+//   query ObjktDetails($token: bigint!) {
+//     token_by_pk(id: $token) {
+//       supply
+//       title
+//       artifact_uri
+//       creator_id
+//       mime
+//       swaps(limit: 1, order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, contract_version: {_eq: "2"}, is_valid: {_eq: true}}) {
+//         id
+//         price
+//       }
+//       swaps_aggregate(where: {is_valid: {_eq: true}, contract_version: {_eq: "2"}, status: {_eq: "0"}}) {
+//         aggregate {
+//           sum {
+//             amount_left
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
+
+const queryTokenDetailsTeia = `
+  query ObjktDetails($id: bigint!) {
+    token_by_pk(id: $id) {
       supply
       title
       artifact_uri
       creator_id
       mime
-      swaps(limit: 1, order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, contract_version: {_eq: "2"}, is_valid: {_eq: true}}) {
+      swaps(limit: 1, order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, is_valid: {_eq: true}}) {
         id
         price
-      }
-      swaps_aggregate(where: {is_valid: {_eq: true}, contract_version: {_eq: "2"}, status: {_eq: "0"}}) {
-        aggregate {
-          sum {
-            amount_left
-          }
-        }
-      }
-    }
-  }
-`*/
-
-const queryObjktDetails = `
-  query ObjktDetails($token: bigint!) {
-    token_by_pk(id: $token) {
-      artifact_uri
-      title
-      supply
-      mime
-      swaps(order_by: {timestamp: desc}) {
         amount_left
-        id
-        price
-        contract_address
       }
     }
   }
@@ -44,8 +47,8 @@ export const hashToURL = (hash) => {
 
 function makeHashCode(string_input) {
   var hash = 0,
-    i,
-    chr
+      i,
+      chr
   if (string_input.length === 0) return hash
   for (i = 0; i < string_input.length; i++) {
     chr = string_input.charCodeAt(i)
@@ -56,10 +59,11 @@ function makeHashCode(string_input) {
 }
 
 async function fetchGraphQL(
-  operationsDoc,
-  operationName,
-  variables,
-  cache = 100000
+    operationsDoc,
+    operationName,
+    variables,
+    endpointUrl,
+    cache = 100000
 ) {
   // 10 seconds default cache length
   const querystring = JSON.stringify([operationsDoc, operationName, variables])
@@ -84,7 +88,7 @@ async function fetchGraphQL(
     return JSON.parse(localStorage.getItem(queryresult_key))
   } else {
     console.log('cache miss')
-    const result = await fetch('https://api.teia.rocks/v1/graphql', {
+    const result = await fetch(endpointUrl, {
       method: 'POST',
       body: JSON.stringify({
         query: operationsDoc,
@@ -102,34 +106,20 @@ async function fetchGraphQL(
   }
 }
 
-/*export async function objktInfo(id) {
-  const { errors, data } = await fetchGraphQL(
-    queryObjktDetails,
-    'ObjktDetails',
-    { token: id },
-    300000
-  )
-
-  if (errors) {
-    console.error(errors)
-  }
-
-  // return data.hic_et_nunc_token_by_pk
-  return data.token_by_pk
-}*/
-
 export async function objktInfo(id) {
   const { errors, data } = await fetchGraphQL(
-    queryObjktDetails,
-    'ObjktDetails',
-    { token: id },
-    300000
+      queryTokenDetailsTeia,
+      'ObjktDetails',
+      { id: id },
+      TEIA_GRAPHQL_ENDPOINT,
+      300000
   )
 
   if (errors) {
     console.error(errors)
   }
 
-  // return data.hic_et_nunc_token_by_pk
+  console.log(data)
+
   return data.token_by_pk
 }
