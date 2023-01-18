@@ -3,24 +3,45 @@ import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
 const PreviewCompatibleImage = ({ imageInfo, className }) => {
-  const imageStyle = { }
+  const imageStyle = {}
   const { alt = '', childImageSharp, image } = imageInfo
 
   if (!!image && !!image.childImageSharp) {
     return (
-      <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} className={className}/>
+      <Img
+        style={imageStyle}
+        fluid={image.childImageSharp.fluid}
+        alt={alt}
+        className={className}
+      />
     )
   }
 
   if (!!childImageSharp) {
-    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} className={className}/>
+    return (
+      <Img
+        style={imageStyle}
+        fluid={childImageSharp.fluid}
+        alt={alt}
+        className={className}
+      />
+    )
   }
 
   if (!!image && typeof image === 'string') {
     if (image.includes('ucarecdn')) {
-      return <img style={imageStyle} data-blink-src={image} alt={alt} className={className}/>
+      return (
+        <img
+          style={imageStyle}
+          data-blink-src={image}
+          alt={alt}
+          className={className}
+        />
+      )
     } else {
-      return <img style={imageStyle} src={image} alt={alt} className={className}/>
+      return (
+        <img style={imageStyle} src={image} alt={alt} className={className} />
+      )
     }
   }
 

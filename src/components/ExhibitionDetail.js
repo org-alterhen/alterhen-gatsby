@@ -12,7 +12,6 @@ import ConnectButton from '../components/ConnectWallet'
 import DisconnectButton from '../components/DisconnectWallet'
 import CollectButton from '../components/CollectButton'
 
-import { HEN_V2_SWAP_CONTRACT } from '../constants'
 import { objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
@@ -28,7 +27,6 @@ const ExhibitionDetail = ({
   artistSlug = false,
 }) => {
   const [Tezos, setTezos] = useState(TezosInstance)
-  const [contract, setContract] = useState(undefined)
   const [wallet, setWallet] = useState(null)
   const [userAddress, setUserAddress] = useState('')
   const [sliderVisible, setSliderVisible] = useState(false)
@@ -97,7 +95,9 @@ const ExhibitionDetail = ({
                 {objkt.hicdex ? (
                   <CollectButton
                     objkt={objkt}
-                    contract={contract}
+                    tezos={Tezos}
+                    // wallet={wallet}
+                    // contract={contract}
                     userAddress={userAddress}
                   />
                 ) : (
@@ -107,10 +107,10 @@ const ExhibitionDetail = ({
                   {!userAddress ? (
                     <ConnectButton
                       Tezos={Tezos}
-                      setContract={setContract}
+                      // setContract={setContract}
                       setWallet={setWallet}
                       setUserAddress={setUserAddress}
-                      contractAddress={HEN_V2_SWAP_CONTRACT}
+                      // contractAddress={HEN_V2_SWAP_CONTRACT}
                       wallet={wallet}
                     />
                   ) : (
