@@ -1,28 +1,4 @@
-import { TEIA_GRAPHQL_ENDPOINT } from '../constants'
-import { OBJKT_GRAPHQL_ENDPOINT } from '../constants'
-
-// const queryTokenDetailsTeia = `
-//   query ObjktDetails($token: bigint!) {
-//     token_by_pk(id: $token) {
-//       supply
-//       title
-//       artifact_uri
-//       creator_id
-//       mime
-//       swaps(limit: 1, order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, contract_version: {_eq: "2"}, is_valid: {_eq: true}}) {
-//         id
-//         price
-//       }
-//       swaps_aggregate(where: {is_valid: {_eq: true}, contract_version: {_eq: "2"}, status: {_eq: "0"}}) {
-//         aggregate {
-//           sum {
-//             amount_left
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+import { HEN_MINT_CONTRACT, TEIA_GRAPHQL_ENDPOINT } from '../constants'
 
 const queryTokenDetailsTeia = `
   query ObjktDetails($id: bigint!) {
@@ -36,10 +12,28 @@ const queryTokenDetailsTeia = `
         id
         price
         amount_left
+        contract_address
       }
     }
   }
 `
+
+const queryTokenDetailsObjkt = `
+  query getTokenAsks($tokenId: String! $fa2: String!) {
+    token(where: {token_id: {_eq: $tokenId}, fa_contract: {_eq: $fa2}}) {
+      asks(
+        order_by: {price: asc}
+        where: {price: {_gt: 0}, _or: [{status: {_eq: "active"}, currency_id: {_eq: 1}, seller: {owner_operators: {token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}, allowed: {_eq: true}}, held_tokens: {quantity: {_gt: "0"}, token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}}}}, {contract_version: {_lt: 4}, status: {_eq: "active"}}]}
+      ) {
+        id
+        amount
+        amount_left
+        price
+        contract_version
+      }
+    }
+  }
+  `
 
 export const hashToURL = (hash) => {
   return hash.replace('ipfs://', 'https://ipfs.io/ipfs/')
@@ -47,8 +41,8 @@ export const hashToURL = (hash) => {
 
 function makeHashCode(string_input) {
   var hash = 0,
-      i,
-      chr
+    i,
+    chr
   if (string_input.length === 0) return hash
   for (i = 0; i < string_input.length; i++) {
     chr = string_input.charCodeAt(i)
@@ -59,11 +53,11 @@ function makeHashCode(string_input) {
 }
 
 async function fetchGraphQL(
-    operationsDoc,
-    operationName,
-    variables,
-    endpointUrl,
-    cache = 100000
+  operationsDoc,
+  operationName,
+  variables,
+  endpointUrl,
+  cache = 100000
 ) {
   // 10 seconds default cache length
   const querystring = JSON.stringify([operationsDoc, operationName, variables])
@@ -108,11 +102,11 @@ async function fetchGraphQL(
 
 export async function objktInfo(id) {
   const { errors, data } = await fetchGraphQL(
-      queryTokenDetailsTeia,
-      'ObjktDetails',
-      { id: id },
-      TEIA_GRAPHQL_ENDPOINT,
-      300000
+    queryTokenDetailsTeia,
+    'ObjktDetails',
+    { id: id },
+    TEIA_GRAPHQL_ENDPOINT,
+    300000
   )
 
   if (errors) {
