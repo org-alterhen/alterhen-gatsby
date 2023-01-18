@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
-import {collect, fulfillAsk, fullfillAsk, getCheapestListing, getNumTokens} from '../utils/marketplaces'
+import {
+  collect,
+  fulfillAsk,
+  fullfillAsk,
+  getCheapestListing,
+  getNumTokens,
+} from '../utils/marketplaces'
 
 const CollectButton = function ({ objkt, tezos, userAddress }) {
   const [loading, setLoading] = useState(false)
