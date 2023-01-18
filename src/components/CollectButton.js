@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {collect, fulfillAsk, fullfillAsk, getCheapestListing, getNumTokens} from '../utils/marketplaces'
 
 const CollectButton = function ({ objkt, tezos, userAddress }) {
   const [loading, setLoading] = useState(false)
@@ -12,14 +13,15 @@ const CollectButton = function ({ objkt, tezos, userAddress }) {
     btnClasses += ' inactive'
   }
 
+  const cheapest = getCheapestListing(objkt)
+
   return (
     <>
       <p className="availability">
-        {objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1]?.amount_left || 'X'}
+        {getNumTokens(objkt) || 'X'}
         &thinsp;/&thinsp;{objkt.hicdex.supply} editions available
       </p>
-      {objkt.hicdex.swaps &&
-      objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1]?.amount_left > 0 ? (
+      {cheapest ? (
         <button
           className={`block-btn collect ${btnClasses}`}
           onClick={async () => {
@@ -27,24 +29,12 @@ const CollectButton = function ({ objkt, tezos, userAddress }) {
             setSuccessfulCollect(false)
             setCollectError(false)
             try {
-              const op = await tezos.wallet
-                .at(
-                  objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1]
-                    .contract_address
-                )
-                .then((contract) =>
-                  contract.methods
-                    .collect(
-                      objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1].id
-                    )
-                    .send({
-                      amount:
-                        objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1].price, // parseFloat(objkt.price)
-                      mutez: true,
-                      storageLimit: 310,
-                    })
-                )
-              await op.confirmation()
+              if (cheapest.type === 'ask') {
+                await fulfillAsk(tezos, cheapest)
+              }
+              if (cheapest.type === 'swap') {
+                await collect(tezos, cheapest)
+              }
               setSuccessfulCollect(true)
             } catch (error) {
               console.log(error)
@@ -55,9 +45,7 @@ const CollectButton = function ({ objkt, tezos, userAddress }) {
             }
           }}
         >
-          Collect for{' '}
-          {objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1].price / 1000000}{' '}
-          tez
+          Collect for {cheapest.price / 1000000} tez
         </button>
       ) : (
         <a

@@ -12,7 +12,7 @@ import ConnectButton from '../components/ConnectWallet'
 import DisconnectButton from '../components/DisconnectWallet'
 import CollectButton from '../components/CollectButton'
 
-import { objktInfo } from '../utils/hicDex'
+import { objktAskInfo, objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
 import { checkVisible, isDesktop, isBrowser } from '../utils/misc'
@@ -39,6 +39,9 @@ const ExhibitionDetail = ({
       if (!objkt.hicdex) {
         objktInfo(objkt.objkt).then((objktInfo) => {
           objkt.hicdex = objktInfo
+        })
+        objktAskInfo(objkt.objkt).then((objktInfo) => {
+          objkt.hicdex.asks = objktInfo.asks
         })
       }
     })
@@ -96,8 +99,6 @@ const ExhibitionDetail = ({
                   <CollectButton
                     objkt={objkt}
                     tezos={Tezos}
-                    // wallet={wallet}
-                    // contract={contract}
                     userAddress={userAddress}
                   />
                 ) : (
@@ -107,10 +108,8 @@ const ExhibitionDetail = ({
                   {!userAddress ? (
                     <ConnectButton
                       Tezos={Tezos}
-                      // setContract={setContract}
                       setWallet={setWallet}
                       setUserAddress={setUserAddress}
-                      // contractAddress={HEN_V2_SWAP_CONTRACT}
                       wallet={wallet}
                     />
                   ) : (
@@ -130,12 +129,12 @@ const ExhibitionDetail = ({
                     </a>
                   )}
                   {objkt.objkt && (
-                      <a
-                          className="small-link"
-                          href={`https://objkt.com/asset/hicetnunc/${objkt.objkt}`}
-                      >
-                        View on Objkt.com
-                      </a>
+                    <a
+                      className="small-link"
+                      href={`https://objkt.com/asset/hicetnunc/${objkt.objkt}`}
+                    >
+                      View on Objkt.com
+                    </a>
                   )}
                 </div>
               </div>

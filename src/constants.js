@@ -1,5 +1,7 @@
 export const HEN_V2_SWAP_CONTRACT = 'KT1HbQepzV1nVGg8QVznG7z4RcHseD5kwqBn'
 export const HEN_MINT_CONTRACT = 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton'
 export const TEIA_SWAP_CONTRACT = 'KT1PHubm9HtyQEJ4BBpMTVomq6mhbfNZ9z5w'
+export const OBJKT_SWAP_CONTRACT_V1 = 'KT1FvqJwEDWb1Gwc55Jd1jjTHRVWbYKUUpyq'
+export const OBJKT_SWAP_CONTRACT_V4 = 'KT1WvzYHCNBvDSdwafTHv7nJ1dWmZ8GCYuuC'
 export const TEIA_GRAPHQL_ENDPOINT = 'https://api.teia.rocks/v1/graphql'
 export const OBJKT_GRAPHQL_ENDPOINT = 'https://data.objkt.com/v2/graphql'

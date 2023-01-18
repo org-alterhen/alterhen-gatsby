@@ -1,4 +1,8 @@
-import { HEN_MINT_CONTRACT, TEIA_GRAPHQL_ENDPOINT } from '../constants'
+import {
+  HEN_MINT_CONTRACT,
+  TEIA_GRAPHQL_ENDPOINT,
+  OBJKT_GRAPHQL_ENDPOINT,
+} from '../constants'
 
 const queryTokenDetailsTeia = `
   query ObjktDetails($id: bigint!) {
@@ -8,11 +12,12 @@ const queryTokenDetailsTeia = `
       artifact_uri
       creator_id
       mime
-      swaps(limit: 1, order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, is_valid: {_eq: true}}) {
-        id
-        price
-        amount_left
-        contract_address
+      swaps(
+        order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, is_valid: {_eq: true}}) {
+          id
+          price
+          amount_left
+          contract_address
       }
     }
   }
@@ -113,7 +118,22 @@ export async function objktInfo(id) {
     console.error(errors)
   }
 
-  console.log(data)
-
   return data.token_by_pk
+}
+
+export async function objktAskInfo(id) {
+  if (id === undefined || id === null) return
+  const { errors, data } = await fetchGraphQL(
+    queryTokenDetailsObjkt,
+    'getTokenAsks',
+    { tokenId: id.toString(), fa2: HEN_MINT_CONTRACT },
+    OBJKT_GRAPHQL_ENDPOINT,
+    300000
+  )
+
+  if (errors) {
+    console.error(errors)
+  }
+
+  return data.token[0]
 }
