@@ -129,6 +129,14 @@ const ExhibitionDetail = ({
                       View on Teia
                     </a>
                   )}
+                  {objkt.objkt && (
+                      <a
+                          className="small-link"
+                          href={`https://objkt.com/asset/hicetnunc/${objkt.objkt}`}
+                      >
+                        View on Objkt.com
+                      </a>
+                  )}
                 </div>
               </div>
             </div>
