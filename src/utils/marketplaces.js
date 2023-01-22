@@ -70,10 +70,13 @@ export const fulfillAsk = async (tezos, objkt) => {
 
 export const getNumTokens = (objkt) => {
   const swaps = objkt.hicdex.swaps || []
-  let swapsLen = 0
+    const asks = objkt.hicdex.asks || []
+  let swapsLen = 0, asksLen = 0
   for (const swap of swaps) {
     swapsLen += swap.amount_left
   } // teia/hen swaps
-  const asksLen = objkt.hicdex.asks?.length || 0 // objkt asks
+    for (const ask of asks) {
+        asksLen += ask.amount_left
+    } // objkt asks
   return swapsLen + asksLen
 }
