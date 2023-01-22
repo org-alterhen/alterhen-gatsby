@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import {
   collect,
   fulfillAsk,
-  fullfillAsk,
   getCheapestListing,
   getNumTokens,
 } from '../utils/marketplaces'

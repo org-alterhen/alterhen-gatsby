@@ -1,7 +1,7 @@
 import { OBJKT_SWAP_CONTRACT_V1, OBJKT_SWAP_CONTRACT_V4 } from '../constants'
 
 export const getCheapestListing = (objkt) => {
-  const swap = objkt.hicdex.swaps[objkt.hicdex.swaps.length - 1] || null
+  const swap = objkt.hicdex.swaps[0] || null
   const ask = objkt.hicdex.asks[0] || null
   let contract = ''
   if (ask) {
