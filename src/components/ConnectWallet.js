@@ -6,17 +6,17 @@ import { NetworkType } from '@airgap/beacon-sdk'
 
 const ConnectButton = ({
   Tezos,
-  setContract,
+  // setContract,
   setWallet,
   setUserAddress,
-  contractAddress,
+  // contractAddress,
   wallet,
 }) => {
   const setup = async (userAddress) => {
     setUserAddress(userAddress)
     // creates contract instance
-    const contract = await Tezos.wallet.at(contractAddress)
-    setContract(contract)
+    // const contract = await Tezos.wallet.at(contractAddress)
+    // setContract(contract)
   }
   const connectWallet = async () => {
     try {

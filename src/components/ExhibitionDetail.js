@@ -12,8 +12,7 @@ import ConnectButton from '../components/ConnectWallet'
 import DisconnectButton from '../components/DisconnectWallet'
 import CollectButton from '../components/CollectButton'
 
-import { HEN_V2_SWAP_CONTRACT } from '../constants'
-import { objktInfo } from '../utils/hicDex'
+import { objktAskInfo, objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
 import { checkVisible, isDesktop, isBrowser } from '../utils/misc'
@@ -28,7 +27,6 @@ const ExhibitionDetail = ({
   artistSlug = false,
 }) => {
   const [Tezos, setTezos] = useState(TezosInstance)
-  const [contract, setContract] = useState(undefined)
   const [wallet, setWallet] = useState(null)
   const [userAddress, setUserAddress] = useState('')
   const [sliderVisible, setSliderVisible] = useState(false)
@@ -41,6 +39,9 @@ const ExhibitionDetail = ({
       if (!objkt.hicdex) {
         objktInfo(objkt.objkt).then((objktInfo) => {
           objkt.hicdex = objktInfo
+        })
+        objktAskInfo(objkt.objkt).then((objktInfo) => {
+          objkt.hicdex.asks = objktInfo.asks
         })
       }
     })
@@ -97,7 +98,7 @@ const ExhibitionDetail = ({
                 {objkt.hicdex ? (
                   <CollectButton
                     objkt={objkt}
-                    contract={contract}
+                    tezos={Tezos}
                     userAddress={userAddress}
                   />
                 ) : (
@@ -107,10 +108,8 @@ const ExhibitionDetail = ({
                   {!userAddress ? (
                     <ConnectButton
                       Tezos={Tezos}
-                      setContract={setContract}
                       setWallet={setWallet}
                       setUserAddress={setUserAddress}
-                      contractAddress={HEN_V2_SWAP_CONTRACT}
                       wallet={wallet}
                     />
                   ) : (
@@ -127,6 +126,14 @@ const ExhibitionDetail = ({
                       href={`https://teia.art/objkt/${objkt.objkt}`}
                     >
                       View on Teia
+                    </a>
+                  )}
+                  {objkt.objkt && (
+                    <a
+                      className="small-link"
+                      href={`https://objkt.com/asset/hicetnunc/${objkt.objkt}`}
+                    >
+                      View on Objkt.com
                     </a>
                   )}
                 </div>

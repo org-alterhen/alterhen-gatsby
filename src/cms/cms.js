@@ -6,7 +6,7 @@ import ArtistPostPreview from './preview-templates/ArtistPostPreview'
 import ExhibitionPagePreview from './preview-templates/ExhibitionPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 
-CMS.registerMediaLibrary(uploadcare);
+CMS.registerMediaLibrary(uploadcare)
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
