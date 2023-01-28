@@ -7,4 +7,6 @@ published: true
 start_date: ""
 end_date: ""
 order: 100
+exhibitions:
+  - exhibition: 80s & 90s Technology X-ray Images (II)
 ---
