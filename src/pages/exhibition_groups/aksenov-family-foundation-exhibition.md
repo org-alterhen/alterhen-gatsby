@@ -13,7 +13,7 @@ description: >-
   and the art policy of the Aksenov Family Foundation's collection.
    
   The artists are active participants in the contemporary Russian artistic process, and NFT works of many of them are created especially for the exhibition. Ecology, rethinking of the new digital world, social agenda, ironic but at the same time critical attitude to reality, and the motives of folk folklore are the key themes the artists work with. Their work becomes a complex and multifaceted commentary on the variety of images that form our understanding of the modern world.
-published: true
+published: false
 start_date: 10/02/2022
 end_date: 7/03/2022
 order: ""
