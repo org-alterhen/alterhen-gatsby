@@ -2,7 +2,7 @@
 templateKey: exhibition-group-page
 title: ACollection
 featuredimage: https://ucarecdn.com/3fa4a137-6c05-4c7a-9c3e-48790e564694/
-credit: ""
+credit: Tanya Akhmetgalieva, 2022
 summary: >
   Acollection is the first group exhibition of NFT works by contemporary Russian
   artists, whose aesthetic and conceptual approaches resonate with the strategy
