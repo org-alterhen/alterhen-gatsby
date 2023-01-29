@@ -16,7 +16,7 @@ description: >-
 published: true
 start_date: 10/02/2022
 end_date: 7/03/2022
-order: 3
+order: ""
 exhibitions:
   - exhibition: Friends
   - exhibition: Russia
