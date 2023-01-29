@@ -16,7 +16,7 @@ description: Offering a variety of formats, Exhibition II is an opportunity for
 published: true
 start_date: 15/12/2021
 end_date: 14/02/2022
-order: 5
+order: 2
 exhibitions:
   - exhibition: Chtonic Light
   - exhibition: Mmmmultiplicityyyyy
