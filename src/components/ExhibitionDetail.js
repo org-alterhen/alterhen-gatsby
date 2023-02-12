@@ -41,7 +41,7 @@ const ExhibitionDetail = ({
           objkt.hicdex = objktInfo
         })
         objktAskInfo(objkt.objkt).then((objktInfo) => {
-          objkt.hicdex.asks = objktInfo.asks
+          objkt.hicdex.listings = objktInfo.listings
         })
       }
     })

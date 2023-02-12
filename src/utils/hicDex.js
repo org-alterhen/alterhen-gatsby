@@ -23,22 +23,36 @@ const queryTokenDetailsTeia = `
   }
 `
 
+// const queryTokenDetailsObjkt = `
+//   query getTokenAsks($tokenId: String! $fa2: String!) {
+//     token(where: {token_id: {_eq: $tokenId}, fa_contract: {_eq: $fa2}}) {
+//       asks(
+//         order_by: {price: asc}
+//         where: {price: {_gt: 0}, _or: [{status: {_eq: "active"}, currency_id: {_eq: 1}, seller: {owner_operators: {token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}, allowed: {_eq: true}}, held_tokens: {quantity: {_gt: "0"}, token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}}}}, {contract_version: {_lt: 4}, status: {_eq: "active"}}]}
+//       ) {
+//         id
+//         amount
+//         amount_left
+//         price
+//         contract_version
+//       }
+//     }
+//   }
+//   `
+
 const queryTokenDetailsObjkt = `
-  query getTokenAsks($tokenId: String! $fa2: String!) {
-    token(where: {token_id: {_eq: $tokenId}, fa_contract: {_eq: $fa2}}) {
-      asks(
-        order_by: {price: asc}
-        where: {price: {_gt: 0}, _or: [{status: {_eq: "active"}, currency_id: {_eq: 1}, seller: {owner_operators: {token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}, allowed: {_eq: true}}, held_tokens: {quantity: {_gt: "0"}, token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}}}}, {contract_version: {_lt: 4}, status: {_eq: "active"}}]}
-      ) {
-        id
+  query getTokenAsks($fa2_address: String!, $token_id: String!) {
+    tokens_by_pk(fa2_address: $fa2_address, token_id: $token_id) {
+      listings(where: {status: {_eq: "active"}}, order_by: {price: asc}) {
+        token_id
         amount
         amount_left
         price
-        contract_version
+        contract_address
       }
     }
   }
-  `
+`
 
 export const hashToURL = (hash) => {
   return hash.replace('ipfs://', 'https://ipfs.io/ipfs/')
@@ -126,7 +140,7 @@ export async function objktAskInfo(id) {
   const { errors, data } = await fetchGraphQL(
     queryTokenDetailsObjkt,
     'getTokenAsks',
-    { tokenId: id.toString(), fa2: HEN_MINT_CONTRACT },
+    { token_id: id.toString(), fa2_address: HEN_MINT_CONTRACT },
     OBJKT_GRAPHQL_ENDPOINT,
     300000
   )
@@ -135,5 +149,5 @@ export async function objktAskInfo(id) {
     console.error(errors)
   }
 
-  return data.token[0]
+  return data.tokens_by_pk
 }
