@@ -1,9 +1,9 @@
 export const getCheapestListing = (objkt) => {
     const swap = objkt.hicdex.swaps[0] || null
     const ask = objkt.hicdex.listings[0] || null
-
     if (swap && ask) {
-        return swap.price < ask.price
+        // TODO: replace quickfix by checking if swap is only Teia and not objkt ask
+        return (swap.price < ask.price) || (swap.price === ask.price)
             ? {
                 price: swap.price,
                 contract: swap.contract_address,
