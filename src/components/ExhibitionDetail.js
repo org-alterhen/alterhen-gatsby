@@ -12,10 +12,11 @@ import ConnectButton from '../components/ConnectWallet'
 import DisconnectButton from '../components/DisconnectWallet'
 import CollectButton from '../components/CollectButton'
 
-import { objktAskInfo, objktInfo } from '../utils/hicDex'
+import { objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
 import { checkVisible, isDesktop, isBrowser } from '../utils/misc'
+import {getCheapestListing} from "../utils/marketplaces";
 
 const TezosInstance = new TezosToolkit('https://api.tez.ie/rpc/mainnet')
 
@@ -38,10 +39,7 @@ const ExhibitionDetail = ({
     objkts.forEach((objkt) => {
       if (!objkt.hicdex) {
         objktInfo(objkt.objkt).then((objktInfo) => {
-          objkt.hicdex = objktInfo
-        })
-        objktAskInfo(objkt.objkt).then((objktInfo) => {
-          objkt.hicdex.listings = objktInfo.listings
+          objkt.hicdex = getCheapestListing(objktInfo)
         })
       }
     })
@@ -124,6 +122,8 @@ const ExhibitionDetail = ({
                     <a
                       className="small-link"
                       href={`https://teia.art/objkt/${objkt.objkt}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View on Teia
                     </a>
@@ -132,6 +132,8 @@ const ExhibitionDetail = ({
                     <a
                       className="small-link"
                       href={`https://objkt.com/asset/hicetnunc/${objkt.objkt}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View on Objkt.com
                     </a>

@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import {
   collect,
   fulfillAsk,
-  getCheapestListing,
-  getNumTokens,
 } from '../utils/marketplaces'
+import {HEN_V2_SWAP_CONTRACT, OBJKT_SWAP_CONTRACT_V1, OBJKT_SWAP_CONTRACT_V4, TEIA_SWAP_CONTRACT} from "../constants";
 
 const CollectButton = function ({ objkt, tezos, userAddress }) {
   const [loading, setLoading] = useState(false)
@@ -18,15 +17,13 @@ const CollectButton = function ({ objkt, tezos, userAddress }) {
     btnClasses += ' inactive'
   }
 
-  const cheapest = getCheapestListing(objkt)
-
   return (
     <>
       <p className="availability">
-        {getNumTokens(objkt) || 'X'}
-        &thinsp;/&thinsp;{objkt.hicdex.supply} editions available
+        {objkt.hicdex.amount_left || 'X'}
+        &thinsp;/&thinsp;{objkt.hicdex.editions} editions available
       </p>
-      {cheapest ? (
+      {objkt.hicdex.amount_left ? (
         <button
           className={`block-btn collect ${btnClasses}`}
           onClick={async () => {
@@ -34,11 +31,13 @@ const CollectButton = function ({ objkt, tezos, userAddress }) {
             setSuccessfulCollect(false)
             setCollectError(false)
             try {
-              if (cheapest.type === 'ask') {
-                await fulfillAsk(tezos, cheapest)
+              if (objkt.hicdex.contract_address === OBJKT_SWAP_CONTRACT_V1 ||
+                  objkt.hicdex.contract_address === OBJKT_SWAP_CONTRACT_V4) {
+                await fulfillAsk(tezos, objkt)
               }
-              if (cheapest.type === 'swap') {
-                await collect(tezos, cheapest)
+              if (objkt.hicdex.contract_address === TEIA_SWAP_CONTRACT ||
+                  objkt.hicdex.contract_address === HEN_V2_SWAP_CONTRACT) {
+                await collect(tezos, objkt)
               }
               setSuccessfulCollect(true)
             } catch (error) {
@@ -50,7 +49,7 @@ const CollectButton = function ({ objkt, tezos, userAddress }) {
             }
           }}
         >
-          Collect for {cheapest.price / 1000000} tez
+          Collect for {objkt.hicdex.price / 1000000} tez
         </button>
       ) : (
         <a

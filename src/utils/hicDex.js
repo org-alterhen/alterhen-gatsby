@@ -1,47 +1,10 @@
 import {
   HEN_MINT_CONTRACT,
-  TEIA_GRAPHQL_ENDPOINT,
-  OBJKT_GRAPHQL_ENDPOINT,
+  TEZTOK_GRAPHQL_ENDPOINT,
 } from '../constants'
 
-const queryTokenDetailsTeia = `
-  query ObjktDetails($id: bigint!) {
-    token_by_pk(id: $id) {
-      supply
-      title
-      artifact_uri
-      creator_id
-      mime
-      swaps(
-        order_by: {price: asc}, where: {status: {_eq: "0"}, amount_left: {_gt: "0"}, is_valid: {_eq: true}}) {
-          id
-          price
-          amount_left
-          contract_address
-      }
-    }
-  }
-`
-
-// const queryTokenDetailsObjkt = `
-//   query getTokenAsks($tokenId: String! $fa2: String!) {
-//     token(where: {token_id: {_eq: $tokenId}, fa_contract: {_eq: $fa2}}) {
-//       asks(
-//         order_by: {price: asc}
-//         where: {price: {_gt: 0}, _or: [{status: {_eq: "active"}, currency_id: {_eq: 1}, seller: {owner_operators: {token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}, allowed: {_eq: true}}, held_tokens: {quantity: {_gt: "0"}, token: {fa_contract: {_eq: $fa2}, token_id: {_eq: $tokenId}}}}}, {contract_version: {_lt: 4}, status: {_eq: "active"}}]}
-//       ) {
-//         id
-//         amount
-//         amount_left
-//         price
-//         contract_version
-//       }
-//     }
-//   }
-//   `
-
-const queryTokenDetailsObjkt = `
-  query getTokenAsks($fa2_address: String!, $token_id: String!) {
+const queryTokenDetailsTezTok = `
+  query ObjktDetails($fa2_address: String!, $token_id: String!) {
     tokens_by_pk(fa2_address: $fa2_address, token_id: $token_id) {
       listings(where: {status: {_eq: "active"}}, order_by: {price: asc}) {
         token_id
@@ -49,7 +12,17 @@ const queryTokenDetailsObjkt = `
         amount_left
         price
         contract_address
+        swap_id
+        ask_id
       }
+      listings_aggregate(where: {status: {_eq: "active"}}) {
+        aggregate {
+          sum {
+            amount
+          }
+        }
+      }
+      editions
     }
   }
 `
@@ -120,29 +93,13 @@ async function fetchGraphQL(
 }
 
 export async function objktInfo(id) {
-  const { errors, data } = await fetchGraphQL(
-    queryTokenDetailsTeia,
-    'ObjktDetails',
-    { id: id },
-    TEIA_GRAPHQL_ENDPOINT,
-    300000
-  )
-
-  if (errors) {
-    console.error(errors)
-  }
-
-  return data.token_by_pk
-}
-
-export async function objktAskInfo(id) {
   if (id === undefined || id === null) return
   const { errors, data } = await fetchGraphQL(
-    queryTokenDetailsObjkt,
-    'getTokenAsks',
-    { token_id: id.toString(), fa2_address: HEN_MINT_CONTRACT },
-    OBJKT_GRAPHQL_ENDPOINT,
-    300000
+      queryTokenDetailsTezTok,
+      'ObjktDetails',
+      { token_id: id.toString(), fa2_address: HEN_MINT_CONTRACT },
+      TEZTOK_GRAPHQL_ENDPOINT,
+      300000
   )
 
   if (errors) {
