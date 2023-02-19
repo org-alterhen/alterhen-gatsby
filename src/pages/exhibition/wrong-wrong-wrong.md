@@ -1,8 +1,7 @@
 ---
 templateKey: exhibition-page
-artist: Wily Guys
+artist: Johnny Dean Mann (Wily Guys)
 title: WRONG, WRONG, WRONG
-date: 2021-09-14T13:35:56.163Z
 statement: >-
   This collection is part of an ongoing investigation into the artistic
   possibilities of error and uncertainty, as a way of mirroring the mysterious,
@@ -13,10 +12,11 @@ statement: >-
 
 
   Each work donates 25% to charitable causes.
-featuredimage: https://ucarecdn.com/0dd2fe2a-cf56-421e-93bd-714f54f78516/main_page_wilyguys_alterhen_milkasbalm.jpg
+date: 2021-09-14T13:35:56.163Z
 description: Johnny Dean Mann (AKA Wily Guys - b. 1979, Bath, UK) is a creative
   writer and digital sculptor/painter investigating the tension between
   ambiguity and exactitude as a parallel to quantum computing.
+featuredimage: https://ucarecdn.com/0dd2fe2a-cf56-421e-93bd-714f54f78516/main_page_wilyguys_alterhen_milkasbalm.jpg
 objkts:
   - objkt: 300999
     title: Milk as Balm
