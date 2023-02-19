@@ -18,7 +18,7 @@ const ExhibitionLinks = ({ posts }) => (
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured artwork for ${post.frontmatter.name} - ${post.frontmatter.title}`,
+                          alt: `featured artwork for ${post.frontmatter.artist} - ${post.frontmatter.title}`,
                         }}
                       />
                     ) : (
