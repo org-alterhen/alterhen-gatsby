@@ -3,7 +3,12 @@ import {
   collect,
   fulfillAsk,
 } from '../utils/marketplaces'
-import {HEN_V2_SWAP_CONTRACT, OBJKT_SWAP_CONTRACT_V1, OBJKT_SWAP_CONTRACT_V4, TEIA_SWAP_CONTRACT} from "../constants";
+import {
+  HEN_V2_SWAP_CONTRACT,
+  OBJKT_SWAP_CONTRACT_V1,
+  OBJKT_SWAP_CONTRACT_V4,
+  TEIA_SWAP_CONTRACT
+} from "../constants";
 
 const CollectButton = function ({ objkt, tezos, userAddress }) {
   const [loading, setLoading] = useState(false)

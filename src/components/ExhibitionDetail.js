@@ -16,7 +16,7 @@ import { objktInfo } from '../utils/hicDex'
 
 import { useScrollPosition } from '../utils/useScrollPosition'
 import { checkVisible, isDesktop, isBrowser } from '../utils/misc'
-import {getCheapestListing} from "../utils/marketplaces";
+import { getCheapestListing } from "../utils/marketplaces";
 
 const TezosInstance = new TezosToolkit('https://api.tez.ie/rpc/mainnet')
 
