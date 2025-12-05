@@ -1,6 +1,6 @@
 ---
 templateKey: artist-post
-published: true
+published: false
 name: Lyuba Sautina
 bio: >
   Lyuba Sautina is a multidisciplinary Russian artist. Born in 1985 in Siberia,
