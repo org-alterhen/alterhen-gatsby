@@ -18,6 +18,7 @@ We also act as a conduit for accessing the works directly on the blockchain, alo
 ### The name alterHEN is inspired by “altermodern”
 
 Altermodern, a portmanteau word defined by Nicolas Bourriaud, is an attempt at contextualizing art made in today's global context as a reaction against standardisation and commercialism.
+
 </div>
 
 <div></div>
@@ -27,6 +28,7 @@ Altermodern, a portmanteau word defined by Nicolas Bourriaud, is an attempt at c
 <div>
 
 Together we believe that art should, first and foremost, be exhibited and experienced as art in bespoke, contemplative spaces aside from the marketplace, before being collected.
+
 </div>
 
 <div>
@@ -38,8 +40,9 @@ We are an informal group of international artists brought together by the art pl
 Thematically we explore diverse social, cultural and political topics with a truly international perspective. 
 We also have a shared experience of exhibiting, selling and collecting NFTs on Hic et Nunc. 
 
-</div>
+Founding artists are: Alexandra Crouwers, Andreas Rau, Anna Malina Zemlianski, Auni Selva, Bernardo Liu, Bjorn Calleja, Diane Drubay, Eli Joteva, Iñigo Bilbao, Iskra Velitchkova, Johnny Dean Mann, Katya Kanke-Zaikanova, Kelly Richardson, Laurent La Torpille, Luluxxx, Mihai Grecu, Patrick Jamora, Patrick Tresset, SOMATICBITS, and URBANDRONE.
 
+</div>
 
 </div>
 
